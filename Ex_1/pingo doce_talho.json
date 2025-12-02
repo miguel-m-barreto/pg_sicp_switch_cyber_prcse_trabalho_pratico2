@@ -1,0 +1,1274 @@
+[
+    {
+        "nome": "Bife/Peito de Frango Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/bife%2Fpeito-de-frango-embalado-nosso-talho-544184.html",
+        "preco": "5.99",
+        "preco_anterior": "6.49",
+        "unidade": "0.5 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Bifes de Peru Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/bifes-de-peru-embalados-pingo-doce-474570.html",
+        "preco": "8.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeleta do Cachaço de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/costeleta-do-cachaco-de-porco-nosso-talho-250130.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "0.16 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/costeletas-de-vitelao-nosso-talho-250542.html",
+        "preco": "14.49",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Frango Inteiro com Miúdos",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/frango-inteiro-com-miudos-nosso-talho-378378.html",
+        "preco": "2.49",
+        "preco_anterior": null,
+        "unidade": "1.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Lombo de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/lombo-de-vitelao-nosso-talho-250541.html",
+        "preco": "27.98",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pá e Acém de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/pa-e-acem-de-vitelao-nosso-talho-250550.html",
+        "preco": "12.99",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Peito/Bife de Peru Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/peito%2Fbife-de-peru-embalado-nosso-talho-442057.html",
+        "preco": "8.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Peito de Frango Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/peito-de-frango-embalado-pingo-doce-465789.html",
+        "preco": "6.59",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Preparado de Carne Picada de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/preparado-de-carne-picada-de-vitelao-nosso-talho-622075.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Preparado de Carne Picada Mista Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/picados-e-salsichas/preparado-de-carne-picada-mista-embalado-pingo-doce-957004.html",
+        "preco": "4.78",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg | 9,56 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rojões de Porco Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/rojoes-de-porco-embalados-nosso-talho-959308.html",
+        "preco": "5.69",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Vitelão para Cozer/Estufar",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/vitelao-para-cozer%2Festufar-nosso-talho-250553.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifanas de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bifanas-de-porco-embaladas-pingo-doce-959145.html",
+        "preco": "5.49",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife do Redondo de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-do-redondo-de-vitelao-nosso-talho-250544.html",
+        "preco": "14.49",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifes de Frango Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/bifes-de-frango-embalados-pingo-doce-465640.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Cachaço de Porco sem Osso Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/cachaco-de-porco-sem-osso-embalado-nosso-talho-981746.html",
+        "preco": "4.79",
+        "preco_anterior": "5.29",
+        "unidade": "0.5 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Coelho Inteiro",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/coelho-inteiro-nosso-talho-250328.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "1.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Coxa de Frango do Campo Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/coxa-de-frango-do-campo-embalada-pingo-doce-421155.html",
+        "preco": "7.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Coxas de Frango Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/coxas-de-frango-embaladas-pingo-doce-465643.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Frango do Campo com Miúdos",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/frango-do-campo-com-miudos-nosso-talho-613758.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "2.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Hambúrgueres Mistos Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/hamburgueres-mistos-embalados-pingo-doce-957022.html",
+        "preco": "3.78",
+        "preco_anterior": null,
+        "unidade": "0.44 Kg | 8,59 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Lombinhos de Frango Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/lombinhos-de-frango-embalados-nosso-talho-966685.html",
+        "preco": "6.29",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Lombinhos de Porco Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/lombinhos-de-porco-embalados-nosso-talho-981747.html",
+        "preco": "6.69",
+        "preco_anterior": "6.98",
+        "unidade": "0.6 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Pá de Porco com Osso",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/pa-de-porco-com-osso-nosso-talho-250168.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pato Desfiado com Calda Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/pato-desfiado-com-calda-embalado-nosso-talho-733227.html",
+        "preco": "8.99",
+        "preco_anterior": "9.99",
+        "unidade": "0.6 Kg | 14,98 €/Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Peito de Frango do Campo Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/peito-de-frango-do-campo-embalado-pingo-doce-421157.html",
+        "preco": "8.29",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perninhas de Frango Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perninhas-de-frango-embaladas-pingo-doce-465791.html",
+        "preco": "4.49",
+        "preco_anterior": "4.99",
+        "unidade": "0.6 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Rolo de Carne de Porco com Queijo e Fiambre",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/rolo-de-carne-de-porco-com-queijo-e-fiambre-nosso-talho-922108.html",
+        "preco": "7.59",
+        "preco_anterior": null,
+        "unidade": "1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Salsichas Frescas de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/picados-e-salsichas/salsichas-frescas-de-porco-embaladas-pingo-doce-911729.html",
+        "preco": "2.89",
+        "preco_anterior": null,
+        "unidade": "0.47 Kg | 6,15 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Tiras de Entrecosto de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/tiras-de-entrecosto-de-porco-nosso-talho-442055.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.9 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Almôndegas Mistas Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/almondegas-mistas-embaladas-pingo-doce-957005.html",
+        "preco": "3.68",
+        "preco_anterior": null,
+        "unidade": "0.36 Kg | 10,22 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifanas de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bifanas-de-porco-nosso-talho-250119.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "0.15 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife de Frango do Campo Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/bife-de-frango-do-campo-embalado-pingo-doce-421153.html",
+        "preco": "8.29",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifinhos do Lombo de Porco Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bifinhos-do-lombo-de-porco-embalados-pingo-doce-959144.html",
+        "preco": "7.69",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Canjinha de Frango do Campo Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/canjinha-de-frango-do-campo-embalada-pingo-doce-421154.html",
+        "preco": "5.49",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas de Borrego",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/costeletas-de-borrego-nosso-talho-250265.html",
+        "preco": "16.99",
+        "preco_anterior": null,
+        "unidade": "0.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/costeletas-de-porco-nosso-talho-250128.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "0.15 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas do Cachaço de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/costeletas-do-cachaco-de-porco-embaladas-pingo-doce-959142.html",
+        "preco": "5.69",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas do Lombo de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/costeletas-do-lombo-de-porco-embaladas-pingo-doce-959149.html",
+        "preco": "5.69",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Entremeada de Porco com Entrecosto",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/entremeada-de-porco-com-entrecosto-nosso-talho-250170.html",
+        "preco": "4.89",
+        "preco_anterior": null,
+        "unidade": "0.2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Entremeada de Porco Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/entremeada-de-porco-embalada-pingo-doce-959143.html",
+        "preco": "5.69",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Espetadas de Peru",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/espetadas-de-peru-nosso-talho-654916.html",
+        "preco": "7.89",
+        "preco_anterior": null,
+        "unidade": "0.15 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Espetadas de Peru com Ananás Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/espetadas-de-peru-com-ananas-embaladas-nosso-talho-736380.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "0.65 Kg | 7,68 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Espetadas de Peru Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/espetadas-de-peru-embaladas-pingo-doce-474573.html",
+        "preco": "7.89",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Frango Inteiro com Miúdos Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/frango-inteiro-com-miudos-embalado--nosso-talho-378379.html",
+        "preco": "2.49",
+        "preco_anterior": null,
+        "unidade": "1.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Frango para Churrasco Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/frango-para-churrasco-embalado-pingo-doce-476488.html",
+        "preco": "3.49",
+        "preco_anterior": null,
+        "unidade": "1.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pato Inteiro com Miúdos Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/pato-inteiro-com-miudos-embalado-pingo-doce-378458.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "2.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perna de Frango Com Costa",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perna-de-frango-com-costa-nosso-talho-543987.html",
+        "preco": "2.99",
+        "preco_anterior": null,
+        "unidade": "0.2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perna de Frango do Campo Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perna-de-frango-do-campo-embalada-pingo-doce-421308.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Preparado de Carne Picada de Peru Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/preparado-de-carne-picada-de-peru-embalado-nosso-talho-633840.html",
+        "preco": "2.49",
+        "preco_anterior": null,
+        "unidade": "0.46 Kg | 5,41 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Preparado de Carne Picada de Porco Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/picados-e-salsichas/preparado-de-carne-picada-de-porco-embalado-pingo-doce-961254.html",
+        "preco": "3.79",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg | 7,58 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Salsicha Fresca de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/salsicha-fresca-de-porco-nosso-talho-646428.html",
+        "preco": "5.99",
+        "preco_anterior": null,
+        "unidade": "0.11 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Tiras de Entrecosto de Porco Congeladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/tiras-de-entrecosto-de-porco-congeladas-nosso-talho-926208.html",
+        "preco": "6.49",
+        "preco_anterior": null,
+        "unidade": "0.9 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Asas de Frango Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/asas-de-frango-embaladas-pingo-doce-465639.html",
+        "preco": "2.89",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife da Vazia",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-da-vazia-nosso-talho-665775.html",
+        "preco": "16.99",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife do Lombo de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bife-do-lombo-de-porco-nosso-talho-346730.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifes de Frango Panados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/bifes-de-frango-panados-nosso-talho-921768.html",
+        "preco": "8.69",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifinhos do Cachaço de Porco Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bifinhos-do-cachaco-de-porco-embalados-pingo-doce-959146.html",
+        "preco": "7.69",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifinhos do Lombo de Porco Panados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bifinhos-do-lombo-de-porco-panados-nosso-talho-697446.html",
+        "preco": "4.19",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg | 10,48 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Codornizes",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/codornizes-nosso-talho-544058.html",
+        "preco": "1.19",
+        "preco_anterior": null,
+        "unidade": "0.1 Kg | 7,44 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/costeletas-de-vitela-nosso-talho-250179.html",
+        "preco": "14.49",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Escalopes de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/escalopes-de-vitelao-nosso-talho-622066.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Hambúrgueres de Novilho Angus Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/hamburgueres-de-novilho-angus-embalados-pingo-doce-812473.html",
+        "preco": "6.98",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg | 17,45 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Hambúrgueres de Porco Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/hamburgueres-de-porco-embalados-pingo-doce-961252.html",
+        "preco": "2.99",
+        "preco_anterior": null,
+        "unidade": "0.44 Kg | 6,8 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Metade de Pato sem Miúdos Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/metade-de-pato-sem-miudos-embalado-pingo-doce-378433.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "0.65 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pá e Acém de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/pa-e-acem-de-vitela-nosso-talho-250186.html",
+        "preco": "12.99",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pato Inteiro Confitado Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/pato-inteiro-confitado-embalado-nosso-talho-901037.html",
+        "preco": "12.49",
+        "preco_anterior": null,
+        "unidade": "2.2 Kg | 12,49 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perna de Peru",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perna-de-peru-nosso-talho-442056.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pernas de Pato Confitadas Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/pernas-de-pato-confitadas-embaladas-nosso-talho-776056.html",
+        "preco": "3.49",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg | 13,96 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Picanha de Bovino Europa",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/picanha-de-bovino-europa-nosso-talho-657964.html",
+        "preco": "12.99",
+        "preco_anterior": "16.99",
+        "unidade": "1.9 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Preparado de Carne Picada de Novilho Angus Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/picados-e-salsichas/preparado-de-carne-picada-de-novilho-angus-embalado-nosso-talho-812474.html",
+        "preco": "6.98",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg | 17,45 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rojões de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/rojoes-de-porco-nosso-talho-250125.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Vitela para Cozer/Estufar",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/vitela-para-cozer%2Festufar-nosso-talho-250189.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Almôndegas de Novilho Angus Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/almondegas-de-novilho-angus-embaladas-pingo-doce-812475.html",
+        "preco": "6.98",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg | 17,45 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Asas de Frango do Campo Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/asas-de-frango-do-campo-embaladas-pingo-doce-421152.html",
+        "preco": "3.49",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife do Cachaço de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bife-do-cachaco-de-porco-nosso-talho-346731.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife do Lombo de Novilho Angus Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-do-lombo-de-novilho-angus-embalado-nosso-talho-853105.html",
+        "preco": "36.98",
+        "preco_anterior": null,
+        "unidade": "0.2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife do Redondo de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-do-redondo-de-vitela-nosso-talho-250182.html",
+        "preco": "14.49",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifes de Peru Panados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/bifes-de-peru-panados-nosso-talho-921769.html",
+        "preco": "12.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Cabrito",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/cabrito-nosso-talho-409426.html",
+        "preco": "13.99",
+        "preco_anterior": null,
+        "unidade": "6 Kg",
+        "data_promocao": "Promoção até 05/01"
+    },
+    {
+        "nome": "Entrecosto de Porco para Grelhar",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/entrecosto-de-porco-para-grelhar-nosso-talho-250175.html",
+        "preco": "6.29",
+        "preco_anterior": null,
+        "unidade": "1.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Espetadas de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/espetadas-de-porco-embaladas-pingo-doce-911730.html",
+        "preco": "7.69",
+        "preco_anterior": null,
+        "unidade": "0.57 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Fondue de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/fondue-de-vitelao-nosso-talho-622072.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Frango da Quinta",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/frango-da-quinta-nosso-talho-952758.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Hambúrgueres de Novilho Angus Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/hamburgueres-de-novilho-angus-embalados-pingo-doce-821504.html",
+        "preco": "5.98",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg | 19,93 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Moelas de Frango Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/moelas-de-frango-embaladas-pingo-doce-465788.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Peito de Pato Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/peito-de-pato-embalado-nosso-talho-669101.html",
+        "preco": "18.49",
+        "preco_anterior": null,
+        "unidade": "0.35 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Picanha de Bovino América do Sul",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/picanha-de-bovino-america-do-sul-nosso-talho-229453.html",
+        "preco": "19.99",
+        "preco_anterior": "22.99",
+        "unidade": "1.6 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Preparado de Carne Picada de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/preparado-de-carne-picada-de-vitela-nosso-talho-253998.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Almôndegas de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/almondegas-de-porco-embaladas-pingo-doce-961253.html",
+        "preco": "2.89",
+        "preco_anterior": null,
+        "unidade": "0.36 Kg | 8,03 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Asas de Peru Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/asas-de-peru-embaladas-pingo-doce-474569.html",
+        "preco": "2.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bifanas de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/bifanas-de-porco-embaladas-pingo-doce-968215.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "1.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife à Cortador Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-a-cortador-na-grelha-pingo-doce-994390.html",
+        "preco": "24.49",
+        "preco_anterior": null,
+        "unidade": "0.45 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife da Alcatra Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-da-alcatra-na-grelha-pingo-doce-994671.html",
+        "preco": "21.99",
+        "preco_anterior": null,
+        "unidade": "0.45 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife da Rabadilha de Bovino",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-da-rabadilha-de-bovino-nosso-talho-723066.html",
+        "preco": "11.99",
+        "preco_anterior": "12.99",
+        "unidade": "0.25 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Bife da Vazia de Bovino América do Sul",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-da-vazia-de-bovino-america-do-sul-nosso-talho-282016.html",
+        "preco": "14.99",
+        "preco_anterior": "18.99",
+        "unidade": "0.3 Kg",
+        "data_promocao": "Promoção até 01/12"
+    },
+    {
+        "nome": "Bife da Vazia de Novilho Angus Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-da-vazia-de-novilho-angus-embalado-nosso-talho-853104.html",
+        "preco": "30.48",
+        "preco_anterior": null,
+        "unidade": "0.25 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife da Vazia Maturada Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-da-vazia-maturada-na-grelha-pingo-doce-994669.html",
+        "preco": "24.89",
+        "preco_anterior": null,
+        "unidade": "0.35 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Bife do Redondo de Novilho Angus Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/bife-do-redondo-de-novilho-angus-embalado-pingo-doce-833826.html",
+        "preco": "24.98",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Borrego",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/borrego-nosso-talho-697121.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "4 Kg",
+        "data_promocao": "Promoção até 05/01"
+    },
+    {
+        "nome": "Cabeça de Porco sem Osso",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/cabeca-de-porco-sem-osso-nosso-talho-250316.html",
+        "preco": "3.99",
+        "preco_anterior": null,
+        "unidade": "1.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Cabrito Inteiro",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/cabrito-inteiro-nosso-talho-970699.html",
+        "preco": "13.99",
+        "preco_anterior": null,
+        "unidade": "6 Kg",
+        "data_promocao": "Promoção até 05/01"
+    },
+    {
+        "nome": "Cachaço de Borrego",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/cachaco-de-borrego-nosso-talho-250269.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "0.54 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Carne para Cozido",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/carne-para-cozido-nosso-talho-921120.html",
+        "preco": "5.79",
+        "preco_anterior": null,
+        "unidade": "0.8 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Carne para Cozido à Portuguesa",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/carne-para-cozido-a-portuguesa-nosso-talho-339611.html",
+        "preco": "5.79",
+        "preco_anterior": null,
+        "unidade": "0.8 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Chispe da Mão de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/chispe-da-mao-de-porco-nosso-talho-250294.html",
+        "preco": "2.99",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Cordeiro de Leite",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/cordeiro-de-leite-nosso-talho-970700.html",
+        "preco": "14.99",
+        "preco_anterior": null,
+        "unidade": "6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costela Mendinha de Bovino Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/costela-mendinha-de-bovino-na-grelha-pingo-doce-994672.html",
+        "preco": "12.99",
+        "preco_anterior": null,
+        "unidade": "0.35 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeleta de Borrego Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/costeleta-de-borrego-na-grelha-pingo-doce-993206.html",
+        "preco": "17.99",
+        "preco_anterior": null,
+        "unidade": "0.8 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Costeletas do Cachaço de Porco Embaladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/costeletas-do-cachaco-de-porco-embaladas-pingo-doce-968216.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "1.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Coxa de Peru com Ameixas Slow Cooked",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/coxa-de-peru-com-ameixas-slow-cooked-pingo-doce-957828.html",
+        "preco": "5.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg | 11,98 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Entrecosto de Porco com Molho Barbecue Slow Cooked",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/entrecosto-de-porco-com-molho-barbecue-slow-cooked-pingo-doce-957833.html",
+        "preco": "7.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Entrecôte de Bovino Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/entrecote-de-bovino-na-grelha-pingo-doce-994667.html",
+        "preco": "24.49",
+        "preco_anterior": null,
+        "unidade": "0.45 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Entrecôte de Novilho Angus Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/entrecote-de-novilho-angus-embalado-nosso-talho-835487.html",
+        "preco": "31.98",
+        "preco_anterior": null,
+        "unidade": "0.2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Entremeada de Porco Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/entremeada-de-porco-embalada-pingo-doce-968217.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "1.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Escalopes de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/escalopes-de-vitela-nosso-talho-253753.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Espetadas de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/espetadas-de-porco-nosso-talho-825339.html",
+        "preco": "7.99",
+        "preco_anterior": null,
+        "unidade": "0.18 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Fígado de Bovino",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/figado-de-bovino-nosso-talho-171028.html",
+        "preco": "4.97",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Fondue de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/fondue-de-porco-nosso-talho-253749.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Fondue de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/fondue-de-vitela-nosso-talho-253750.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Frango do Campo com Miúdos Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/frango-do-campo-com-miudos-embalado-pingo-doce-421150.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "2.36 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Hambúrguer de Bovino Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/hamburguer-de-bovino-na-grelha-pingo-doce-994673.html",
+        "preco": "4.49",
+        "preco_anterior": null,
+        "unidade": "0.24 Kg | 4,49 €/Un",
+        "data_promocao": null
+    },
+    {
+        "nome": "Lagartos de Porco Preto Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/lagartos-de-porco-preto-na-grelha-pingo-doce-430489.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.31 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Maminha de Bovino Fatiada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/maminha-de-bovino-fatiada-nosso-talho-735481.html",
+        "preco": "13.98",
+        "preco_anterior": null,
+        "unidade": "1.2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Maminha de Bovino Selecionada Europa",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/maminha-de-bovino-selecionada-europa-pingo-doce-994265.html",
+        "preco": "15.99",
+        "preco_anterior": null,
+        "unidade": "0.9 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Maminha Fatiada de Bovino Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/maminha-fatiada-de-bovino-na-grelha-pingo-doce-994670.html",
+        "preco": "18.99",
+        "preco_anterior": null,
+        "unidade": "0.35 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Mini Hambúrgueres de Novilho Angus Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/mini-hamburgueres-de-novilho-angus-embalados-pingo-doce-944815.html",
+        "preco": "3.99",
+        "preco_anterior": null,
+        "unidade": "0.2 Kg | 19,95 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Moelas de Frango Congeladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/moelas-de-frango-congeladas-nosso-talho-850864.html",
+        "preco": "2.49",
+        "preco_anterior": null,
+        "unidade": "1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Moelas de Frango Congeladas",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/moelas-de-frango-congeladas-nosso-talho-250377.html",
+        "preco": "2.49",
+        "preco_anterior": null,
+        "unidade": "1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Naco de Vitelão para Pedra",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/naco-de-vitelao-para-pedra-nosso-talho-622070.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Naco de Vitela para Pedra",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/naco-de-vitela-para-pedra-nosso-talho-253754.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Negrito",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/negrito-nosso-talho-665702.html",
+        "preco": "7.09",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Orelha de Porco Congelada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/orelha-de-porco-congelada-nosso-talho-275741.html",
+        "preco": "3.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pá/Mão de Borrego",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/pa%2Fmao-de-borrego-nosso-talho-250268.html",
+        "preco": "11.99",
+        "preco_anterior": null,
+        "unidade": "2.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Peito de Pato com Molho de Arando Slow Cooked",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/peito-de-pato-com-molho-de-arando-slow-cooked-pingo-doce-957847.html",
+        "preco": "9.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg | 20,81 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perna de Borrego",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/outras-carnes/perna-de-borrego-nosso-talho-250267.html",
+        "preco": "12.99",
+        "preco_anterior": null,
+        "unidade": "2 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perna de Pato com Molho de Arando Slow Cooked",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perna-de-pato-com-molho-de-arando-slow-cooked-pingo-doce-957829.html",
+        "preco": "7.99",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg | 15,98 €/Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perna de Pato Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perna-de-pato-embalada-nosso-talho-669102.html",
+        "preco": "9.49",
+        "preco_anterior": null,
+        "unidade": "0.35 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Pernil de Porco Slow Cooked",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/pernil-de-porco-slow-cooked-pingo-doce-984582.html",
+        "preco": "6.99",
+        "preco_anterior": null,
+        "unidade": "0.8 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Perninha de Frango do Campo Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/perninha-de-frango-do-campo-embalada-pingo-doce-447475.html",
+        "preco": "7.99",
+        "preco_anterior": null,
+        "unidade": "0.51 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Picanha de Bovino Selecionada Europa",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/picanha-de-bovino-selecionada-europa-pingo-doce-994261.html",
+        "preco": "19.99",
+        "preco_anterior": null,
+        "unidade": "0.9 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Picanha de Novilho Angus Embalada",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/picanha-de-novilho-angus-embalada-nosso-talho-865373.html",
+        "preco": "25.98",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Picanha Fatiada Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/picanha-fatiada-na-grelha-pingo-doce-994668.html",
+        "preco": "23.49",
+        "preco_anterior": null,
+        "unidade": "0.4 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rabo de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/rabo-de-porco-nosso-talho-250305.html",
+        "preco": "4.09",
+        "preco_anterior": null,
+        "unidade": "0.15 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rim de Bovino Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/rim-de-bovino-embalado-nosso-talho-823254.html",
+        "preco": "1.97",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rojões de Porco Embalados",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/rojoes-de-porco-embalados-pingo-doce-967939.html",
+        "preco": "4.99",
+        "preco_anterior": null,
+        "unidade": "1.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rolo de Carne de Vitelão com Farinheira e Espinafres",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/rolo-de-carne-de-vitelao-com-farinheira-e-espinafres-nosso-talho-856758.html",
+        "preco": "12.49",
+        "preco_anterior": null,
+        "unidade": "0.95 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rolo de Carne de Vitelão com Queijo e Fiambre",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/rolo-de-carne-de-vitelao-com-queijo-e-fiambre-nosso-talho-622065.html",
+        "preco": "13.99",
+        "preco_anterior": null,
+        "unidade": "0.95 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Rolo de Carne de Vitelão Folhado com Queijo",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/rolo-de-carne-de-vitelao-folhado-com-queijo-nosso-talho-699577.html",
+        "preco": "14.49",
+        "preco_anterior": null,
+        "unidade": "1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Salsicha Brasileira de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/salsicha-brasileira-de-porco-nosso-talho-705196.html",
+        "preco": "5.99",
+        "preco_anterior": null,
+        "unidade": "0.1 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Secretos de Porco Preto Na Grelha",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/secretos-de-porco-preto-na-grelha-pingo-doce-430576.html",
+        "preco": "16.79",
+        "preco_anterior": null,
+        "unidade": "0.33 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Strogonoff de Peru Embalado",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato/strogonoff-de-peru-embalado-nosso-talho-977897.html",
+        "preco": "8.99",
+        "preco_anterior": null,
+        "unidade": "0.6 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Strogonoff de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/strogonoff-de-porco-nosso-talho-658186.html",
+        "preco": "6.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Strogonoff de Vitela",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/strogonoff-de-vitela-nosso-talho-253751.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Strogonoff de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/strogonoff-de-vitelao-nosso-talho-622071.html",
+        "preco": "16.49",
+        "preco_anterior": null,
+        "unidade": "0.5 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Unha de Porco",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/porco/unha-de-porco-nosso-talho-250314.html",
+        "preco": "2.99",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Vazia de Bovino Selecionada Europa",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/vazia-de-bovino-selecionada-europa-pingo-doce-994262.html",
+        "preco": "17.99",
+        "preco_anterior": null,
+        "unidade": "0.9 Kg",
+        "data_promocao": null
+    },
+    {
+        "nome": "Vazia de Vitelão",
+        "link": "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao/vazia-de-vitelao-nosso-talho-721268.html",
+        "preco": "16.98",
+        "preco_anterior": null,
+        "unidade": "0.3 Kg",
+        "data_promocao": null
+    }
+]

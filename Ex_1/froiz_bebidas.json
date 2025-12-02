@@ -1,0 +1,436 @@
+[
+    {
+        "nome": "Resguardo bebé Nunex 60x60 cm 25 unidades",
+        "link": "https://loja.froiz.com/product/49696/",
+        "preco_atual": "4,79 €",
+        "preco_antigo": "5,49 €",
+        "preco_unidade": "0,19 €/Unidade"
+    },
+    {
+        "nome": "Toalhitas bebé Salustar peles com tendência atópica 60 unidades",
+        "link": "https://loja.froiz.com/product/57816/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,03 €/Unidade"
+    },
+    {
+        "nome": "Fralda Dodot bebé seco Tamanho 6 14-19 kg 48 unidades",
+        "link": "https://loja.froiz.com/product/39636/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,40 €/Unidade"
+    },
+    {
+        "nome": "Fralda Dodot bebé seco extra absorção T4 10-15 62 unidades",
+        "link": "https://loja.froiz.com/product/31216/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,31 €/Unidade"
+    },
+    {
+        "nome": "Fralda Dodot bebé seco extra absorção T5 12-17 kg 56 unidades",
+        "link": "https://loja.froiz.com/product/33594/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,34 €/Unidade"
+    },
+    {
+        "nome": "Fralda Dodot bebé seco Tamanho 3 7-11 kg 66 unidades",
+        "link": "https://loja.froiz.com/product/43854/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,29 €/Unidade"
+    },
+    {
+        "nome": "Gel banho Corine de Farme bebé 500ml",
+        "link": "https://loja.froiz.com/product/38772/",
+        "preco_atual": "3,79 €",
+        "preco_antigo": "4,89 €",
+        "preco_unidade": "0,76 €/100 ml"
+    },
+    {
+        "nome": "Bebida café Alteza latte macchiato 250 ml",
+        "link": "https://loja.froiz.com/product/34156/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,88 €/Litro"
+    },
+    {
+        "nome": "Bebida café Alteza espresso 250 ml",
+        "link": "https://loja.froiz.com/product/49609/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,88 €/Litro"
+    },
+    {
+        "nome": "Bebida café Alteza descafeinado 250 ml",
+        "link": "https://loja.froiz.com/product/10247/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,56 €/Litro"
+    },
+    {
+        "nome": "Bebida café Alteza cappuccino 250 ml",
+        "link": "https://loja.froiz.com/product/24673/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,88 €/Litro"
+    },
+    {
+        "nome": "Bebida espirituosa Constantino 70 cl",
+        "link": "https://loja.froiz.com/product/32401/",
+        "preco_atual": "9,59 €",
+        "preco_antigo": "9,99 €",
+        "preco_unidade": "13,70 €/Litro"
+    },
+    {
+        "nome": "Bebida Maeloc maçã sem álcool 75 cl",
+        "link": "https://loja.froiz.com/product/26100/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,32 €/Litro"
+    },
+    {
+        "nome": "Bebida de vinho Faisão Red Berries 75 cl",
+        "link": "https://loja.froiz.com/product/56243/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "4,25 €/Litro"
+    },
+    {
+        "nome": "Bebida de vinho Faisão Fruity 75 cl",
+        "link": "https://loja.froiz.com/product/31436/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "4,25 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz ananás sem açúcar acrescentado minibrik 6x200 ml",
+        "link": "https://loja.froiz.com/product/39817/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,24 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz laranja sem açúcar acrescentado minibrik 6x200 ml",
+        "link": "https://loja.froiz.com/product/39818/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,35 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz multifrutas sem açúcar acrescentado brik 1 l",
+        "link": "https://loja.froiz.com/product/16370/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,74 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz laranja sem açúcar acrescentado brik 1 l",
+        "link": "https://loja.froiz.com/product/39814/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,92 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz multifrutas sem açúcar acrescentado 6x200 ml",
+        "link": "https://loja.froiz.com/product/16369/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,24 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz pêssego sem açúcar acrescentado 1 l",
+        "link": "https://loja.froiz.com/product/39803/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,89 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz ananás sem açúcar acrescentado brik 1 l",
+        "link": "https://loja.froiz.com/product/39810/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,05 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz Pêssego Bebida Froiz pêssego sem açúcar acrescentado minibrik 6x200 ml",
+        "link": "https://loja.froiz.com/product/39816/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,21 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz A.C.E. laranja, cenoura e limão sem açúcar acrescentado brik 1 l",
+        "link": "https://loja.froiz.com/product/39815/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,88 €/Litro"
+    },
+    {
+        "nome": "Bebida de leite e fruta Froiz tropical 1 l",
+        "link": "https://loja.froiz.com/product/59386/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,97 €/Litro"
+    },
+    {
+        "nome": "Bebida Froiz frutos vermelhos sem açúcar acrescentado 1 l",
+        "link": "https://loja.froiz.com/product/68063/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,45 €/Litro"
+    },
+    {
+        "nome": "Bebida de fruta Fresky laranja 1,5 l",
+        "link": "https://loja.froiz.com/product/71413/",
+        "preco_atual": "0,99 €",
+        "preco_antigo": "1,39 €",
+        "preco_unidade": "0,66 €/Litro"
+    },
+    {
+        "nome": "Bebida de fruta Fresky laranja 4x20 cl",
+        "link": "https://loja.froiz.com/product/42644/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,75 €/Litro"
+    },
+    {
+        "nome": "Bebida de fruta Fresky frutos tr. 4x20cl",
+        "link": "https://loja.froiz.com/product/42731/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,75 €/Litro"
+    },
+    {
+        "nome": "Bebida de fruta Fresky frutos tropicales 1,5 l",
+        "link": "https://loja.froiz.com/product/71412/",
+        "preco_atual": "0,99 €",
+        "preco_antigo": "1,39 €",
+        "preco_unidade": "0,66 €/Litro"
+    },
+    {
+        "nome": "Bebida isotónica Powerade laranja 50 cl",
+        "link": "https://loja.froiz.com/product/63075/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,08 €/Litro"
+    },
+    {
+        "nome": "Bebida isótónica Powerade Ice Storm 50cl",
+        "link": "https://loja.froiz.com/product/32249/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,08 €/Litro"
+    },
+    {
+        "nome": "Bebida Isotónica Froiz laranja 1.5 l",
+        "link": "https://loja.froiz.com/product/32457/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,13 €/Litro"
+    },
+    {
+        "nome": "Bebida isotónica Prime Ice Pop 50 cl",
+        "link": "https://loja.froiz.com/product/62852/",
+        "preco_atual": "2,79 €",
+        "preco_antigo": "2,99 €",
+        "preco_unidade": "5,58 €/Litro"
+    },
+    {
+        "nome": "Bebida isotónica Prime Blue Raspberry 50 cl",
+        "link": "https://loja.froiz.com/product/62853/",
+        "preco_atual": "2,79 €",
+        "preco_antigo": "2,99 €",
+        "preco_unidade": "5,58 €/Litro"
+    },
+    {
+        "nome": "Bebida Isotónica Froiz limão 1.5 l",
+        "link": "https://loja.froiz.com/product/32452/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,13 €/Litro"
+    },
+    {
+        "nome": "Gazes não tecidas Bel baby para cara e olhos do bebé 100 unidades",
+        "link": "https://loja.froiz.com/product/18183/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,02 €/Unidade"
+    },
+    {
+        "nome": "Detergente Norit roupa bebé 1125 ml",
+        "link": "https://loja.froiz.com/product/37020/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,61 €/Litro"
+    },
+    {
+        "nome": "Pacotinho Xanceda biológico multifrutas beber 90 g",
+        "link": "https://loja.froiz.com/product/12471/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "16,11 €/Quilograma"
+    },
+    {
+        "nome": "Yogur Nestlé bebé manzana plátano 4x100 g",
+        "link": "https://loja.froiz.com/product/7391/",
+        "preco_atual": "1,99 €",
+        "preco_antigo": "",
+        "preco_unidade": "4,98 €/Quilograma"
+    },
+    {
+        "nome": "Bebida de soja Vivesoy 1 l",
+        "link": "https://loja.froiz.com/product/21438/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,69 €/Litro"
+    },
+    {
+        "nome": "Bebida de aveia Yosoy 100% natural 1 l",
+        "link": "https://loja.froiz.com/product/98818/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,45 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja Pascual chocolate Vivesoy 1 l",
+        "link": "https://loja.froiz.com/product/9758/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,29 €/Litro"
+    },
+    {
+        "nome": "Bebida de arroz Yosoy 100% natural 1 l",
+        "link": "https://loja.froiz.com/product/98816/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,44 €/Litro"
+    },
+    {
+        "nome": "Bebida de amêndoa Alpro 1 l",
+        "link": "https://loja.froiz.com/product/20305/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja original Alpro 1 l",
+        "link": "https://loja.froiz.com/product/449/",
+        "preco_atual": "1,69 €",
+        "preco_antigo": "1,89 €",
+        "preco_unidade": "1,69 €/Litro"
+    },
+    {
+        "nome": "Bebida de aveia Froiz cálcio 0% sem açúcares adicionados 1 l",
+        "link": "https://loja.froiz.com/product/51190/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,77 €/Litro"
+    },
+    {
+        "nome": "Bebida de Aveia Yosoy Barista com chá Matcha UHT 1 L",
+        "link": "https://loja.froiz.com/product/67351/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,40 €/Litro"
+    },
+    {
+        "nome": "Bebida de aveia Alpro sabor leite 1 l",
+        "link": "https://loja.froiz.com/product/58380/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja original light Alpro 1 l",
+        "link": "https://loja.froiz.com/product/427/",
+        "preco_atual": "1,69 €",
+        "preco_antigo": "1,89 €",
+        "preco_unidade": "1,69 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja Froiz original cálcio 1 l",
+        "link": "https://loja.froiz.com/product/25417/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,63 €/Litro"
+    },
+    {
+        "nome": "Bebida de amêndoas Froiz 0% açúcares adicionados 1 l",
+        "link": "https://loja.froiz.com/product/26829/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,16 €/Litro"
+    },
+    {
+        "nome": "Bebida de aveia Froiz Bio 0% açúcares adicionados 1 l",
+        "link": "https://loja.froiz.com/product/25212/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "1,15 €/Litro"
+    },
+    {
+        "nome": "Bebida de aveia Alpro sem açúcar 1 l",
+        "link": "https://loja.froiz.com/product/12026/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja Froiz light cálcio 1 l",
+        "link": "https://loja.froiz.com/product/26186/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "0,72 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja Alpro 3x250 ml",
+        "link": "https://loja.froiz.com/product/65291/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de amêndoa Alpro sem açúcar 1 l",
+        "link": "https://loja.froiz.com/product/7853/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de arroz Alpro 1 l",
+        "link": "https://loja.froiz.com/product/37297/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja Alpro sem açúcar 1 l",
+        "link": "https://loja.froiz.com/product/19422/",
+        "preco_atual": "1,99 €",
+        "preco_antigo": "2,19 €",
+        "preco_unidade": "1,99 €/Litro"
+    },
+    {
+        "nome": "Bebida de aveia Alpro 1 l",
+        "link": "https://loja.froiz.com/product/41813/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de coco Alpro 1 l",
+        "link": "https://loja.froiz.com/product/41837/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "2,19 €/Litro"
+    },
+    {
+        "nome": "Bebida de soja com chocolate Alpro 3x250 ml",
+        "link": "https://loja.froiz.com/product/51060/",
+        "preco_atual": null,
+        "preco_antigo": null,
+        "preco_unidade": "3,19 €/Litro"
+    }
+]

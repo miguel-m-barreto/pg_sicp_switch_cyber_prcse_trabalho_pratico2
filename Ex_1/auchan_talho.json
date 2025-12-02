@@ -1,0 +1,866 @@
+[
+    {
+        "nome": "espetadas de peru nutriaves kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/espetadas-de-peru-nutriaves-kg/2409.html",
+        "quantidade_minima": "Quant. Mínima = 600g",
+        "preco_unitario": "7.99 €/Kg",
+        "preco_atual": "7.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "espetadas peito de peru produção própria kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/espetadas-peito-de-peru-producao-propria-kg/787979.html",
+        "quantidade_minima": "Quant. Mínima = 450g",
+        "preco_unitario": "10.99 €/Kg",
+        "preco_atual": "10.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "espetadas de peito de peru kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/espetadas-de-peito-de-peru-kg/1087871.html",
+        "quantidade_minima": "Quant. Mínima = 450g",
+        "preco_unitario": "10.99 €/Kg",
+        "preco_atual": "10.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "salsichas de churrasco peru vácuo nobre 200g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/salsichas-de-churrasco-peru-vacuo-nobre-200g/3101603.html",
+        "quantidade_minima": null,
+        "preco_unitario": "15.45 €/Kg",
+        "preco_atual": "3.09",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peru com miudos kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/peru-com-miudos-kg/101523.html",
+        "quantidade_minima": "Quant. Mínima = 5000g",
+        "preco_unitario": "4.49 €/Kg",
+        "preco_atual": "4.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "vinho tinto josé piteira talha 0.75l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/vinhos-tintos/vinho-tinto-jose-piteira-talha-0.75l/3053507.html",
+        "quantidade_minima": null,
+        "preco_unitario": "16.65 €/Lt",
+        "preco_atual": "12.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "asas de peru kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/asas-de-peru-kg/2484.html",
+        "quantidade_minima": "Quant. Mínima = 700g",
+        "preco_unitario": "3.29 €/Kg",
+        "preco_atual": "3.29",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perna de codorniz auchan cultivamos o bom kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/pato-e-mais-aves/perna-de-codorniz-auchan-cultivamos-o-bom-kg/2294649.html",
+        "quantidade_minima": "Quant. Mínima = 200g",
+        "preco_unitario": "16.99 €/Kg",
+        "preco_atual": "16.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de codorniz auchan cultivamos o bom kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/pato-e-mais-aves/peito-de-codorniz-auchan-cultivamos-o-bom-kg/2294642.html",
+        "quantidade_minima": "Quant. Mínima = 500g",
+        "preco_unitario": "14.99 €/Kg",
+        "preco_atual": "14.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "asas de peru auchan kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/asas-de-peru-auchan-kg/2885522.html",
+        "quantidade_minima": "Quant. Mínima = 700g",
+        "preco_unitario": "2.99 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bife de peru auchan kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/bife-de-peru-auchan-kg/2885521.html",
+        "quantidade_minima": "Quant. Mínima = 500g",
+        "preco_unitario": "8.99 €/Kg",
+        "preco_atual": "8.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perna peru recheada farinheira kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/perna-peru-recheada-farinheira-kg/10479.html",
+        "quantidade_minima": "Quant. Mínima = 1800g",
+        "preco_unitario": "7.49 €/Kg",
+        "preco_atual": "7.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bife/escalope de peru nutriaves kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/bifeescalope-de-peru-nutriaves-kg/2487.html",
+        "quantidade_minima": "Quant. Mínima = 500g",
+        "preco_unitario": "9.49 €/Kg",
+        "preco_atual": "9.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "coto/perninha peru auchan kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/cotoperninha-peru-auchan-kg/3561863.html",
+        "quantidade_minima": "Quant. Mínima = 1000g",
+        "preco_unitario": "3.89 €/Kg",
+        "preco_atual": "3.89",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "vinho tinto quinta da pigarça talha alentejo 0.75l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/vinhos-tintos/vinho-tinto-quinta-da-pigarca-talha-alentejo-0.75l/3792739.html",
+        "quantidade_minima": null,
+        "preco_unitario": "23.99 €/Lt",
+        "preco_atual": "17.99",
+        "preco_antigo": "21.99",
+        "promocao": null
+    },
+    {
+        "nome": "almôndegas de peru auchan 360gr",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/hamburgueres-e-carne-picada/almondegas-de-peru-auchan-360gr/3887156.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.42 €/Kg",
+        "preco_atual": "1.95",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perninha de peru nutriaves kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/perninha-de-peru-nutriaves-kg/3370167.html",
+        "quantidade_minima": "Quant. Mínima = 1125g",
+        "preco_unitario": "3.99 €/Kg",
+        "preco_atual": "3.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perna de peru kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/perna-de-peru-kg/311670.html",
+        "quantidade_minima": "Quant. Mínima = 2000g",
+        "preco_unitario": "4.99 €/Kg",
+        "preco_atual": "4.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "codorniz aberta 4 un auchan cultivamos o bom",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/pato-e-mais-aves/codorniz-aberta-4-un-auchan-cultivamos-o-bom/2294623.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.36 €/un",
+        "preco_atual": "5.45",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bife de peru auchan emb.familiar kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/bife-de-peru-auchan-emb.familiar-kg/2885524.html",
+        "quantidade_minima": "Quant. Mínima = 1000g",
+        "preco_unitario": "8.49 €/Kg",
+        "preco_atual": "8.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perna de peru auchan inteira kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/perna-de-peru-auchan-inteira-kg/2885523.html",
+        "quantidade_minima": "Quant. Mínima = 800g",
+        "preco_unitario": "4.99 €/Kg",
+        "preco_atual": "4.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peru perna auchan individual kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/peru-perna-auchan-individual-kg/3549176.html",
+        "quantidade_minima": "Quant. Mínima = 1400g",
+        "preco_unitario": "4.99 €/Kg",
+        "preco_atual": "4.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de peru kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/peito-de-peru-kg/311668.html",
+        "quantidade_minima": "Quant. Mínima = 1000g",
+        "preco_unitario": "8.49 €/Kg",
+        "preco_atual": "8.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perna de peru com alheira kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/perna-de-peru-com-alheira-kg/10357.html",
+        "quantidade_minima": "Quant. Mínima = 2000g",
+        "preco_unitario": "7.99 €/Kg",
+        "preco_atual": "7.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "espetadas de porco peru e bacon kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/espetadas-de-porco-peru-e-bacon-kg/671890.html",
+        "quantidade_minima": "Quant. Mínima = 500g",
+        "preco_unitario": "8.99 €/Kg",
+        "preco_atual": "8.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peru bife panado kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/peru-bife-panado-kg/827996.html",
+        "quantidade_minima": "Quant. Mínima = 400g",
+        "preco_unitario": "10.99 €/Kg",
+        "preco_atual": "10.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "perna de peru sem osso auchan kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/perna-de-peru-sem-osso-auchan-kg/3744957.html",
+        "quantidade_minima": "Quant. Mínima = 1500g",
+        "preco_unitario": "6.29 €/Kg",
+        "preco_atual": "6.29",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bife da perna perú biologic bio 300 g",
+        "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-produtos-frescos/talho-e-peixaria/talho/bife-da-perna-peru-biologic-bio-300-g/3578542.html",
+        "quantidade_minima": null,
+        "preco_unitario": "26.3 €/Kg",
+        "preco_atual": "7.89",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "hamburguer peru biologic bio 224 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/hamburgueres-e-carne-picada/hamburguer-peru-biologic-bio-224-g/3578538.html",
+        "quantidade_minima": null,
+        "preco_unitario": "28.08 €/Kg",
+        "preco_atual": "6.29",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bife peito peru bio biologic bio 300 g",
+        "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-produtos-frescos/talho-e-peixaria/talho/bife-peito-peru-bio-biologic-bio-300-g/3578544.html",
+        "quantidade_minima": null,
+        "preco_unitario": "43.3 €/Kg",
+        "preco_atual": "12.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "cogumelo portobello c/peru courgetebacon ananás e moza.",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/cogumelo-portobello-cperu-courgetebacon-ananas-e-moza./2349580.html",
+        "quantidade_minima": "Quant. Mínima = 200g",
+        "preco_unitario": "8.99 €/Kg",
+        "preco_atual": "8.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "espetadas de peru auchan kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/espetadas-de-peru-auchan-kg/3558738.html",
+        "quantidade_minima": "Quant. Mínima = 600g",
+        "preco_unitario": "7.59 €/Kg",
+        "preco_atual": "7.59",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peru recheado com porco paté vinho do portonoz e salsa",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/peru-recheado-com-porco-pate-vinho-do-portonoz-e-salsa/2349638.html",
+        "quantidade_minima": "Quant. Mínima = 4500g",
+        "preco_unitario": "9.95 €/Kg",
+        "preco_atual": "9.95",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bife fino de peru auchan 320gr",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/bife-fino-de-peru-auchan-320gr/3558800.html",
+        "quantidade_minima": null,
+        "preco_unitario": "12.16 €/Kg",
+        "preco_atual": "3.89",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "hamburguer: peru fresco 460 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/hamburgueres-e-carne-picada/hamburguer-peru-fresco-460-g/1111399.html",
+        "quantidade_minima": null,
+        "preco_unitario": "6.5 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "estrela folhada peru alheira queijo bacon e ananás kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/elaborados/estrela-folhada-peru-alheira-queijo-bacon-e-ananas-kg/75628.html",
+        "quantidade_minima": "Quant. Mínima = 1000g",
+        "preco_unitario": "8.99 €/Kg",
+        "preco_atual": "8.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de peru fatiado vacuo auchan kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/talho/peru/peito-de-peru-fatiado-vacuo-auchan-kg/3744971.html",
+        "quantidade_minima": "Quant. Mínima = 1000g",
+        "preco_unitario": "8.49 €/Kg",
+        "preco_atual": "8.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bacon primor peru kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/bacon-primor-peru-kg/2438324.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "19.99 €/Kg",
+        "preco_atual": "19.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de peru campofrio kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-de-peru-campofrio-kg/501336.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "17.99 €/Kg",
+        "preco_atual": "17.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito peru de peru ff izidoro forno a lenha 110g+30g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-peru-de-peru-ff-izidoro-forno-a-lenha-110g30g/3785856.html",
+        "quantidade_minima": null,
+        "preco_unitario": "21.36 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre peru maxi ricura 900g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-peru-maxi-ricura-900g/3889025.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.54 €/Kg",
+        "preco_atual": "4.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "mortadela peru elpozo 225g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-peru-elpozo-225g/3519924.html",
+        "quantidade_minima": null,
+        "preco_unitario": "11.96 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito peru hein c/ legumes kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-peru-hein-c-legumes-kg/3927649.html",
+        "quantidade_minima": "Quant. Mínima = 200g",
+        "preco_unitario": "28.59 €/Kg",
+        "preco_atual": "28.59",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre de peru nobre fatias finas 140g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peru-nobre-fatias-finas-140g/3721316.html",
+        "quantidade_minima": null,
+        "preco_unitario": "15 €/Kg",
+        "preco_atual": "2.10",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "mortadela peru azeitonas elpozo 225g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-peru-azeitonas-elpozo-225g/3519923.html",
+        "quantidade_minima": null,
+        "preco_unitario": "11.96 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "alheira de peru prisca 180 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/alheira-farinheira-e-morcela/alheira-de-peru-prisca-180-g/2707903.html",
+        "quantidade_minima": null,
+        "preco_unitario": "15.28 €/Kg",
+        "preco_atual": "2.75",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "chouriço de peru fuminho 190 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/chourico-de-peru-fuminho-190-g/2596569.html",
+        "quantidade_minima": null,
+        "preco_unitario": "16.05 €/Kg",
+        "preco_atual": "3.05",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre de peito peru auchan fatias 150g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peito-peru-auchan-fatias-150g/3803966.html",
+        "quantidade_minima": null,
+        "preco_unitario": "13.27 €/Kg",
+        "preco_atual": "1.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "panado de peru kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/gastronomia/refeicoes-prontas/panado-de-peru-kg/2803341.html",
+        "quantidade_minima": "Quant. Mínima = 350g",
+        "preco_unitario": "16.2 €/Kg",
+        "preco_atual": "16.20",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "mortadela de perú campofrio kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-de-peru-campofrio-kg/671339.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "9.49 €/Kg",
+        "preco_atual": "9.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "hambúrguer de peru auchan 4un 320g",
+        "link": "https://www.auchan.pt/pt/alimentacao/congelados/carne/hamburgueres/hamburguer-de-peru-auchan-4un-320g/775288.html",
+        "quantidade_minima": null,
+        "preco_unitario": "9.97 €/Kg",
+        "preco_atual": "3.19",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre de peito peru cubos auchan 2x75g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peito-peru-cubos-auchan-2x75g/3803987.html",
+        "quantidade_minima": null,
+        "preco_unitario": "11.93 €/Kg",
+        "preco_atual": "1.79",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "chouriço de peru quinta dos fumeiros 180g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/chourico-de-peru-quinta-dos-fumeiros-180g/2210207.html",
+        "quantidade_minima": null,
+        "preco_unitario": "26.06 €/Kg",
+        "preco_atual": "4.69",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "patê peru la piara 75g",
+        "link": "https://www.auchan.pt/pt/alimentacao/mercearia/conservas/pates-e-pastas/pate-peru-la-piara-75g/2517589.html",
+        "quantidade_minima": null,
+        "preco_unitario": "25.2 €/Kg",
+        "preco_atual": "1.89",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "salsichas peru campofrio frankfurt 140 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/salsichas-peru-campofrio-frankfurt-140-g/2271292.html",
+        "quantidade_minima": null,
+        "preco_unitario": "9.93 €/Kg",
+        "preco_atual": "1.39",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "lanche de peru robert halal 340g",
+        "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/halal/lanche-de-peru-robert-halal-340g/3425880.html",
+        "quantidade_minima": null,
+        "preco_unitario": "19.09 €/Kg",
+        "preco_atual": "6.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre fatiado de perú nobre com cenoura cuida te 110g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-fatiado-de-peru-nobre-com-cenoura-cuida-te-110g/3801019.html",
+        "quantidade_minima": null,
+        "preco_unitario": "27.18 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de perú forno lenha campofrio fatias 120g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-de-peru-forno-lenha-campofrio-fatias-120g/1136889.html",
+        "quantidade_minima": null,
+        "preco_unitario": "24.92 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de peru campofrio forno de lenha kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-de-peru-campofrio-forno-de-lenha-kg/2371939.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "19.99 €/Kg",
+        "preco_atual": "19.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração para gato weego peru / menta 1.5kg",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/gatos/tipo-de-comida/racao-seca-especialista/racao-para-gato-weego-peru-menta-1.5kg/3713976.html",
+        "quantidade_minima": null,
+        "preco_unitario": "7.33 €/Kg",
+        "preco_atual": "10.99",
+        "preco_antigo": null,
+        "promocao": "+10% DESC. IMEDIATO PET CLUB"
+    },
+    {
+        "nome": "mortadela de peru com azeitonas campofrio kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-de-peru-com-azeitonas-campofrio-kg/771431.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "9.49 €/Kg",
+        "preco_atual": "9.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "comida húmida gato advance esterilizado peru 12x85g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/marcas-mais-procuradas/advance/comida-humida-gato-advance-esterilizado-peru-12x85g/3886471.html",
+        "quantidade_minima": null,
+        "preco_unitario": "14.7 €/Kg",
+        "preco_atual": "14.99",
+        "preco_antigo": null,
+        "promocao": "+10% DESC. IMEDIATO PET CLUB"
+    },
+    {
+        "nome": "fiambre de peru nobre fatias finas cuida-te 110g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peru-nobre-fatias-finas-cuida-te-110g/2112538.html",
+        "quantidade_minima": null,
+        "preco_unitario": "27.18 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "mortadela de peru elpozo kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-de-peru-elpozo-kg/819869.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "9.49 €/Kg",
+        "preco_atual": "9.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "refeição bledina perú e cenouras 2x200g",
+        "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/preparacao-e-alimentacao-infantil/boioes-refeicao-bebe/refeicao-bledina-peru-e-cenouras-2x200g/1088452.html",
+        "quantidade_minima": null,
+        "preco_unitario": "8.58 €/Kg",
+        "preco_atual": "3.43",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "snack para cão bribon peru de natal",
+        "link": "https://www.auchan.pt/pt/animais/caes/comida-para-caes/snacks-e-ossos/snack-para-cao-bribon-peru-de-natal/3822453.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1 €/un",
+        "preco_atual": "1.00",
+        "preco_antigo": "1.99",
+        "promocao": null
+    },
+    {
+        "nome": "peito peru elpozo baixo teor gordura e sal 115g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-peru-elpozo-baixo-teor-gordura-e-sal-115g/3588721.html",
+        "quantidade_minima": null,
+        "preco_unitario": "17.3 €/Kg",
+        "preco_atual": "1.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração para gato ultima bolas de pêlo com perú 750g",
+        "link": "https://www.auchan.pt/pt/animais/marcas-mais-procuradas/ultima/racao-para-gato-ultima-bolas-de-pelo-com-peru-750g/3288170.html",
+        "quantidade_minima": null,
+        "preco_unitario": "9.59 €/Kg",
+        "preco_atual": "7.19",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "salsicha de frango e peru wudy 300g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/salsicha-de-frango-e-peru-wudy-300g/3873142.html",
+        "quantidade_minima": null,
+        "preco_unitario": "7.3 €/Kg",
+        "preco_atual": "2.19",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "snacks para cão riga fing'os stick peru 1unidade",
+        "link": "https://www.auchan.pt/pt/animais/caes/comida-para-caes/snacks-e-ossos/snacks-para-cao-riga-fingos-stick-peru-1unidade/2234134.html",
+        "quantidade_minima": null,
+        "preco_unitario": "0.85 €/un",
+        "preco_atual": "0.85",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "comida húmida cão naturea frango e peru 300g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/comida-humida/comida-humida-cao-naturea-frango-e-peru-300g/3873642.html",
+        "quantidade_minima": null,
+        "preco_unitario": "14.3 €/Kg",
+        "preco_atual": "4.29",
+        "preco_antigo": null,
+        "promocao": "+10% DESC. IMEDIATO PET CLUB"
+    },
+    {
+        "nome": "fuet extra campofrio mini snack peru 50g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/fuet-extra-campofrio-mini-snack-peru-50g/3689537.html",
+        "quantidade_minima": null,
+        "preco_unitario": "29.8 €/Kg",
+        "preco_atual": "1.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "bola rústica com panado de peru un",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/gastronomia/hamburgueres-e-sandes/bola-rustica-com-panado-de-peru-un/3059109.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.1 €/un",
+        "preco_atual": "3.10",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "snack para cão happyone mediterraneum com frango e perú 190g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/snacks-e-ossos/snack-para-cao-happyone-mediterraneum-com-frango-e-peru-190g/3074972.html",
+        "quantidade_minima": null,
+        "preco_unitario": "24.16 €/Kg",
+        "preco_atual": "4.59",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "comida húmida cão tow peru /pato 390g*",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/comida-humida/comida-humida-cao-tow-peru-pato-390g*/3151068.html",
+        "quantidade_minima": null,
+        "preco_unitario": "11.51 €/Kg",
+        "preco_atual": "4.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre de peru prova ideal forno a lenha kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peru-prova-ideal-forno-a-lenha-kg/3785042.html",
+        "quantidade_minima": "Quant. Mínima = 200g",
+        "preco_unitario": "13.49 €/Kg",
+        "preco_atual": "13.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "peito de perú forno lenha campofrio fatias finas 120g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/peito-de-peru-forno-lenha-campofrio-fatias-finas-120g/1136882.html",
+        "quantidade_minima": null,
+        "preco_unitario": "24.92 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "mortadela de peru campofrio fatias 140 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-de-peru-campofrio-fatias-140-g/2222540.html",
+        "quantidade_minima": null,
+        "preco_unitario": "15.64 €/Kg",
+        "preco_atual": "2.19",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "snack cão naturea peru semi-húmido 100g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/comida-humida/snack-cao-naturea-peru-semi-humido-100g/3331153.html",
+        "quantidade_minima": null,
+        "preco_unitario": "21.9 €/Kg",
+        "preco_atual": "2.19",
+        "preco_antigo": "2.79",
+        "promocao": null
+    },
+    {
+        "nome": "salpicão de peru quinta dos fumeiros de 240 g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/salpicao-de-peru-quinta-dos-fumeiros-de-240-g/2797917.html",
+        "quantidade_minima": null,
+        "preco_unitario": "24.96 €/un",
+        "preco_atual": "5.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração natural para cão webbox adulto com perú 2kg",
+        "link": "https://www.auchan.pt/pt/animais/caes/comida-para-caes/racao-seca/racao-natural-para-cao-webbox-adulto-com-peru-2kg/2959256.html",
+        "quantidade_minima": null,
+        "preco_unitario": "6.5 €/Kg",
+        "preco_atual": "12.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "comida húmida para gato weego frango / peru 85g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/gatos/tipo-de-comida/comida-humida-especialista/comida-humida-para-gato-weego-frango-peru-85g/3834123.html",
+        "quantidade_minima": null,
+        "preco_unitario": "17.53 €/Kg",
+        "preco_atual": "1.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração para cão sénior weego peru / mirtilos 3kg",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/racao-seca/racao-para-cao-senior-weego-peru-mirtilos-3kg/3629224.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.66 €/Kg",
+        "preco_atual": "10.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração para cão sénior weego peru / mirtilos 12kg",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/racao-seca/racao-para-cao-senior-weego-peru-mirtilos-12kg/3629231.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3 €/Kg",
+        "preco_atual": "35.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre de peito perú auchan fatiado no balcão kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peito-peru-auchan-fatiado-no-balcao-kg/3806866.html",
+        "quantidade_minima": "Quant. Mínima = 250g",
+        "preco_unitario": "12.99 €/Kg",
+        "preco_atual": "12.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "comida húmida para cão naturea com frango e perú 375g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/comida-humida/comida-humida-para-cao-naturea-com-frango-e-peru-375g/2198690.html",
+        "quantidade_minima": null,
+        "preco_unitario": "7.38 €/Kg",
+        "preco_atual": "2.95",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "snack gato gimcat mini stick perú+qj 50g",
+        "link": "https://www.auchan.pt/pt/animais/gatos/comida-para-gatos/snacks-e-leite/snack-gato-gimcat-mini-stick-peruqj-50g/3926903.html",
+        "quantidade_minima": null,
+        "preco_unitario": "59.8 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração para cão dog chow light com peru 14kg",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/racao-seca/racao-para-cao-dog-chow-light-com-peru-14kg/2114364.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.57 €/Kg",
+        "preco_atual": "35.95",
+        "preco_antigo": "39.89",
+        "promocao": null
+    },
+    {
+        "nome": "wrap de panado de peru un",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/gastronomia/hamburgueres-e-sandes/wrap-de-panado-de-peru-un/3058607.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.55 €/un",
+        "preco_atual": "3.55",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "patê de peru moya semya 130g",
+        "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/cozinha-europa-do-leste/pate-de-peru-moya-semya-130g/3486151.html",
+        "quantidade_minima": null,
+        "preco_unitario": "11.46 €/Kg",
+        "preco_atual": "1.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração gato cat chow peru &frango 15kg*",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/gatos/tipo-de-comida/racao-seca-especialista/racao-gato-cat-chow-peru-efrango-15kg*/946360.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.6 €/Kg",
+        "preco_atual": "53.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "snack cão petfield sem cereais peru/presunto 150g",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/snacks-e-ossos/snack-cao-petfield-sem-cereais-perupresunto-150g/3920497.html",
+        "quantidade_minima": null,
+        "preco_unitario": "23.27 €/Kg",
+        "preco_atual": "3.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "ração para cão nature's variety adulto peru 10+2kg",
+        "link": "https://www.auchan.pt/pt/animais/o-meu-pet/caes/tipo-de-comida/racao-seca/racao-para-cao-natures-variety-adulto-peru-102kg/3937294.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.33 €/Kg",
+        "preco_atual": "63.95",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "mortadela de peru com azeitonas elpozo kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/pates-salsichas-e-mortadela/mortadela-de-peru-com-azeitonas-elpozo-kg/819844.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "9.49 €/Kg",
+        "preco_atual": "9.49",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre de peru elpozo sem gluten e lactose kg",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-de-peru-elpozo-sem-gluten-e-lactose-kg/3266765.html",
+        "quantidade_minima": "Quant. Mínima = 100g",
+        "preco_unitario": "14.99 €/Kg",
+        "preco_atual": "14.99",
+        "preco_antigo": null,
+        "promocao": null
+    },
+    {
+        "nome": "fiambre peito de peru fatias finas forno lenha izidoro 110g",
+        "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-peito-de-peru-fatias-finas-forno-lenha-izidoro-110g/2745728.html",
+        "quantidade_minima": null,
+        "preco_unitario": "27.18 €/Kg",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null
+    }
+]
