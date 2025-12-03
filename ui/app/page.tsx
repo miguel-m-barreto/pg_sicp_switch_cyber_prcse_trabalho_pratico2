@@ -29,11 +29,11 @@ export default function HomePage() {
 
         <div className="flex flex-1 flex-col items-start justify-center gap-8">
           <div className="space-y-4">
-            <p className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs uppercase tracking-wide text-zinc-400">
+            <p className="flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs uppercase tracking-wide text-zinc-400">
               Grey Scrape, data is power
             </p>
 
-            <p className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs uppercase tracking-wide text-zinc-400">
+            <p className="flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs uppercase tracking-wide text-zinc-400">
               It might seem a little illegal, but as our professor would say, "It's gray."
             </p>
 
