@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="flex flex-1 flex-col items-start justify-center gap-8">
           <div className="space-y-4">
             <p className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs uppercase tracking-wide text-zinc-400">
-              School project · Python scraping + Next.js
+              Grey Scrape, data is power
             </p>
 
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
@@ -42,10 +42,9 @@ export default function HomePage() {
             </h1>
 
             <p className="max-w-xl text-sm text-zinc-400 sm:text-base">
-              The Python scraper collects public data and stores it in a JSON
-              file. This website, built with Next.js and Tailwind, only{" "}
-              <span className="text-zinc-200">visualizes</span> that data in a
-              clean, minimal interface, suitable for an academic project.
+              WE NEED SOME DESCRIPTION HERE{" "}
+              <span className="text-zinc-200">WHAT DO YOU THINK?</span> BLA BLA
+              BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA.
             </p>
           </div>
 
@@ -64,6 +63,34 @@ export default function HomePage() {
             </Link>
           </div>
 
+          <div className="mt-4 grid gap-4 text-xs text-zinc-400 sm:grid-cols-3">
+            <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
+              <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
+                Auchan
+              </p>
+              <p>Scrape data from Auchan.</p>
+            </div>
+            <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
+              <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
+                Froiz (TODO)
+              </p>
+              <p>Scrape data from Froiz</p>
+            </div>
+            <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
+              <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
+                Pingo Doce
+              </p>
+              <p>Scrape data from Pingo Doce</p>
+            </div>
+          </div>
+        </div>
+
+        <footer className="mt-8 border-t border-zinc-900 pt-4 text-xs text-zinc-500">
+          Built by Bruno Carrulo, Duarte Ferreira, Eduardo Bártolo, Miguel Barreto
+        </footer>
+      </section>
+
+      {/*
           <div className="mt-4 grid gap-4 text-xs text-zinc-400 sm:grid-cols-3">
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
               <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
@@ -90,6 +117,7 @@ export default function HomePage() {
           Built for a school assignment using public or synthetic data only.
         </footer>
       </section>
+      */}
 
       {/* How it works section */}
       <section
@@ -101,9 +129,9 @@ export default function HomePage() {
             How the pipeline works
           </h2>
           <p className="mt-2 max-w-2xl text-sm text-zinc-400">
-            A Python script periodically scrapes public pages, extracts the
-            required information, and writes it to a JSON file inside the Next.js
-            project. The website reads that file on the server side and renders
+            A Python script will scrape the chosen store public page, extracts the
+            required information, and writes it to a JSON file.
+            The website reads that file on the server side and renders
             the data in a dashboard page.
           </p>
 
@@ -113,7 +141,7 @@ export default function HomePage() {
                 Step 1 · Scraping
               </p>
               <p className="mt-1">
-                Python uses libraries like <code>requests</code> and{" "}
+                Python uses libraries like {" "}
                 <code>BeautifulSoup</code> to collect structured data from
                 public pages.
               </p>
@@ -123,8 +151,7 @@ export default function HomePage() {
                 Step 2 · Storage
               </p>
               <p className="mt-1">
-                The scraper saves the processed results to{" "}
-                <code>data/scraped.json</code> using a consistent schema.
+                The scraper saves the processed results.
               </p>
             </div>
             <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4 text-sm text-zinc-300">
@@ -133,7 +160,7 @@ export default function HomePage() {
               </p>
               <p className="mt-1">
                 The Next.js app loads the JSON on the server and displays it in
-                a grey dashboard for analysis and presentation.
+                a "grey" dashboard for analysis and presentation.
               </p>
             </div>
           </div>
@@ -147,11 +174,12 @@ export default function HomePage() {
             About this project
           </h2>
           <p className="mt-2 max-w-2xl text-sm text-zinc-400">
-            This is a school project focused on demonstrating a clean separation
-            between data collection and visualization. The scraping logic runs
-            offline in Python, while the frontend only consumes the generated
-            JSON, which keeps the website simple, fast, and easy to explain in a
-            report.
+            This is a school project focused on Data Scraping.
+            We made it while still demonstrating a clean separation
+            between data collection and visualization.
+            The scraping logic runs in Python, 
+            while the frontend only consumes the generated JSON, 
+            which keeps the website simple, fast, and clean.
           </p>
         </div>
       </section>
