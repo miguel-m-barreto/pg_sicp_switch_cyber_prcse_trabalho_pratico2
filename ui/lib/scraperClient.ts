@@ -6,7 +6,10 @@ if (!BASE_URL) {
   throw new Error("SCRAPER_BASE_URL is not set");
 }
 
-export type AuchanItem = {
+export const SUPPORTED_STORES = ["auchan", "froiz", "pingo_doce"] as const;
+export type StoreId = (typeof SUPPORTED_STORES)[number];
+
+export type Item = {
   nome: string;
   link: string;
   quantidade_minima?: string | null;
@@ -15,19 +18,24 @@ export type AuchanItem = {
   preco_antigo?: string | null;
   promocao?: string | null;
   data_execucao?: string;
+  // VER QUE OUTROS CAMPOS PRECISAM DE APARECER AQUI PARA AS VARIAS LOJAS
+  [key: string]: unknown;
 };
 
 export type ScrapeResponse = {
   store: string;
   query: string;
   count: number;
-  items: AuchanItem[];
+  items: Item[];
 };
 
-export async function scrapeAuchan(query: string): Promise<ScrapeResponse> {
-  const url = `${BASE_URL}/scrape?store=auchan&query=${encodeURIComponent(
-    query
-  )}`;
+export async function scrapeStore(
+  store: StoreId,
+  query: string
+): Promise<ScrapeResponse> {
+  const url = `${BASE_URL}/scrape?store=${encodeURIComponent(
+    store
+  )}&query=${encodeURIComponent(query)}`;
 
   const res = await fetch(url, {
     cache: "no-store",

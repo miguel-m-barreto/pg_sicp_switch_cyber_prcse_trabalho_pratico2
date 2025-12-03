@@ -1,54 +1,86 @@
-// app/dashboard/page.tsx
+// app/dashboard/[store]/page.tsx
 
 import Link from "next/link";
-import { scrapeAuchan } from "@/lib/scraperClient";
+import {
+  scrapeStore,
+  SUPPORTED_STORES,
+  type StoreId,
+} from "@/lib/scraperClient";
 
-// In Next 15, searchParams in async server components is a Promise
-type DashboardPageProps = {
+type PageProps = {
+  params: { store: string };
   searchParams: Promise<{ q?: string }>;
 };
 
-export default async function DashboardPage({ searchParams }: DashboardPageProps) {
-  // Await the promise coming from Next.js
+const STORE_LABEL: Record<StoreId, string> = {
+  auchan: "Auchan",
+  froiz: "Froiz",
+  pingo_doce: "Pingo Doce",
+};
+
+export default async function StoreDashboardPage({
+  params,
+  searchParams,
+}: PageProps) {
+  const rawStore = params.store.toLowerCase();
+  const isSupported = (SUPPORTED_STORES as readonly string[]).includes(
+    rawStore
+  );
+
+  if (!isSupported) {
+    return (
+      <main className="min-h-screen bg-zinc-950 text-zinc-100">
+        <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
+          <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
+            <Link href="/" className="font-semibold tracking-tight text-zinc-200">
+              GreyScrape
+            </Link>
+          </nav>
+          <p className="text-sm text-red-400">
+            Store &quot;{rawStore}&quot; is not supported.
+          </p>
+        </section>
+      </main>
+    );
+  }
+
+  const store = rawStore as StoreId;
   const sp = await searchParams;
   const query = (sp.q ?? "").trim();
 
-  let data: Awaited<ReturnType<typeof scrapeAuchan>> | null = null;
   let errorMessage: string | null = null;
+  let data: Awaited<ReturnType<typeof scrapeStore>> | null = null;
 
   if (query) {
     try {
-      data = await scrapeAuchan(query);
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        errorMessage = err.message;
-      } else {
-        errorMessage = "Unexpected error while scraping.";
-      }
+      data = await scrapeStore(store, query);
+    } catch (err) {
+      errorMessage =
+        err instanceof Error ? err.message : "Unexpected error while scraping.";
     }
   }
+
+  const storeLabel = STORE_LABEL[store];
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
       <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
-        {/* Simple top navigation bar */}
         <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
           <Link href="/" className="font-semibold tracking-tight text-zinc-200">
             GreyScrape
           </Link>
           <span className="text-xs text-zinc-500">
-            Backend: Auchan · Live scraping
+            Backend: {storeLabel} · Live scraping
           </span>
         </nav>
 
-        {/* Search area */}
         <div className="mb-6">
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-100">
-            Auchan price lookup
+            {storeLabel} price lookup
           </h1>
           <p className="mt-1 text-sm text-zinc-400">
-            Type a product name and we will scrape Auchan in real time and list
-            the current prices.
+            Type a product name and we will scrape {storeLabel} in real time and
+            list the current prices.
           </p>
 
           <form className="mt-4 flex gap-2" method="GET">
@@ -68,7 +100,6 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
           </form>
         </div>
 
-        {/* Results area */}
         <div className="flex-1">
           {!query && (
             <p className="text-sm text-zinc-500">
@@ -78,7 +109,7 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
 
           {query && errorMessage && (
             <p className="text-sm text-red-400">
-              Failed to scrape Auchan: {errorMessage}
+              Failed to scrape {storeLabel}: {errorMessage}
             </p>
           )}
 
@@ -92,14 +123,12 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
               </div>
 
               <div className="rounded-xl border border-zinc-900 bg-zinc-950/60">
-                {/* Header row */}
                 <div className="grid grid-cols-[minmax(0,2fr),minmax(0,1fr),minmax(0,1fr)] gap-3 border-b border-zinc-900 px-4 py-2 text-xs uppercase tracking-wide text-zinc-500">
                   <span>Nome</span>
                   <span className="text-right">Preço</span>
                   <span className="text-right">Preço unitário</span>
                 </div>
 
-                {/* Rows */}
                 <div className="divide-y divide-zinc-900">
                   {data.items.map((item, idx) => (
                     <a
@@ -133,7 +162,7 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
                 <p className="text-[0.7rem] text-zinc-500">
                   Data scraped at:{" "}
                   <span className="text-zinc-300">
-                    {data.items[0].data_execucao}
+                    {data.items[0].data_execucao as string}
                   </span>
                 </p>
               )}
