@@ -40,3 +40,18 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload
 sudo systemctl enable greyscrape.service
 sudo systemctl start greyscrape.service
+
+
+## Ao alterar codigo
+
+sudo systemctl restart greyscrape.service
+sudo systemctl status greyscrape.service
+
+```
+Deve aparecer algo como:
+Active: active (running)
+
+
+Se aparecer “failed”, ver o erro com:
+journalctl -u greyscrape.service -n 100 --no-pager
+```
