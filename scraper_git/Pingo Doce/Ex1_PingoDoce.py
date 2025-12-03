@@ -1,3 +1,4 @@
+# scraper_git/Pingo Doce/Ex1_PingoDoce.py
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By

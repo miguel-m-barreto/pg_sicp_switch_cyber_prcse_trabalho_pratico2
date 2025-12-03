@@ -1,3 +1,4 @@
+# scraper_git/Froiz/Ex1_Froiz.py
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
