@@ -88,7 +88,7 @@ export default async function StoreDashboardPage(props: PageProps) {
             GreyScrape
           </Link>
           <span className="text-xs text-zinc-500">
-            Backend: {storeLabel} · Live scraping
+            {storeLabel} · Products
           </span>
         </nav>
 

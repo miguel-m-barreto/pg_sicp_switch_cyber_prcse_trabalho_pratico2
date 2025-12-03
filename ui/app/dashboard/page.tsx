@@ -29,7 +29,7 @@ export default async function DashboardOverviewPage() {
             GreyScrape
           </Link>
           <span className="text-xs text-zinc-500">
-            Overview · Sample products from each store
+            Overview · Highlighted products from each store
           </span>
         </nav>
 
