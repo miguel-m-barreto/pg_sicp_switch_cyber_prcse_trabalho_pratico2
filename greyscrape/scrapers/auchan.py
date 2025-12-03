@@ -19,14 +19,15 @@ def scrape_auchan(produto: Optional[str] = None) -> List[Dict]:
 
     produto = (produto or "").strip().lower()
 
-    if produto:
+    if "categoria:" in produto:
+        url = "https://www.auchan.pt/pt/{produto}/"
+
+    elif produto:
         url = (
             "https://www.auchan.pt/pt/pesquisa?"
             f"search-button=&q={produto}&lang=null"
         )
 
-    elif "categoria:" in produto:
-        url = "https://www.auchan.pt/pt/{produto}/"
     else:
         # Landing page with highlighted products
         url = "https://www.auchan.pt/pt"
