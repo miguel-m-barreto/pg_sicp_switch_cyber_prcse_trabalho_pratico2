@@ -19,8 +19,15 @@ def scrape_auchan(produto: Optional[str] = None) -> List[Dict]:
 
     produto = (produto or "").strip().lower()
 
-    if "categoria:" in produto:
-        url = "https://www.auchan.pt/pt/{produto}/"
+    if produto.startswith("categoria"):
+        if ":" in produto:
+            categoria = produto.split(":", 1)[1].strip()
+        elif "-" in produto:
+            categoria = produto.split("-", 1)[1].strip()
+        else:
+            categoria = produto.split(" ", 1)[1].strip()
+
+        url = f"https://www.auchan.pt/pt/{categoria}/"
 
     elif produto:
         url = (
