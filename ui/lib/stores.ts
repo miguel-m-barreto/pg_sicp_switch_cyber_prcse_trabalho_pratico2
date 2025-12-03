@@ -18,12 +18,12 @@ export const STORES: {
     id: "froiz",
     label: "Froiz",
     description: "Highlighted products from Froiz.",
-    defaultQuery: "", // depois adaptamos o scraper de Froiz
+    defaultQuery: "",
   },
   {
     id: "pingo_doce",
     label: "Pingo Doce",
     description: "Highlighted products from Pingo Doce.",
-    defaultQuery: "", // idem
+    defaultQuery: "",
   },
 ];

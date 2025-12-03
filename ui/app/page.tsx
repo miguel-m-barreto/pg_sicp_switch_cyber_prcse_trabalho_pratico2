@@ -74,7 +74,7 @@ export default function HomePage() {
             </div>
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
               <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
-                Froiz (TODO)
+                Froiz
               </p>
               <p>Scrape data from Froiz</p>
             </div>
