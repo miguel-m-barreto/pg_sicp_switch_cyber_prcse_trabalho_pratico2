@@ -1,0 +1,522 @@
+[
+    {
+        "nome": "",
+        "link": "",
+        "quantidade_minima": null,
+        "preco_unitario": null,
+        "preco_atual": null,
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida vit-hit immunitea 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/aguas-funcionais/bebida-vit-hit-immunitea-0.50l/3585589.html?isCitrusAd=true",
+        "quantidade_minima": null,
+        "preco_unitario": "4.48 €/Lt",
+        "preco_atual": "2.24",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida vit-hit lean & green 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/aguas-funcionais/bebida-vit-hit-lean-e-green-0.50l/3585591.html?isCitrusAd=true",
+        "quantidade_minima": null,
+        "preco_unitario": "4.48 €/Lt",
+        "preco_atual": "2.24",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida vit-hit perform 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/aguas-funcionais/bebida-vit-hit-perform-0.50l/3585584.html?isCitrusAd=true",
+        "quantidade_minima": null,
+        "preco_unitario": "4.48 €/Lt",
+        "preco_atual": "2.24",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida espirituosa constantino 0.70l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/outras-espirituosas/bebida-espirituosa-constantino-0.70l/38507.html",
+        "quantidade_minima": null,
+        "preco_unitario": "15.13 €/Lt",
+        "preco_atual": "10.59",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida espirituosa 1920 0.70l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/outras-espirituosas/bebida-espirituosa-1920-0.70l/2131730.html",
+        "quantidade_minima": null,
+        "preco_unitario": "16.41 €/Lt",
+        "preco_atual": "11.49",
+        "preco_antigo": "12.99",
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida red bull 6x0.25ml",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-6x0.25ml/775597.html",
+        "quantidade_minima": null,
+        "preco_unitario": "4.97 €/Lt",
+        "preco_atual": "7.45",
+        "preco_antigo": "9.54",
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida aquarius limão 1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-limao-1.5l/2618651.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.57 €/Lt",
+        "preco_atual": "2.35",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida aquarius laranja 1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-laranja-1.5l/2618631.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.57 €/Lt",
+        "preco_atual": "2.35",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida faisão fruity 0.75l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/sangria-e-aromatizados/bebida-faisao-fruity-0.75l/2751999.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.72 €/Lt",
+        "preco_atual": "4.29",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida prime benfica 0.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-benfica-0.5l/3833210.html",
+        "quantidade_minima": null,
+        "preco_unitario": "4.98 €/Lt",
+        "preco_atual": "2.49",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno ervas 0.33l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-ervas-0.33l/2214742.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.39 €/Lt",
+        "preco_atual": "0.79",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida prime glowberry 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-glowberry-0.50l/3933141.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.98 €/Lt",
+        "preco_atual": "2.99",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida andros limonada 1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/refrigerados/bebida-andros-limonada-1.5l/3933146.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.33 €/Lt",
+        "preco_atual": "4.99",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida espirituosa passport 0.70l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/whisky/bebida-espirituosa-passport-0.70l/573165.html",
+        "quantidade_minima": null,
+        "preco_unitario": "15.36 €/Lt",
+        "preco_atual": "10.75",
+        "preco_antigo": "14.35",
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida sunlover protector 0.25l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/aguas-funcionais/bebida-sunlover-protector-0.25l/1047050.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5 €/Lt",
+        "preco_atual": "1.25",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida aquarius laranja 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-laranja-0.50l/755303.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.2 €/Lt",
+        "preco_atual": "1.10",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida aquarius limão 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-limao-0.50l/755305.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.2 €/Lt",
+        "preco_atual": "1.10",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pedras tangerina 4x0.25l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/aguas-com-gas-com-sabores/bebida-pedras-tangerina-4x0.25l/3170586.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.29 €/Lt",
+        "preco_atual": "2.29",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebidas hbi sakê 300ml",
+        "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/cozinha-asiatica/bebidas/bebidas-hbi-sake-300ml/3491006.html",
+        "quantidade_minima": null,
+        "preco_unitario": "16.3 €/Lt",
+        "preco_atual": "4.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno ervas 6x0.33l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-ervas-6x0.33l/2214734.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.39 €/Lt",
+        "preco_atual": "4.74",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida oatly aveia 1l",
+        "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/bebidas-vegetais/aveia/bebida-oatly-aveia-1l/3287128.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.91 €/Lt",
+        "preco_atual": "1.91",
+        "preco_antigo": "2.39",
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida espirituosa bacardi limón 0.70l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/outras-espirituosas/bebida-espirituosa-bacardi-limon-0.70l/3801451.html",
+        "quantidade_minima": null,
+        "preco_unitario": "23.27 €/Lt",
+        "preco_atual": "16.29",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida shoyce soja 1l",
+        "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/bebidas-vegetais/soja/bebida-shoyce-soja-1l/2141455.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.35 €/Lt",
+        "preco_atual": "1.35",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida prime blue raspberry 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-blue-raspberry-0.50l/3711557.html",
+        "quantidade_minima": null,
+        "preco_unitario": "4.98 €/Lt",
+        "preco_atual": "2.49",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida prime lima limão 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-lima-limao-0.50l/3711548.html",
+        "quantidade_minima": null,
+        "preco_unitario": "4.98 €/Lt",
+        "preco_atual": "2.49",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida prime ice laranja 0.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-ice-laranja-0.5l/3946795.html",
+        "quantidade_minima": null,
+        "preco_unitario": "4.98 €/Lt",
+        "preco_atual": "2.49",
+        "preco_antigo": "2.99",
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida espirituosa tanqueray 0.0 0.70l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/gin-vodka-e-tequila/bebida-espirituosa-tanqueray-0.0-0.70l/3680173.html",
+        "quantidade_minima": null,
+        "preco_unitario": "25.99 €/Lt",
+        "preco_atual": "18.19",
+        "preco_antigo": "21.49",
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida burn energética lata 0.25l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-burn-energetica-lata-0.25l/1036661.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.6 €/Lt",
+        "preco_atual": "0.65",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida casal mendes blue 0.75l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/vinhos-rose/bebida-casal-mendes-blue-0.75l/2281085.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.72 €/Lt",
+        "preco_atual": "4.29",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida energetica hell zero 0.25l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-zero-0.25l/3820640.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.56 €/Lt",
+        "preco_atual": "0.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida energetica hell melancia 0.25l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-melancia-0.25l/3820638.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.56 €/Lt",
+        "preco_atual": "0.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida energetica hell classic 0.25l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-classic-0.25l/3815125.html",
+        "quantidade_minima": null,
+        "preco_unitario": "3.56 €/Lt",
+        "preco_atual": "0.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida burn energética lata 0.50l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-burn-energetica-lata-0.50l/1097295.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.38 €/Lt",
+        "preco_atual": "1.19",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida shoyce soja + proteína 200ml",
+        "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/bebidas-vegetais/soja/bebida-shoyce-soja-proteina-200ml/3072461.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.45 €/Lt",
+        "preco_atual": "1.09",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida faisão red berries 0.75l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/sangria-e-aromatizados/bebida-faisao-red-berries-0.75l/3038030.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.72 €/Lt",
+        "preco_atual": "4.29",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida aquarius laranja zero 1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-laranja-zero-1.5l/2735338.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.57 €/Lt",
+        "preco_atual": "2.35",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida faisão black berries 0.75l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/sangria-e-aromatizados/bebida-faisao-black-berries-0.75l/3166543.html",
+        "quantidade_minima": null,
+        "preco_unitario": "5.72 €/Lt",
+        "preco_atual": "4.29",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno matcha & menta 1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-matcha-e-menta-1.5l/3918601.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.26 €/Lt",
+        "preco_atual": "1.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno acaí mirtilo&rooibos 1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-acai-mirtiloerooibos-1.5l/3919249.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.26 €/Lt",
+        "preco_atual": "1.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno matcha menta 6x0.33l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-matcha-menta-6x0.33l/3919277.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.39 €/Lt",
+        "preco_atual": "4.74",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno matcha & menta 4x1.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-matcha-e-menta-4x1.5l/3918600.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.26 €/Lt",
+        "preco_atual": "7.56",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno açai mirtilo&rooibos 6x0.33l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-acai-mirtiloerooibos-6x0.33l/3919268.html",
+        "quantidade_minima": null,
+        "preco_unitario": "2.39 €/Lt",
+        "preco_atual": "4.74",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida pleno açai&mirtilo 4x1.5 l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-acaiemirtilo-4x1.5-l/3919245.html",
+        "quantidade_minima": null,
+        "preco_unitario": "1.26 €/Lt",
+        "preco_atual": "7.56",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida hollinger energética 250 ml",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-hollinger-energetica-250-ml/3796467.html",
+        "quantidade_minima": null,
+        "preco_unitario": "7.56 €/Lt",
+        "preco_atual": "1.89",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida kaiku café capuccino 230ml",
+        "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/bebidas-de-cafe-refrigeradas/bebida-kaiku-cafe-capuccino-230ml/3799222.html",
+        "quantidade_minima": null,
+        "preco_unitario": "8.04 €/Lt",
+        "preco_atual": "1.85",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida prime morango melancia 0.5l",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-morango-melancia-0.5l/3790692.html",
+        "quantidade_minima": null,
+        "preco_unitario": "4.98 €/Lt",
+        "preco_atual": "2.49",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida auchan instantânea ananás 40g",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/concentrados/bebida-auchan-instantanea-ananas-40g/889072.html",
+        "quantidade_minima": null,
+        "preco_unitario": "18.75 €/Kg",
+        "preco_atual": "0.75",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida auchan instantânea manga 40g",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/concentrados/bebida-auchan-instantanea-manga-40g/889077.html",
+        "quantidade_minima": null,
+        "preco_unitario": "18.75 €/Kg",
+        "preco_atual": "0.75",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida auchan instantânea morango 40g",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/concentrados/bebida-auchan-instantanea-morango-40g/889082.html",
+        "quantidade_minima": null,
+        "preco_unitario": "18.75 €/Kg",
+        "preco_atual": "0.75",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida auchan instantânea laranja 40g",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/concentrados/bebida-auchan-instantanea-laranja-40g/889076.html",
+        "quantidade_minima": null,
+        "preco_unitario": "18.75 €/Kg",
+        "preco_atual": "0.75",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    },
+    {
+        "nome": "bebida auchan instantânea limão 40g",
+        "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/concentrados/bebida-auchan-instantanea-limao-40g/2671411.html",
+        "quantidade_minima": null,
+        "preco_unitario": "18.75 €/Kg",
+        "preco_atual": "0.75",
+        "preco_antigo": null,
+        "promocao": null,
+        "data_execucao": "2025-11-28 22:07:21"
+    }
+]
