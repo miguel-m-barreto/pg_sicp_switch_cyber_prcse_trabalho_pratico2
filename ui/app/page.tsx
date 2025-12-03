@@ -33,6 +33,10 @@ export default function HomePage() {
               Grey Scrape, data is power
             </p>
 
+            <p className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs uppercase tracking-wide text-zinc-400">
+              It might seem a little illegal, but as our professor would say, "It's gray."
+            </p>
+
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
               A grey dashboard for{" "}
               <span className="text-zinc-300 underline decoration-zinc-600">
@@ -177,8 +181,8 @@ export default function HomePage() {
             This is a school project focused on Data Scraping.
             We made it while still demonstrating a clean separation
             between data collection and visualization.
-            The scraping logic runs in Python, 
-            while the frontend only consumes the generated JSON, 
+            The scraping logic runs in Python,
+            while the frontend only consumes the generated JSON,
             which keeps the website simple, fast, and clean.
           </p>
         </div>
