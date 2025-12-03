@@ -18,7 +18,6 @@ export type Item = {
   preco_antigo?: string | null;
   promocao?: string | null;
   data_execucao?: string;
-  // VER QUE OUTROS CAMPOS PRECISAM DE APARECER AQUI PARA AS VARIAS LOJAS
   [key: string]: unknown;
 };
 
@@ -37,13 +36,34 @@ export async function scrapeStore(
     store
   )}&query=${encodeURIComponent(query)}`;
 
+  // DEBUG: ver exatamente o que o frontend está a pedir
+  console.log("[scrapeStore] GET", url, "query=", JSON.stringify(query));
+
   const res = await fetch(url, {
     cache: "no-store",
   });
 
+  // DEBUG: status + corpo em caso de erro
   if (!res.ok) {
+    let body = "";
+    try {
+      body = await res.text();
+    } catch {
+      body = "<no body>";
+    }
+
+    console.error(
+      "[scrapeStore] FAILED",
+      res.status,
+      res.statusText,
+      "body=",
+      body
+    );
+
     throw new Error(`Scrape failed with status ${res.status}`);
   }
+
+  console.log("[scrapeStore] OK", res.status);
 
   return res.json();
 }

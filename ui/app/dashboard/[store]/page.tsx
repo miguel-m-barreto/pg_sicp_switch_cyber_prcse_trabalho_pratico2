@@ -7,8 +7,9 @@ import {
   type StoreId,
 } from "@/lib/scraperClient";
 
+// Em Next 15/16: params e searchParams são PROMISES
 type PageProps = {
-  params: { store: string };
+  params: Promise<{ store?: string }>;
   searchParams: Promise<{ q?: string }>;
 };
 
@@ -18,14 +19,32 @@ const STORE_LABEL: Record<StoreId, string> = {
   pingo_doce: "Pingo Doce",
 };
 
-export default async function StoreDashboardPage({
-  params,
-  searchParams,
-}: PageProps) {
-  const rawStore = params.store.toLowerCase();
-  const isSupported = (SUPPORTED_STORES as readonly string[]).includes(
-    rawStore
-  );
+export default async function StoreDashboardPage(props: PageProps) {
+  // Desempacotar as Promises
+  const { store } = await props.params;
+  const sp = await props.searchParams;
+
+  const rawStore = store?.toLowerCase?.();
+
+  if (!rawStore) {
+    return (
+      <main className="min-h-screen bg-zinc-950 text-zinc-100">
+        <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
+          <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
+            <Link href="/" className="font-semibold tracking-tight text-zinc-200">
+              GreyScrape
+            </Link>
+          </nav>
+
+          <p className="text-sm text-red-400">
+            Missing or invalid <code>store</code> parameter.
+          </p>
+        </section>
+      </main>
+    );
+  }
+
+  const isSupported = (SUPPORTED_STORES as readonly string[]).includes(rawStore);
 
   if (!isSupported) {
     return (
@@ -44,27 +63,26 @@ export default async function StoreDashboardPage({
     );
   }
 
-  const store = rawStore as StoreId;
-  const sp = await searchParams;
+  const storeId = rawStore as StoreId;
   const query = (sp.q ?? "").trim();
 
   let errorMessage: string | null = null;
   let data: Awaited<ReturnType<typeof scrapeStore>> | null = null;
 
-  if (query) {
-    try {
-      data = await scrapeStore(store, query);
-    } catch (err) {
-      errorMessage =
-        err instanceof Error ? err.message : "Unexpected error while scraping.";
-    }
+  try {
+    // query vazia => landing page
+    data = await scrapeStore(storeId, query);
+  } catch (err) {
+    errorMessage =
+      err instanceof Error ? err.message : "Unexpected error while scraping.";
   }
 
-  const storeLabel = STORE_LABEL[store];
+  const storeLabel = STORE_LABEL[storeId];
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
       <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
+        {/* Header */}
         <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
           <Link href="/" className="font-semibold tracking-tight text-zinc-200">
             GreyScrape
@@ -74,13 +92,15 @@ export default async function StoreDashboardPage({
           </span>
         </nav>
 
+        {/* Search */}
         <div className="mb-6">
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-100">
             {storeLabel} price lookup
           </h1>
           <p className="mt-1 text-sm text-zinc-400">
-            Type a product name and we will scrape {storeLabel} in real time and
-            list the current prices.
+            {query
+              ? `Showing results for “${query}”.`
+              : `Showing highlighted products from ${storeLabel}. Use the search box to filter by product name.`}
           </p>
 
           <form className="mt-4 flex gap-2" method="GET">
@@ -101,23 +121,30 @@ export default async function StoreDashboardPage({
         </div>
 
         <div className="flex-1">
-          {!query && (
-            <p className="text-sm text-zinc-500">
-              Start by typing a product name above and hitting Search.
-            </p>
-          )}
-
-          {query && errorMessage && (
-            <p className="text-sm text-red-400">
+          {/* Erro sempre que exista, independentemente da query */}
+          {errorMessage && (
+            <p className="mb-4 text-sm text-red-400">
               Failed to scrape {storeLabel}: {errorMessage}
             </p>
           )}
 
-          {query && data && (
+          {/* Se não há dados (erro grave), mostra hint */}
+          {!data && !errorMessage && (
+            <p className="text-sm text-zinc-500">No data loaded yet.</p>
+          )}
+
+          {/* Tabela de resultados */}
+          {data && (
             <div className="space-y-3">
               <div className="flex items-center justify-between text-xs text-zinc-500">
                 <span>
-                  Query: <span className="text-zinc-200">{data.query}</span>
+                  {query ? (
+                    <>
+                      Query: <span className="text-zinc-200">{data.query}</span>
+                    </>
+                  ) : (
+                    <span>Highlighted products</span>
+                  )}
                 </span>
                 <span>{data.count} items found</span>
               </div>
@@ -152,7 +179,7 @@ export default async function StoreDashboardPage({
 
                   {data.items.length === 0 && (
                     <div className="px-4 py-3 text-sm text-zinc-500">
-                      No items found for this query.
+                      No items found.
                     </div>
                   )}
                 </div>
