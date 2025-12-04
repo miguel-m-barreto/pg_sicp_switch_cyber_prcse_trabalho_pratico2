@@ -1,7 +1,7 @@
 # scrapers/__init__.py
 from typing import List, Dict, Callable, Optional
 
-from .auchan import scrape_auchan
+from ...scraper_git.TESTE.OLD.OLDEST.auchan import scrape_auchan
 from .froiz import scrape_froiz
 from .pingo_doce import scrape_pingo_doce
 
