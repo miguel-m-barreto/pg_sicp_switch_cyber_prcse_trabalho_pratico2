@@ -1,14 +1,16 @@
-# greyscrape/scrapers/auchan/supabase_client.py
+# greyscrape/scrapers/supabase_client.py
 
 import os
 import sys
 from datetime import datetime, timezone
 from typing import List, Dict, Optional, Callable
-from dotenv import load_dotenv
+from pathlib import Path
 
+from dotenv import load_dotenv
 import requests
 
-load_dotenv("/home/user/Documents/Trabalho-Pratico2_SCRIPTS/.env.local")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(PROJECT_ROOT / ".env.local")
 
 def get_env_var(name: str) -> str:
     """

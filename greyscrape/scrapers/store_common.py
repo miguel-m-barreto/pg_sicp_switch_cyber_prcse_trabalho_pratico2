@@ -1,4 +1,4 @@
-# scraper_git/TESTE/store_common.py
+# greyscrape/scrapers/store_common.py
 
 import os
 import threading
@@ -8,10 +8,10 @@ from typing import Optional
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-LOG_DIR_NAME = "logs"
+LOG_DIR_NAME = "auchan/logs"
+WORKER_LOG_DIR_NAME = "auchan/worker_logs"
 
 _LOG_LOCK = threading.Lock()
-
 
 def log_msg(msg: str, worker_id: Optional[int] = None) -> None:
     """
@@ -28,7 +28,7 @@ def log_msg(msg: str, worker_id: Optional[int] = None) -> None:
         # per-worker log file
         if worker_id is not None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            log_dir = os.path.join(base_dir, "worker_logs")
+            log_dir = os.path.join(base_dir, WORKER_LOG_DIR_NAME)
             os.makedirs(log_dir, exist_ok=True)
             path = os.path.join(log_dir, f"worker_{worker_id}.log")
             with open(path, "a", encoding="utf-8") as f:

@@ -1,0 +1,120 @@
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [1/53] https://www.auchan.pt/pt/o-mundo-do-bebe/medicamentos
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/o-mundo-do-bebe/medicamentos' (page_path='o-mundo-do-bebe/medicamentos', cgid='medicamentos')
+[Worker 3] <<< Finished 'sub_category:o-mundo-do-bebe/medicamentos': 15 products in 10.2 seconds
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [2/53] https://www.auchan.pt/pt/o-mundo-do-bebe/preparacao-e-alimentacao-infantil
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/o-mundo-do-bebe/preparacao-e-alimentacao-infantil' (page_path='o-mundo-do-bebe/preparacao-e-alimentacao-infantil', cgid='preparacao-e-alimentacao-infantil')
+[Worker 3] <<< Finished 'sub_category:o-mundo-do-bebe/preparacao-e-alimentacao-infantil': 565 products in 1m 1s
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [3/53] https://www.auchan.pt/pt/o-mundo-do-bebe/quarto-do-bebe
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/o-mundo-do-bebe/quarto-do-bebe' (page_path='o-mundo-do-bebe/quarto-do-bebe', cgid='quarto-do-bebe')
+[Worker 3] <<< Finished 'sub_category:o-mundo-do-bebe/quarto-do-bebe': 72 products in 13.6 seconds
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [4/53] https://www.auchan.pt/pt/o-mundo-do-bebe/viagens-e-passeios
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/o-mundo-do-bebe/viagens-e-passeios' (page_path='o-mundo-do-bebe/viagens-e-passeios', cgid='viagens-e-passeios')
+[Worker 3] <<< Finished 'sub_category:o-mundo-do-bebe/viagens-e-passeios': 97 products in 19.7 seconds
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [5/53] https://www.auchan.pt/pt/papelaria-e-livraria/livraria
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/papelaria-e-livraria/livraria' (page_path='papelaria-e-livraria/livraria', cgid='livraria')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/papelaria-e-livraria/livraria': ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [6/53] https://www.auchan.pt/pt/papelaria-e-livraria/pack-experiencias-odisseias
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/papelaria-e-livraria/pack-experiencias-odisseias' (page_path='papelaria-e-livraria/pack-experiencias-odisseias', cgid='pack-experiencias-odisseias')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/papelaria-e-livraria/pack-experiencias-odisseias': HTTPConnectionPool(host='localhost', port=48925): Max retries exceeded with url: /session/73ffb9ea97d95bfaf0865c924ad2adb3/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df1dab11250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [7/53] https://www.auchan.pt/pt/papelaria-e-livraria/papelaria
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/papelaria-e-livraria/papelaria' (page_path='papelaria-e-livraria/papelaria', cgid='papelaria')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/papelaria-e-livraria/papelaria': HTTPConnectionPool(host='localhost', port=48925): Max retries exceeded with url: /session/73ffb9ea97d95bfaf0865c924ad2adb3/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df1dba59ee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [8/53] https://www.auchan.pt/pt/papelaria-e-livraria/presentes-e-embrulhos
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/papelaria-e-livraria/presentes-e-embrulhos' (page_path='papelaria-e-livraria/presentes-e-embrulhos', cgid='presentes-e-embrulhos')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/papelaria-e-livraria/presentes-e-embrulhos': HTTPConnectionPool(host='localhost', port=48925): Max retries exceeded with url: /session/73ffb9ea97d95bfaf0865c924ad2adb3/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df1e17a56d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [1/40] https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/limpeza-e-tratamento-de-roupa
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/limpeza-e-tratamento-de-roupa' (page_path='limpeza-e-cuidados-do-lar/limpeza-e-tratamento-de-roupa', cgid='limpeza-e-tratamento-de-roupa')
+[Worker 3] <<< Finished 'sub_category:limpeza-e-cuidados-do-lar/limpeza-e-tratamento-de-roupa': 602 products in 2m 7s
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [2/40] https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/limpeza-ecologica
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/limpeza-ecologica' (page_path='limpeza-e-cuidados-do-lar/limpeza-ecologica', cgid='limpeza-ecologica')
+[Worker 3] <<< Finished 'sub_category:limpeza-e-cuidados-do-lar/limpeza-ecologica': 68 products in 23.5 seconds
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [3/40] https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/limpeza-especial-animais
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/limpeza-especial-animais' (page_path='limpeza-e-cuidados-do-lar/limpeza-especial-animais', cgid='limpeza-especial-animais')
+[Worker 3] <<< Finished 'sub_category:limpeza-e-cuidados-do-lar/limpeza-especial-animais': 48 products in 17.2 seconds
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [4/40] https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/sacos-e-baldes-de-lixo
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/limpeza-e-cuidados-do-lar/sacos-e-baldes-de-lixo' (page_path='limpeza-e-cuidados-do-lar/sacos-e-baldes-de-lixo', cgid='sacos-e-baldes-de-lixo')
+[Worker 3] <<< Finished 'sub_category:limpeza-e-cuidados-do-lar/sacos-e-baldes-de-lixo': 78 products in 25.3 seconds
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [5/40] https://www.auchan.pt/pt/marcas-auchan/actuel
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/actuel' (page_path='marcas-auchan/actuel', cgid='actuel')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/actuel': ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [6/40] https://www.auchan.pt/pt/marcas-auchan/airport
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/airport' (page_path='marcas-auchan/airport', cgid='airport')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/airport': HTTPConnectionPool(host='localhost', port=33613): Max retries exceeded with url: /session/6aa61fd7ee1482688a21d9f41deaf97c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9c85b0830>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [7/40] https://www.auchan.pt/pt/marcas-auchan/auchan
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/auchan' (page_path='marcas-auchan/auchan', cgid='auchan')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/auchan': HTTPConnectionPool(host='localhost', port=33613): Max retries exceeded with url: /session/6aa61fd7ee1482688a21d9f41deaf97c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9cab86b10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [8/40] https://www.auchan.pt/pt/marcas-auchan/auchan-a-mesa
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/auchan-a-mesa' (page_path='marcas-auchan/auchan-a-mesa', cgid='auchan-a-mesa')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/auchan-a-mesa': HTTPConnectionPool(host='localhost', port=33613): Max retries exceeded with url: /session/6aa61fd7ee1482688a21d9f41deaf97c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d3235040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [9/40] https://www.auchan.pt/pt/marcas-auchan/auchan-baby
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/auchan-baby' (page_path='marcas-auchan/auchan-baby', cgid='auchan-baby')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/auchan-baby': HTTPConnectionPool(host='localhost', port=33613): Max retries exceeded with url: /session/6aa61fd7ee1482688a21d9f41deaf97c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d3235eb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [10/40] https://www.auchan.pt/pt/marcas-auchan/auchan-better-life
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/auchan-better-life' (page_path='marcas-auchan/auchan-better-life', cgid='auchan-better-life')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/auchan-better-life': HTTPConnectionPool(host='localhost', port=33613): Max retries exceeded with url: /session/6aa61fd7ee1482688a21d9f41deaf97c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d06178c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [11/40] https://www.auchan.pt/pt/marcas-auchan/auchan-bio
+[Worker 3] ================================================================================
+[Worker 3] >>> Starting scrape for URL='https://www.auchan.pt/pt/marcas-auchan/auchan-bio' (page_path='marcas-auchan/auchan-bio', cgid='auchan-bio')
+[Worker 3] [ERROR] Failed scraping 'https://www.auchan.pt/pt/marcas-auchan/auchan-bio': HTTPConnectionPool(host='localhost', port=33613): Max retries exceeded with url: /session/6aa61fd7ee1482688a21d9f41deaf97c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d3236a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[Worker 3] 
+[Worker 3] ================================================================================
+[Worker 3] [12/40] https://www.auchan.pt/pt/marcas-auchan/auchan-collection
+[Worker 3] ================================================================================

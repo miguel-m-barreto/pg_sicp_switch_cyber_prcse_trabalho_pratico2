@@ -1,5 +1,4 @@
-# greyscrape/scrapers/auchan/auchan_all_sub_categories_parallel.py
-
+# greyscrape/scrapers/auchan_all_sub_categories_parallel.py
 import json
 import math
 import os
@@ -8,7 +7,9 @@ import time
 from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 
+from dotenv import load_dotenv
 from selenium import webdriver
 
 from auchan_DB import (
@@ -16,16 +17,21 @@ from auchan_DB import (
     _detect_sub_category_from_url,
     _save_json_log,
 )
+
 from store_common import format_elapsed_time, build_headless_chrome, log_msg
 
+# Load .env.local a partir da raiz (Trabalho-Pratico2_SCRIPTS)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(PROJECT_ROOT / ".env.local")
 
 LINKS_DEFAULT_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
+    "auchan",
     "links",
     "auchan_sub_categories.json",
 )
 
-# Max number of parallel workers (tune according to CPU/RAM and ban risk)
+# Max number of parallel workers (more workers more CPU/RAM and ban risk)
 NUM_WORKERS = int(os.getenv("AUCHAN_NUM_WORKERS", "1"))
 
 
@@ -39,7 +45,19 @@ def _load_sub_category_urls(path: str) -> List[str]:
       - {"urls": [...]} / {"categories": [...]} wrappers.
     """
     if not os.path.exists(path):
+        # Neste momento NÃO tens gerador automático de links,
+        # por isso falhamos de forma explícita.
+        log_msg(f"[Auchan] Links JSON not found: {path}")
         raise FileNotFoundError(f"Links JSON not found: {path}")
+
+        # Se no futuro quiseres gerar o ficheiro automaticamente,
+        # podes fazer algo do género:
+        #
+        # from auchan.generate_links import main as generate_links
+        # log_msg("[Auchan] Links file missing, generating it...")
+        # generate_links()
+        # if not os.path.exists(path):
+        #     raise FileNotFoundError(f"Links JSON still missing after generation: {path}")
 
     with open(path, "r", encoding="utf-8") as f:
         data: Any = json.load(f)
@@ -117,7 +135,7 @@ def _scrape_single_category(
 
     start_ts = time.time()
     try:
-        produtos = _scrape_category_with_api_and_selenium(
+        produtos, stats = _scrape_category_with_api_and_selenium(
             driver=driver,
             page_path=page_path,
             cgid=cgid,
@@ -128,13 +146,29 @@ def _scrape_single_category(
         return None
 
     total = len(produtos)
-    context = f"sub_category:{page_path}"
+    final_cgid = stats.get("final_cgid", cgid)
+    total_expected = stats.get("total_expected")
+    chunks = stats.get("chunks")
+
+    # Contexto agora inclui o cgid final (o que foi mesmo usado na API)
+    context = f"sub_category:{page_path}|cgid={final_cgid}"
     _save_json_log(produtos, context)
 
-    log_msg(
-        f"<<< Finished '{context}': {total} products in {format_elapsed_time(start_ts)}",
-        worker_id=worker_id,
-    )
+    elapsed_str = format_elapsed_time(start_ts)
+
+    if total_expected:
+        log_msg(
+            f"<<< Finished '{context}': {total}/{total_expected} products "
+            f"in {elapsed_str} (chunks={chunks})",
+            worker_id=worker_id,
+        )
+    else:
+        log_msg(
+            f"<<< Finished '{context}': {total} products "
+            f"in {elapsed_str} (chunks={chunks})",
+            worker_id=worker_id,
+        )
+
     return context, total
 
 
@@ -172,7 +206,6 @@ def _worker_scrape_chunk(urls: List[str], worker_id: int) -> Dict[str, Any]:
             successful_cats += 1
 
     except WebDriverException as exc:
-        # Do not assume idx/url exist here
         log_msg(f"[FATAL] WebDriverException in worker: {exc}", worker_id=worker_id)
         # Mark all remaining URLs as failed (including the one that crashed mid-way)
         for url in urls[successful_cats + len(failed_urls):]:

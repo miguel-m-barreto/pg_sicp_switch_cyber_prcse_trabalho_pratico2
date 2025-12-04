@@ -1,4 +1,4 @@
-# greyscrape/scrapers/auchan/auchan_DB.py
+# greyscrape/scrapers/auchan_DB.py
 
 import sys
 import os
@@ -9,13 +9,17 @@ from datetime import datetime
 from typing import List, Dict, Optional, Tuple
 from urllib.parse import urlencode, urlparse, parse_qsl
 
-from auchan_helper import (
+from auchan.auchan_helper import (
     BASE_URL,
     extract_products_from_html,
     parse_total_results,
 )
-from greyscrape.scrapers.store_common import LOG_DIR_NAME, format_elapsed_time, build_headless_chrome, log_msg
-
+from store_common import (
+    LOG_DIR_NAME,
+    format_elapsed_time,
+    build_headless_chrome,
+    log_msg,
+)
 from supabase_client import push_products_with_snapshots
 
 # -----------------------------
@@ -76,41 +80,65 @@ def _scrape_category_with_api_and_selenium(
     page_path: str,
     cgid: str,
     run_timestamp: str,
-) -> List[Dict]:
+) -> Tuple[List[Dict], Dict[str, Any]]:
     """
     Scrape a category or subcategory:
       1) Load the visible page at /pt/<page_path>/
       2) Parse first batch of products from HTML
       3) If the page uses Search-UpdateGrid (scrollable), use it for more products
          otherwise, return only the initial page products.
+
+    Returns:
+      (all_products, stats)
+
+      stats = {
+          "page_path": str,
+          "original_cgid": str,
+          "final_cgid": str,
+          "total_expected": Optional[int],
+          "chunks": int,
+      }
     """
     page_path = page_path.strip("/")
     category_url = f"{BASE_URL}/pt/{page_path}/"
-    
+
+    stats: Dict[str, Any] = {
+        "page_path": page_path,
+        "original_cgid": cgid,
+        "final_cgid": cgid,
+        "total_expected": None,
+        "chunks": 0,
+    }
+
     log_msg(f"[Auchan] Loading category page: {category_url}")
     driver.get(category_url)
     time.sleep(2)
 
     html = driver.page_source
 
+    # Total esperado a partir do contador da Auchan (se existir)
+    total_expected = parse_total_results(html)
+    stats["total_expected"] = total_expected
+
     # Extract initial products from the visible page
     all_products = extract_products_from_html(html, run_timestamp)
     seen_links = {p.get("link") for p in all_products if p.get("link")}
 
-    
     log_msg(f"[Auchan] Initial page: {len(all_products)} products")
 
     # Check if this page actually uses Search-UpdateGrid
     detected_cgid = _extract_cgid_from_html(html)
     if not detected_cgid:
-        # Non-scrollable page (e.g. medicamentos with only ~15 items)
+        # Non-scrollable page (e.g. medicamentos com ~15 items)
         log_msg(
             "[Auchan] No Search-UpdateGrid URL found on page, "
             "skipping API chunks and returning only initial products."
         )
         # Attach category info with the original cgid (parsed from URL)
         _attach_category_metadata(all_products, page_path, cgid)
-        return all_products
+        stats["final_cgid"] = cgid
+        stats["chunks"] = 0
+        return all_products, stats
 
     # If we got here, the page is scrollable and uses Search-UpdateGrid
     original_cgid = cgid
@@ -122,15 +150,14 @@ def _scrape_category_with_api_and_selenium(
             "based on Search-UpdateGrid URL."
         )
 
+    stats["final_cgid"] = cgid
+
     # Attach category metadata with the FINAL cgid
     _attach_category_metadata(all_products, page_path, cgid)
     api_base = (
         f"{BASE_URL}/on/demandware.store/"
         "Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid"
     )
-
-
-    total_expected = parse_total_results(html)
 
     if total_expected:
         log_msg(f"[Auchan] Counter says total_results = {total_expected}")
@@ -140,11 +167,12 @@ def _scrape_category_with_api_and_selenium(
             "[Auchan] Could not parse total_results from counter, "
             "will rely on stagnation."
         )
-        sz = 360 # requested chunk size
+        sz = 360  # requested chunk size
 
     start = len(all_products)
     start_ts = time.time()
     stagnant_chunks = 0
+    chunks = 0
 
     while True:
         params = {
@@ -163,6 +191,7 @@ def _scrape_category_with_api_and_selenium(
 
         driver.get(api_url)
         time.sleep(1.5)
+        chunks += 1
 
         page_html = driver.page_source
         page_products = extract_products_from_html(page_html, run_timestamp)
@@ -210,8 +239,8 @@ def _scrape_category_with_api_and_selenium(
 
         start = len(all_products)
 
-    return all_products
-
+    stats["chunks"] = chunks
+    return all_products, stats
 
 
 def _attach_category_metadata(
@@ -347,21 +376,33 @@ def scrape_auchan(produto: Optional[str] = None) -> List[Dict]:
 
     driver = build_headless_chrome()
 
-
     try:
         # CATEGORY / SUBCATEGORY MODE
         if produto.startswith("categoria"):
             page_path, cgid = _parse_categoria_arg(produto)
-            produtos = _scrape_category_with_api_and_selenium(
-                driver,
-                page_path,
-                cgid,
-                run_timestamp,
+
+            # Now _scrape_category_with_api_and_selenium returns (products, stats)
+            produtos, stats = _scrape_category_with_api_and_selenium(
+                driver=driver,
+                page_path=page_path,
+                cgid=cgid,
+                run_timestamp=run_timestamp,
             )
-            log_msg(
-                f"[Auchan] CATEGORY '{page_path}' (cgid={cgid}): "
-                f"fetched {len(produtos)} items"
-            )
+
+            final_cgid = stats.get("final_cgid", cgid)
+            total_expected = stats.get("total_expected")
+
+            if total_expected:
+                log_msg(
+                    f"[Auchan] CATEGORY '{page_path}' (cgid={final_cgid}): "
+                    f"fetched {len(produtos)}/{total_expected} items"
+                )
+            else:
+                log_msg(
+                    f"[Auchan] CATEGORY '{page_path}' (cgid={final_cgid}): "
+                    f"fetched {len(produtos)} items"
+                )
+
             return produtos
 
         # SEARCH / LANDING MODE
@@ -383,7 +424,7 @@ def scrape_auchan(produto: Optional[str] = None) -> List[Dict]:
         html = driver.page_source
         produtos = extract_products_from_html(html, run_timestamp)
 
-        # basic dedup just in case
+        # Basic dedup just in case
         seen_links = set()
         unique_produtos: List[Dict] = []
 
@@ -403,7 +444,6 @@ def scrape_auchan(produto: Optional[str] = None) -> List[Dict]:
 
     finally:
         driver.quit()
-
 
 # -----------------------------
 # URL helper + JSON log

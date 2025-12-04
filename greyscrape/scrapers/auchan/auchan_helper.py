@@ -1,13 +1,19 @@
-# greyscrape/scrapers/auchan/auchan_helper.py
+# greyscrape/scrapers/auchan_helper.py
 
 import json
+import os
 import re
 from typing import List, Dict, Optional
+from pathlib import Path
 
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 
-BASE_URL = "https://www.auchan.pt"
+# Load .env.local from project root (Trabalho-Pratico2_SCRIPTS)
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+load_dotenv(PROJECT_ROOT / ".env.local")
 
+BASE_URL = os.getenv("AUCHAN_BASE_URL", "https://www.auchan.pt")
 
 def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
     """
