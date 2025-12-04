@@ -480,7 +480,8 @@ def _detect_sub_category_from_url(url: str) -> Optional[Tuple[str, str]]:
 
 def _save_json_log(produtos: List[Dict], context: str) -> str:
     """
-    Save all scraped products into a JSON file under ./logs.
+    Save all scraped products into a JSON file inside this execution's log folder.
+
     'context' is something like the query/category used (for the filename).
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))

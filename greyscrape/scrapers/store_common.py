@@ -1,22 +1,57 @@
-# greyscrape/scrapers/store_common.py
-
 import os
 import threading
 import time
+from datetime import datetime
 from typing import Optional
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-LOG_DIR_NAME = "auchan/logs"
-WORKER_LOG_DIR_NAME = "auchan/worker_logs"
-
+# Global lock for thread-safe logging
 _LOG_LOCK = threading.Lock()
+
+# Base directory for this package (greyscrape/scrapers)
+_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Timestamp for THIS PROCESS / THIS EXECUTION
+_EXECUTION_TS = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+# Root folder for this execution:
+# greyscrape/scrapers/auchan/logs/<timestamp>/
+_EXECUTION_LOG_ROOT = os.path.join(
+    _BASE_DIR, "auchan", "logs", _EXECUTION_TS
+)
+
+# Main log file for the execution
+_MAIN_LOG_PATH = os.path.join(_EXECUTION_LOG_ROOT, "main.log")
+
+# Directory for JSON logs for this execution
+# (used by _save_json_log em auchan_DB.py)
+LOG_DIR_NAME = os.path.join("auchan", "logs", _EXECUTION_TS, "json")
+
+# Base dir for worker logs for this execution.
+# Worker final path:
+# greyscrape/scrapers/auchan/logs/<ts>/Worker_<id>/worker_logs/worker.log
+WORKER_LOG_DIR_NAME = os.path.join("auchan", "logs", _EXECUTION_TS)
+
+
+def _ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+
+def _write_file_line(path: str, line: str) -> None:
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+
 
 def log_msg(msg: str, worker_id: Optional[int] = None) -> None:
     """
-    Thread-safe logger: writes to stdout with optional worker prefix
-    and, if worker_id is provided, also to a per-worker log file.
+    Thread-safe logger.
+
+    Writes:
+      - to stdout (with optional [Worker X] prefix)
+      - to main log file for this execution
+      - to per-worker log file if worker_id is not None
     """
     prefix = f"[Worker {worker_id}] " if worker_id is not None else ""
     line = f"{prefix}{msg}"
@@ -25,14 +60,23 @@ def log_msg(msg: str, worker_id: Optional[int] = None) -> None:
         # stdout
         print(line, flush=True)
 
-        # per-worker log file
+        # Ensure base execution log dir exists
+        _ensure_dir(_EXECUTION_LOG_ROOT)
+
+        # Main log for this execution
+        _write_file_line(_MAIN_LOG_PATH, line)
+
+        # Per-worker log
         if worker_id is not None:
-            base_dir = os.path.dirname(os.path.abspath(__file__))
-            log_dir = os.path.join(base_dir, WORKER_LOG_DIR_NAME)
-            os.makedirs(log_dir, exist_ok=True)
-            path = os.path.join(log_dir, f"worker_{worker_id}.log")
-            with open(path, "a", encoding="utf-8") as f:
-                f.write(line + "\n")
+            worker_root = os.path.join(
+                _BASE_DIR,
+                WORKER_LOG_DIR_NAME,
+                f"Worker_{worker_id}",
+                "worker_logs",
+            )
+            _ensure_dir(worker_root)
+            worker_log_path = os.path.join(worker_root, "worker.log")
+            _write_file_line(worker_log_path, line)
 
 
 def format_elapsed_time(start_ts: float) -> str:
