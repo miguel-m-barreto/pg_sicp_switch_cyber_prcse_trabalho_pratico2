@@ -1,0 +1,742 @@
+[
+  {
+    "nome": "",
+    "link": "",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida rodeo energética regular 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-rodeo-energetica-regular-250ml/3012620.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.96 €/Lt",
+    "preco_atual": "0,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull energética lata 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-energetica-lata-0.25l/459679.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética ultra white 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-ultra-white-0.50l/2238331.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull 6x0.25ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-6x0.25ml/775597.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "9,54 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida rodeo energética zero 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-rodeo-energetica-zero-250ml/3012621.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.96 €/Lt",
+    "preco_atual": "0,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster mango loco 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-mango-loco-0.50l/3030610.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebidas energética monster ultra peachy 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebidas-energetica-monster-ultra-peachy-0.50l/3761697.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster ultra white zero 4x0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-ultra-white-zero-4x0.50l/3803961.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "6,96 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética energy green 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-energy-green-0.50l/1036961.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida burn energética lata 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-burn-energetica-lata-0.25l/1036661.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.6 €/Lt",
+    "preco_atual": "0,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster lewis hamilton zero lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-lewis-hamilton-zero-lata-0.50l/3603444.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética rodeo ananás coco 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-rodeo-ananas-coco-250ml/3836661.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.36 €/Lt",
+    "preco_atual": "0,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética absolute y zero 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-absolute-y-zero-0.50l/2185946.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebidas energética monster mango loco 4x0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebidas-energetica-monster-mango-loco-4x0.50l/3803962.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "6,96 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull energética lata 4x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-energetica-lata-4x0.25l/510917.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell zero 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-zero-0.25l/3820640.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull energética sugarfree lata 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-energetica-sugarfree-lata-0.25l/548453.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética red bull tropical edition 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-tropical-edition-0.25l/2170137.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica monster zero lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-zero-lata-0.50l/3722407.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica red bull sugar free lata 4x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-sugar-free-lata-4x0.25l/3719364.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética red bull zero 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-zero-0.25l/3853677.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética ultra paradise 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-ultra-paradise-0.50l/3211880.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética energy rehab 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-energy-rehab-0.50l/1084094.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética red bull sugar free açaí edition 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-sugar-free-acai-edition-0.25l/2983914.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster ultra gold zero 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-ultra-gold-zero-0.50l/3603448.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull energética red 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-energetica-red-0.25l/3288581.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebidas energéticas rodeo manga-tropical 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebidas-energeticas-rodeo-manga-tropical-0.25l/3836660.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.36 €/Lt",
+    "preco_atual": "0,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética brite lima limão 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-brite-lima-limao-0.33l/3851321.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética ultra fiesta 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-ultra-fiesta-0.50l/3331080.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell melancia 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-melancia-0.25l/3820638.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster khaotic juice 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-khaotic-juice-0.50l/3449438.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética red bull apricot lata 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-apricot-lata-0.25l/3578681.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebidas monster energética energy 4x0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebidas-monster-energetica-energy-4x0.5l/1101922.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "6,96 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida prime blue raspberry 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-blue-raspberry-0.50l/3711557.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética brite framboesa e hortelã 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-brite-framboesa-e-hortela-0.33l/3851326.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida prime lima limão 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-lima-limao-0.50l/3711548.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida burn energética lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-burn-energetica-lata-0.50l/1097295.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética brite manga ananás 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-brite-manga-ananas-0.33l/3851320.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética monarch 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-monarch-0.50l/3320352.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida monster energética ripper 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-monster-energetica-ripper-0.50l/2185945.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell classic 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-classic-0.25l/3815125.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull energy drink 473ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-energy-drink-473ml/1087031.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.11 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster reserve white pineapple 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-reserve-white-pineapple-0.50l/3526149.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida prime benfica 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-benfica-0.5l/3833210.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida red bull energética energy drink 355ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-red-bull-energetica-energy-drink-355ml/893753.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.31 €/Lt",
+    "preco_atual": "2,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida prime morango melancia 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-morango-melancia-0.5l/3790692.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebidas energética perrier energize limão 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebidas-energetica-perrier-energize-limao-0.25l/3792626.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida hollinger energética 250 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-hollinger-energetica-250-ml/3796467.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética red bull winter edition 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-winter-edition-0.25l/3815137.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica monster bad apple 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-bad-apple-0.50l/3761537.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética squid game melância 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-squid-game-melancia-0.25l/3856933.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.96 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética squid game manga 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-squid-game-manga-0.25l/3856938.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.96 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster lando norris zero 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-lando-norris-zero-0.50l/3929311.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell cereja preta 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-cereja-preta-0.25l/3916358.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell spritz maracuja 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-spritz-maracuja-0.25l/3916355.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell white peach zero 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-white-peach-zero-0.25l/3966319.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética monster rio punch 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-monster-rio-punch-0.5l/3872893.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.48 €/Lt",
+    "preco_atual": "1,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética nocco ramonade 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-nocco-ramonade-0.33l/3939903.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell spritz lime mojito 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-spritz-lime-mojito-0.25l/3916356.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell maãã verde 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-maa%C2%87a%C2%83-verde-0.50l/3916361.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell pãssego limão 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-pa%C2%8Assego-lima%C2%83o-0.5l/3916357.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell uva vermelha 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-uva-vermelha-0.25l/3916359.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell maãã 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-maa%C2%87a%C2%83-0.25l/3916362.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.56 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell morango banana 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-morango-banana-0.50l/3916363.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica red bull summer edition 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-red-bull-summer-edition-0.25l/3873702.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica optim nut amin elect pink limon 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-optim-nut-amin-elect-pink-limon-250ml/3919325.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica hell classic 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-hell-classic-0.50l/3916360.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida prime ice laranja 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-ice-laranja-0.5l/3946795.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-17%",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética nocco focus grand sour 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-nocco-focus-grand-sour-0.33l/3939901.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida prime glowberry 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-prime-glowberry-0.50l/3933141.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energética nocco bcaa mango 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-nocco-bcaa-mango-0.33l/3939895.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica optim nut amin elect tropical 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-optim-nut-amin-elect-tropical-250ml/3919317.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-59"
+  },
+  {
+    "nome": "bebida energetica optim nut amin elect laranja 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/bebida-energetica-optim-nut-amin-elect-laranja-250ml/3919323.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-59"
+  }
+]

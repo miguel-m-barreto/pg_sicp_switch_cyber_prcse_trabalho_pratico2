@@ -1,0 +1,238 @@
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/congelados/
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from initial page.
+[Worker 1] [Auchan] Initial page: 51 products
+[Worker 1] [Auchan] Counter says total_results = 1104
+[Worker 1] [Auchan] Fetching page chunk: start=51, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 5 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 251 new products (total so far: 302)
+[Worker 1] [Auchan] Time elapsed: 7.1 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=302, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 12 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 239 new products (total so far: 541)
+[Worker 1] [Auchan] Time elapsed: 14.0 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=541, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 8 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 232 new products (total so far: 773)
+[Worker 1] [Auchan] Time elapsed: 50.1 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=773, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 20 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 212 new products (total so far: 985)
+[Worker 1] [Auchan] Time elapsed: 1m 24s
+[Worker 1] [Auchan] Fetching page chunk: start=985, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 7 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 73 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 1m 40s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 1m 47s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 1m 49s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 1m 52s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 1m 55s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 1m 57s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 0s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 2s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 5s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 7s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 10s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 13s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 15s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 17s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 19s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 21s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 24s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 26s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 2m 28s
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/future-taste/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/mercearia/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/produtos-lacteos/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/aves/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/caes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/gatos/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/natal-para-cao-e-gato/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/o-meu-pet/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/peixes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/roedores/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/tartarugas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/acessorios-para-mudancas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/automovel/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/ferramentas-e-bricolage/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/iluminacao-e-energia/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/tintas-e-drogaria/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/acessorios-de-vinho-e-bar/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas-tonicas-e-ginger-ale/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/amaciadores-e-mascaras-de-cabelo/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/cremes-de-corpo-e-rosto/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/cuidados-de-saude/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/cuidados-solares/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/depilatorios/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/desodorizantes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/higiene-e-cuidado-homem/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/higiene-feminina/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/higiene-oral/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/incontinencia/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/maquilhagem-e-perfumes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/papel-higienico-e-lencos-papel/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/perfumaria-biologica/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/produtos-para-cabelo/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/alimentacao-vegetariana/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/nutricao-desportiva/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/sem-acucar-adicionado/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/sem-gluten/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/sem-lactose/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/vegan/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/bicicletas-infantis-e-veiculos-de-exterior/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/bonecas-peluches-e-acessorios/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/brinquedos-de-bebe/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/brinquedos-de-exterior-e-ar-livre/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/congelados/
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from initial page.
+[Worker 1] [Auchan] Initial page: 51 products
+[Worker 1] [Auchan] Counter says total_results = 1104
+[Worker 1] [Auchan] Fetching page chunk: start=51, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 5 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 251 new products (total so far: 302)
+[Worker 1] [Auchan] Time elapsed: 6.4 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=302, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 12 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 239 new products (total so far: 541)
+[Worker 1] [Auchan] Time elapsed: 13.6 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=541, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 8 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 232 new products (total so far: 773)
+[Worker 1] [Auchan] Time elapsed: 20.9 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=773, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 20 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 212 new products (total so far: 985)
+[Worker 1] [Auchan] Time elapsed: 27.5 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=985, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 7 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 73 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 30.8 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 33.6 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 36.0 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Filtered 1 products not in 'alimentacao/congelados' from chunk.
+[Worker 1] [Auchan] Chunk added 0 new products (total so far: 1058)
+[Worker 1] [Auchan] Time elapsed: 39.0 seconds
+[Worker 1] [Auchan] Fetching page chunk: start=1058, sz=256, cgid=congelados
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/future-taste/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/mercearia/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/produtos-lacteos/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/aves/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/caes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/gatos/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/natal-para-cao-e-gato/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/o-meu-pet/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/peixes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/roedores/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/animais/tartarugas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/acessorios-para-mudancas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/automovel/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/ferramentas-e-bricolage/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/iluminacao-e-energia/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/automovel-e-bricolage/tintas-e-drogaria/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/acessorios-de-vinho-e-bar/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas-tonicas-e-ginger-ale/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/energeticas/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/garrafeira/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/bebidas-e-garrafeira/sumos-e-nectares/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/amaciadores-e-mascaras-de-cabelo/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/cremes-de-corpo-e-rosto/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/cuidados-de-saude/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/cuidados-solares/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/depilatorios/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/desodorizantes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/higiene-e-cuidado-homem/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/higiene-feminina/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/higiene-oral/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/incontinencia/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/maquilhagem-e-perfumes/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/papel-higienico-e-lencos-papel/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/perfumaria-biologica/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/beleza-e-higiene/produtos-para-cabelo/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/alimentacao-vegetariana/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/nutricao-desportiva/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/sem-acucar-adicionado/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/sem-gluten/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/sem-lactose/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/biologicos-e-alternativas/vegan/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/bicicletas-infantis-e-veiculos-de-exterior/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/bonecas-peluches-e-acessorios/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/brinquedos-de-bebe/
+[Worker 1] [Auchan] Loading category page: https://www.auchan.pt/pt/brinquedos-e-videojogos/brinquedos-de-exterior-e-ar-livre/

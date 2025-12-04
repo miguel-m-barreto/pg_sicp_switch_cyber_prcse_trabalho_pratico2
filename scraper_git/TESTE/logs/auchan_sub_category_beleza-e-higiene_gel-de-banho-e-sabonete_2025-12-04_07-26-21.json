@@ -1,0 +1,4302 @@
+[
+  {
+    "nome": "",
+    "link": "",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga flor algodão 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-flor-algodao-1l/3722414.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.49 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga leite e mel 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-leite-e-mel-500ml/3723874.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho creme care nivea 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-creme-care-nivea-750-ml/2105928.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.32 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga pêssego 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-pessego-500ml/3723947.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho polegar pêssego 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-polegar-pessego-1l/3831387.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga amêndoa 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-amendoa-1l/3731860.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.49 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia oriental 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-cosmia-oriental-750ml/3793873.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho creme aloe nivea 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-creme-aloe-nivea-750-ml/3082573.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.32 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-43%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete cosmia extrato flor jasmim 90g 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-cosmia-extrato-flor-jasmim-90g-1un/2655006.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.56 €/Kg",
+    "preco_atual": "0,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia cereja e jasmim 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-cosmia-cereja-e-jasmim-750ml/3791315.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia recarga amora e romã 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-cosmia-recarga-amora-e-roma-1l/3791274.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.59 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español aveia 1250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-instituto-espa%C3%B1ol-aveia-1250ml/3755083.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.83 €/Lt",
+    "preco_atual": "3,54 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia tropical 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-cosmia-tropical-750ml/3782075.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove indulging care 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dove-indulging-care-720ml/3795848.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.93 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nivea care & orange 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nivea-care-e-orange-650ml/3793860.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.31 €/Lt",
+    "preco_atual": "2,15 €",
+    "preco_antigo": "Price reduced from3,59 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga limão manjericão 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-limao-manjericao-500ml/3723940.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove hydrate 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-hydrate-720ml/3754306.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete liquido recarga dove original 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-recarga-dove-original-750ml/3368667.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.59 €/Lt",
+    "preco_atual": "4,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove regular 4x90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-regular-4x90gr/3630742.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.25 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete cosmia manteiga karité 90g 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-cosmia-manteiga-karite-90g-1un/2655010.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.56 €/Kg",
+    "preco_atual": "0,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "flor cosmia de duche puff 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/flor-cosmia-de-duche-puff-1un/2763496.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.85 €/un",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga rosa e jasmim 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-rosa-e-jasmim-500ml/3723948.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho reparador lactovit lactourea 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-reparador-lactovit-lactourea-650ml/1147191.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.91 €/Lt",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido dove manteiga karité 4x90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-dove-manteiga-karite-4x90g/3506851.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.25 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia 2em1 monoï 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-cosmia-2em1-mono%C3%AF-750ml/3782084.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho palmolive aroma ultimate relax 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-palmolive-aroma-ultimate-relax-500ml/3631700.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cuidado extra lactovit lactooil 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-cuidado-extra-lactovit-lactooil-650ml/3003333.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga frutos vermelhos 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-frutos-vermelhos-1l/3731858.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.49 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido glicerina hidratante palmolive 90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-glicerina-hidratante-palmolive-90gr/1141572.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11 €/Kg",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido recarga 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-recarga-500ml/357024.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.34 €/Lt",
+    "preco_atual": "3,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete liquido de mãos rosa mosqueta babaria 500 ml.",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-de-maos-rosa-mosqueta-babaria-500-ml./2138921.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.8 €/Lt",
+    "preco_atual": "2,40 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia recarga sensitive peles sensíveis e reativas 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-cosmia-recarga-sensitive-peles-sensiveis-e-reativas-1l/3793905.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete cosmia laranjeira óleo argão 360g 4un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-cosmia-laranjeira-oleo-argao-360g-4un/2654978.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.36 €/Kg",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nutritivo lactovit original 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nutritivo-lactovit-original-650ml/1147200.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,79 €to",
+    "promocao": "-48%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel dove de banho dove men extra fresh 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-dove-de-banho-dove-men-extra-fresh-400ml/1028993.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.73 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-46%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete cosmia azeite 90g 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-cosmia-azeite-90g-1un/2654931.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.56 €/Kg",
+    "preco_atual": "0,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho naturals hidratante leite e mel palmolive 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-naturals-hidratante-leite-e-mel-palmolive-500ml/2701743.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido polegar amêndoa 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-polegar-amendoa-750ml/3560218.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.8 €/Lt",
+    "preco_atual": "1,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia recarga puro sem perfume 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-recarga-puro-sem-perfume-500ml/3724508.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho creme smooth nivea 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-creme-smooth-nivea-750-ml/2151332.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.32 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-43%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioten de banho coconut 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-bioten-de-banho-coconut-700ml/3323219.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lavanda grande 125g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lavanda-grande-125g/12773.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.12 €/Kg",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,55 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove calming care 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dove-calming-care-720ml/3795933.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.93 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido glicerina natural palmolive 90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-glicerina-natural-palmolive-90gr/1141569.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11 €/Kg",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho johnson's baby cotton touch 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-johnsons-baby-cotton-touch-500ml/2984698.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho vaseline derma care 1000ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-vaseline-derma-care-1000ml/3723561.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.59 €/Lt",
+    "preco_atual": "6,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho hidratante cosmia recarga extratos coco e leite de aveia 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-hidratante-cosmia-recarga-extratos-coco-e-leite-de-aveia-1l/3794257.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho hidratante cosmia extratos coco e leite de aveia 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-hidratante-cosmia-extratos-coco-e-leite-de-aveia-750ml/3756309.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "shampoo strong power nivea men 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/shampoo-strong-power-nivea-men-250-ml/727026.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.56 €/Lt",
+    "preco_atual": "4,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete patti normal 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-patti-normal-90g/12839.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11 €/Kg",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,10 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho creme soft nivea 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-creme-soft-nivea-650-ml/3208154.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.52 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja cosmia banho suave 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-cosmia-banho-suave-1un/2763483.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/un",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido dove pink 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-dove-pink-90g/3801320.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.78 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioten de banho frescura algodão 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-bioten-de-banho-frescura-algodao-700ml/3171165.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove silky velvet 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-silky-velvet-720ml/3754305.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia 2em1 sal marinho 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-cosmia-2em1-sal-marinho-750ml/3791328.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey argão 1350 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-natural-honey-argao-1350-ml/3567898.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.18 €/Lt",
+    "preco_atual": "5,64 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove fruity nourish 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-fruity-nourish-720ml/3754299.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove dove smoothing care 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dove-dove-smoothing-care-720ml/3795928.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.93 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno de portugal sândalo e violetas 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-de-portugal-sandalo-e-violetas-500ml/3452673.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.34 €/Lt",
+    "preco_atual": "3,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido naturals hidratante leite e mel palmolive 4x90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-naturals-hidratante-leite-e-mel-palmolive-4x90gr/1059482.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.31 €/Kg",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido desinfetante hidratante sanytol 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-desinfetante-hidratante-sanytol-250ml/3039869.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.76 €/Lt",
+    "preco_atual": "4,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel dove de banho men clean comfort 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-dove-de-banho-men-clean-comfort-400ml/1028990.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.73 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-46%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sanex zero% pele seca 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sanex-zero-pele-seca-600ml/3642763.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete em espuma cosmia hibisco e coco 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-em-espuma-cosmia-hibisco-e-coco-300ml/2604312.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.3 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia aloé vera e pepino 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-cosmia-aloe-vera-e-pepino-750ml/3791323.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia limão e manjericão 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-limao-e-manjericao-500ml/3724516.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido regular feno de portugal 4x90 g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-regular-feno-de-portugal-4x90-g/1059490.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.67 €/Kg",
+    "preco_atual": "3,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete amalfi líquido dermo 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-amalfi-liquido-dermo-500ml/2143012.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido recarga côco 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-recarga-coco-500ml/2983014.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove fresh care 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-fresh-care-720ml/3754302.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho vaseline camomila e mel 1000ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-vaseline-camomila-e-mel-1000ml/3723559.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.59 €/Lt",
+    "preco_atual": "6,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia leite e mel 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-leite-e-mel-500ml/3724522.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho wellness massage exfoliante palmolive 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-wellness-massage-exfoliante-palmolive-500ml/3344518.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete glicerina líquida soft&co 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-glicerina-liquida-softeco-500ml/2750306.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.12 €/Lt",
+    "preco_atual": "5,06 €",
+    "preco_antigo": "Price reduced from7,30 €to",
+    "promocao": "-31%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho naturals hidratante leite de amêndoa palmolive 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-naturals-hidratante-leite-de-amendoa-palmolive-500ml/2701753.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia pêssego 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-pessego-500ml/3731847.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove gentle pamper 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-gentle-pamper-720ml/3754304.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido dove argan oil 4x90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-dove-argan-oil-4x90gr/3523942.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.25 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey argão 1350+1350ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-natural-honey-argao-13501350ml/3567903.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.51 €/Lt",
+    "preco_atual": "9,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido recarga fresh touch 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-recarga-fresh-touch-500ml/2169080.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.34 €/Lt",
+    "preco_atual": "3,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel lactovit de banho kiwi e uva 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-lactovit-de-banho-kiwi-e-uva-650ml/3171360.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho sport nivea men 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-sport-nivea-men-250-ml/773386.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.04 €/Lt",
+    "preco_atual": "2,51 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho creme care nivea 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-creme-care-nivea-250-ml/2999821.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.96 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove soft care bath 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dove-soft-care-bath-720ml/3795922.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.93 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete polegar sólido 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-polegar-solido-90g/3594362.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.44 €/Kg",
+    "preco_atual": "0,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioten de banho cacau e macadâmia 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-bioten-de-banho-cacau-e-macadamia-700ml/3120633.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel axe de banho dark temptation 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-axe-de-banho-dark-temptation-400ml/816560.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español aloe vera 1250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-instituto-espa%C3%B1ol-aloe-vera-1250ml/3756910.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.83 €/Lt",
+    "preco_atual": "3,54 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia flor de algodão 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-flor-de-algodao-300ml/3732131.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.63 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho orchid & cashmere nivea 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-orchid-e-cashmere-nivea-750-ml/3282735.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.32 €/Lt",
+    "preco_atual": "8,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel axe de banho apollo 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-axe-de-banho-apollo-400ml/1133024.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho bioten frescura de algodão 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-bioten-frescura-de-algodao-750ml/3551073.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno portugal agua micelar 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-portugal-agua-micelar-650ml/3643437.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "3,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove petal soft 720ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-petal-soft-720ml/3754303.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido mel e geleia real feno de portugal 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-mel-e-geleia-real-feno-de-portugal-300-ml/2227575.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.23 €/Lt",
+    "preco_atual": "2,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja cosmia vegetal peles delicadas 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-cosmia-vegetal-peles-delicadas-1un/2763490.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/un",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho auchan kids 2em1 corpo e cabelo cereja e morango 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-de-banho-auchan-kids-2em1-corpo-e-cabelo-cereja-e-morango-250ml/3756603.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.16 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido protect&care 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-protectecare-250ml/3311790.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.56 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia protect peles com tendência atópica 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-cosmia-protect-peles-com-tendencia-atopica-750ml/3793912.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito alcatrão 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-alcatrao-90g/12912.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.33 €/Kg",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nivea care & diamond 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nivea-care-e-diamond-750ml/3793870.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.03 €/Lt",
+    "preco_atual": "5,27 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho lactovit lactourea refirmante 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-lactovit-lactourea-refirmante-650-ml/3634701.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.91 €/Lt",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "óleo de cuidado para duche nivea 200 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/oleo-de-cuidado-para-duche-nivea-200-ml/525591.html",
+    "quantidade_minima": null,
+    "preco_unitario": "23.45 €/Lt",
+    "preco_atual": "4,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioten de banho arando e maracujá 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-bioten-de-banho-arando-e-maracuja-700ml/3120644.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey frescura colónia 1350 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-natural-honey-frescura-colonia-1350-ml/3567902.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.18 €/Lt",
+    "preco_atual": "5,64 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dettol líquido aloé vera 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dettol-liquido-aloe-vera-250ml/2403519.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.96 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove exfoliante 90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-exfoliante-90gr/3795639.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.11 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho vaseline lúcia limão 1000ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-vaseline-lucia-limao-1000ml/3723554.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.59 €/Lt",
+    "preco_atual": "6,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dettol líquido lavanda 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dettol-liquido-lavanda-250ml/689663.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.96 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido lux velvet glow 4x90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-lux-velvet-glow-4x90g/3523140.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.08 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabão cosmia de marselha natural sem perfume 200g 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabao-cosmia-de-marselha-natural-sem-perfume-200g-1un/2655002.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.95 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido nutricuida mel e flor de laranjeira feno de portugal 4x90 g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-nutricuida-mel-e-flor-de-laranjeira-feno-de-portugal-4x90-g/2227546.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.67 €/Kg",
+    "preco_atual": "3,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho ice dive adidas 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-ice-dive-adidas-400ml/3185238.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho johnson's baby cuidado completo 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-johnsons-baby-cuidado-completo-500ml/2984315.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "shampoo deep nivea men 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/shampoo-deep-nivea-men-250-ml/2704045.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.56 €/Lt",
+    "preco_atual": "4,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido regular 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-regular-250ml/357023.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.56 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice white water 3 em 1 675ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-white-water-3-em-1-675ml/3600161.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.18 €/Lt",
+    "preco_atual": "5,52 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô pantene 3 em 1 anticaspa 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-pantene-3-em-1-anticaspa-300ml/2796761.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.47 €/Lt",
+    "preco_atual": "4,94 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno portugal óleo oliva e camomila 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-portugal-oleo-oliva-e-camomila-650ml/3633810.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "3,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia frutos vermelhos 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-frutos-vermelhos-300ml/3731877.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.63 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioten banho detox micelar 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-bioten-banho-detox-micelar-750ml/3003267.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.65 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia bio amêndoa doce 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-bio-amendoa-doce-300ml/3801879.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.63 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho bioten cacau e macadamia 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-bioten-cacau-e-macadamia-750ml/3551072.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español hidratante cremoso 1250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-instituto-espa%C3%B1ol-hidratante-cremoso-1250ml/3756919.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.19 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey coco 1350 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-natural-honey-coco-1350-ml/3567899.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.18 €/Lt",
+    "preco_atual": "5,64 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô nivea men power anti caspa 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-nivea-men-power-anti-caspa-250-ml/976951.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.56 €/Lt",
+    "preco_atual": "4,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho vaseline manteiga karité 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-vaseline-manteiga-karite-750ml/3723555.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.33 €/Lt",
+    "preco_atual": "2,50 €",
+    "preco_antigo": "Price reduced from5,35 €to",
+    "promocao": "-53%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito limão 160g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-limao-160g/3470745.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.75 €/Kg",
+    "preco_atual": "2,20 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô cuidado clássico 3 em 1 pantene 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/cabelos-normais/champo-cuidado-classico-3-em-1-pantene-300-ml/2796766.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.47 €/Lt",
+    "preco_atual": "4,94 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho palmolive sweet delight 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-palmolive-sweet-delight-500ml/3631701.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced nourishing silk 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-advanced-nourishing-silk-600ml/3754297.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.15 €/Lt",
+    "preco_atual": "7,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced deeply nourishing 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-advanced-deeply-nourishing-600ml/3754301.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.15 €/Lt",
+    "preco_atual": "7,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive memories summer dream 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-memories-summer-dream-500ml/3344523.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho axe epic fresh 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-axe-epic-fresh-400ml/3514203.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno portugal morango e mirtilo 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-portugal-morango-e-mirtilo-650ml/3643438.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "3,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia nutri peles muito secas 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-cosmia-nutri-peles-muito-secas-750ml/3793915.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido naturals hidratante leite de amêndoas palmolive 4x90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-naturals-hidratante-leite-de-amendoas-palmolive-4x90gr/1059435.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.31 €/Kg",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia azeitona 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-cosmia-azeitona-750ml/3791250.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho hidratante cosmia extratos de baunilha e leite de aveia 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-hidratante-cosmia-extratos-de-baunilha-e-leite-de-aveia-750ml/3756333.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel axe de banho men ice chill 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-axe-de-banho-men-ice-chill-400ml/2972898.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "espuma de banho cosmia camomila e mel 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/espuma-de-banho-cosmia-camomila-e-mel-750ml/3732093.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.79 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove silk velvet 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-dove-silk-velvet-250ml/3754286.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.96 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice shower gel whitewater 1lt",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-shower-gel-whitewater-1lt/3834019.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia bio aloé vera 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-bio-aloe-vera-300ml/3801901.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.63 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia clássico 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-cosmia-classico-750ml/3791285.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho after sport adidas 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-after-sport-adidas-400ml/3338370.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia pure sem perfume peles sensíveis 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-pure-sem-perfume-peles-sensiveis-500ml/3731854.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho bioten white musk 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-bioten-white-musk-750ml/3551071.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho deep nivea men 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-deep-nivea-men-500-ml/2704048.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.34 €/Lt",
+    "preco_atual": "4,67 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido naturals hidratante leite de oliva palmolive 4x90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-naturals-hidratante-leite-de-oliva-palmolive-4x90gr/1059478.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.31 €/Kg",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho hidratante cosmia com extratos de amêndoas doces e leite de aveia 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-hidratante-cosmia-com-extratos-de-amendoas-doces-e-leite-de-aveia-750ml/3756314.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel cosmia banho azeitona 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-cosmia-banho-azeitona-750ml/2765800.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete cosmia hidratante 90g 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-cosmia-hidratante-90g-1un/2880750.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.33 €/Kg",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove hydrate 450ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-dove-hydrate-450ml/3754296.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.09 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel axe de banho men black 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-axe-de-banho-men-black-400ml/2146584.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey hidratante 1350 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-natural-honey-hidratante-1350-ml/3567159.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.18 €/Lt",
+    "preco_atual": "5,64 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido secrets côco 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-secrets-coco-250ml/2982906.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.56 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho hidratante cosmia com extratos de mel e leite de aveia 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-hidratante-cosmia-com-extratos-de-mel-e-leite-de-aveia-750ml/3756328.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioten de banho white musk 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-bioten-de-banho-white-musk-700ml/3184505.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete patti para banho 160g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-patti-para-banho-160g/182355.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.19 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from2,00 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança leite de burra 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-leite-de-burra-75g/1028265.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18 €/Kg",
+    "preco_atual": "1,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho johnson's baby bons sonhos 750ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-johnsons-baby-bons-sonhos-750ml/3277384.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.05 €/Lt",
+    "preco_atual": "8,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "luva cosmia de duche esfoliante un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/luva-cosmia-de-duche-esfoliante-un/2797538.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.3 €/un",
+    "preco_atual": "2,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel axe de banho excite 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-axe-de-banho-excite-400ml/1012570.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito propolis 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-propolis-90g/1104397.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.33 €/Kg",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança alfazema monte 125g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-alfazema-monte-125g/1008061.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.04 €/Kg",
+    "preco_atual": "1,63 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "toucas para banho silvex 3un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/toucas-para-banho-silvex-3un/742182.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.56 €/un",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho victory league adidas 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-victory-league-adidas-400ml/3185229.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja cosmia do mar 100% natural 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-cosmia-do-mar-100-natural-1un/2763487.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/un",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel mustela lavante 750ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-mustela-lavante-750ml/826424.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.71 €/Lt",
+    "preco_atual": "20,03 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia sensitive peles sensíveis e reativas 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-cosmia-sensitive-peles-sensiveis-e-reativas-750ml/3793876.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho auchan kids 2em1 corpo e cabelo banana e morango 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-de-banho-auchan-kids-2em1-corpo-e-cabelo-banana-e-morango-250ml/3756567.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.16 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced reviving pomegranate 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-dove-advanced-reviving-pomegranate-400ml/3754294.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho hidratante cosmia recarga com extratos de amêndoas doces e leite de aveia 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-hidratante-cosmia-recarga-com-extratos-de-amendoas-doces-e-leite-de-aveia-1l/3794243.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho johnson's baby suave 750ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-johnsons-baby-suave-750ml/2983983.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español pele saudavel 1250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-instituto-espa%C3%B1ol-pele-saudavel-1250ml/3756917.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.46 €/Lt",
+    "preco_atual": "4,32 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho pump auchan kids 2em1 corpo e cabelo banana morango 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-pump-auchan-kids-2em1-corpo-e-cabelo-banana-morango-750ml/3737910.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia bio azeite 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-bio-azeite-300ml/3801902.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.63 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito leite de cabra 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-leite-de-cabra-90g/1153440.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.33 €/Kg",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho hidratante cosmia com proteínas do leite 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-hidratante-cosmia-com-proteinas-do-leite-750ml/3756561.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme batman 2em1 300 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-banho-corine-de-farme-batman-2em1-300-ml/3499328.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.63 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sanex protetor 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sanex-protetor-600ml/3642594.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô liso e sedoso 3 em 1 pantene 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/cabelos-normais/champo-liso-e-sedoso-3-em-1-pantene-300-ml/2796748.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.47 €/Lt",
+    "preco_atual": "4,94 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia 3em1 sport 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-cosmia-3em1-sport-250ml/3791330.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.96 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito amêndoas 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-amendoas-90g/1104395.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.33 €/Kg",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia 3em1 fresh 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-cosmia-3em1-fresh-250ml/3792336.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.96 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança côco hidratante 125g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-coco-hidratante-125g/2533859.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.04 €/Kg",
+    "preco_atual": "1,88 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho palmolive silky oil 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-palmolive-silky-oil-500ml/3631725.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia bio tonificant verbena limão 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-cosmia-bio-tonificant-verbena-limao-250ml/3438331.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.56 €/Lt",
+    "preco_atual": "3,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia marselha e lavanda 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-marselha-e-lavanda-500ml/3732122.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.98 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho johnson's baby bolhas de espuma 750 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-johnsons-baby-bolhas-de-espuma-750-ml/2984343.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.05 €/Lt",
+    "preco_atual": "8,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho pump auchan kids 2em1 corpo e cabelo cereja morango 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-pump-auchan-kids-2em1-corpo-e-cabelo-cereja-morango-750ml/3737787.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho active clean nivea men 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-active-clean-nivea-men-500-ml/2151335.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.34 €/Lt",
+    "preco_atual": "4,67 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô repara e protege 3 em 1 pantene 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-repara-e-protege-3-em-1-pantene-300-ml/2796756.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.47 €/Lt",
+    "preco_atual": "4,94 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove silky velvet 450ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-dove-silky-velvet-450ml/3754290.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.09 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança sólido dourado glicerina 125g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-solido-dourado-glicerina-125g/3197590.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.92 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança argila cinza 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-argila-cinza-75g/2366822.html",
+    "quantidade_minima": null,
+    "preco_unitario": "23.87 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey coco viagem 75ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-natural-honey-coco-viagem-75ml/3631907.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.53 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido nutricuida óleo de oliva e camomila feno de portugal 4x90 g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-nutricuida-oleo-de-oliva-e-camomila-feno-de-portugal-4x90-g/2227569.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.67 €/Kg",
+    "preco_atual": "3,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel mustela lavante 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-mustela-lavante-500ml/720743.html",
+    "quantidade_minima": null,
+    "preco_unitario": "35.36 €/Lt",
+    "preco_atual": "17,68 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced relax coconut 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-dove-advanced-relax-coconut-400ml/3754307.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete cosmia exfoliante com alperce 90g 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-cosmia-exfoliante-com-alperce-90g-1un/2880746.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.33 €/Kg",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "coloração just for men castanho claro natural",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/coloracao-just-for-men-castanho-claro-natural/808867.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.89 €/un",
+    "preco_atual": "13,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove advanced deeply nourishing 55ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-dove-advanced-deeply-nourishing-55ml/3801139.html",
+    "quantidade_minima": null,
+    "preco_unitario": "36.18 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lusitano mar algas e flor de sal 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lusitano-mar-algas-e-flor-de-sal-75g/1153467.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.53 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito ameixa 160g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-ameixa-160g/3470740.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.75 €/Kg",
+    "preco_atual": "2,20 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho palmolive pampering oil 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-palmolive-pampering-oil-500ml/3631731.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito aloé vera 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-aloe-vera-90g/3470741.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.33 €/Kg",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel axe banho green mojito 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-axe-banho-green-mojito-400ml/3154669.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice captain 3 em 1 675ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-captain-3-em-1-675ml/3600160.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.18 €/Lt",
+    "preco_atual": "5,52 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de duche corine de farme pequena sereia/stitch 3 em 1 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-de-duche-corine-de-farme-pequena-sereiastitch-3-em-1-500ml/3070281.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel old spice banho white water 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-old-spice-banho-white-water-400ml/2229577.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete dove líquido protect&care recarga 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-dove-liquido-protectecare-recarga-500ml/3359250.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.34 €/Lt",
+    "preco_atual": "3,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español peles atópicas 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-instituto-espa%C3%B1ol-peles-atopicas-500ml/3756977.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.84 €/Lt",
+    "preco_atual": "6,92 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "creme uriage lavante bebé 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/creme-uriage-lavante-bebe-500ml/732261.html",
+    "quantidade_minima": null,
+    "preco_unitario": "38.2 €/Lt",
+    "preco_atual": "19,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança exfoliante algas vermelhas 100g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-exfoliante-algas-vermelhas-100g/1028259.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.8 €/Kg",
+    "preco_atual": "1,58 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "creme uriage lavante bebé 1000ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/creme-uriage-lavante-bebe-1000ml/980822.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.95 €/Lt",
+    "preco_atual": "22,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme água de coco 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-corine-de-farme-agua-de-coco-750-ml/3459602.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.05 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho - homem old spice epic legend 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho---homem-old-spice-epic-legend-400ml/3867095.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sais corine de farme de banho rosa sensuel 1.3kg",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/sais-corine-de-farme-de-banho-rosa-sensuel-1.3kg/2466200.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.22 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "emulsão d'aveia de limpeza pediátrico ps 300ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/emulsao-daveia-de-limpeza-pediatrico-ps-300ml/2603232.html",
+    "quantidade_minima": null,
+    "preco_unitario": "46 €/Lt",
+    "preco_atual": "13,80 €",
+    "preco_antigo": "Price reduced from17,25 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice shower gel nightpanther 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-shower-gel-nightpanther-1l/3834018.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice shower gel deep sea 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-shower-gel-deep-sea-1l/3829338.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete rosalface 150g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-rosalface-150g/523706.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.67 €/Kg",
+    "preco_atual": "4,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey hidratante 1350+1350ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-natural-honey-hidratante-13501350ml/3567904.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.51 €/Lt",
+    "preco_atual": "9,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme pure peles secas 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-corine-de-farme-pure-peles-secas-500-ml/3446839.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.98 €/Lt",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice original 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-original-400ml/3426478.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lusitano azulejo mel e rosmaninho 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lusitano-azulejo-mel-e-rosmaninho-75g/1153446.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.53 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "pedra cosmia de esfoliação tradicional 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/pedra-cosmia-de-esfoliacao-tradicional-1un/2763507.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.49 €/un",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel corine de farme de banho côco ultra hidratante 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-corine-de-farme-de-banho-coco-ultra-hidratante-500ml/2744972.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.98 €/Lt",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice bearglove 675ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-bearglove-675ml/3754271.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.18 €/Lt",
+    "preco_atual": "5,52 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme leite e mel 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-corine-de-farme-leite-e-mel-750-ml/3459600.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.05 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito hidratante leite burra 100g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-hidratante-leite-burra-100g/3201175.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.9 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito pedra pomes 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-pedra-pomes-90g/1098915.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.33 €/Kg",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lusitano popular manjericão e pinho 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lusitano-popular-manjericao-e-pinho-75g/1153476.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.53 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho coconut & jojoba oil nivea 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-coconut-e-jojoba-oil-nivea-750-ml/2972891.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.03 €/Lt",
+    "preco_atual": "5,27 €",
+    "preco_antigo": "Price reduced from8,49 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice nightpanther 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-nightpanther-400ml/3600249.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho cosmia 3em1 power 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-cosmia-3em1-power-250ml/3797577.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.96 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho boost nivea men 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-boost-nivea-men-500-ml/3282726.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.34 €/Lt",
+    "preco_atual": "4,67 €",
+    "preco_antigo": "Price reduced from7,79 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança chipre imperial 125g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-chipre-imperial-125g/1008101.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.52 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô fructis força e brilho 2 em 1 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-fructis-forca-e-brilho-2-em-1-400ml/2227225.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "creme barral banho babyprotect 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/creme-barral-banho-babyprotect-500ml/1124652.html",
+    "quantidade_minima": null,
+    "preco_unitario": "29.06 €/Lt",
+    "preco_atual": "14,53 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioderma limpeza abcderm moussant 1l",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-bioderma-limpeza-abcderm-moussant-1l/1193705.html",
+    "quantidade_minima": null,
+    "preco_unitario": "23.95 €/Lt",
+    "preco_atual": "23,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel mustela lavante 200ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-mustela-lavante-200ml/918169.html",
+    "quantidade_minima": null,
+    "preco_unitario": "52.55 €/Lt",
+    "preco_atual": "10,51 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel oleoban banho bebé 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-oleoban-banho-bebe-500ml/808976.html",
+    "quantidade_minima": null,
+    "preco_unitario": "32.48 €/Lt",
+    "preco_atual": "16,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel mustela lavante stelatopia 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-mustela-lavante-stelatopia-500ml/2404528.html",
+    "quantidade_minima": null,
+    "preco_unitario": "40.52 €/Lt",
+    "preco_atual": "20,26 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice shower gel wolfthorn 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-shower-gel-wolfthorn-1l/3829373.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel klorane lavante suave bebé 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-klorane-lavante-suave-bebe-500ml/2771557.html",
+    "quantidade_minima": null,
+    "preco_unitario": "24.76 €/Lt",
+    "preco_atual": "12,38 €",
+    "preco_antigo": "Price reduced from16,50 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho feno portugal :chá verde dos açores 450 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-feno-portugal-cha-verde-dos-acores-450-ml/3799544.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel dove men de banho sports 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-dove-men-de-banho-sports-400ml/3311795.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10 €/Lt",
+    "preco_atual": "4,00 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito triple alfazema oval 150g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-triple-alfazema-oval-150g/12851.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.67 €/Kg",
+    "preco_atual": "4,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "porta sabonete magnético cosmia aço inoxidável com ventosa 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/porta-sabonete-magnetico-cosmia-aco-inoxidavel-com-ventosa-1un/3706176.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.49 €/un",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "coloração just for men barba e bigode moreno",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/coloracao-just-for-men-barba-e-bigode-moreno/2484131.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.69 €/un",
+    "preco_atual": "12,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel aveeno dermexa de banho 2x300ml 80% na 2ªun",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-aveeno-dermexa-de-banho-2x300ml-80-na-2%C2%AAun/2294264.html",
+    "quantidade_minima": null,
+    "preco_unitario": "36.48 €/Lt",
+    "preco_atual": "21,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido água micelar feno de portugal 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-agua-micelar-feno-de-portugal-300-ml/2947223.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.23 €/Lt",
+    "preco_atual": "2,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel old spice banho 2 em 1 deep sea 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-old-spice-banho-2-em-1-deep-sea-400ml/3185242.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice nightpanther 675ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-nightpanther-675ml/3754273.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.18 €/Lt",
+    "preco_atual": "5,52 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel old spice banho wlfthorn 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-old-spice-banho-wlfthorn-400ml/2229590.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "luva de banho cosmia esfoliante fibras de origem 100% natural 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/luva-de-banho-cosmia-esfoliante-fibras-de-origem-100-natural-1un/3668318.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.59 €/un",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "coloração just for men barba e bigode preto",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/coloracao-just-for-men-barba-e-bigode-preto/2484134.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.69 €/un",
+    "preco_atual": "12,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho hidratante cosmia com extrato de pêssego e leite de aveia 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-hidratante-cosmia-com-extrato-de-pessego-e-leite-de-aveia-750ml/3756323.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.45 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice bearglove 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-bearglove-400ml/3754268.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "creme aveeno hidratante dermexa 200ml+gel banho 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/creme-aveeno-hidratante-dermexa-200mlgel-banho-300ml/2295066.html",
+    "quantidade_minima": null,
+    "preco_unitario": "45.78 €/Lt",
+    "preco_atual": "22,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel a-derma exomega corpo e cabelo control 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-a-derma-exomega-corpo-e-cabelo-control-500ml/2340264.html",
+    "quantidade_minima": null,
+    "preco_unitario": "41.92 €/Lt",
+    "preco_atual": "20,96 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sais corine de farme de banho manga 1.3kg",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/sais-corine-de-farme-de-banho-manga-1.3kg/2744962.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.22 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "coloração just for men barba e bigode castanho escuro",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/coloracao-just-for-men-barba-e-bigode-castanho-escuro/2484125.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.69 €/un",
+    "preco_atual": "12,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô just for men controlgx 2em1 118 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/champo-just-for-men-controlgx-2em1-118-ml/3405732.html",
+    "quantidade_minima": null,
+    "preco_unitario": "127.03 €/Lt",
+    "preco_atual": "14,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme frozen 2 em 1 300ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-banho-corine-de-farme-frozen-2-em-1-300ml/3459547.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.63 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel oleoban banho bebé 300ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-oleoban-banho-bebe-300ml/721757.html",
+    "quantidade_minima": null,
+    "preco_unitario": "43.97 €/Lt",
+    "preco_atual": "13,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme pure 0% 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-corine-de-farme-pure-0-500ml/3296797.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.98 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,49 €to",
+    "promocao": "-18%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "escova cosmia banho madeira esfoliante para massagem 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/escova-cosmia-banho-madeira-esfoliante-para-massagem-1un/2763465.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/un",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine de farme aloé vera 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-corine-de-farme-aloe-vera-750-ml/3459609.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.05 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel a-derma primalba corpo e cabelo 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-a-derma-primalba-corpo-e-cabelo-500ml/721901.html",
+    "quantidade_minima": null,
+    "preco_unitario": "33.94 €/Lt",
+    "preco_atual": "16,97 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice shower gel captain 1 lt",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-shower-gel-captain-1-lt/3834020.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "coloração just for men long touch of grey moreno preto",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/coloracao-just-for-men-long-touch-of-grey-moreno-preto/953091.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.89 €/un",
+    "preco_atual": "13,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete artmm sintra palácio nacional 150g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-artmm-sintra-palacio-nacional-150g/3668245.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.6 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de duche corine de farme 2 em 1 super homem 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-de-duche-corine-de-farme-2-em-1-super-homem-300-ml/3803190.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.63 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel a-derma exomega corpo e cabelo control 200ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-a-derma-exomega-corpo-e-cabelo-control-200ml/2340261.html",
+    "quantidade_minima": null,
+    "preco_unitario": "69.55 €/Lt",
+    "preco_atual": "13,91 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dynamic pulse adidas 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dynamic-pulse-adidas-400ml/3185279.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "creme klorane lavante bebé 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/creme-klorane-lavante-bebe-500ml/2771547.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.26 €/Lt",
+    "preco_atual": "13,13 €",
+    "preco_antigo": "Price reduced from17,50 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel corine de farme de banho 3 em 1 vaiana 500ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-corine-de-farme-de-banho-3-em-1-vaiana-500ml/2744950.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "creme bioderma lavante abcderm cold cream 1l",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/creme-bioderma-lavante-abcderm-cold-cream-1l/1193708.html",
+    "quantidade_minima": null,
+    "preco_unitario": "26.95 €/Lt",
+    "preco_atual": "26,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "dermo-óleo d'aveia pediátrico 200ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/dermo-oleo-daveia-pediatrico-200ml/2241400.html",
+    "quantidade_minima": null,
+    "preco_unitario": "75.8 €/Lt",
+    "preco_atual": "15,16 €",
+    "preco_antigo": "Price reduced from18,95 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho corine farme spider 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-banho-corine-farme-spider-300-ml/3519377.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.63 €/Lt",
+    "preco_atual": "5,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho cosmia recarga 2em1 sal marinho 1l",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-cosmia-recarga-2em1-sal-marinho-1l/3793875.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.59 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho rose & almond milk nivea 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-rose-e-almond-milk-nivea-750-ml/1019720.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.32 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-43%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel lactovit de banho pêssego e toranja 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-lactovit-de-banho-pessego-e-toranja-650ml/3171358.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido doseador elimina odores palmolive 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-doseador-elimina-odores-palmolive-300ml/2155308.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.63 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete confiança enxofre 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-confianca-enxofre-75g/2517685.html",
+    "quantidade_minima": null,
+    "preco_unitario": "23.87 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho auchan baby pump 2em1 camomila 750ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-banho-auchan-baby-pump-2em1-camomila-750ml/2894194.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido doseador económico naturals hidratante leite de amêndoa palmolive 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-doseador-economico-naturals-hidratante-leite-de-amendoa-palmolive-500ml/2122202.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno portugal mel e geleia real 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-portugal-mel-e-geleia-real-650ml/3643436.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Lt",
+    "preco_atual": "3,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia rosa e jasmim 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-rosa-e-jasmim-500ml/3731850.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido dettol aloe vera eco pack 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-dettol-aloe-vera-eco-pack-500ml/3523315.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho palmolive naturals leite&mel 1 lt",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-palmolive-naturals-leiteemel-1-lt/3766089.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.78 €/Lt",
+    "preco_atual": "3,78 €",
+    "preco_antigo": "Price reduced from4,79 €to",
+    "promocao": "-21%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido cosmia amêndoa 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-cosmia-amendoa-300ml/3732129.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.63 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido dove nourishing silk recarga 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-dove-nourishing-silk-recarga-500ml/3457663.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.34 €/Lt",
+    "preco_atual": "3,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho doseador zero% para toda a família sanex 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-doseador-zero-para-toda-a-familia-sanex-750ml/3323160.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.53 €/Lt",
+    "preco_atual": "7,15 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete em espuma cosmia hortelã e pepino 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-em-espuma-cosmia-hortela-e-pepino-300ml/3732109.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.3 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido desinfetante nutritivo sanytol 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-desinfetante-nutritivo-sanytol-250ml/3039867.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.76 €/Lt",
+    "preco_atual": "4,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete palmolive líquido recarga leite e mel 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-palmolive-liquido-recarga-leite-e-mel-300ml/789601.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español ureia 1250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-instituto-espa%C3%B1ol-ureia-1250ml/3756925.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.46 €/Lt",
+    "preco_atual": "4,32 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho naturals hidratante leite de oliva palmolive 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-naturals-hidratante-leite-de-oliva-palmolive-500ml/2701741.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido palmolive recarga leite e mel 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-palmolive-recarga-leite-e-mel-500ml/3573521.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove adv deeply nourishing 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-dove-adv-deeply-nourishing-400ml/3754288.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sanex pro hydrate 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sanex-pro-hydrate-600ml/3642593.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito luxo banho classic 350g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-luxo-banho-classic-350g/1046797.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.54 €/Kg",
+    "preco_atual": "4,39 €",
+    "preco_antigo": "Price reduced from4,95 €to",
+    "promocao": "-11%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sanex zero% pele normal 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sanex-zero-pele-normal-600ml/3642766.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido lux soft glow 4x90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-lux-soft-glow-4x90g/3523118.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.08 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel men expert de banho hydra power 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-men-expert-de-banho-hydra-power-400ml/3318359.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced deeply nourishing 225ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-dove-advanced-deeply-nourishing-225ml/3754308.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.62 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel men expert de banho hydra energetic 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-men-expert-de-banho-hydra-energetic-400ml/3185021.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced nourishing silk 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-dove-advanced-nourishing-silk-400ml/3754287.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido palmolive leite & amêndoa 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-palmolive-leite-e-amendoa-300ml/3793783.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho esfoliante cosmia sabão preto e lascas de argão 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-banho-esfoliante-cosmia-sabao-preto-e-lascas-de-argao-250ml/3773538.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.16 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "espuma de banho cosmia ritual of ayurveda 750ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/espuma-de-banho-cosmia-ritual-of-ayurveda-750ml/3732098.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.79 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido palmolive aquarium 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-palmolive-aquarium-300ml/3766068.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.63 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho palmolive naturals sensitive 1 lt",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-palmolive-naturals-sensitive-1-lt/3766078.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.79 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove advanced anti stress 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-advanced-anti-stress-600ml/3754293.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.15 €/Lt",
+    "preco_atual": "7,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho dove adv nourishing argan oil 600ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-banho-dove-adv-nourishing-argan-oil-600ml/3754291.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.15 €/Lt",
+    "preco_atual": "7,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido doseador naturals hidratante leite e mel palmolive 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-doseador-naturals-hidratante-leite-e-mel-palmolive-300ml/436970.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.63 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô l'oreal men expert limpeza barber club 200ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/champo-loreal-men-expert-limpeza-barber-club-200ml/2665413.html",
+    "quantidade_minima": null,
+    "preco_unitario": "31.45 €/Lt",
+    "preco_atual": "6,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô fructis cabelos normais 2 em 1 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/cabelos-normais/champo-fructis-cabelos-normais-2-em-1-250ml/210924.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.96 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho men expert hydra energetic extreme sport 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-men-expert-hydra-energetic-extreme-sport-400ml/3720726.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido doseador naturals hidratante leite de amêndoa palmolive 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-doseador-naturals-hidratante-leite-de-amendoa-palmolive-300ml/16372.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.63 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô fructis anticaspa clássico 2 em 1 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-fructis-anticaspa-classico-2-em-1-400ml/2227219.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.98 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "touca cetim franck provost todos tipo cabelo un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/touca-cetim-franck-provost-todos-tipo-cabelo-un/3720508.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.87 €/un",
+    "preco_atual": "5,87 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete musgo real grande 160g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-musgo-real-grande-160g/12878.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.19 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from2,00 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel men expert de banho stress resist 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-men-expert-de-banho-stress-resist-400ml/3185248.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho old spice rockstar 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-old-spice-rockstar-400ml/3754264.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.92 €/Lt",
+    "preco_atual": "3,57 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lusitano ouro esteva e camomila 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lusitano-ouro-esteva-e-camomila-75g/1153471.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.53 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "luva cosmia esponja peles delicadas 2un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/luva-cosmia-esponja-peles-delicadas-2un/2763504.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.63 €/un",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido doseador naturals hidratante leite de oliva palmolive 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-doseador-naturals-hidratante-leite-de-oliva-palmolive-300ml/98231.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.63 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "coloração just for men longa duração castanho escuro",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/coloracao-just-for-men-longa-duracao-castanho-escuro/808870.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.89 €/un",
+    "preco_atual": "13,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel men expert de banho total clean 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-men-expert-de-banho-total-clean-400ml/3185249.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lusitano galo tomilho e laranja 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lusitano-galo-tomilho-e-laranja-75g/1153465.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.53 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sence floral & grapefruit 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sence-floral-e-grapefruit-300ml/3848437.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.17 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho lpm pêssego e nectarina 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-lpm-pessego-e-nectarina-650ml/3742360.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.75 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sence flower crush & apple 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sence-flower-crush-e-apple-300ml/3848442.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.17 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho lpm flor laranjeira 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-lpm-flor-laranjeira-650ml/3742284.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.75 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho lpm amêndoas doces 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-lpm-amendoas-doces-650ml/3761549.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.75 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete idc institute smoothie manga 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-idc-institute-smoothie-manga-75g/3792431.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.25 €/un",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho lpm leite baunilha 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-lpm-leite-baunilha-650ml/3742310.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.75 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido dove men extra fresh 2 em 1 90gr",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-dove-men-extra-fresh-2-em-1-90gr/3514200.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.11 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho esfoliante cosmia sementes de framboesa 250ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-esfoliante-cosmia-sementes-de-framboesa-250ml/3773539.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.16 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive smoothie berry 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-smoothie-berry-500ml/3631707.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete eco cozinha elimina odores clean essence 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-eco-cozinha-elimina-odores-clean-essence-300-ml/3401849.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "massajador omnia botanica anti-celulite un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/massajador-omnia-botanica-anti-celulite-un/3720509.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.99 €/un",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete idc institute smoothie coco 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-idc-institute-smoothie-coco-75g/3792430.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.25 €/un",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho sence tropical joy & coconut 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-sence-tropical-joy-e-coconut-300ml/3848445.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.17 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete idc institute smoothie morango 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-idc-institute-smoothie-morango-75g/3792434.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.25 €/un",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho vaseline rosas e jasmim 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-vaseline-rosas-e-jasmim-700ml/3887479.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.27 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho vaseline hidra essencial 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-vaseline-hidra-essencial-700ml/3887653.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.27 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho sence minions 210 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-sence-minions-210-ml/3937373.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.1 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": "Price reduced from2,00 €to",
+    "promocao": "-26%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive naturals côco 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-naturals-coco-500-ml/3873977.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho vaseline manteiga karité 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-vaseline-manteiga-karite-700ml/3887660.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.27 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido creme soft nivea 100 g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-creme-soft-nivea-100-g/967188.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.9 €/Kg",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove men clean comfort 700 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dove-men-clean-comfort-700-ml/3874687.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.77 €/Lt",
+    "preco_atual": "4,04 €",
+    "preco_antigo": "Price reduced from7,49 €to",
+    "promocao": "-46%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho vaseline smooth care 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-vaseline-smooth-care-700ml/3912974.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.27 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey sensations coco 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-sensations-coco-650-ml/3927723.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive naturals orquídea 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-naturals-orquidea-500-ml/3873978.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey sensations argão 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-sensations-argao-650ml/3927732.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho vaseline amendoas doces 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-vaseline-amendoas-doces-700ml/3887652.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.27 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey derma care hipoalergénico 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-derma-care-hipoalergenico-650ml/3927724.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey sensations monoi 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-sensations-monoi-650-ml/3927727.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho sence frozen 250 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-sence-frozen-250-ml/3937367.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8 €/Lt",
+    "preco_atual": "2,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey sensations colonia 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-sensations-colonia-650ml/3927728.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive amendoa pump 750 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-grande/gel-de-banho-palmolive-amendoa-pump-750-ml/3903580.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.19 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho disney clássicos 250 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-disney-classicos-250-ml/3937363.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2 €/un",
+    "preco_atual": "2,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey derma care nutritivo 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-derma-care-nutritivo-650-ml/3927717.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido dettol lavanda eco pack 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-dettol-lavanda-eco-pack-500ml/3877357.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey sensations amazonia 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-sensations-amazonia-650-ml/3927710.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey sensations frutos verm 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-sensations-frutos-verm-650ml/3927721.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive aroma restful sleep 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-aroma-restful-sleep-500ml/3877356.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno de portugal hipoalergénico amêndoas 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-de-portugal-hipoalergenico-amendoas-650-ml/3928015.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5 €/Lt",
+    "preco_atual": "3,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete liquido sence spooky vibes",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-sence-spooky-vibes/3935746.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.99 €/un",
+    "preco_atual": "1,99 €",
+    "preco_antigo": "Price reduced from4,81 €to",
+    "promocao": "-59%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive gentle massage 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-gentle-massage-500-ml/3882866.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho feno de portugal orquidea imperial 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-feno-de-portugal-orquidea-imperial-500-ml/3928016.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.34 €/Lt",
+    "preco_atual": "3,17 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español aveia 100 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-instituto-espa%C3%B1ol-aveia-100-ml/3920573.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.5 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho refrescante sence embrace 200ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-refrescante-sence-embrace-200ml/3860784.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.5 €/Lt",
+    "preco_atual": "1,50 €",
+    "preco_antigo": "Price reduced from2,00 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nivea men total relax 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nivea-men-total-relax-500-ml/3910856.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.34 €/Lt",
+    "preco_atual": "4,67 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido septona mel e gengibre 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-septona-mel-e-gengibre-400ml/3925502.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho natural honey sensations zen 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-natural-honey-sensations-zen-650-ml/3927715.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.6 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho dove men sandalwood vanilla 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-dove-men-sandalwood-vanilla-400ml/3950621.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho minecraft 2 em 1 400 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-minecraft-2-em-1-400-ml/3925621.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.75 €/Lt",
+    "preco_atual": "5,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô nivea men sensitive power 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-nivea-men-sensitive-power-250-ml/3931831.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.56 €/Lt",
+    "preco_atual": "4,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho vaseline vita care 700ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-vaseline-vita-care-700ml/3887658.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.27 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey derma care hidratante 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-derma-care-hidratante-650-ml/3927719.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.62 €/Lt",
+    "preco_atual": "3,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho le petit marseillais flor de amendoeira 400ml",
+    "link": "https://www.auchan.pt/pt/campanhas/beleza-e-higiene/as-grandes-novidades-e-tendencias/gel-de-banho-le-petit-marseillais-flor-de-amendoeira-400ml/3939537.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho minions aroma banana 400 ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-de-banho-minions-aroma-banana-400-ml/3937375.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.5 €/Lt",
+    "preco_atual": "3,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "touca de duche stitch 1 un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/touca-de-duche-stitch-1-un/3879155.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.19 €/un",
+    "preco_atual": "5,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho palmolive naturals macadamia 500 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-palmolive-naturals-macadamia-500-ml/3873979.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô nivea men strong power 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-nivea-men-strong-power-500ml/3939543.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.58 €/Lt",
+    "preco_atual": "8,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho le petit marseillais aloe vera 400ml",
+    "link": "https://www.auchan.pt/pt/campanhas/beleza-e-higiene/as-grandes-novidades-e-tendencias/gel-banho-le-petit-marseillais-aloe-vera-400ml/3939533.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "flor de duche stitch 1 un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/flor-de-duche-stitch-1-un/3879156.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.98 €/un",
+    "preco_atual": "3,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho le petit marseillais flor de cerejeira 650ml",
+    "link": "https://www.auchan.pt/pt/campanhas/beleza-e-higiene/as-grandes-novidades-e-tendencias/gel-de-banho-le-petit-marseillais-flor-de-cerejeira-650ml/3939531.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.75 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho disney +shampoo 2em 1",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-banho-disney-shampoo-2em-1/3899111.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.5 €/Lt",
+    "preco_atual": "5,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho disney +shampoo 2em1",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-de-banho-disney-shampoo-2em1/3899109.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.5 €/Lt",
+    "preco_atual": "5,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô nivea men active clean 500ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/champo-e-coloracao/champo-tratamento/champo-nivea-men-active-clean-500ml/3939556.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.58 €/Lt",
+    "preco_atual": "8,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español urea 100 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-instituto-espa%C3%B1ol-urea-100-ml/3920469.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.5 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho instituto español peles atópicas 100 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-instituto-espa%C3%B1ol-peles-atopicas-100-ml/3920467.html",
+    "quantidade_minima": null,
+    "preco_unitario": "22.5 €/un",
+    "preco_atual": "2,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nike hydrating 650ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nike-hydrating-650ml/3877586.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.22 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho le petit marseillais flor de ciano 400 ml",
+    "link": "https://www.auchan.pt/pt/campanhas/beleza-e-higiene/as-grandes-novidades-e-tendencias/gel-banho-le-petit-marseillais-flor-de-ciano-400-ml/3939535.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.48 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nike nutritive 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nike-nutritive-650-ml/3877587.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.22 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido septona algodão e prot. de leite 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-septona-algodao-e-prot.-de-leite-400ml/3925504.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "champô revuele 3 em 1 barba e cabelo 300 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/champo-revuele-3-em-1-barba-e-cabelo-300-ml/3919510.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.3 €/Lt",
+    "preco_atual": "4,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido septona amêndoa e chá de rosas 400ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-septona-amendoa-e-cha-de-rosas-400ml/3925505.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nivea derma control defend 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-nivea-derma-control-defend-250-ml/3931823.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.96 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nivea derma control restore 250 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-pequeno/gel-de-banho-nivea-derma-control-restore-250-ml/3931821.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.96 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho men expert hydra hyaluronic 400 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-men-expert-hydra-hyaluronic-400-ml/3892094.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.48 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel banho natural honey derma care micelar 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-banho-natural-honey-derma-care-micelar-650-ml/3927711.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.62 €/Lt",
+    "preco_atual": "3,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nike nutritive 400 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nike-nutritive-400-ml/3877592.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete sólido dove manteiga karité 90g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-solido-dove-manteiga-karite-90g/3881613.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.89 €/Kg",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nike hydrating 400 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nike-hydrating-400-ml/3877598.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho sence lilo&stitch 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/gel-de-banho-sence-liloestitch-300ml/3868508.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.33 €/Lt",
+    "preco_atual": "2,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nike prebiotic b 650 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nike-prebiotic-b-650-ml/3877589.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.22 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel de banho nike prebiotic b 400 ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-formato-medio/gel-de-banho-nike-prebiotic-b-400-ml/3877595.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete ach brito lágrima 75g",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-ach-brito-lagrima-75g/3954741.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.33 €/Kg",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "gel bioderma limpeza abcderm moussant 200ml",
+    "link": "https://www.auchan.pt/pt/o-mundo-do-bebe/banho-e-higiene-do-bebe/banho/gel-de-banho-e-champo-infantil/gel-bioderma-limpeza-abcderm-moussant-200ml/1193704.html",
+    "quantidade_minima": null,
+    "preco_unitario": "59.75 €/Lt",
+    "preco_atual": "11,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido septona amendoa&cha rec 1000ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-septona-amendoaecha-rec-1000ml/3963529.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/un",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido septona alg&leite rec 1000ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-septona-algeleite-rec-1000ml/3963530.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/un",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "conjunto sence disney esponja + gel banho 300ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/gel-banho-crianca/conjunto-sence-disney-esponja-gel-banho-300ml/3868608.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.5 €/Lt",
+    "preco_atual": "3,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "sabonete líquido septona mel&geng rec 1000ml",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/sabonetes/sabonete-liquido-septona-melegeng-rec-1000ml/3963531.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/un",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja banho cosmia dupla ação 2un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-banho-cosmia-dupla-acao-2un/3950396.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.3 €/un",
+    "preco_atual": "1,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja banho auchan baby 1 un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-banho-auchan-baby-1-un/3950260.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.89 €/un",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja banho cosmia esfoliante p/ massagem 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-banho-cosmia-esfoliante-p-massagem-1un/3956161.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.99 €/un",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja banho cosmia sortido frutas 1un",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-banho-cosmia-sortido-frutas-1un/3956268.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.49 €/un",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  },
+  {
+    "nome": "esponja banho auchan kids",
+    "link": "https://www.auchan.pt/pt/beleza-e-higiene/gel-de-banho-e-sabonete/acessorios-banho/esponja-banho-auchan-kids/3950305.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.49 €/un",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-25-20"
+  }
+]

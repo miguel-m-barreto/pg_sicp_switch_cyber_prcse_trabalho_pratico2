@@ -1,0 +1,92 @@
+[
+  {
+    "nome": "tablete mysugar chocolate lata 100g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/chocolates-e-achocolatados/bombons-e-snacks/tablete-mysugar-chocolate-lata-100g/3278759.html",
+    "quantidade_minima": null,
+    "preco_unitario": "65 €/Kg",
+    "preco_atual": "6,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "mel hperfect rosmaninho 500g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/cremes-compotas-e-mel/mel-marmelada-e-goiabada/mel-hperfect-rosmaninho-500g/3316211.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.18 €/Kg",
+    "preco_atual": "6,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "chocolate coqui 400g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/chocolates-e-achocolatados/achocolatados-instantaneos/chocolate-coqui-400g/1184081.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.73 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "broas biscoitos de sintra de mel 330gr",
+    "link": "https://www.auchan.pt/pt/produtos-locais/produtos-locais-mercearia-doce/broas-biscoitos-de-sintra-de-mel-330gr/2766912.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.39 €/Kg",
+    "preco_atual": "4,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "figos semear em vinho do porto 200g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/cremes-compotas-e-mel/compotas/figos-semear-em-vinho-do-porto-200g/3365182.html",
+    "quantidade_minima": null,
+    "preco_unitario": "21.95 €/Kg",
+    "preco_atual": "4,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "biscoitos caseiros argolas 350g",
+    "link": "https://www.auchan.pt/pt/produtos-locais/produtos-locais-mercearia-doce/biscoitos-caseiros-argolas-350g/99138.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.4 €/Kg",
+    "preco_atual": "4,34 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "achocolatado coqui 200g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/chocolates-e-achocolatados/achocolatados-instantaneos/achocolatado-coqui-200g/3212084.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.95 €/Kg",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "cacau disfala em pó magro 125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/chocolates-e-achocolatados/achocolatados-instantaneos/cacau-disfala-em-po-magro-125g/3202769.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.2 €/Kg",
+    "preco_atual": "2,15 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  },
+  {
+    "nome": "chocolate disfala em pó 125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/chocolates-e-achocolatados/achocolatados-instantaneos/chocolate-disfala-em-po-125g/3212092.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.12 €/Kg",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-12-32"
+  }
+]

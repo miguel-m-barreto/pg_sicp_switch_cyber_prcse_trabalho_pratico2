@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "gelado santini caramelo 500ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/gelados/gelados-familiares/gelado-santini-caramelo-500ml/3800328.html",
+    "quantidade_minima": null,
+    "preco_unitario": "39 €/Lt",
+    "preco_atual": "19,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "gelado santini manga 500ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/gelados/gelados-familiares/gelado-santini-manga-500ml/3800325.html",
+    "quantidade_minima": null,
+    "preco_unitario": "39 €/Lt",
+    "preco_atual": "19,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "gelado santini baunilha 500 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/gelados/gelados-familiares/gelado-santini-baunilha-500-ml/3797540.html",
+    "quantidade_minima": null,
+    "preco_unitario": "39 €/Lt",
+    "preco_atual": "19,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "pizza garden cogumelos trufados 445g",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/pizzas/pizza-garden-cogumelos-trufados-445g/3635211.html",
+    "quantidade_minima": null,
+    "preco_unitario": "28.99 €/Kg",
+    "preco_atual": "12,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "pizza garden mozzarella de búfala 345g",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/pizzas/pizza-garden-mozzarella-de-bufala-345g/3635207.html",
+    "quantidade_minima": null,
+    "preco_unitario": "37.39 €/Kg",
+    "preco_atual": "12,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "pizza garden pepperoni 405g",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/pizzas/pizza-garden-pepperoni-405g/3636392.html",
+    "quantidade_minima": null,
+    "preco_unitario": "29.38 €/Kg",
+    "preco_atual": "11,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "mini covilhetes soul&flavours 12 un 300g",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/entradas-e-salgados/mini-covilhetes-souleflavours-12-un-300g/3515675.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.3 €/Kg",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  },
+  {
+    "nome": "covilhete soul&flavours 6 un 480g",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/entradas-e-salgados/covilhete-souleflavours-6-un-480g/3515545.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.85 €/Kg",
+    "preco_atual": "4,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-32"
+  }
+]

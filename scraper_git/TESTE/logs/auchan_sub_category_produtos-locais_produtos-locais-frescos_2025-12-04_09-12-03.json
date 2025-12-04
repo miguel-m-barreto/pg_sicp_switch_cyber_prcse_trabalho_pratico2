@@ -1,0 +1,612 @@
+[
+  {
+    "nome": "cogumelo juba de leão (economia circular) kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/cogumelo-juba-de-leao-%28economia-circular%29-kg/3799213.html",
+    "quantidade_minima": "Quant. Mínima = 150g",
+    "preco_unitario": "22.99 €/Kg",
+    "preco_atual": "22,99 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pack de 3 queijos almerinda queijo cabra e mel un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/pack-de-3-queijos-almerinda-queijo-cabra-e-mel-un/3552122.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.99 €/un",
+    "preco_atual": "19,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "kit cultivo shitake nam (economia circular)",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/kit-cultivo-shitake-nam-%28economia-circular%29/3829206.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.99 €/Kg",
+    "preco_atual": "19,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "kit cultivo pleurotus nam (economia circular)",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/kit-cultivo-pleurotus-nam-%28economia-circular%29/3826518.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.99 €/un",
+    "preco_atual": "17,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo almeida mistura curado kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-almeida-mistura-curado-kg/3360070.html",
+    "quantidade_minima": "Quant. Mínima = 200g",
+    "preco_unitario": "15.99 €/Kg",
+    "preco_atual": "15,99 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "tarte de amêndoa a tarte 350g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/bolos-embalados/tarte-de-amendoa-a-tarte-350g/3581631.html",
+    "quantidade_minima": null,
+    "preco_unitario": "44.26 €/Kg",
+    "preco_atual": "15,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "salsa fresca kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/ervas-aromaticas/salsa-fresca-kg-produto-local/28536.html",
+    "quantidade_minima": "Quant. Mínima = 100g",
+    "preco_unitario": "13.75 €/Kg",
+    "preco_atual": "13,75 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "coentros frescos kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/ervas-aromaticas/coentros-frescos-kg-produto-local/76062.html",
+    "quantidade_minima": "Quant. Mínima = 120g",
+    "preco_unitario": "13.75 €/Kg",
+    "preco_atual": "13,75 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "hortelã fresca kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/ervas-aromaticas/hortela-fresca-kg-produto-local/24068.html",
+    "quantidade_minima": "Quant. Mínima = 100g",
+    "preco_unitario": "13.72 €/Kg",
+    "preco_atual": "13,72 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "cogumelos shitake (economia circular) produto local kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/cogumelos-shitake-%28economia-circular%29-produto-local-kg/3115004.html",
+    "quantidade_minima": "Quant. Mínima = 100g",
+    "preco_unitario": "12.79 €/Kg",
+    "preco_atual": "12,79 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "cogumelo pleurotus (economia circular) produto local kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/cogumelo-pleurotus-%28economia-circular%29-produto-local-kg/3462887.html",
+    "quantidade_minima": "Quant. Mínima = 100g",
+    "preco_unitario": "10.79 €/Kg",
+    "preco_atual": "10,79 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "kit cultivo diy nam (economia circular)",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/kit-cultivo-diy-nam-%28economia-circular%29/3829372.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.99 €/Kg",
+    "preco_atual": "9,99 €",
+    "preco_antigo": "Price reduced from12,50 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo de vaca curado quadrado dom villas kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-de-vaca-curado-quadrado-dom-villas-kg/568607.html",
+    "quantidade_minima": "Quant. Mínima = 400g",
+    "preco_unitario": "9.49 €/Kg",
+    "preco_atual": "9,49 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo cachopas merendeira ovelha curado f17 200g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-cachopas-merendeira-ovelha-curado-f17-200g-produto-local/3262412.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.99 €/un",
+    "preco_atual": "7,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "travesseiros casa do preto de sintra com recheio 6 un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/travesseiros-casa-do-preto-de-sintra-com-recheio-6-un/2199692.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.33 €/un",
+    "preco_atual": "7,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijadas de sintra casa do preto 6un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/queijadas-de-sintra-casa-do-preto-6un/59417.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.79 €/un",
+    "preco_atual": "5,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "esses biscoitos de sintra 330g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/biscoitos-tradicionais-e-bolachas/esses-biscoitos-de-sintra-330g/2968033.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.12 €/Kg",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "broas biscoitos de sintra de mel 330gr",
+    "link": "https://www.auchan.pt/pt/produtos-locais/produtos-locais-mercearia-doce/broas-biscoitos-de-sintra-de-mel-330gr/2766912.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.39 €/Kg",
+    "preco_atual": "4,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "amêndoas biscoitos de sintra 330gr",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/amendoas-biscoitos-de-sintra-330gr/2766876.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.39 €/Kg",
+    "preco_atual": "4,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "filhós cabrela 125g (l)",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/filhos-cabrela-125g-%28l%29/3532032.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.59 €/un",
+    "preco_atual": "4,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "amores biscoitos de sintra 330gr",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/amores-biscoitos-de-sintra-330gr/2766888.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.64 €/Kg",
+    "preco_atual": "4,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "bolo de mel podre pastelinhos safara 450g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/bolo-de-mel-podre-pastelinhos-safara-450g/751710.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Kg",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo de ovelha curado amanteigado monte da vinha un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-de-ovelha-curado-amanteigado-monte-da-vinha-un/1018650.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/un",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "bolo pastelinhos de safara 400g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/bolo-pastelinhos-de-safara-400g/751702.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "travesseiros casa do preto de sintra com recheio un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/travesseiros-casa-do-preto-de-sintra-com-recheio-un/2199699.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.45 €/un",
+    "preco_atual": "1,45 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "bolinhas caruço & filhos de mafra 5x70g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/bolinhas-caruco-e-filhos-de-mafra-5x70g/740005.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.23 €/Kg",
+    "preco_atual": "1,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "aipo com rama kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/mais-legumes/aipo-com-rama-kg-produto-local/3109075.html",
+    "quantidade_minima": "Quant. Mínima = 1000g",
+    "preco_unitario": "2.49 €/Kg",
+    "preco_atual": "2,49 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão alentejano de cabrela forma fatiado 400g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-alentejano-de-cabrela-forma-fatiado-400g-produto-local/768626.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.48 €/Kg",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão alentejano de cabrela forma fatiado 800g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-alentejano-de-cabrela-forma-fatiado-800g-produto-local/601214.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.49 €/Kg",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão moinhos vivos forma tradicional fatiado 800g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-moinhos-vivos-forma-tradicional-fatiado-800g-produto-local/468846.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.74 €/Kg",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "argolas de canela pastelinhos de safara 400g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/argolas-de-canela-pastelinhos-de-safara-400g/751713.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.98 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijada de sintra casa do preto un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/queijada-de-sintra-casa-do-preto-un/2201203.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/un",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão moinhos vivos 400g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-moinhos-vivos-400g-produto-local/198864.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.73 €/Kg",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "padinhas textura alentejana 300g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/padinhas-textura-alentejana-300g-produto-local/2638485.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.63 €/Kg",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo ovelha fresco quinta das romãs 120g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-frescorequeijao-e-mozzarella/queijo-ovelha-fresco-quinta-das-romas-120g/3209663.html",
+    "quantidade_minima": null,
+    "preco_unitario": "20.75 €/Kg",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "agrião kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/alface-e-agriao/agriao-kg-produto-local/3117718.html",
+    "quantidade_minima": "Quant. Mínima = 500g",
+    "preco_unitario": "2.79 €/Kg",
+    "preco_atual": "2,79 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo cachopas mistura pequeno un 90g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-cachopas-mistura-pequeno-un-90g-produto-local/3227270.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/un",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,89 €to",
+    "promocao": "-26%",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo licinia amanteigado vaca e ovelha 200g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-licinia-amanteigado-vaca-e-ovelha-200g/3363710.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.9 €/Kg",
+    "preco_atual": "3,18 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo cachopas fresco mistura un 130g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-cachopas-fresco-mistura-un-130g-produto-local/3227225.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.5 €/Kg",
+    "preco_atual": "1,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo cachopas merendeira vaca e ovelha curado f12 200g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-cachopas-merendeira-vaca-e-ovelha-curado-f12-200g-produto-local/3262401.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/un",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "chouriço carne bem alentejano 200g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/chourico-carne-bem-alentejano-200g/2642651.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.95 €/Kg",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "requeijão herdade da maia mistura c/doce abóbora 250g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/queijaria/queijo-frescomagrorequeijaomozzarella/requeijao-herdade-da-maia-mistura-cdoce-abobora-250g/3407140.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.96 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "requeijão de penela 250g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/queijaria/queijo-frescomagrorequeijaomozzarella/requeijao-de-penela-250g/635124.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Kg",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "chouriça fumeiro artesanal cebola 250g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/chourica-fumeiro-artesanal-cebola-250g/3403228.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.96 €/Kg",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pepino kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/tomate-pepino-e-pimentos/pepino-kg-produto-local/20618.html",
+    "quantidade_minima": "Quant. Mínima = 400g",
+    "preco_unitario": "1.99 €/Kg",
+    "preco_atual": "1,99 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "alface roxa kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/alface-e-agriao/alface-roxa-kg-produto-local/27229.html",
+    "quantidade_minima": "Quant. Mínima = 300g",
+    "preco_unitario": "2.59 €/Kg",
+    "preco_atual": "2,59 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão alentejano de cabrela 400g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-alentejano-de-cabrela-400g-produto-local/98813.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.23 €/Kg",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão moinhos vivos 800g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-moinhos-vivos-800g-produto-local/198865.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.25 €/Kg",
+    "preco_atual": "2,60 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão regional médio 800g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-regional-medio-800g-produto-local/1113439.html",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "doce regional delícias do sul algarve 6un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/doce-regional-delicias-do-sul-algarve-6un/1091793.html",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "broa avintes kg produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/broa-avintes-kg-produto-local/58686.html",
+    "quantidade_minima": "Quant. Mínima = 1000g",
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pão regional pequeno 400g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/padaria/pao-fresco-e-broa/pao-regional-pequeno-400g-produto-local/1113441.html",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "fatia dourada creme e canela un (l)",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/pastelaria/pastelaria-regional/fatia-dourada-creme-e-canela-un-%28l%29/3680904.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/un",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "pera rocha gwiker desidratada 20 g",
+    "link": "https://www.auchan.pt/pt/alimentacao/mercearia/batatas-fritas-e-aperitivos-snacks/aperitivos-snacks-e-pipocas/pera-rocha-gwiker-desidratada-20-g/3426622.html",
+    "quantidade_minima": null,
+    "preco_unitario": "37.5 €/Kg",
+    "preco_atual": "0,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo quinta dos ingleses kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-quinta-dos-ingleses-kg/5509.html",
+    "quantidade_minima": "Quant. Mínima = 200g",
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "queijo senras dairy kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-senras-dairy-kg/182368.html",
+    "quantidade_minima": "Quant. Mínima = 200g",
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "covilhete vila real 80g produto local",
+    "link": "https://www.auchan.pt/pt/produtos-locais/produtos-locais-frescos/gastronomia-produtos-locais/covilhete-vila-real-80g-produto-local/3578536.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.15 €/un",
+    "preco_atual": "1,15 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "chouriço picante fumeiro artesanal de seia 250g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/chourico-bacon-e-outros/chourico-picante-fumeiro-artesanal-de-seia-250g/3385670.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.32 €/Kg",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "morcela fumeiro artesanal seia 300g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/alheira-farinheira-e-morcela/morcela-fumeiro-artesanal-seia-300g/3385676.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.97 €/Kg",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "cogumelos pleurotus local 250 g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/cogumelos-pleurotus-local-250-g/3643405.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.96 €/Kg",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  },
+  {
+    "nome": "cogumelo shitake (l) 1 250 g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/legumes/cogumelos/cogumelo-shitake-%28l%29-1-250-g/3545055.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.96 €/Kg",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_09-11-38"
+  }
+]

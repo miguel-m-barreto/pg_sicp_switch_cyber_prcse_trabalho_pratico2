@@ -1,0 +1,2932 @@
+[
+  {
+    "nome": "",
+    "link": "",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca mini 30x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-mini-30x0.25l/2112285.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.85 €/Lt",
+    "preco_atual": "13,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock branca 30x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-branca-30x0.25l/2471208.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.99 €/Lt",
+    "preco_atual": "14,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock mini 24x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-mini-24x0.20l/910123.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.06 €/Lt",
+    "preco_atual": "9,90 €",
+    "preco_antigo": "Price reduced from14,99 €to",
+    "promocao": "-34%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja top beer 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-top-beer-1l/1122235.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.19 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock tp 35x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-tp-35x0.20l/3737786.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.07 €/Lt",
+    "preco_atual": "14,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-lata-0.50l/42661.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.7 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-43%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca mini 20x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-mini-20x0.25l/2166619.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.96 €/Lt",
+    "preco_atual": "9,79 €",
+    "preco_antigo": "Price reduced from20,99 €to",
+    "promocao": "-53%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja top beer lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-top-beer-lata-0.33l/2116394.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.15 €/Lt",
+    "preco_atual": "0,38 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-lata-0.33l/3241646.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "0,59 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja top beer mini 24x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-top-beer-mini-24x0.25l/1046228.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.46 €/Lt",
+    "preco_atual": "8,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock mini 15x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-mini-15x0.20l/910128.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.43 €/Lt",
+    "preco_atual": "7,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby pack 12x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-pack-12x0.20l/3618279.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.54 €/Lt",
+    "preco_atual": "8,49 €",
+    "preco_antigo": "Price reduced from11,99 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem alcool super bock 00% 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-super-bock-00-6x0.20l/3581235.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,19 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby pêra 00% sem álcool 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-pera-00-sem-alcool-6x0.20l/3449408.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.74 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,85 €to",
+    "promocao": "-23%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby maçã 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-maca-6x0.20l/3204511.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.74 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,85 €to",
+    "promocao": "-23%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock branca 24x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-branca-24x0.33l/759914.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "17,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres garrafa 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-garrafa-1l/6898.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from2,49 €to",
+    "promocao": "-28%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres preta lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-preta-lata-0.33l/3222398.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "0,59 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken premium 24x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-premium-24x0.25l/2444898.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.5 €/Lt",
+    "preco_atual": "14,99 €",
+    "preco_antigo": "Price reduced from19,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock lata 24x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-lata-24x0.33l/786503.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.94 €/Lt",
+    "preco_atual": "15,36 €",
+    "preco_antigo": "Price reduced from23,76 €to",
+    "promocao": "-35%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby maçã 4x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-maca-4x0.33l/1168753.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.95 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-22%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock stout preta 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-super-bock-stout-preta-6x0.20l/2337420.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,19 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca mini 10x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-mini-10x0.25l/3468579.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.24 €/Lt",
+    "preco_atual": "5,59 €",
+    "preco_antigo": "Price reduced from7,45 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca 15x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-15x0.33l/991323.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.5 €/Lt",
+    "preco_atual": "12,39 €",
+    "preco_antigo": "Price reduced from17,39 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres com álcool lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-com-alcool-lata-0.50l/6894.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.7 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": "Price reduced from1,34 €to",
+    "promocao": "-37%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock mini 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-mini-6x0.20l/2739708.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.74 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca mini 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-mini-6x0.25l/3468631.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "3,74 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja carlsberg 24x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-carlsberg-24x0.25l/770190.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.17 €/Lt",
+    "preco_atual": "12,99 €",
+    "preco_antigo": "Price reduced from19,76 €to",
+    "promocao": "-34%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-lata-0.33l/3581249.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,24 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby blackberry tp 4x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-blackberry-tp-4x0.33l/2153647.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.95 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-22%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem álcool super bock pilsener 0.0% 6x033l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-super-bock-pilsener-0.0-6x033l/3035823.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken barril 5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-barril-5l/707729.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.6 €/Lt",
+    "preco_atual": "17,99 €",
+    "preco_antigo": "Price reduced from23,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock com álcool lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-com-alcool-lata-0.33l/3036934.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.94 €/Lt",
+    "preco_atual": "0,64 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca mini 15x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-mini-15x0.25l/3459440.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.13 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": "Price reduced from16,39 €to",
+    "promocao": "-51%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "panaché top beer pack 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-com-sabor/panache-top-beer-pack-6x0.25l/3377291.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.66 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca mini 24x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-mini-24x0.25l/3459495.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.95 €/Lt",
+    "preco_atual": "11,69 €",
+    "preco_antigo": "Price reduced from23,99 €to",
+    "promocao": "-51%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja guinness irlanda lata 0.44l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-guinness-irlanda-lata-0.44l/471922.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.43 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-lata-0.50l/3039611.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock com álcool tp 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-com-alcool-tp-1l/841254.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres lata 0.0% 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sagres-lata-0.0-0.33l/3061008.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.24 €/Lt",
+    "preco_atual": "0,74 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja franziskaner hefe alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-franziskaner-hefe-alemanha-0.50l/99769.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.78 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar frutos vermelhos lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-frutos-vermelhos-lata-0.50l/3308195.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby pêra 00% lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-pera-00-lata-0.33l/3741806.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,24 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres sem álcool preta 0.0% lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sagres-sem-alcool-preta-0.0-lata-0.33l/3305074.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.24 €/Lt",
+    "preco_atual": "0,74 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar lata 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-lata-0.5l/2707257.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken 12x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-12x0.25l/3039945.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.66 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": "Price reduced from10,65 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger sem álcool 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-sem-alcool-0.50l/2162692.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock sem álcool 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-super-bock-sem-alcool-6x0.33l/649138.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja carlsberg lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-carlsberg-lata-0.50l/3793261.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.98 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-34%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar maçã 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-maca-6x0.25l/3747534.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.99 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock coruja ipa 4x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-coruja-ipa-4x0.33l/2699414.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.64 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": "Price reduced from4,49 €to",
+    "promocao": "-22%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres bohemia original 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-bohemia-original-6x0.33l/2229226.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.52 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar manga 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-manga-0.50l/3595196.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.38 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja branca super bock sky lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-branca-super-bock-sky-lata-0.33l/3618295.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "0,59 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja preta sagres 10x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-preta-sagres-10x0.25l/3459441.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.24 €/Lt",
+    "preco_atual": "5,59 €",
+    "preco_antigo": "Price reduced from7,45 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heifer lata 12x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heifer-lata-12x0.33l/1165819.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.51 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock coruja ipa lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-coruja-ipa-lata-0.33l/3581269.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.7 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": "Price reduced from1,19 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock sem álcool preta 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-super-bock-sem-alcool-preta-6x0.33l/759153.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-6x0.33l/2403249.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.52 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrella damm 12x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrella-damm-12x0.25l/3211047.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.13 €/Lt",
+    "preco_atual": "9,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja preta sagres 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-preta-sagres-1l/3581215.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from2,49 €to",
+    "promocao": "-28%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja especial bohemia original mini 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-especial-bohemia-original-mini-6x0.25l/3635493.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.66 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 6x1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-6x1l/841240.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.79 €/Lt",
+    "preco_atual": "10,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-heineken-lata-0.33l/99784.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem álcool super bock 00% lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-super-bock-00-lata-0.33l/3433302.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cristal 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-cristal-1l/1058105.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.59 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja free damm sem álcool 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-free-damm-sem-alcool-6x0.25l/1125300.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.19 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja top beer 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-top-beer-6x0.33l/799449.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.46 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby blackberry lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-blackberry-lata-0.50l/3493654.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja carlsberg lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-carlsberg-lata-0.33l/99781.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cheers sem álcool tara perdida 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-cheers-sem-alcool-tara-perdida-6x0.33l/42674.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.02 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem alcool sagres 0.0% 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-sagres-0.0-6x0.33l/3780507.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.52 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock stout com álcool tara perdida 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-super-bock-stout-com-alcool-tara-perdida-6x0.33l/531162.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock preta stout lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-super-bock-preta-stout-lata-0.33l/3340807.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock sem glúten 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-sem-gluten-6x0.33l/3238838.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem álcool holbrand lata 12x0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-holbrand-lata-12x0.33-l/3512443.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.51 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken com álcool tara perdida 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-com-alcool-tara-perdida-6x0.25l/421220.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.99 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock pack 6x0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-pack-6x0.33-l/42580.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.47 €/Lt",
+    "preco_atual": "4,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock abadia com álcool tara perdida 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-abadia-com-alcool-tara-perdida-6x0.33l/692800.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrella damm lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrella-damm-lata-0.50l/3785309.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.9 €/Lt",
+    "preco_atual": "1,45 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres radler 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-com-sabor/cerveja-sagres-radler-6x0.33l/1148549.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.52 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger com copo 2x0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-com-copo-2x0.50l/3340810.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.49 €/Lt",
+    "preco_atual": "8,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem álcool holbrand lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-holbrand-lata-0.33l/3512428.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.97 €/Lt",
+    "preco_atual": "0,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrella damm espanha 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrella-damm-espanha-6x0.25l/1125278.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.19 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja branca super bock caixa 12x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-branca-super-bock-caixa-12x0.33l/3617036.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.4 €/Lt",
+    "preco_atual": "9,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja preta sagres mini 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-preta-sagres-mini-6x0.25l/3459442.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "3,74 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja delirium tremens bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-delirium-tremens-belgica-0.33l/2162722.html",
+    "quantidade_minima": null,
+    "preco_unitario": "18.15 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrella galicia especial 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrella-galicia-especial-6x0.33l/3112658.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.03 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken sem álcool lata 0.0% 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-sem-alcool-lata-0.0-0.33l/3156395.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,32 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja carlsberg com álcool pack 6 garrafas 25cl",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-carlsberg-com-alcool-pack-6-garrafas-25cl/321818.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.53 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-24%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra de normandia auchan brut 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-de-normandia-auchan-brut-0.75l/3486215.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal praxis pack medalhados 8x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-praxis-pack-medalhados-8x0.33l/3804296.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.33 €/Lt",
+    "preco_atual": "21,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock com álcool green tara perdida 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-com-sabor/cerveja-super-bock-com-alcool-green-tara-perdida-6x0.33l/592980.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja italiana peroni nastro azzurro 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-italiana-peroni-nastro-azzurro-0.33l/3669805.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem álcool super bock 00% lata 24x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-super-bock-00-lata-24x0.33l/3433299.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.24 €/Lt",
+    "preco_atual": "17,76 €",
+    "preco_antigo": "Price reduced from23,76 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger hell alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-hell-alemanha-0.50l/380949.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja belga kasteel donker 0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-belga-kasteel-donker-0.33-l/3422162.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.58 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja holbrand lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-holbrand-lager-0.33l/3457478.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.76 €/Lt",
+    "preco_atual": "0,58 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem alcool sagres preta 0.0% 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-sagres-preta-0.0-6x0.33l/3780508.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.52 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": "Price reduced from6,99 €to",
+    "promocao": "-29%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja holbrand radler 12 x 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-com-sabor/cerveja-holbrand-radler-12-x-0.33l/3515740.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.36 €/Lt",
+    "preco_atual": "5,40 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar maçã 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-maca-1l/3746857.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": "Price reduced from4,15 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja stella artois bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-stella-artois-belgica-0.33l/323900.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-lata-0.50l/3595197.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja corona méxico 6x0.355l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-corona-mexico-6x0.355l/43594.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.69 €/Lt",
+    "preco_atual": "9,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja desperados frança 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-desperados-franca-6x0.33l/3354406.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.04 €/Lt",
+    "preco_atual": "7,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja duvel bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-duvel-belgica-0.33l/96213.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.36 €/Lt",
+    "preco_atual": "3,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar maçã 10x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-maca-10x0.25l/3618275.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.97 €/Lt",
+    "preco_atual": "12,42 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cuca angola lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-cuca-angola-lata-0.33l/3204301.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja holbrand lager lata 12x0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-holbrand-lager-lata-12x0.50l/3512436.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.5 €/Lt",
+    "preco_atual": "8,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 1927 japanese rice 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-1927-japanese-rice-0.75l/2483535.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.92 €/Lt",
+    "preco_atual": "3,69 €",
+    "preco_antigo": "Price reduced from4,49 €to",
+    "promocao": "-18%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra de normandia auchan doce 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-de-normandia-auchan-doce-0.75l/3486225.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja gulden draak 9000 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-gulden-draak-9000-0.33l/3658384.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.09 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja damm inedit espanha 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-damm-inedit-espanha-0.75l/1125303.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.39 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja coronita méxico 6 x 0.21l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-coronita-mexico-6-x-0.21l/3204418.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.9 €/Lt",
+    "preco_atual": "8,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia thartaruga ipa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-thartaruga-ipa-0.33l/2762377.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.15 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja paulaner weiss 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-paulaner-weiss-0.50l/3655928.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.58 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja kapuziner weissbier 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-kapuziner-weissbier-0.50l/3658378.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.58 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja bock damm espanha 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-bock-damm-espanha-6x0.25l/1125299.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.19 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja tsingtao china 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-tsingtao-china-0.33l/3795915.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.61 €/Lt",
+    "preco_atual": "1,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja franziskaner dunkel alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-franziskaner-dunkel-alemanha-0.50l/99770.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.78 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cuca angola 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-cuca-angola-0.25l/2741643.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.96 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja belga kerel belgian 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-belga-kerel-belgian-0.33l/3641904.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.09 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja nortada lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-nortada-lager-0.33l/3012114.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.21 €/Lt",
+    "preco_atual": "2,05 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja leffe blonde bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-leffe-blonde-belgica-0.33l/138096.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.15 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja hoegaarden bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-hoegaarden-belgica-0.33l/138100.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken premium 18x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-premium-18x0.25l/3340815.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.57 €/Lt",
+    "preco_atual": "11,58 €",
+    "preco_antigo": "Price reduced from15,45 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrangeira desperados lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrangeira-desperados-lata-0.50l/3764490.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrangeira asahi japão 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrangeira-asahi-japao-0.33l/3795916.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.55 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sem alcool guinness lata 0.0% 044l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sem-alcool-guinness-lata-0.0-044l/3779991.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.43 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja duvel 666 bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-duvel-666-belgica-0.33l/3340802.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.48 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrella galicia especial 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrella-galicia-especial-0.50l/3112631.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.5 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra kopparberg mistura de fruta 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-kopparberg-mistura-de-fruta-0.50l/3112619.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja daura damm sem glúten 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-daura-damm-sem-gluten-6x0.33l/2183527.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.54 €/Lt",
+    "preco_atual": "8,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 1927 munich dunkel 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-1927-munich-dunkel-0.75l/2228913.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.92 €/Lt",
+    "preco_atual": "3,69 €",
+    "preco_antigo": "Price reduced from4,49 €to",
+    "promocao": "-18%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja leffe brune bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-leffe-brune-belgica-0.33l/96206.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.15 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja coral 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-coral-6x0.33l/3581203.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "6,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja belga chimay blond strong ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-belga-chimay-blond-strong-ale-0.33l/3641906.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.7 €/Lt",
+    "preco_atual": "4,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal praxis ipa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-praxis-ipa-0.33l/3781066.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.79 €/Lt",
+    "preco_atual": "2,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja chimay bleu bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-chimay-bleu-belgica-0.33l/96217.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.15 €/Lt",
+    "preco_atual": "3,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja tripel karmeliet bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-tripel-karmeliet-belgica-0.33l/2162730.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.61 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja alhambra reserva 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-alhambra-reserva-0.33l/3028923.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sovina stout 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-sovina-stout-0.33l/2517551.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sovina ipa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-sovina-ipa-0.33l/2739765.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja kronenbourg 1664 frança 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-kronenbourg-1664-franca-6x0.25l/3792447.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.33 €/Lt",
+    "preco_atual": "10,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heifer lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heifer-lata-0.33l/1168936.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.52 €/Lt",
+    "preco_atual": "0,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja nortada marzen 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-nortada-marzen-0.33l/3804968.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja la trappe quadrupel holanda 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-la-trappe-quadrupel-holanda-0.33l/2163245.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.67 €/Lt",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja atlantica red bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-atlantica-red-belgica-0.33l/3856929.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja benediktiner weissbier alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-benediktiner-weissbier-alemanha-0.50l/3849032.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.18 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja holbrand lager 12x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-holbrand-lager-12x0.33l/3457328.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.77 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja lvivske 1715 ucrania 0.45l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-lvivske-1715-ucrania-0.45l/3361406.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.2 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrangeira paulaner pack 3x0.50l+copo",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrangeira-paulaner-pack-3x0.50lcopo/3839479.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.66 €/Lt",
+    "preco_atual": "12,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja corona méxico 0.355l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-corona-mexico-0.355l/977772.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.7 €/Lt",
+    "preco_atual": "1,67 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja budweiser budvar pilsner 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-budweiser-budvar-pilsner-0.33l/3801267.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja musa ipa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-musa-ipa-0.33l/2729332.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia preta 0.75 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-preta-0.75-l/2151073.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.72 €/Lt",
+    "preco_atual": "5,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja beck's alemanha 6x0.275l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-becks-alemanha-6x0.275l/976749.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "5,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja la chouffe blonde bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-la-chouffe-blonde-belgica-0.33l/3849037.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.48 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra kopparberg frutos silvestres 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-kopparberg-frutos-silvestres-0.50l/3112624.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja voll damm espanha 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-voll-damm-espanha-6x0.25l/1125284.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.19 €/Lt",
+    "preco_atual": "4,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sovina trigo 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-sovina-trigo-0.33l/2517597.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja dois corvos matiné session ipa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-dois-corvos-matine-session-ipa-0.33l/2235806.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja kirin ichiban japão 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-kirin-ichiban-japao-0.33l/3849305.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.24 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja lvivske premium ucrania 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-lvivske-premium-ucrania-0.50l/3361403.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.2 €/Lt",
+    "preco_atual": "2,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja belga paranoia 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-belga-paranoia-0.33l/3797723.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja nortada indian pale ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-nortada-indian-pale-ale-0.33l/3012108.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.64 €/Lt",
+    "preco_atual": "2,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger dunkel alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-dunkel-alemanha-0.50l/380950.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja warsteiner premium alemanha 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-warsteiner-premium-alemanha-0.33l/3856196.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja guinness special export irlanda 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-guinness-special-export-irlanda-0.33l/138028.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.12 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia preta 0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-preta-0.33-l/2225993.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.85 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja gulden draak classic 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-gulden-draak-classic-0.75l/3753732.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.99 €/Lt",
+    "preco_atual": "8,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra musa peste & sidra biológica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-musa-peste-e-sidra-biologica-0.33l/2980766.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.45 €/Lt",
+    "preco_atual": "2,79 €",
+    "preco_antigo": "Price reduced from3,49 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja chimay grand reserve belgica 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-chimay-grand-reserve-belgica-0.75l/245451.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.65 €/Lt",
+    "preco_atual": "10,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja singha tailândia 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-singha-tailandia-0.33l/3795919.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.55 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja lammsbrau sem glúten bio 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-lammsbrau-sem-gluten-bio-330ml/3195581.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.12 €/Lt",
+    "preco_atual": "2,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja claro mexican lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-claro-mexican-lager-0.33l/3849029.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja bud 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-bud-6x0.25l/3506450.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.79 €/Lt",
+    "preco_atual": "8,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja damm inedit espanha 4x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-damm-inedit-espanha-4x0.33l/3211075.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.81 €/Lt",
+    "preco_atual": "8,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrangeira lvivske robert doms 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrangeira-lvivske-robert-doms-0.5l/3655825.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.98 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja nocal loira angola lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-nocal-loira-angola-lata-0.33l/3433320.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja holbrand lager lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-holbrand-lager-lata-0.50l/3512439.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.78 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger pikantus alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-pikantus-alemanha-0.50l/842040.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.98 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger brauhaus helles 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-brauhaus-helles-0.50l/3656291.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.38 €/Lt",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia trigo 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-trigo-0.75l/2151084.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.72 €/Lt",
+    "preco_atual": "5,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja musa s.o'connor 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-musa-s.oconnor-0.33l/3207659.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "hard seltzer phunk lima e gengibre 0.25 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/hard-seltzer-phunk-lima-e-gengibre-0.25-l/3356397.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja dois corvos prata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-dois-corvos-prata-0.33l/3204509.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.24 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja 8ª colina vila maria 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-8%C2%AA-colina-vila-maria-0.33l/2734871.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.42 €/Lt",
+    "preco_atual": "2,45 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal mosquita blonde ale 0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-mosquita-blonde-ale-0.33-l/3426466.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.55 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal praxis weiss ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-praxis-weiss-ale-0.33l/3780006.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.33 €/Lt",
+    "preco_atual": "2,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja 8ª colina urraca vendaval ipa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-8%C2%AA-colina-urraca-vendaval-ipa-0.33l/2235714.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.36 €/Lt",
+    "preco_atual": "3,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja musa frank apa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-musa-frank-apa-0.33l/2958395.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cerdos voladores ipa lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-cerdos-voladores-ipa-lata-0.33l/3849026.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "hard seltzer phunk mango 0.25 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/hard-seltzer-phunk-mango-0.25-l/3361388.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra vadia 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-vadia-0.33l/2495938.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra coral 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-coral-6x0.25l/3581197.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.46 €/Lt",
+    "preco_atual": "6,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja desperados frança 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-desperados-franca-0.33l/3354466.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.3 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja topázio pilsner 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-topazio-pilsner-0.33l/3763144.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.97 €/Lt",
+    "preco_atual": "2,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby mango&lime tp 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-mangoelime-tp-6x0.20l/3581272.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.88 €/Lt",
+    "preco_atual": "5,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal musa blondie ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-musa-blondie-ale-0.33l/3581276.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.55 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja bud 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-bud-0.33l/2604184.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja paulaner dunkel 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-paulaner-dunkel-0.50l/3658379.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.58 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal praxis imperial stout 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-praxis-imperial-stout-0.33l/3781067.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.3 €/Lt",
+    "preco_atual": "3,40 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal praxis âmbar lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-praxis-ambar-lager-0.33l/3781056.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.58 €/Lt",
+    "preco_atual": "2,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja coral puro malte 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-coral-puro-malte-6x0.25l/3579303.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.16 €/Lt",
+    "preco_atual": "6,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja shepherd neame spitfire 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-shepherd-neame-spitfire-0.50l/3658386.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.58 €/un",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja téte de mort fruitbeer 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-tete-de-mort-fruitbeer-0.33l/3340805.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.09 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia nautika 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-vadia-nautika-0.33l/2007637.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.15 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal praxis glutbeer 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-praxis-glutbeer-0.33l/3781072.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.79 €/Lt",
+    "preco_atual": "2,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia extra 0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-extra-0.33-l/2226019.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.15 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sovina ambar 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-sovina-ambar-0.33l/2739757.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja 8ª colina florinda lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-8%C2%AA-colina-florinda-lager-0.33l/2235802.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.36 €/Lt",
+    "preco_atual": "3,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja musa red ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-musa-red-ale-0.33l/2729341.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia loira 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-loira-0.75l/2151069.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.72 €/Lt",
+    "preco_atual": "5,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja letra e belgian dark strong 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-letra-e-belgian-dark-strong-0.33l/3204507.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.58 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja musa twist&stout 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-musa-twistestout-0.33l/3207661.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja musa psycho pilsner 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-musa-psycho-pilsner-0.33l/3361395.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.76 €/Lt",
+    "preco_atual": "2,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia bio 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-bio-0.33l/2226025.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.39 €/Lt",
+    "preco_atual": "3,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia rubi 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-rubi-0.75l/2151075.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.72 €/Lt",
+    "preco_atual": "5,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal musa santa stout 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-musa-santa-stout-0.33l/3830930.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.48 €/Lt",
+    "preco_atual": "3,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 20x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-20x0.25l/1011153.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2 €/Lt",
+    "preco_atual": "9,99 €",
+    "preco_antigo": "Price reduced from19,99 €to",
+    "promocao": "-50%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby 24x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-24x0.20l/3635662.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.12 €/Lt",
+    "preco_atual": "14,99 €",
+    "preco_antigo": "Price reduced from21,99 €to",
+    "promocao": "-32%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cristal lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-cristal-lata-0.33l/1058420.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.48 €/Lt",
+    "preco_atual": "0,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cristal com álcool 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-cristal-com-alcool-6x0.33l/42623.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.81 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja carlsberg 12x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-carlsberg-12x0.25l/3328713.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.46 €/Lt",
+    "preco_atual": "7,39 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-26%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja gulden draak classic 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-gulden-draak-classic-0.33l/3658385.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.58 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal musa pack 4x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-musa-pack-4x0.33l/3552917.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.57 €/Lt",
+    "preco_atual": "9,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cristal 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-cristal-6x0.25l/3596190.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock stout preta 15x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-super-bock-stout-preta-15x0.20l/3152894.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.46 €/Lt",
+    "preco_atual": "7,39 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-26%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock sky 6x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-sky-6x0.20l/3618282.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,39 €to",
+    "promocao": "-32%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 1927 japan rice lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-1927-japan-rice-lager-0.33l/3021356.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.12 €/Lt",
+    "preco_atual": "1,69 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 1927 bavaria weiss 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-1927-bavaria-weiss-0.33l/2603271.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.12 €/Lt",
+    "preco_atual": "1,69 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra kopparberg morango e lima 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-kopparberg-morango-e-lima-0.50l/3112642.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja grimbergen double ambrée 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-grimbergen-double-ambree-0.33l/3238633.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.52 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja hofbräu original 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-hofbr%C3%A4u-original-0.5l/3834202.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.18 €/Lt",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock preta stout lata 24x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-super-bock-preta-stout-lata-24x0.33l/3344820.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "18,96 €",
+    "preco_antigo": "Price reduced from23,76 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock 1927 munich dunkel 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-1927-munich-dunkel-0.33l/2603266.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.12 €/Lt",
+    "preco_atual": "1,69 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja super bock sky 15x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-super-bock-sky-15x0.20l/3618330.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.33 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja grimbergen blonde 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-grimbergen-blonde-0.33l/3238487.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.52 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja especial bohemia originalmini 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-especial-bohemia-originalmini-0.25l/3635491.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.36 €/Lt",
+    "preco_atual": "0,84 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja eka loira angola lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-eka-loira-angola-lata-0.33l/3433321.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja brahma chopp brasil lata 0.35l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-brahma-chopp-brasil-lata-0.35l/3616373.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.29 €/Lt",
+    "preco_atual": "1,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja barona casqueiro ipa (economia circular) 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-barona-casqueiro-ipa-%28economia-circular%29-0.33l/3774783.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.45 €/Lt",
+    "preco_atual": "2,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger oktoberfest alemanha 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-oktoberfest-alemanha-0.50l/3239064.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.38 €/Lt",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja cristal tara perdida 6x1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-cristal-tara-perdida-6x1l/1058097.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.59 €/Lt",
+    "preco_atual": "9,54 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja alemã hofbräu schwarze weisse 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-alema-hofbr%C3%A4u-schwarze-weisse-0.50l/3834203.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.38 €/Lt",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja skol brasil lata 0.35l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-skol-brasil-lata-0.35l/3616376.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.29 €/Lt",
+    "preco_atual": "1,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja paulaner oktoberfest 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-paulaner-oktoberfest-0.50l/3667741.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.98 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "conj. cerveja super bock 1927 md jr + copo 2x0.75 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/conj.-cerveja-super-bock-1927-md-jr-copo-2x0.75-l/3392643.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.66 €/Lt",
+    "preco_atual": "12,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vedett ipa bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-vedett-ipa-belgica-0.33l/3340800.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.67 €/Lt",
+    "preco_atual": "3,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja letra b pilsener 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-letra-b-pilsener-0.33l/2242935.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja dois corvos finisterra importada porter 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-dois-corvos-finisterra-importada-porter-0.33l/2235680.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja letra a weiss 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-letra-a-weiss-0.33l/2242937.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.55 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja letra c stout 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-letra-c-stout-0.33l/2242926.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja onyx dark lager 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-onyx-dark-lager-0.33l/3781049.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.58 €/Lt",
+    "preco_atual": "2,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja letra d red ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-letra-d-red-ale-0.33l/2242921.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sovina helles 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-sovina-helles-0.33l/2517590.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja kronenbourg 1664 frança 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-kronenbourg-1664-franca-0.25l/3799108.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.96 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja letra f india pale ale 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-letra-f-india-pale-ale-0.33l/3204508.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.58 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken silver lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-silver-lata-0.33l/3449410.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4 €/Lt",
+    "preco_atual": "1,32 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja trindade fénix 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-trindade-fenix-0.33l/3052992.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.94 €/Lt",
+    "preco_atual": "2,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja erdinger weissbier schneeweisse 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-erdinger-weissbier-schneeweisse-0.50l/3286050.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres branca lata 24x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-branca-lata-24x0.33l/3881389.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.94 €/Lt",
+    "preco_atual": "15,36 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar maçã lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-maca-lata-0.33l/3880453.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.7 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja branca super bock tp 10x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-branca-super-bock-tp-10x0.25l/3924606.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja preta super bock stout lata 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-preta/cerveja-preta-super-bock-stout-lata-0.5l/3923354.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.98 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-34%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja branca super bock sky lata 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-branca-super-bock-sky-lata-0.5l/3924292.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.7 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-43%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres sol&mar branca lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-solemar-branca-lata-0.33l/3879350.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.94 €/Lt",
+    "preco_atual": "0,64 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar manga lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-manga-lata-0.33l/3880447.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.7 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres sol&mar branca 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-sagres-solemar-branca-6x0.25l/3879361.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.49 €/Lt",
+    "preco_atual": "3,74 €",
+    "preco_antigo": "Price reduced from4,99 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar frutos vermelhos lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-frutos-vermelhos-lata-0.33l/3880450.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.7 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja sagres 0.0% 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-sem-alcool/cerveja-sagres-0.0-0.33l/2972444.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.52 €/Lt",
+    "preco_atual": "0,83 €",
+    "preco_antigo": "Price reduced from1,11 €to",
+    "promocao": "-25%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-6x0.33l/3909435.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.7 €/Lt",
+    "preco_atual": "7,32 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja top beer lata 050l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-nacional/cerveja-top-beer-lata-050l/3963676.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.1 €/Lt",
+    "preco_atual": "0,55 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja desperados mojito lata 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-desperados-mojito-lata-0.5l/3911764.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.18 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja san miguel lata 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-san-miguel-lata-0.50l/3939787.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.98 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja itaipava brasil 0.35l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-itaipava-brasil-0.35l/3916530.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.66 €/Lt",
+    "preco_atual": "0,58 €",
+    "preco_antigo": "Price reduced from0,99 €to",
+    "promocao": "-41%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja faxe premium lager 1 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-faxe-premium-lager-1-l/3923326.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.89 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja estrangeira terra coreia 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-estrangeira-terra-coreia-0.33l/3879444.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.03 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja st bernardus bélgica 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-st-bernardus-belgica-0.33l/3907464.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.88 €/Lt",
+    "preco_atual": "3,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra bandida do pomar maçã lata 4x0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-bandida-do-pomar-maca-lata-4x0.50l/3909438.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.25 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": "Price reduced from7,14 €to",
+    "promocao": "-37%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja san miguel fresca 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-san-miguel-fresca-0.33l/3939788.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.52 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal musa pack verão 4x33cl",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-musa-pack-verao-4x33cl/3908337.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.43 €/Lt",
+    "preco_atual": "8,49 €",
+    "preco_antigo": "Price reduced from9,99 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja artesanal musa pack c/ copo 3x33cl",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-artesanal-musa-pack-c-copo-3x33cl/3874300.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.12 €/Lt",
+    "preco_atual": "12,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "sidra somersby ananás & lima lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/sidra-somersby-ananas-e-lima-lata-0.33l/3924608.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.91 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja branca heineken c/alcool tp 8x0.15l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-branca-heineken-calcool-tp-8x0.15l/3924736.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.54 €/Lt",
+    "preco_atual": "6,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja faxe premium lager 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-faxe-premium-lager-0.50l/3963272.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.38 €/Lt",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja heineken lata 4x0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-estrangeira/cerveja-heineken-lata-4x0.50l/3909437.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.33 €/Lt",
+    "preco_atual": "6,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia imperial stout 0.33 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-imperial-stout-0.33-l/3862167.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "hard seltzer phunk teq lime & jalapeno 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/hard-seltzer-phunk-teq-lime-e-jalapeno-0.25l/3972258.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11 €/Lt",
+    "preco_atual": "2,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "hard seltzer phunk tequila passion fruit 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/sidras-e-hard-seeltzer/hard-seltzer-phunk-tequila-passion-fruit-0.25l/3972261.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11 €/Lt",
+    "preco_atual": "2,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  },
+  {
+    "nome": "cerveja vadia sunsession 0.33lt",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/cervejas-e-sidras/cerveja-artesanal/cerveja-vadia-sunsession-0.33lt/3861939.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.06 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-13-15"
+  }
+]

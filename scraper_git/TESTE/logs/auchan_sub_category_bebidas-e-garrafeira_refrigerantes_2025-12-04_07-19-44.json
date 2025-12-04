@@ -1,0 +1,3492 @@
+[
+  {
+    "nome": "",
+    "link": "",
+    "quantidade_minima": null,
+    "preco_unitario": null,
+    "preco_atual": null,
+    "preco_antigo": null,
+    "promocao": null,
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "iced tea auchan pêssego brick 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/iced-tea-auchan-pessego-brick-1.5l/990701.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.76 €/Lt",
+    "preco_atual": "1,14 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-2x1.75l/3087650.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.05 €/Lt",
+    "preco_atual": "3,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "iced tea auchan manga brick 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/iced-tea-auchan-manga-brick-1.5l/990709.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.76 €/Lt",
+    "preco_atual": "1,14 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "iced tea auchan limão brick 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/iced-tea-auchan-limao-brick-1.5l/990705.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.76 €/Lt",
+    "preco_atual": "1,14 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-2x1.75l/3168048.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.2 €/Lt",
+    "preco_atual": "4,19 €",
+    "preco_antigo": "Price reduced from4,70 €to",
+    "promocao": "-11%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar 4x1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-4x1l/779551.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.35 €/Lt",
+    "preco_atual": "5,40 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea auchan pessego 6x200ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-auchan-pessego-6x200ml/1199621.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea auchan manga 6x200ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-auchan-manga-6x200ml/1199630.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás zero 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-zero-2x1.75l/3015982.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.58 €/Lt",
+    "preco_atual": "2,03 €",
+    "preco_antigo": "Price reduced from3,38 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea auchan manga sem aããcar 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-auchan-manga-sem-aa%C2%87a%C2%9Acar-1.5l/3280171.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.53 €/Lt",
+    "preco_atual": "0,80 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea auchan limão 6x200ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-auchan-limao-6x200ml/1199625.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea auchan pêssego sem açúcar 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-auchan-pessego-sem-acucar-1.5l/3280179.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.53 €/Lt",
+    "preco_atual": "0,80 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-lata-6x0.33l/1115015.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "5,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan com gás aromatizado cola zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-auchan-com-gas-aromatizado-cola-zero-1.5l/2667256.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.39 €/Lt",
+    "preco_atual": "0,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-1.75l/2483373.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "2,05 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original 4x1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-4x1l/1036912.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.5 €/Lt",
+    "preco_atual": "6,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás max lima 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-max-lima-1l/3332857.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-1.75l/2483332.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.34 €/Lt",
+    "preco_atual": "2,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-lata-6x0.33l/1114987.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.73 €/Lt",
+    "preco_atual": "5,40 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gas 7up zero 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-cgas-7up-zero-1l/3800239.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,29 €to",
+    "promocao": "-23%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida c/ gás frize laranja 4x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/bebida-c-gas-frize-laranja-4x0.25l/3753803.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.09 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pessêgo bi pack 2x2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-bi-pack-2x2l/2771176.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.87 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": "Price reduced from5,60 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás laranja 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-laranja-2x1.75l/3017462.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.81 €/Lt",
+    "preco_atual": "2,84 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás zero 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-zero-1.75l/3015984.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.58 €/Lt",
+    "preco_atual": "1,02 €",
+    "preco_antigo": "Price reduced from1,69 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás regular 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-regular-2x1.75l/3016181.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.91 €/Lt",
+    "preco_atual": "3,18 €",
+    "preco_antigo": "Price reduced from3,98 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "guaraná antarctica 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/guarana-antarctica-1.5l/445302.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.19 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea manga-ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-manga-ananas-1.5l/3855762.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea pêssego 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-pessego-1.5l/3855760.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan sem gás laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-auchan-sem-gas-laranja-1.5l/2667276.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.66 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás max 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-max-1l/3332858.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante 7up com gás lima limão free 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-7up-com-gas-lima-limao-free-1.75l/3211227.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.97 €/Lt",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton limão bi pack 2x2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-limao-bi-pack-2x2l/2771224.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.87 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": "Price reduced from5,60 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás b! limonada 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-b%21-limonada-1.5l/3481066.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.85 €/Lt",
+    "preco_atual": "1,28 €",
+    "preco_antigo": "Price reduced from1,75 €to",
+    "promocao": "-27%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero cafeína e zero açúcar 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-cafeina-e-zero-acucar-1.75l/3291032.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "2,05 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás ananás 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-ananas-2x1.75l/3017243.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.81 €/Lt",
+    "preco_atual": "2,84 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan com gás ananás 0% 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-auchan-com-gas-ananas-0-1.5l/2994009.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.57 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar mini lata 12x0.15l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-mini-lata-12x0.15l/3103714.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4 €/Lt",
+    "preco_atual": "7,20 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta laranja 1.5 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-laranja-1.5-l/3016026.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida de sumo auchan sem gás arando 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-de-sumo-auchan-sem-gas-arando-1l/3372638.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.99 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante 7up com gás regular lima e limão 2x1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-7up-com-gas-regular-lima-e-limao-2x1.75l/3016458.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.85 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": "Price reduced from4,18 €to",
+    "promocao": "-28%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton manga bi-pack 2x2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-manga-bi-pack-2x2l/2771179.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.87 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": "Price reduced from5,60 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás b! laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-b%21-laranja-1.5l/3481146.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.85 €/Lt",
+    "preco_atual": "1,28 €",
+    "preco_antigo": "Price reduced from1,75 €to",
+    "promocao": "-27%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá verde com limão light 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-verde-com-limao-light-1.5l/1194301.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,89 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero cafeína e zero açúcar 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-cafeina-e-zero-acucar-1l/2878449.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.19 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": "Price reduced from1,35 €to",
+    "promocao": "-12%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original lata 12x0.15l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-lata-12x0.15l/1028212.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.33 €/Lt",
+    "preco_atual": "7,80 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pêssego zero 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-zero-2l/3487987.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá verde e limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-verde-e-limao-1.5l/501463.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,89 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gas polegar laranja 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-polegar-laranja-2l/3849382.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.45 €/Lt",
+    "preco_atual": "0,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás capri-sun safari 10x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-capri-sun-safari-10x0.20l/3634368.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "6,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan com gás laranja 0% 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-auchan-com-gas-laranja-0-1.5l/2341503.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.57 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan essencial gasosa 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-auchan-essencial-gasosa-1.5l/3006873.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.37 €/Lt",
+    "preco_atual": "0,55 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan com gás ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-auchan-com-gas-ananas-1.5l/2341566.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.66 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta laranja sem açúcar 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-laranja-sem-acucar-1.5l/1000362.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-limao-1.5l/3855756.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "guarana antarctica zero 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/guarana-antarctica-zero-1l/3681200.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.24 €/Lt",
+    "preco_atual": "1,24 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pessego 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-2l/916637.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,85 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-42%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno camomila e romã 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-camomila-e-roma-1.5l/2229975.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,89 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás b! maçã 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-b%21-maca-1.5l/3481147.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.85 €/Lt",
+    "preco_atual": "1,28 €",
+    "preco_antigo": "Price reduced from1,75 €to",
+    "promocao": "-27%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "guaraná antarctica lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/guarana-antarctica-lata-6x0.33l/445304.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.02 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gas polegar cola 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-polegar-cola-2l/3849376.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.5 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan sem gás ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-auchan-sem-gas-ananas-1.5l/2341519.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.66 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás laranjas do algarve 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-laranjas-do-algarve-1.5l/3351756.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante joi sem gás laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-joi-sem-gas-laranja-1.5l/6937.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.33 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ginger ale schweppes 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/ginger-ale-schweppes-1l/1151674.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.09 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás laranja lata 6 x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-laranja-lata-6-x0.33l/99808.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.37 €/Lt",
+    "preco_atual": "4,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá verde e limão 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-verde-e-limao-4x1.5l/673395.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": "Price reduced from7,56 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan sem gás laranja e maracujá 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-auchan-sem-gas-laranja-e-maracuja-1.5l/2341510.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-lata-0.33l/1115018.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gas pepsi zero zero cafeína 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-pepsi-zero-zero-cafeina-1l/3785282.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,25 €to",
+    "promocao": "-21%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-0.50l/432207.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "1,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero cafeína e zero açúcar 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-cafeina-e-zero-acucar-6x0.33l/1114961.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "5,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta guaraná 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-guarana-1.5l/3299535.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás regular 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-regular-1l/3340792.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.09 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás 7up free 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-7up-free-6x0.33l/3650204.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.86 €/Lt",
+    "preco_atual": "3,69 €",
+    "preco_antigo": "Price reduced from4,39 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero lima 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-lima-1l/3650848.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.19 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": "Price reduced from1,35 €to",
+    "promocao": "-12%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton chá preto limão zero 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-cha-preto-limao-zero-2l/3182175.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan com gás laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-auchan-com-gas-laranja-1.5l/2341581.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.66 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gas 7up regular 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-cgas-7up-regular-1l/3800240.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.09 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": "Price reduced from1,39 €to",
+    "promocao": "-22%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton limão 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-limao-2l/916635.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,85 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-42%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás capri-sun multivitaminas 10x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-capri-sun-multivitaminas-10x0.20l/3634370.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "6,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-0.50l/779556.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "1,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pessego 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-1l/604127.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.75 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sprite lima limão sem açúcar 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-com-gas-sprite-lima-limao-sem-acucar-1.5l/3320349.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá de cidreira camomila tilia e limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-de-cidreira-camomila-tilia-e-limao-1.5l/501459.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,89 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá verde limão light 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-verde-limao-light-4x1.5l/1194300.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": "Price reduced from7,56 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante joi sem gás laranja e maracujá 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-joi-sem-gas-laranja-e-maracuja-1.5l/6939.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.33 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gas sumol laranja 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-sumol-laranja-1l/3800238.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida com gás frize limão 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/bebida-com-gas-frize-limao-0.75l/3804139.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.35 €/Lt",
+    "preco_atual": "1,01 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta uva pet 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-uva-pet-1.5l/1000353.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "guaraná brasil 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/guarana-brasil-1.5l/139451.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante 7up com gás regular lima limão 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-7up-com-gas-regular-lima-limao-1.75l/3016492.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.86 €/Lt",
+    "preco_atual": "1,50 €",
+    "preco_antigo": "Price reduced from2,09 €to",
+    "promocao": "-28%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás pepsi zero lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-pepsi-zero-lata-6x0.33l/3757487.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.86 €/Lt",
+    "preco_atual": "3,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-lata-0.33l/1115001.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.73 €/Lt",
+    "preco_atual": "0,90 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão 0%açúcares bio 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-0acucares-bio-1l/3573725.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sprite lima limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-sprite-lima-limao-1.5l/3299533.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta maracujá 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-maracuja-1.5l/1000359.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pêssego 3x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-3x0.20l/2164376.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.47 €/Lt",
+    "preco_atual": "1,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton limão 3x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-limao-3x0.20l/2164326.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.47 €/Lt",
+    "preco_atual": "1,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea limão zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-limao-zero-1.5l/3856304.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero açúcar vidro 4x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-vidro-4x0.20l/3211869.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.75 €/Lt",
+    "preco_atual": "3,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá preto earl grey e limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-preto-earl-grey-e-limao-1.5l/501462.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,89 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton manga 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-manga-1l/604128.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.75 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sprite lima limão 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-com-gas-sprite-lima-limao-1l/3206787.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante 7up com gás lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-7up-com-gas-lata-6x0.33l/99805.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.01 €/Lt",
+    "preco_atual": "3,98 €",
+    "preco_antigo": "Price reduced from4,69 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás santal active drink cenoura e laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-santal-active-drink-cenoura-e-laranja-1.5l/157500.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.32 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero cafeína e zero açúcar 12x0.15l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-cafeina-e-zero-acucar-12x0.15l/1149659.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4 €/Lt",
+    "preco_atual": "7,20 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gas sumol ananás 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-sumol-ananas-1l/3800236.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão bio 1 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-bio-1-l/3073229.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola original vidro 4x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-original-vidro-4x0.20l/3211873.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.25 €/Lt",
+    "preco_atual": "3,40 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante joi sem gás manga e laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-joi-sem-gas-manga-e-laranja-1.5l/1062554.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.33 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás regular 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-regular-1.75l/3016182.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.91 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola sem cafeína 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-sem-cafeina-1l/827415.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.35 €/Lt",
+    "preco_atual": "1,35 €",
+    "preco_antigo": "Price reduced from1,50 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pessego zero 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-zero-1l/3290798.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás capri-sun orange 10x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-capri-sun-orange-10x0.20l/3634371.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "6,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pêssego 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-6x0.25l/2167566.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton limão 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-limao-1l/604125.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.75 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain ananás bio 1 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-ananas-bio-1-l/3573723.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton manga 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-manga-6x0.25l/2167558.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ginger beer fever-tree premium 4x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/aguas-tonicas-e-ginger-ale/ginger-ale/ginger-beer-fever-tree-premium-4x0.20l/1097353.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.49 €/Lt",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea arizona chá verde com mel 500ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-arizona-cha-verde-com-mel-500ml/1148334.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.98 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton chá verde hortelã e lima 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-cha-verde-hortela-e-lima-1l/2699812.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.44 €/Lt",
+    "preco_atual": "1,44 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante pepsi com gás lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-pepsi-com-gas-lata-6x0.33l/1858.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.96 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante joi sem gás maçã 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-joi-sem-gas-maca-1.5l/69924.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.33 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain orignal 0%açúcares bio 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-orignal-0acucares-bio-1l/3573732.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás laranja 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-laranja-1.75l/3017389.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.14 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá cidreira camomila tilia e limão 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-cidreira-camomila-tilia-e-limao-4x1.5l/673400.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": "Price reduced from7,56 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante champomy com gás maçã 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-champomy-com-gas-maca-0.75l/497001.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.85 €/Lt",
+    "preco_atual": "4,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero cafeína e zero açúcar 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-cafeina-e-zero-acucar-0.33l/1114968.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton limão 6x0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-limao-6x0.25l/2167584.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás santal active drink manga e cenoura 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-santal-active-drink-manga-e-cenoura-1.5l/603502.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.32 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton limão zero 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-limao-zero-1l/3290797.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "active santal drink laranja e cenoura menos 30% açucar 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/active-santal-drink-laranja-e-cenoura-menos-30-acucar-1.5l/2700192.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.32 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton melância hortelã 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-melancia-hortela-2l/3308406.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina maçã zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-maca-zero-1.5l/2121645.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno camomila e romã 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-camomila-e-roma-4x1.5l/2229960.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": "Price reduced from7,56 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "active santal drink tropical e cenoura menos 30% açucar 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/active-santal-drink-tropical-e-cenoura-menos-30-acucar-1.5l/2700184.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.32 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante s/gas auchan multifrutos 10x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sgas-auchan-multifrutos-10x0.20l/3564781.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.25 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante s/gas auchan tropical 10x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sgas-auchan-tropical-10x0.20l/3564784.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.25 €/Lt",
+    "preco_atual": "4,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás ananás lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-ananas-lata-6x0.33l/127565.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.37 €/Lt",
+    "preco_atual": "4,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta laranja lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-laranja-lata-6x0.33l/1115032.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton manga 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-manga-2l/916631.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,85 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-42%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton chá preto manga zero 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-cha-preto-manga-zero-2l/3588548.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás schweppes limão zero lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-schweppes-limao-zero-lata-0.33l/3722449.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2 €/Lt",
+    "preco_atual": "0,66 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás ananás 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-ananas-1.75l/3017186.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.14 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea pessego lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-pessego-lata-6x0.33l/3859349.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.32 €/Lt",
+    "preco_atual": "4,59 €",
+    "preco_antigo": "Price reduced from5,10 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás antarctica guaraná lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-antarctica-guarana-lata-0.33l/1046305.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.12 €/Lt",
+    "preco_atual": "0,70 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gás brisa maracujá 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-brisa-maracuja-1l/3581208.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.84 €/Lt",
+    "preco_atual": "1,84 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá preto earl grey e limão 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-preto-earl-grey-e-limao-4x1.5l/673398.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.06 €/Lt",
+    "preco_atual": "6,36 €",
+    "preco_antigo": "Price reduced from7,56 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-ananas-1.5l/1061640.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta laranja lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-laranja-lata-0.33l/1115037.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "0,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain pêssego bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-pessego-bio-400ml/3508801.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain ananás bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-ananas-bio-400ml/2663291.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain original bio 1 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-original-bio-1-l/3073228.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton pêssego zero 3x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-pessego-zero-3x0.20l/3341962.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.47 €/Lt",
+    "preco_atual": "1,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante joi sem gás laranja lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-joi-sem-gas-laranja-lata-0.33l/3299528.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea chá verde lipton morango 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-cha-verde-lipton-morango-2l/3756611.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida aquarius limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-limao-1.5l/2618651.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.57 €/Lt",
+    "preco_atual": "2,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton manga 3x0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-manga-3x0.20l/2164356.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.47 €/Lt",
+    "preco_atual": "1,48 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás santal active drink cenoura e frutos tropicais 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-santal-active-drink-cenoura-e-frutos-tropicais-1.5l/157506.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.32 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta laranja 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-laranja-0.50l/663182.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "1,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás schweppes citrus zero 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-schweppes-citrus-zero-0.33l/3756718.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2 €/Lt",
+    "preco_atual": "0,66 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante capri-sun sem gás laranja e pessego 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-capri-sun-sem-gas-laranja-e-pessego-330ml/1115736.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.94 €/Lt",
+    "preco_atual": "1,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante whole earth laranja-limão bio 330ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/refrigerante-whole-earth-laranja-limao-bio-330ml/2230948.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-bio-400ml/3477813.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.37 €/Lt",
+    "preco_atual": "2,15 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero lima lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-lima-lata-6x0.33l/3840160.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "5,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton green citrus 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-green-citrus-1l/3466397.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.44 €/Lt",
+    "preco_atual": "1,44 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea pêssego&hibisco 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-pessegoehibisco-0.5l/3855789.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.3 €/Lt",
+    "preco_atual": "1,15 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gas polegar laranja 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-polegar-laranja-2l/3849233.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.63 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante joi sem gás limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-joi-sem-gas-limao-1.5l/6940.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.33 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sprite lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-com-gas-sprite-lata-6x0.33l/1114893.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea kit tokimeki morango 255g",
+    "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/cozinha-asiatica/bebidas/bubble-tea-kit-tokimeki-morango-255g/3732353.html",
+    "quantidade_minima": null,
+    "preco_unitario": "23.49 €/Kg",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea limão lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-limao-lata-6x0.33l/3859354.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.32 €/Lt",
+    "preco_atual": "4,59 €",
+    "preco_antigo": "Price reduced from5,10 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá verde e limão 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-verde-e-limao-6x0.33l/2214700.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida aquarius laranja 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-laranja-0.50l/755303.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "1,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea kit tokimeki açucar mascavado 255g",
+    "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/cozinha-asiatica/bebidas/bubble-tea-kit-tokimeki-acucar-mascavado-255g/3689336.html",
+    "quantidade_minima": null,
+    "preco_unitario": "23.49 €/Kg",
+    "preco_atual": "5,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno ervas 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-ervas-6x0.33l/2214734.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina sem gás maçã pet shine 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-sem-gas-maca-pet-shine-1.5l/880001.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain framboesa bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-framboesa-bio-400ml/2663309.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina sem gás laranja zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-sem-gas-laranja-zero-1.5l/880004.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá verde e limão 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-verde-e-limao-0.33l/2214702.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "cola auchan cereja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/cola-auchan-cereja-1.5l/3294930.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "craft soda why not pêssego e gengibre 33cl",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/craft-soda-why-not-pessego-e-gengibre-33cl/3239147.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante 7up com gás lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-7up-com-gas-lata-0.33l/1046306.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.24 €/Lt",
+    "preco_atual": "0,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão 0%açúcares bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-0acucares-bio-400ml/3307193.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea limão 0.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-limao-0.5l/3855787.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.3 €/Lt",
+    "preco_atual": "1,15 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea pêssego lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-pessego-lata-0.33l/3861011.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "craft soda why not romã pepino 330 ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/craft-soda-why-not-roma-pepino-330-ml/3847366.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta uva lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-uva-lata-6x0.33l/3266484.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno chá preto descafeinado camomila com limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-cha-preto-descafeinado-camomila-com-limao-1.5l/2131206.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.26 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás frisumo laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-frisumo-laranja-1.5l/2405647.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea pêssego-hibisco 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-pessego-hibisco-1l/3855796.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-34%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida aquarius laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-laranja-1.5l/2618631.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.57 €/Lt",
+    "preco_atual": "2,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás laranja lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-laranja-lata-0.33l/1046152.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea arizona chá verde com romã 500ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-arizona-cha-verde-com-roma-500ml/1148299.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.98 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain original bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-original-bio-400ml/2663295.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain framboesa 0%açúcares bio 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-framboesa-0acucares-bio-1l/3573724.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta ananás 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-ananas-6x0.33l/3250951.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea manga ananás lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-manga-ananas-lata-0.33l/3861012.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno ervas 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-ervas-0.33l/2214742.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sumol com gás ananás lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-sumol-com-gas-ananas-lata-0.33l/1046155.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina frutos tropicais pet shine 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-frutos-tropicais-pet-shine-1.5l/880007.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno earl grey e limão 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-earl-grey-e-limao-6x0.33l/2214716.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante whole earth cola bio 330ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/refrigerante-whole-earth-cola-bio-330ml/2230934.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno romã e camomila 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-roma-e-camomila-6x0.33l/3295946.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain framboesa 0%açúcares bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-framboesa-0acucares-bio-400ml/3307200.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "craft soda why not framboesa e tomilho bio 33cl",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/craft-soda-why-not-framboesa-e-tomilho-bio-33cl/3239146.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea limão lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-limao-lata-0.33l/3861015.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea manga ananas lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-manga-ananas-lata-6x0.33l/3859359.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.32 €/Lt",
+    "preco_atual": "4,59 €",
+    "preco_antigo": "Price reduced from5,10 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "craft soda why not cola bio 330ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/craft-soda-why-not-cola-bio-330ml/3433658.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea arizona chá branco com mirtilo 500ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-arizona-cha-branco-com-mirtilo-500ml/1148340.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.98 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante capri-sun sem gás manga e maracujá 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-capri-sun-sem-gas-manga-e-maracuja-0.33l/2533221.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.94 €/Lt",
+    "preco_atual": "1,30 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno earl grey e limão 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-earl-grey-e-limao-0.33l/2214722.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás joi maracujá lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-joi-maracuja-lata-0.33l/3493626.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "limonada auchan 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/limonada-auchan-1.5l/3294917.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.85 €/Lt",
+    "preco_atual": "1,28 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno romã e camomila 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-roma-e-camomila-0.33l/3296226.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! ruby (morango) 750 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-ruby-%28morango%29-750-ml/3778262.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.39 €/Lt",
+    "preco_atual": "7,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sprite lima limão sem açúcar 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-sprite-lima-limao-sem-acucar-0.50l/3720820.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "1,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante auchan com gás p'tite fete maçã 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-auchan-com-gas-ptite-fete-maca-0.75l/284698.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.91 €/Lt",
+    "preco_atual": "2,93 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante whole earth gengibre bio 330ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/refrigerante-whole-earth-gengibre-bio-330ml/2230953.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.42 €/Lt",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina sem gás laranja pet shine 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-sem-gas-laranja-pet-shine-1.5l/880039.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina sem gás limão pet shine 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-sem-gas-limao-pet-shine-1.5l/879853.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante trina sem gás zero limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-trina-sem-gas-zero-limao-1.5l/2478763.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.17 €/Lt",
+    "preco_atual": "1,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha oh k! gengibre e limão bio 750 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-oh-k%21-gengibre-e-limao-bio-750-ml/3777894.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.39 €/Lt",
+    "preco_atual": "7,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "craft soda why not limão e mate bio 33cl",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/craft-soda-why-not-limao-e-mate-bio-33cl/3239148.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.64 €/Lt",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! peachy (pêssego) 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-peachy-%28pessego%29-330ml/3778267.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea arizona pessego 500ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-arizona-pessego-500ml/1148336.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.98 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "limonada auchan zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/limonada-auchan-zero-1.5l/3730498.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.86 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "espumante disney princess 750ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/espumante-disney-princess-750ml/3687489.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "limonada auchan bio 1l",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/limonada-auchan-bio-1l/3271437.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.59 €/Lt",
+    "preco_atual": "1,59 €",
+    "preco_antigo": "Price reduced from1,79 €to",
+    "promocao": "-11%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain framboesa bio 1 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-framboesa-bio-1-l/3075030.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.49 €/Lt",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás brisa maracujá lata 6x0.33lt",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-brisa-maracuja-lata-6x0.33lt/3810188.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.96 €/Lt",
+    "preco_atual": "5,87 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! pure (chá verde e jasmim) 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-pure-%28cha-verde-e-jasmim%29-330ml/3778265.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! magreb (menta e alcaçuz) 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-magreb-%28menta-e-alcacuz%29-330ml/3778273.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno camomila limão 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-camomila-limao-4x1.5l/2131195.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.26 €/Lt",
+    "preco_atual": "7,56 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás brisa maracujá lata 0.33lt",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-brisa-maracuja-lata-0.33lt/3810189.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "1,04 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! ginger (gengibre limão) 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-ginger-%28gengibre-limao%29-330ml/3778269.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea madam hong lata maçã 0.32l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-madam-hong-lata-maca-0.32l/3644899.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.22 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea madam hong lata pêssego 0.32l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-madam-hong-lata-pessego-0.32l/3644900.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.22 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida aquarius limão 0.50l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-limao-0.50l/755305.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.2 €/Lt",
+    "preco_atual": "1,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bublle tea madam hong lady boba lata 0.315l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bublle-tea-madam-hong-lady-boba-lata-0.315l/3621696.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.35 €/Lt",
+    "preco_atual": "2,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "espumante disney mickey & friends 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/espumante-disney-mickey-e-friends-0.75l/3687490.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.65 €/Lt",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! ruby (morango) 330ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-ruby-%28morango%29-330ml/3778268.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.97 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida aquarius laranja zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/bebida-aquarius-laranja-zero-1.5l/2735338.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.57 €/Lt",
+    "preco_atual": "2,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea chá verde lima&menta 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-cha-verde-limaementa-1l/3855743.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,49 €to",
+    "promocao": "-34%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea omg maracujá com bolhas maçã 0.27l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-omg-maracuja-com-bolhas-maca-0.27l/3857977.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.19 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea omg pêssego com bolhas de morango 0.27l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-omg-pessego-com-bolhas-de-morango-0.27l/3857980.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.19 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea omg limão c/bolhas de manga 0.27l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-omg-limao-cbolhas-de-manga-0.27l/3857983.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.19 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sumol zero ananás 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-sumol-zero-ananas-1.75l/3480909.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.14 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea madam hong lady boba classic lata 0.315l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-madam-hong-lady-boba-classic-lata-0.315l/3621835.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.35 €/Lt",
+    "preco_atual": "2,00 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea boom pêssego + manga 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-boom-pessego-manga-0.25l/3756614.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.96 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain romã 0%açúcares bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-roma-0acucares-bio-400ml/3307213.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea omg framboesa com bolhas mirtilo 0.27l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-omg-framboesa-com-bolhas-mirtilo-0.27l/3857976.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.19 €/Lt",
+    "preco_atual": "3,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain ananás pêssego bio 400 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-ananas-pessego-bio-400-ml/3829269.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.23 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sumol zero laranja 1.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-sumol-zero-laranja-1.75l/3480949.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.14 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea boom mirtilio+morango+melancia 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-boom-mirtiliomorangomelancia-0.25l/3756615.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.96 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão bio 400 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-bio-400-ml/3829280.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.23 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain maracujá 0%açúcares bio 400ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-maracuja-0acucares-bio-400ml/3307184.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.73 €/Lt",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás sumol maracujá 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-sumol-maracuja-1.5l/3740059.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha lipton framboesa 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-lipton-framboesa-0.33l/3740068.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.52 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta guaraná zero lata 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-guarana-zero-lata-6x0.33l/3855870.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "4,50 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gas pepsi zero lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-cgas-pepsi-zero-lata-0.33l/3771638.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.06 €/Lt",
+    "preco_atual": "0,68 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante frutis sem gás laranja e maracujá 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-frutis-sem-gas-laranja-e-maracuja-1.5l/1097700.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha lipton manga maracujá 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-lipton-manga-maracuja-0.33l/3740069.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.52 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante frutis sem gás limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-frutis-sem-gas-limao-1.5l/821476.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás santal active drink mirtilo cenoura 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-santal-active-drink-mirtilo-cenoura-1.5l/3757426.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.32 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta guaraná lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-guarana-lata-0.33l/3299536.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "0,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha lipton morango menta 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-lipton-morango-menta-0.33l/3740065.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.52 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás 7up lima limão free 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-7up-lima-limao-free-4x1.5l/3491098.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.92 €/Lt",
+    "preco_atual": "5,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante frutis sem gás laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-frutis-sem-gas-laranja-1.5l/42690.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea kit tokimeki ananás e leite de coco 255g",
+    "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/cozinha-asiatica/bebidas/bubble-tea-kit-tokimeki-ananas-e-leite-de-coco-255g/3741793.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.65 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás frisumo ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-frisumo-ananas-1.5l/2405645.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante frutis sem gás ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-frutis-sem-gas-ananas-1.5l/42688.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás fanta laranja 2x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-fanta-laranja-2x1.5l/3016022.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "2,98 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ref. sem gás drink & play morango kiwi 0.30l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/ref.-sem-gas-drink-e-play-morango-kiwi-0.30l/3775507.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.3 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ref. sem gás drink & play maçã 0.30l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/ref.-sem-gas-drink-e-play-maca-0.30l/3775508.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.3 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea kit tokimeki matcha 255g",
+    "link": "https://www.auchan.pt/pt/alimentacao/sabores-do-mundo/cozinha-asiatica/bebidas/bubble-tea-kit-tokimeki-matcha-255g/3689334.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.65 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from5,99 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero lima lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-lima-lata-0.33l/3650850.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bubble tea boom limão e menta 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bubble-tea-boom-limao-e-menta-0.25l/3756612.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.96 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain fresh clássica bio 300 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-fresh-classica-bio-300-ml/3654030.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.01 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero açúcar 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-acucar-1l/3859127.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.19 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": "Price reduced from1,35 €to",
+    "promocao": "-12%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gás coca-cola original 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-cgas-coca-cola-original-1l/3859123.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.35 €/Lt",
+    "preco_atual": "1,35 €",
+    "preco_antigo": "Price reduced from1,50 €to",
+    "promocao": "-10%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás auchan lima limão 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-com-gas-auchan-lima-limao-2l/3912332.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.5 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero lata 12x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-lata-12x0.33l/3911495.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "5,09 €",
+    "preco_antigo": "Price reduced from8,49 €to",
+    "promocao": "-40%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás sumol laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-sumol-laranja-1.5l/3928345.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea lima & menta 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-lima-e-menta-1.5l/3950233.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gãs 7up zero pink 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-7up-zero-pink-1l/3911047.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "0,99 €",
+    "preco_antigo": "Price reduced from1,29 €to",
+    "promocao": "-23%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás sumol ananás 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-sumol-ananas-1.5l/3928360.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gãs 7up zero pink 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-7up-zero-pink-0.33l/3911050.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.03 €/Lt",
+    "preco_atual": "0,67 €",
+    "preco_antigo": "Price reduced from0,75 €to",
+    "promocao": "-11%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea fuze tea pêssego-hibisco 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-fuze-tea-pessego-hibisco-1.5l/3950232.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": "Price reduced from1,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gás sumol zero laranja 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-sumol-zero-laranja-1l/3873694.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás schweppes laranja zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-schweppes-laranja-zero-1.5l/3904101.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.79 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "colas auchan 2 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/colas-auchan-2-l/3911357.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.6 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gãs sumol zero laranja 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-sumol-zero-laranja-1.5l/3911043.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.1 €/Lt",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero baunilha 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-baunilha-1l/3905527.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.35 €/Lt",
+    "preco_atual": "1,35 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola lata12x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-lata12x0.33l/3905381.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "8,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gás sumol limão 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-sumol-limao-1.5l/3911051.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás schweppes citrus zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-schweppes-citrus-zero-1.5l/3904091.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.79 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás schweppes limão zero 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-com-gas-schweppes-limao-zero-1.5l/3904099.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.79 €/Lt",
+    "preco_atual": "1,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno acaí mirtilo&rooibos 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-acai-mirtiloerooibos-1.5l/3919249.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.26 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás fanta zero uva 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-fanta-zero-uva-1.5l0.5l-gratis/3919559.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.75 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante sem gás auchan laranja limão cenoura 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sem-gas-auchan-laranja-limao-cenoura-1.5l/3911354.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.93 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/gás sumol zero ananás 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-cgas-sumol-zero-ananas-1l/3873673.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton framboesa 2l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-framboesa-2l/3930243.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,98 €",
+    "preco_antigo": "Price reduced from3,19 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno matcha & menta 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-matcha-e-menta-1.5l/3918601.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.26 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás fanta laranja 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-fanta-laranja-1.5l0.5l-gratis/3919554.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.75 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gãs sumol zero ananãs 15l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-sumol-zero-ananas-15l/3911041.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.1 €/Lt",
+    "preco_atual": "1,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha pleno chã verde bio 0.250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-pleno-cha-verde-bio-0.250ml/3910465.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.96 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante s/gás capri-sun multivitaminas 0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sgas-capri-sun-multivitaminas-0.20l/3616344.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "0,63 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás fanta zero ananás 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-fanta-zero-ananas-1.5l0.5l-gratis/3919555.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.75 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante s/gás capri sun safari 0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sgas-capri-sun-safari-0.20l/3634373.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "0,63 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás fanta zero maracujá 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-fanta-zero-maracuja-1.5l0.5l-gratis/3919558.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.75 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha pleno manga e groselha bio 0.250 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-pleno-manga-e-groselha-bio-0.250-l/3910464.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.96 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno matcha menta 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-matcha-menta-6x0.33l/3919277.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás sprite zero 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-sprite-zero-1.5l0.5l-gratis/3919565.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.7 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "tisana pleno chá verde light 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/tisana-pleno-cha-verde-light-6x0.33l/3918443.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno matcha & menta 4x1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-matcha-e-menta-4x1.5l/3918600.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.26 €/Lt",
+    "preco_atual": "7,56 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás coca-cola zero baunilha 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-baunilha-6x0.33l/3911445.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "5,10 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante s/gás capri sun orange 0.20l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-sem-gas/refrigerante-sgas-capri-sun-orange-0.20l/3634375.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.15 €/Lt",
+    "preco_atual": "0,63 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! peachy 0% açucar 750ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-peachy-0-acucar-750ml/3927766.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.39 €/Lt",
+    "preco_atual": "7,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha pleno gengibre e limão bio 0.250l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-pleno-gengibre-e-limao-bio-0.250l/3910466.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.96 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno açai mirtilo&rooibos 6x0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-acai-mirtiloerooibos-6x0.33l/3919268.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "4,74 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida pleno açai&mirtilo 4x1.5 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/bebida-pleno-acaiemirtilo-4x1.5-l/3919245.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.26 €/Lt",
+    "preco_atual": "7,56 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante com gás 7up free zero 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-lima-limao/refrigerante-com-gas-7up-free-zero-0.33l/3650205.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.06 €/Lt",
+    "preco_atual": "0,68 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero lima lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-lima-lata-0.33l/3846696.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás fanta zero laranja 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-fanta-zero-laranja-1.5l0.5l-gratis/3919561.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.75 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton framboesa 0.25l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-framboesa-0.25l/3930246.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.6 €/Lt",
+    "preco_atual": "0,65 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain ananás coco bio 400 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-ananas-coco-bio-400-ml/3935082.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.23 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea chá verde lipton hortelã e lima 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-cha-verde-lipton-hortela-e-lima-0.33l/3950316.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.3 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha circular cascas de laranja 0.75l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-circular-cascas-de-laranja-0.75l/3904051.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.32 €/Lt",
+    "preco_atual": "6,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás pepsi zero 1l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-pepsi-zero-1l0.5l-gratis/3911044.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.83 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain framboesa limão bio 400 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-framboesa-limao-bio-400-ml/3935079.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.23 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "ice tea lipton framboesa 6x0.25 l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/ice-tea-lipton-framboesa-6x0.25-l/3930252.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.59 €/Lt",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain pessego bio 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-pessego-bio-250ml/3935072.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás sprite lima limão 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-sprite-lima-limao-1.5l0.5l-gratis/3919564.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.7 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gãs sumol limão 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-sumol-limao-0.33l/3911052.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.39 €/Lt",
+    "preco_atual": "0,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão bio 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-bio-1l/3935071.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gãs fanta zero tutti frutti lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerante-c-gas-fanta-zero-tutti-frutti-lata-0.33l/3910841.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.27 €/Lt",
+    "preco_atual": "0,75 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás pepsi regular 1.5l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-pepsi-regular-1.5l/3911064.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.99 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida gaseificada gimber manga & matcha 250ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/bebida-gaseificada-gimber-manga-e-matcha-250ml/3925918.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.96 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain summer limonada bio 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-summer-limonada-bio-250ml/3935073.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.56 €/Lt",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! pure (chá verde jasmim) 750 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-pure-%28cha-verde-jasmim%29-750-ml/3856624.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.47 €/Lt",
+    "preco_atual": "7,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain gengibre limão bio 250ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-gengibre-limao-bio-250ml/3935074.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.96 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha the gutsy captain framboesa limão bio 1l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-the-gutsy-captain-framboesa-limao-bio-1l/3935075.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.99 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "kombucha bio oh k! menta e alcaçuz 750 ml",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/ice-tea-e-tisanas/kombucha-bio-oh-k%21-menta-e-alcacuz-750-ml/3856626.html",
+    "quantidade_minima": null,
+    "preco_unitario": "10.39 €/Lt",
+    "preco_atual": "7,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida gaseificada gimber gengibre limao 250ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/bebida-gaseificada-gimber-gengibre-limao-250ml/3914912.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.96 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "bebida gaseificada gimber pêssego & ginseng 250ml",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-bebidas/sumos-refrigerantes-e-aguas/bebida-gaseificada-gimber-pessego-e-ginseng-250ml/3925921.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.96 €/Lt",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerante c/ gás coca-cola zero baunilha lata 0.33l",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-c-gas-coca-cola-zero-baunilha-lata-0.33l/3911446.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.58 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  },
+  {
+    "nome": "refrigerantes com gás fanta zero guaraná 1.5l+0.5l grátis",
+    "link": "https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-com-gas/refrigerantes-com-gas-fanta-zero-guarana-1.5l0.5l-gratis/3919557.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.75 €/Lt",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-18-54"
+  }
+]

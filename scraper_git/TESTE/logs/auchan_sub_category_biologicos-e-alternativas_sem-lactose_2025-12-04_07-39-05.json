@@ -1,0 +1,982 @@
+[
+  {
+    "nome": "leite auchan uht meio gordo sem lactose 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-auchan-uht-meio-gordo-sem-lactose-1l/2490395.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.08 €/Lt",
+    "preco_atual": "1,08 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite auchan uht magro sem lactose 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-auchan-uht-magro-sem-lactose-1l/2490352.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.08 €/Lt",
+    "preco_atual": "1,08 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite mimosa uht especial 0% lactose meio gordo 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-mimosa-uht-especial-0-lactose-meio-gordo-1l/2125876.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "nata auchan uht culinária sem lactose 200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/natas-bechamel-e-chantilly/natas/nata-auchan-uht-culinaria-sem-lactose-200ml/2945855.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.25 €/Lt",
+    "preco_atual": "0,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite mimosa uht magro bem especial 0% lactose 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-mimosa-uht-magro-bem-especial-0-lactose-1l/2125879.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.29 €/Lt",
+    "preco_atual": "1,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "nata parmalat culinária 0% lactose 200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/natas-bechamel-e-chantilly/natas/nata-parmalat-culinaria-0-lactose-200ml/2221801.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.9 €/Lt",
+    "preco_atual": "1,18 €",
+    "preco_antigo": "Price reduced from1,39 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite mimosa uht meio gordo 0% lactose 4x200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-mimosa-uht-meio-gordo-0-lactose-4x200ml/2125890.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.61 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite magro uht mimosa sem lactose +proteina 1 lt",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-magro-uht-mimosa-sem-lactose-proteina-1-lt/3533088.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.84 €/Lt",
+    "preco_atual": "1,84 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo fresco auchan meio gordo sem lactose 2x62.5g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-fresco-auchan-meio-gordo-sem-lactose-2x62.5g/1196976.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.6 €/Kg",
+    "preco_atual": "1,45 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo flamengo auchan ralado sem lactose 150",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-flamengo-auchan-ralado-sem-lactose-150/3365570.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.6 €/Kg",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite mimosa com chocolate meio gordo sem lactose 4x200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-mimosa-com-chocolate-meio-gordo-sem-lactose-4x200ml/870052.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.99 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo gouda auchan sem lactos fatias 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-gouda-auchan-sem-lactos-fatias-150g/3596777.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.93 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo fresco auchan para barrar sem lactose 200 g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-fresco-auchan-para-barrar-sem-lactose-200-g/3771233.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.45 €/Kg",
+    "preco_atual": "1,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite sem lactose gresso uht magro 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-sem-lactose-gresso-uht-magro-1l/3523361.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.09 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte yoggi líquido sem lactose morango-banana 4x160g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/liquidos/iogurte-yoggi-liquido-sem-lactose-morango-banana-4x160g/2238614.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.42 €/Kg",
+    "preco_atual": "2,19 €",
+    "preco_antigo": "Price reduced from3,52 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "manteiga mimosa sem lactose 250g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/manteiga-e-cremes-sem-lactose/manteiga-mimosa-sem-lactose-250g/3396302.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.76 €/Kg",
+    "preco_atual": "2,44 €",
+    "preco_antigo": "Price reduced from2,74 €to",
+    "promocao": "-11%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte yoggi líquido sem lactose frutos silvestres 4x160g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-yoggi-liquido-sem-lactose-frutos-silvestres-4x160g/3352910.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.42 €/Kg",
+    "preco_atual": "2,19 €",
+    "preco_antigo": "Price reduced from3,52 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "nata mimosa uht cremosa sem lactose 200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/natas-bechamel-e-chantilly/natas/nata-mimosa-uht-cremosa-sem-lactose-200ml/2654882.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.2 €/Lt",
+    "preco_atual": "1,04 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite nova açores pastagem meio gordo sem lactose 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-nova-acores-pastagem-meio-gordo-sem-lactose-1l/3103721.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.14 €/Lt",
+    "preco_atual": "1,14 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite vigor pasteurizado meio gordo sem lactose 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-vigor-pasteurizado-meio-gordo-sem-lactose-1l/1172428.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.34 €/Lt",
+    "preco_atual": "1,34 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte líquido sem lactose mimosa morango banana 8x151ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-liquido-sem-lactose-mimosa-morango-banana-8x151ml/3780001.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.05 €/Lt",
+    "preco_atual": "3,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo edam auchan sem lactose fatias 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-edam-auchan-sem-lactose-fatias-150g/3596779.html",
+    "quantidade_minima": null,
+    "preco_unitario": "11.93 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite auchan fermentado sem lactose morango 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/defesa-e-colesterol/leite-auchan-fermentado-sem-lactose-morango-4x125g/2294304.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Kg",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo castelões sem lactose fatias 2x150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-casteloes-sem-lactose-fatias-2x150g/3290188.html",
+    "quantidade_minima": null,
+    "preco_unitario": "13.97 €/Kg",
+    "preco_atual": "4,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "manteiga matinal magra s/lactose 200 g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/manteiga-cremes-e-margarina/cremes-para-barrar/manteiga-matinal-magra-slactose-200-g/3665933.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.95 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": "Price reduced from2,29 €to",
+    "promocao": "-13%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo fresco paiva sem lactose 2x62.5g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-fresco-paiva-sem-lactose-2x62.5g/1164679.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.72 €/Kg",
+    "preco_atual": "1,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo castelões meio gordo sem lactose fatiado 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-casteloes-meio-gordo-sem-lactose-fatiado-150g/2606504.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.33 €/Kg",
+    "preco_atual": "1,85 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa líquido sem lactose frutos tropicais 4x151ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/liquidos/iogurte-mimosa-liquido-sem-lactose-frutos-tropicais-4x151ml/2228050.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "natas uht mimosa culinaria s/lactose 200 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/natas-sem-lactose/natas-uht-mimosa-culinaria-slactose-200-ml/3535458.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.2 €/Lt",
+    "preco_atual": "1,04 €",
+    "preco_antigo": "Price reduced from1,24 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite sem lactose gresso meio gordo 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-sem-lactose-gresso-meio-gordo-1l/3523363.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.09 €/Lt",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa líquido sem lactose morango 4x151ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/liquidos/iogurte-mimosa-liquido-sem-lactose-morango-4x151ml/2228045.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte nutrégi sem lactose polpa manga 4x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-nutregi-sem-lactose-polpa-manga-4x120g/2705810.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.35 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": "Price reduced from2,69 €to",
+    "promocao": "-22%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite ucal com chocolate 0%lactose 6x250ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-ucal-com-chocolate-0lactose-6x250ml/2202326.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.57 €/Lt",
+    "preco_atual": "5,35 €",
+    "preco_antigo": "Price reduced from6,69 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte sem lactose yoggi moran/banana 8x160g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-sem-lactose-yoggi-moranbanana-8x160g/3737360.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.12 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from6,31 €to",
+    "promocao": "-37%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte sem lactose mimosa multisabores poupança 8x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-sem-lactose-mimosa-multisabores-poupanca-8x120g/3629651.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.11 €/Kg",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte nutrégi sem lactose aroma côco 4x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-nutregi-sem-lactose-aroma-coco-4x120g/2705795.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.73 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from2,24 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo ralado hochland mozzarella sem lactose 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-ralado-hochland-mozzarella-sem-lactose-150g/3486827.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.93 €/Kg",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite sem lactose mimosa café mais proteína 3x250 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/proteina/leite-proteico/leite-sem-lactose-mimosa-cafe-mais-proteina-3x250-ml/3480641.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.96 €/Lt",
+    "preco_atual": "2,97 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte sem lactose mimosa mirtilo 4x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-sem-lactose-mimosa-mirtilo-4x120g/3366416.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.35 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa sem lactose multifrutos 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-mimosa-sem-lactose-multifrutos-4x125g/2128817.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.15 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa sem lactose magro natural 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-mimosa-sem-lactose-magro-natural-4x125g/2128819.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.35 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte yoggi líquido sem lactose morango 4x160g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/liquidos/iogurte-yoggi-liquido-sem-lactose-morango-4x160g/2238601.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.42 €/Kg",
+    "preco_atual": "2,19 €",
+    "preco_antigo": "Price reduced from3,52 €to",
+    "promocao": "-38%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo philadelphia sem lactose 150 g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-philadelphia-sem-lactose-150-g/2224597.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.6 €/Kg",
+    "preco_atual": "2,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "manteiga primor light 0% lactose 125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/manteiga-cremes-e-margarina/cremes-para-barrar/manteiga-primor-light-0-lactose-125g/2550457.html",
+    "quantidade_minima": null,
+    "preco_unitario": "16.72 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "fiambre peito de peru elpozo bienstar reduzido em sal kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/charcutaria/fiambre-de-peru-e-frango/fiambre-peito-de-peru-elpozo-bienstar-reduzido-em-sal-kg/2215651.html",
+    "quantidade_minima": "Quant. Mínima = 100g",
+    "preco_unitario": "16.99 €/Kg",
+    "preco_atual": "16,99 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa sem lactose magro morango 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-mimosa-sem-lactose-magro-morango-4x125g/2128818.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.35 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo matinal fresco sem lactose 3x72g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-matinal-fresco-sem-lactose-3x72g/3321261.html",
+    "quantidade_minima": null,
+    "preco_unitario": "12.45 €/Kg",
+    "preco_atual": "2,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte sem lactose mimosa magro coco 4x120 g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-sem-lactose-mimosa-magro-coco-4x120-g/3829908.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.35 €/Kg",
+    "preco_atual": "2,09 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-30%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "natas parmalat uht para bater 0% lactose 200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/natas-bechamel-e-chantilly/natas/natas-parmalat-uht-para-bater-0-lactose-200ml/2461007.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.9 €/Lt",
+    "preco_atual": "1,18 €",
+    "preco_antigo": "Price reduced from1,39 €to",
+    "promocao": "-15%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte liquido sem lactose mimosa magro frutos tropicais 4x151ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-liquido-sem-lactose-mimosa-magro-frutos-tropicais-4x151ml/3780014.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte liquido sem lactose mimosa magro morango 4x151ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-liquido-sem-lactose-mimosa-magro-morango-4x151ml/3780004.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite parmalat manhã levissima meio gordo 0% lactose 3x200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-parmalat-manha-levissima-meio-gordo-0-lactose-3x200ml/2356731.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.17 €/Lt",
+    "preco_atual": "1,30 €",
+    "preco_antigo": "Price reduced from1,63 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo gouda fatias sem lactose la bocateria 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-gouda-fatias-sem-lactose-la-bocateria-150g/1012837.html",
+    "quantidade_minima": null,
+    "preco_unitario": "14.6 €/Kg",
+    "preco_atual": "2,19 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa s/lactose coco 4x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-mimosa-slactose-coco-4x120g/3756570.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.15 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa sem lactose morango 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-mimosa-sem-lactose-morango-4x125g/1064127.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.15 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose líquid mimosa mir/cha ver 4x151ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-liquid-mimosa-mircha-ver-4x151ml/3367568.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.29 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": "Price reduced from3,14 €to",
+    "promocao": "-37%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mimosa sem lactose natural açúcarado 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-mimosa-sem-lactose-natural-acucarado-4x125g/1064128.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.15 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose mimosa probiotico framb/maçã 4x151 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-mimosa-probiotico-frambmaca-4x151-ml/3700046.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.46 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": "Price reduced from3,14 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo feta greco sem lactose 150 g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-feta-greco-sem-lactose-150-g/2227642.html",
+    "quantidade_minima": null,
+    "preco_unitario": "25.27 €/Kg",
+    "preco_atual": "3,79 €",
+    "preco_antigo": "Price reduced from4,49 €to",
+    "promocao": "-16%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte mevgal sem lactose grego natural 2% 150g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/cremosos-gregos/iogurte-mevgal-sem-lactose-grego-natural-2-150g/2222439.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.93 €/Kg",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo flamengo paiva sem lactose fatias 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-flamengo-paiva-sem-lactose-fatias-150g/1164655.html",
+    "quantidade_minima": null,
+    "preco_unitario": "17.27 €/Kg",
+    "preco_atual": "2,59 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte kaiku sem lactose grego stracciatella 4x90g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-kaiku-sem-lactose-grego-stracciatella-4x90g/3361469.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.78 €/Kg",
+    "preco_atual": "2,44 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose nutrégi natural 4x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-nutregi-natural-4x120g/3692265.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.73 €/Kg",
+    "preco_atual": "1,79 €",
+    "preco_antigo": "Price reduced from2,24 €to",
+    "promocao": "-20%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo mistura auchan sem lactose cunha 250g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-mistura-auchan-sem-lactose-cunha-250g/3545159.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.04 €/Kg",
+    "preco_atual": "4,76 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo curado auchan sem lactose 250g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-curado-auchan-sem-lactose-250g/3681360.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.56 €/Kg",
+    "preco_atual": "3,89 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose mimosa pessego/cenoura/sementes 4x115g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-mimosa-pessegocenourasementes-4x115g/3700065.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.33 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo curado paiva sem lactose metades un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-curado-paiva-sem-lactose-metades-un/1164666.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.96 €/Kg",
+    "preco_atual": "3,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "café latte auchan sem lactose e sem glúten 250ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/bebidas-de-cafe-refrigeradas/cafe-latte-auchan-sem-lactose-e-sem-gluten-250ml/3630875.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.8 €/Lt",
+    "preco_atual": "0,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "pizza schar marguerita sem glúten sem lactose 300g",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/pizzas/pizza-schar-marguerita-sem-gluten-sem-lactose-300g/3013012.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.63 €/Kg",
+    "preco_atual": "4,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite uht magro mimosa sem lactose com fibra e aveia 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-uht-magro-mimosa-sem-lactose-com-fibra-e-aveia-1l/2763123.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite uht magro mimosa sem lactose com fibra e amêndoa 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-uht-magro-mimosa-sem-lactose-com-fibra-e-amendoa-1l/2763134.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/ lactose mimosa probiotico kiwi 4x115g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-s-lactose-mimosa-probiotico-kiwi-4x115g/3700067.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.33 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose mimosa probiotico framb/amendoa/sementes 4x115g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-mimosa-probiotico-frambamendoasementes-4x115g/3700061.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.33 €/Kg",
+    "preco_atual": "1,99 €",
+    "preco_antigo": "Price reduced from2,99 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo rolo de cabra cobreros sem lactose 180 g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-rolo-de-cabra-cobreros-sem-lactose-180-g/3167495.html",
+    "quantidade_minima": null,
+    "preco_unitario": "19.39 €/Kg",
+    "preco_atual": "3,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose mimosa probiotico manga/quin 4x151 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-mimosa-probiotico-mangaquin-4x151-ml/3700033.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.46 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": "Price reduced from3,14 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "gelado nutrégi sem lactose nata 500ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/gelados/gelados-equilibrio/gelado-nutregi-sem-lactose-nata-500ml/1152235.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte natural biedermann sem lactose bio 200 g",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-lacteos/iogurtes/iogurte-natural-biedermann-sem-lactose-bio-200-g/3742833.html",
+    "quantidade_minima": null,
+    "preco_unitario": "7.15 €/Kg",
+    "preco_atual": "1,43 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte morango biedermann sem lactose bio 200g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-morango-biedermann-sem-lactose-bio-200g/3711641.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.45 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite uht magro mimosa sem lactose com fibra e coco 1 litro",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-uht-magro-mimosa-sem-lactose-com-fibra-e-coco-1-litro/3529402.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.39 €/Lt",
+    "preco_atual": "1,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo edam sem lactose la bocateria fatias 150g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-edam-sem-lactose-la-bocateria-fatias-150g/1012851.html",
+    "quantidade_minima": null,
+    "preco_unitario": "15.27 €/Kg",
+    "preco_atual": "2,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte kaiku sem lactose grego limão 4x90g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-kaiku-sem-lactose-grego-limao-4x90g/3361470.html",
+    "quantidade_minima": null,
+    "preco_unitario": "6.78 €/Kg",
+    "preco_atual": "2,44 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "gelado s/lactose nutrégi chocolate 500 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/gelados/gelados-equilibrio/gelado-slactose-nutregi-chocolate-500-ml/3619261.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "gelado s/lactose nutrégi morango 500 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/gelados/gelados-equilibrio/gelado-slactose-nutregi-morango-500-ml/3619264.html",
+    "quantidade_minima": null,
+    "preco_unitario": "5.98 €/Lt",
+    "preco_atual": "2,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo ovelha sem lactose seia lagos un",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-portugueses/queijo-ovelha-sem-lactose-seia-lagos-un/3772992.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.03 €/un",
+    "preco_atual": "6,29 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte manga biedermann sem lactose bio 200g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-manga-biedermann-sem-lactose-bio-200g/3711638.html",
+    "quantidade_minima": null,
+    "preco_unitario": "8.45 €/Kg",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo halloumi dop greco sem lactose 200g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-halloumi-dop-greco-sem-lactose-200g/3739224.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.99 €/un",
+    "preco_atual": "4,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo azul sem lactose cambozola kg",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijos-internacionais/queijo-azul-sem-lactose-cambozola-kg/1010140.html",
+    "quantidade_minima": "Quant. Mínima = 400g",
+    "preco_unitario": "19.99 €/Kg",
+    "preco_atual": "19,99 €/Kg",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite auchan fermentado sem lactose natural açúcarado 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/defesa-e-colesterol/leite-auchan-fermentado-sem-lactose-natural-acucarado-4x125g/2294313.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.18 €/Kg",
+    "preco_atual": "1,09 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "bebida de leite sem lactose matinal livre 1l",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/bebida-de-leite-sem-lactose-matinal-livre-1l/3756574.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.25 €/Lt",
+    "preco_atual": "1,25 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite sem lactose agros chocolate 4x200ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/leite-sem-lactose/leite-sem-lactose-agros-chocolate-4x200ml/3386523.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.99 €/Lt",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte s/lactose mimosa probiotico kiwi/mor 4x151 ml",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-slactose-mimosa-probiotico-kiwimor-4x151-ml/3700059.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.46 €/Lt",
+    "preco_atual": "2,09 €",
+    "preco_antigo": "Price reduced from3,14 €to",
+    "promocao": "-33%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "minipizza schar margarita sem glúten sem lactose 280g (4un)",
+    "link": "https://www.auchan.pt/pt/alimentacao/congelados/pizzas/minipizza-schar-margarita-sem-gluten-sem-lactose-280g-%284un%29/3291113.html",
+    "quantidade_minima": null,
+    "preco_unitario": "0.03 €/un",
+    "preco_atual": "7,95 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "bifidus danone activia sem lactose natural açúcarado 4x120g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/iogurtes/bifidus/bifidus-danone-activia-sem-lactose-natural-acucarado-4x120g/2519977.html",
+    "quantidade_minima": null,
+    "preco_unitario": "4.98 €/Kg",
+    "preco_atual": "2,39 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo flamengo auchan fatias sem lactose 150gr",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-flamengo-auchan-fatias-sem-lactose-150gr/3892436.html",
+    "quantidade_minima": null,
+    "preco_unitario": "9.93 €/Kg",
+    "preco_atual": "1,49 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte natural magro auchan sem lactose 4x125g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-natural-magro-auchan-sem-lactose-4x125g/3921275.html",
+    "quantidade_minima": null,
+    "preco_unitario": "2.56 €/Kg",
+    "preco_atual": "1,28 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "iogurte yoggi sem lactose tropical 8x160g",
+    "link": "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/sem-lactose/iogurte-sem-lactose/iogurte-yoggi-sem-lactose-tropical-8x160g/3918231.html",
+    "quantidade_minima": null,
+    "preco_unitario": "3.12 €/Lt",
+    "preco_atual": "3,99 €",
+    "preco_antigo": "Price reduced from6,31 €to",
+    "promocao": "-37%",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "queijo mozzarella galbani sem lactose 100g",
+    "link": "https://www.auchan.pt/pt/produtos-frescos/queijaria/queijo-sem-lactose/queijo-mozzarella-galbani-sem-lactose-100g/3919430.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.69 €/un",
+    "preco_atual": "1,69 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  },
+  {
+    "nome": "leite sem lactose frisona bio 1 l",
+    "link": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-lacteos/leite/leite-sem-lactose-frisona-bio-1-l/3913949.html",
+    "quantidade_minima": null,
+    "preco_unitario": "1.99 €/Lt",
+    "preco_atual": "1,99 €",
+    "preco_antigo": null,
+    "promocao": "Promoção",
+    "data_execucao": "2025-12-04_07-38-44"
+  }
+]
