@@ -1,8 +1,14 @@
-// app/dashboard/loading.tsx
-
+// ui/app/dashboard/loading.tsx
 export default function DashboardLoading() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="relative min-h-screen bg-zinc-950 text-zinc-100">
+      {/* OVERLAY CENTRAL */}
+      <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-zinc-950/0 backdrop-blur-sm">
+        <div className="h-10 w-10 animate-spin rounded-full border-4 border-zinc-700 border-t-zinc-300"></div>
+        <p className="mt-3 text-sm text-zinc-400">Loading</p>
+      </div>
+
+      {/* SKELETON CONTENT */}
       <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
         {/* Header skeleton */}
         <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
