@@ -1,3 +1,5 @@
+# greyscrape/scrapers/store_common.py
+
 import os
 import threading
 import time
@@ -13,26 +15,37 @@ _LOG_LOCK = threading.Lock()
 # Base directory for this package (greyscrape/scrapers)
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Timestamp for THIS PROCESS / THIS EXECUTION
-_EXECUTION_TS = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+# Global store-related state, initialized via init_store_logging(...)
+STORE_NAME = "default"
+STORE_LOGS_ROOT = os.path.join(_BASE_DIR, STORE_NAME, "logs")
+EXECUTION_TS = None
+EXECUTION_LOG_ROOT = None
+_MAIN_LOG_PATH = None
 
-# Root folder for this execution:
-# greyscrape/scrapers/auchan/logs/<timestamp>/
-_EXECUTION_LOG_ROOT = os.path.join(
-    _BASE_DIR, "auchan", "logs", _EXECUTION_TS
-)
+# JSON and worker log dirs (derived from EXECUTION_TS)
+LOG_DIR_NAME = None
+WORKER_LOG_DIR_NAME = None
 
-# Main log file for the execution
-_MAIN_LOG_PATH = os.path.join(_EXECUTION_LOG_ROOT, "main.log")
 
-# Directory for JSON logs for this execution
-# (used by _save_json_log em auchan_DB.py)
-LOG_DIR_NAME = os.path.join("auchan", "logs", _EXECUTION_TS, "json")
+def init_store_logging(store_name: str) -> None:
+    """
+    Initialize logging paths for a specific store.
 
-# Base dir for worker logs for this execution.
-# Worker final path:
-# greyscrape/scrapers/auchan/logs/<ts>/Worker_<id>/worker_logs/worker.log
-WORKER_LOG_DIR_NAME = os.path.join("auchan", "logs", _EXECUTION_TS)
+    Must be called once per process BEFORE any log_msg / EXECUTION_LOG_ROOT usage.
+    """
+    global STORE_NAME, STORE_LOGS_ROOT, EXECUTION_TS, EXECUTION_LOG_ROOT
+    global _MAIN_LOG_PATH, LOG_DIR_NAME, WORKER_LOG_DIR_NAME
+
+    STORE_NAME = store_name
+    STORE_LOGS_ROOT = os.path.join(_BASE_DIR, STORE_NAME, "logs")
+
+    EXECUTION_TS = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    EXECUTION_LOG_ROOT = os.path.join(STORE_LOGS_ROOT, EXECUTION_TS)
+
+    _MAIN_LOG_PATH = os.path.join(EXECUTION_LOG_ROOT, "main.log")
+
+    LOG_DIR_NAME = os.path.join(STORE_NAME, "logs", EXECUTION_TS, "json")
+    WORKER_LOG_DIR_NAME = os.path.join(STORE_NAME, "logs", EXECUTION_TS)
 
 
 def _ensure_dir(path: str) -> None:
@@ -49,24 +62,24 @@ def log_msg(msg: str, worker_id: Optional[int] = None) -> None:
     Thread-safe logger.
 
     Writes:
-      - to stdout (with optional [Worker X] prefix)
+      - to stdout
       - to main log file for this execution
-      - to per-worker log file if worker_id is not None
+      - to per-worker log (if worker_id is not None)
     """
-    prefix = f"[Worker {worker_id}] " if worker_id is not None else ""
-    line = f"{prefix}{msg}"
+    if EXECUTION_LOG_ROOT is None:
+        # Defensive: force init if someone esquece de chamar init_store_logging.
+        init_store_logging("default")
+
+    ts = datetime.now().strftime("%H:%M:%S")
+    prefix = f"[{ts}] [Worker {worker_id}] " if worker_id is not None else f"[{ts}] "
+    line = prefix + msg
 
     with _LOG_LOCK:
-        # stdout
         print(line, flush=True)
 
-        # Ensure base execution log dir exists
-        _ensure_dir(_EXECUTION_LOG_ROOT)
-
-        # Main log for this execution
+        _ensure_dir(EXECUTION_LOG_ROOT)
         _write_file_line(_MAIN_LOG_PATH, line)
 
-        # Per-worker log
         if worker_id is not None:
             worker_root = os.path.join(
                 _BASE_DIR,
@@ -80,9 +93,6 @@ def log_msg(msg: str, worker_id: Optional[int] = None) -> None:
 
 
 def format_elapsed_time(start_ts: float) -> str:
-    """
-    Format a wall clock elapsed time nicely for logging.
-    """
     elapsed = time.time() - start_ts
 
     if elapsed < 60:
@@ -100,11 +110,6 @@ def format_elapsed_time(start_ts: float) -> str:
 
 
 def build_headless_chrome() -> webdriver.Chrome:
-    """
-    Build a headless Chrome WebDriver with sane defaults.
-
-    Reuse this across all store scrapers.
-    """
     options = Options()
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")

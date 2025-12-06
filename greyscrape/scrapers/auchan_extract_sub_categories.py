@@ -1,4 +1,4 @@
-# scraper_git/TESTE/extract_auchan_sub_categories.py
+# greyscrape/scrapers/auchan_extract_sub_categories.py
 import os
 import json
 from typing import List, Set
@@ -6,6 +6,11 @@ from typing import List, Set
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 BASE_URL = "https://www.auchan.pt"
 START_URL = f"{BASE_URL}/pt"
@@ -88,7 +93,16 @@ def main() -> None:
     try:
         driver.get(START_URL)
         # Small wait to ensure the menu is rendered
-        driver.implicitly_wait(3)
+        # Wait until subcategory menu links exist in DOM
+        try:
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_all_elements_located(
+                    (By.CSS_SELECTOR, 'a[id^="menu-subcategory-"]')
+                )
+            )
+        except Exception:
+            print("[Auchan][SubCats] WARNING: No subcategory links found after waiting.")
+
 
         html = driver.page_source
         urls = _extract_subcategory_urls(html)

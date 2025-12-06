@@ -105,7 +105,7 @@ def push_products_with_snapshots(
     print(f"[Supabase][{store_label}] Created scrape_run id={run_id}")
 
     try:
-        # 2) Build product rows
+        # Build product rows
         product_rows = []
         for p in produtos:
             ext_id = extract_external_id(p.get("link", ""))
@@ -119,11 +119,13 @@ def push_products_with_snapshots(
                     "name": p.get("nome") or "",
                     "raw_name": p.get("nome") or "",
                     "product_url": p.get("link") or "",
-                    "first_seen_at": started_at,
+                    # first_seen_at is managed by DB default on insert
                     "last_seen_at": started_at,
                     "is_active": True,
+                    "not_on_scrape_count": 0,
                 }
             )
+
 
         if not product_rows:
             print(
@@ -194,7 +196,15 @@ def push_products_with_snapshots(
                     headers=headers_snapshots,
                     json=chunk,
                 )
-                resp.raise_for_status()
+
+                if not resp.ok:
+                    # Print full error from PostgREST
+                    print(
+                        f"[Supabase][{store_label}] Snapshot batch FAILED "
+                        f"(status={resp.status_code}): {resp.text}",
+                        file=sys.stderr,
+                    )
+                    resp.raise_for_status()
 
         finished_at = utc_now_iso()
         update_payload = {"finished_at": finished_at, "status": "success"}
@@ -233,3 +243,121 @@ def push_products_with_snapshots(
 
         print(f"[Supabase][{store_label}] ERROR during ingest: {exc}", file=sys.stderr)
         raise
+
+def mark_products_deleted(
+    deleted_ids: List[str],
+    store_id_env_var: str,
+    store_label: str = "store",
+) -> None:
+    """
+    Soft-delete logic with hysteresis:
+
+      - For each external_id that disappeared in the current run:
+          * increment not_on_scrape_count
+          * if not_on_scrape_count >= 3, set is_active = False and deleted_at = now
+
+      - Products that reappear in a later scrape will have their
+        not_on_scrape_count reset to 0 and is_active = True in
+        push_products_with_snapshots.
+    """
+    if not deleted_ids:
+        return
+
+    supabase_url = get_env_var("SUPABASE_URL")
+    service_key = get_env_var("SUPABASE_SERVICE_ROLE_KEY")
+    store_id_str = get_env_var(store_id_env_var)
+    store_id = int(store_id_str)
+
+    base_rest = f"{supabase_url}/rest/v1"
+
+    common_headers = {
+        "apikey": service_key,
+        "Authorization": f"Bearer {service_key}",
+        "Content-Type": "application/json",
+    }
+
+    deleted_at = utc_now_iso()
+    batch_size = 200
+    ids_list = list(deleted_ids)
+
+    total_marked_deleted = 0
+
+    for i in range(0, len(ids_list), batch_size):
+        chunk = ids_list[i : i + batch_size]
+        ids_csv = ",".join(chunk)
+
+        # 1) Fetch current rows for these external_ids
+        select_url = (
+            f"{base_rest}/products"
+            f"?store_id=eq.{store_id}"
+            f"&external_id=in.({ids_csv})"
+        )
+
+        try:
+            resp = requests.get(select_url, headers=common_headers)
+            resp.raise_for_status()
+        except Exception as exc:
+            print(
+                f"[Supabase][{store_label}] Failed to fetch products for deletion "
+                f"chunk starting at {i}: {exc}",
+                file=sys.stderr,
+            )
+            raise
+
+        rows = resp.json()
+        if not rows:
+            continue
+
+        updates = []
+        for row in rows:
+            current_count = row.get("not_on_scrape_count")
+            if current_count is None:
+                current_count = 0
+
+            try:
+                current_count = int(current_count)
+            except (TypeError, ValueError):
+                current_count = 0
+
+            new_count = current_count + 1
+
+            update_row: Dict[str, object] = {
+                "id": row["id"],
+                "not_on_scrape_count": new_count,
+            }
+
+            if new_count >= 3:
+                update_row["is_active"] = False
+                update_row["deleted_at"] = deleted_at
+                total_marked_deleted += 1
+
+            updates.append(update_row)
+
+        if not updates:
+            continue
+
+        # 2) Upsert updates by primary key id
+        upsert_headers = {
+            **common_headers,
+            "Prefer": "return=none,resolution=merge-duplicates",
+        }
+
+        try:
+            resp = requests.post(
+                f"{base_rest}/products?on_conflict=id",
+                headers=upsert_headers,
+                json=updates,
+            )
+            resp.raise_for_status()
+        except Exception as exc:
+            print(
+                f"[Supabase][{store_label}] Failed to update deletion counters "
+                f"for chunk starting at {i}: {exc}",
+                file=sys.stderr,
+            )
+            raise
+
+    print(
+        f"[Supabase][{store_label}] Processed {len(ids_list)} candidate-deleted "
+        f"products (marked {total_marked_deleted} as deleted, threshold >= 3)."
+    )

@@ -1,6 +1,5 @@
 # greyscrape/scrapers/auchan_all_sub_categories_parallel.py
 import json
-import math
 import os
 import sys
 import time
@@ -8,9 +7,13 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+import threading
+
 
 from dotenv import load_dotenv
 from selenium import webdriver
+
+from auchan_extract_sub_categories import main as extract_subcats_main
 
 from auchan_DB import (
     _scrape_category_with_api_and_selenium,
@@ -18,7 +21,13 @@ from auchan_DB import (
     _save_json_log,
 )
 
-from store_common import format_elapsed_time, build_headless_chrome, log_msg
+import store_common
+from store_common import (
+    init_store_logging,
+    format_elapsed_time,
+    build_headless_chrome,
+    log_msg,
+)
 
 # Load .env.local a partir da raiz (Trabalho-Pratico2_SCRIPTS)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -140,6 +149,7 @@ def _scrape_single_category(
             page_path=page_path,
             cgid=cgid,
             run_timestamp=run_timestamp,
+            worker_id=worker_id,  # <<< aqui é a diferença
         )
     except Exception as exc:
         log_msg(f"[ERROR] Failed scraping '{url}': {exc}", worker_id=worker_id)
@@ -150,7 +160,6 @@ def _scrape_single_category(
     total_expected = stats.get("total_expected")
     chunks = stats.get("chunks")
 
-    # Contexto agora inclui o cgid final (o que foi mesmo usado na API)
     context = f"sub_category:{page_path}|cgid={final_cgid}"
     _save_json_log(produtos, context)
 
@@ -171,14 +180,18 @@ def _scrape_single_category(
 
     return context, total
 
-
-def _worker_scrape_chunk(urls: List[str], worker_id: int) -> Dict[str, Any]:
+def _worker_scrape_loop(
+    urls: List[str],
+    worker_id: int,
+    shared_state: Dict[str, int],
+    state_lock: threading.Lock,
+) -> Dict[str, Any]:
     """
-    Logical worker for one thread:
+    Worker that keeps pulling URLs from a shared queue (balanced load).
 
       - builds its own headless Chrome
-      - iterates its URL list in sequence
-      - returns aggregated stats
+      - repeatedly grabs the next URL index from shared_state["next_index"]
+      - stops when there are no URLs left
     """
     from selenium.common.exceptions import WebDriverException
 
@@ -188,15 +201,35 @@ def _worker_scrape_chunk(urls: List[str], worker_id: int) -> Dict[str, Any]:
     total_products = 0
     successful_cats = 0
     failed_urls: List[str] = []
+    total_urls = len(urls)
 
     try:
-        for idx, url in enumerate(urls, start=1):
+        while True:
+            # Get next job index atomically
+            with state_lock:
+                idx = shared_state["next_index"]
+                if idx >= total_urls:
+                    break
+                shared_state["next_index"] += 1
+
+            url = urls[idx]
+
             log_msg("", worker_id=worker_id)
             log_msg("=" * 80, worker_id=worker_id)
-            log_msg(f"[{idx}/{len(urls)}] {url}", worker_id=worker_id)
+            log_msg(f"[{idx + 1}/{total_urls}] {url}", worker_id=worker_id)
             log_msg("=" * 80, worker_id=worker_id)
 
-            result = _scrape_single_category(driver, url, worker_id)
+            try:
+                result = _scrape_single_category(driver, url, worker_id)
+            except WebDriverException as exc:
+                # Se o Chrome morrer, marcamos o URL atual como falhado e abortamos o worker
+                log_msg(
+                    f"[FATAL] WebDriverException in worker while scraping '{url}': {exc}",
+                    worker_id=worker_id,
+                )
+                failed_urls.append(url)
+                break
+
             if result is None:
                 failed_urls.append(url)
                 continue
@@ -205,17 +238,12 @@ def _worker_scrape_chunk(urls: List[str], worker_id: int) -> Dict[str, Any]:
             total_products += count
             successful_cats += 1
 
-    except WebDriverException as exc:
-        log_msg(f"[FATAL] WebDriverException in worker: {exc}", worker_id=worker_id)
-        # Mark all remaining URLs as failed (including the one that crashed mid-way)
-        for url in urls[successful_cats + len(failed_urls):]:
-            failed_urls.append(url)
     finally:
         driver.quit()
 
     return {
         "worker_id": worker_id,
-        "assigned_urls": len(urls),
+        "assigned_urls": successful_cats + len(failed_urls),
         "successful": successful_cats,
         "failed": failed_urls,
         "products": total_products,
@@ -224,10 +252,35 @@ def _worker_scrape_chunk(urls: List[str], worker_id: int) -> Dict[str, Any]:
 
 
 def main() -> None:
+    # Initialize logging for this store
+    init_store_logging("auchan")
+
+    # Behavior:
+    #   - No args  -> generate links JSON (extract_subcats_main) and then load it
+    #   - With arg -> DO NOT generate, just use existing JSON
+    #
+    # Special case:
+    #   - "111"    -> use default LINKS_DEFAULT_PATH, but still skip extraction
+
     if len(sys.argv) > 1:
-        links_path = sys.argv[1]
-    else:
+
         links_path = LINKS_DEFAULT_PATH
+
+        log_msg(
+            f"[Auchan] Using existing category URLs file (no extraction): {links_path}"
+        )
+        should_extract = False
+    else:
+        # No args -> normal mode: regenerate the links JSON first
+        links_path = LINKS_DEFAULT_PATH
+        log_msg(
+            f"[Auchan] No CLI arg given. Generating category URLs into: {links_path}"
+        )
+        should_extract = True
+
+    if should_extract:
+        # This should create/update the JSON at LINKS_DEFAULT_PATH
+        extract_subcats_main()
 
     log_msg(f"[Auchan] Reading category URLs from: {links_path}")
     urls = _load_sub_category_urls(links_path)
@@ -239,15 +292,10 @@ def main() -> None:
 
     global_start = time.time()
 
-    # Prepare URL chunks for each worker/thread
     n_workers = min(NUM_WORKERS, len(urls))
-    chunk_size = math.ceil(len(urls) / n_workers)
-    chunks: List[List[str]] = [
-        urls[i : i + chunk_size] for i in range(0, len(urls), chunk_size)
-    ]
 
     log_msg(
-        f"[Auchan] Launching {len(chunks)} threads with chunk_size={chunk_size} "
+        f"[Auchan] Launching {n_workers} threads over {len(urls)} URLs "
         f"(NUM_WORKERS={NUM_WORKERS})"
     )
 
@@ -255,10 +303,20 @@ def main() -> None:
     total_success = 0
     total_failed: List[str] = []
 
+    # Shared state for dynamic job distribution
+    shared_state: Dict[str, int] = {"next_index": 0}
+    state_lock = threading.Lock()
+
     with ThreadPoolExecutor(max_workers=n_workers) as executor:
         futures = {
-            executor.submit(_worker_scrape_chunk, chunk, worker_id): worker_id
-            for worker_id, chunk in enumerate(chunks, start=1)
+            executor.submit(
+                _worker_scrape_loop,
+                urls,
+                worker_id,
+                shared_state,
+                state_lock,
+            ): worker_id
+            for worker_id in range(1, n_workers + 1)
         }
 
         for future in as_completed(futures):
@@ -278,18 +336,56 @@ def main() -> None:
             total_success += result["successful"]
             total_failed.extend(result["failed"])
 
+    # Save run status so sendToDB can decide if this run is valid
+    status = {
+        "status": "success" if total_success == len(urls) and not total_failed else "failed",
+        "total_urls": len(urls),
+        "successful": total_success,
+        "failed": len(total_failed),
+        "created_at": datetime.now().isoformat(),
+    }
+    try:
+        os.makedirs(store_common.EXECUTION_LOG_ROOT, exist_ok=True)
+        status_path = os.path.join(store_common.EXECUTION_LOG_ROOT, "run_status.json")
+        with open(status_path, "w", encoding="utf-8") as f:
+            json.dump(status, f, ensure_ascii=False, indent=2)
+        log_msg(f"[Auchan] Saved run status -> {status_path}")
+    except Exception as exc:
+        log_msg(f"[Auchan] Failed to write run_status.json: {exc}")
+
     log_msg("")
     log_msg("-" * 80)
     log_msg(
         f"[Auchan] Batch finished. {total_success}/{len(urls)} URLs scraped "
         f"successfully, total products fetched: {total_products}"
     )
+
     if total_failed:
         log_msg(f"[Auchan] Failed URLs ({len(total_failed)}):")
         for u in total_failed:
             log_msg(f"  - {u}")
     log_msg(f"[Auchan] Total wall-clock time: {format_elapsed_time(global_start)}")
     log_msg("-" * 80)
+
+    # Automatic DB ingest only if this run was successful
+    from send_to_db import send_store_to_db
+    from auchan_DB import _extract_external_id, _parse_price
+
+    status_success = (total_success == len(urls)) and (len(total_failed) == 0)
+
+    if status_success:
+        log_msg("[Auchan] Run marked as SUCCESS, starting sendToDB.")
+        send_store_to_db(
+            logs_root=store_common.STORE_LOGS_ROOT,                     # raiz: greyscrape/scrapers/auchan/logs
+            store_id_env_var="SUPABASE_AUCHAN_STORE_ID",
+            store_label="Auchan",
+            extract_external_id=_extract_external_id,
+            parse_price=_parse_price,
+            diff_query_prefix="auchan_diff",
+            keep_last_runs=2,
+        )
+    else:
+        log_msg("[Auchan] Run FAILED, skipping sendToDB (DB not touched).")
 
 
 if __name__ == "__main__":

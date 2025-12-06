@@ -1,4 +1,4 @@
-# greyscrape/scrapers/auchan_helper.py
+# greyscrape/scrapers/auchan/auchan_helper.py
 
 import json
 import os

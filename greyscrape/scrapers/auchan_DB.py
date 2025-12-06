@@ -6,7 +6,7 @@ import json
 import time
 import re
 from datetime import datetime
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 from urllib.parse import urlencode, urlparse, parse_qsl
 
 from auchan.auchan_helper import (
@@ -14,18 +14,24 @@ from auchan.auchan_helper import (
     extract_products_from_html,
     parse_total_results,
 )
+
+import store_common
 from store_common import (
-    LOG_DIR_NAME,
     format_elapsed_time,
     build_headless_chrome,
     log_msg,
 )
-from supabase_client import push_products_with_snapshots
+
+from supabase_client import push_products_with_snapshots 
+
+WAIT_INITIAL = 0.5
+#WAIT_CHUNK = 0.3
+WAIT_STAGNANT = 0.2
 
 # -----------------------------
 # Scroll helper for search / landing
 # -----------------------------
-def _scroll_to_bottom(driver, max_tries: int = 10, wait: float = 1.5) -> None:
+def _scroll_to_bottom(driver, max_tries: int = 10, wait: float = WAIT_INITIAL) -> None:
     """Scroll until no new content is loaded (for search / landing pages)."""
     last_height = driver.execute_script("return document.body.scrollHeight;")
     stagnant = 0
@@ -80,6 +86,7 @@ def _scrape_category_with_api_and_selenium(
     page_path: str,
     cgid: str,
     run_timestamp: str,
+    worker_id: Optional[int] = None,
 ) -> Tuple[List[Dict], Dict[str, Any]]:
     """
     Scrape a category or subcategory:
@@ -110,9 +117,9 @@ def _scrape_category_with_api_and_selenium(
         "chunks": 0,
     }
 
-    log_msg(f"[Auchan] Loading category page: {category_url}")
+    log_msg(f"[Auchan] Loading category page: {category_url}", worker_id=worker_id)
     driver.get(category_url)
-    time.sleep(2)
+    time.sleep(WAIT_INITIAL)
 
     html = driver.page_source
 
@@ -124,7 +131,7 @@ def _scrape_category_with_api_and_selenium(
     all_products = extract_products_from_html(html, run_timestamp)
     seen_links = {p.get("link") for p in all_products if p.get("link")}
 
-    log_msg(f"[Auchan] Initial page: {len(all_products)} products")
+    log_msg(f"[Auchan] Initial page: {len(all_products)} products", worker_id=worker_id)
 
     # Check if this page actually uses Search-UpdateGrid
     detected_cgid = _extract_cgid_from_html(html)
@@ -132,7 +139,8 @@ def _scrape_category_with_api_and_selenium(
         # Non-scrollable page (e.g. medicamentos com ~15 items)
         log_msg(
             "[Auchan] No Search-UpdateGrid URL found on page, "
-            "skipping API chunks and returning only initial products."
+            "skipping API chunks and returning only initial products.",
+            worker_id=worker_id,
         )
         # Attach category info with the original cgid (parsed from URL)
         _attach_category_metadata(all_products, page_path, cgid)
@@ -147,7 +155,8 @@ def _scrape_category_with_api_and_selenium(
     if cgid != original_cgid:
         log_msg(
             f"[Auchan] Adjusted cgid from '{original_cgid}' to '{cgid}' "
-            "based on Search-UpdateGrid URL."
+            "based on Search-UpdateGrid URL.",
+            worker_id=worker_id,
         )
 
     stats["final_cgid"] = cgid
@@ -159,38 +168,59 @@ def _scrape_category_with_api_and_selenium(
         "Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid"
     )
 
+    # Base chunk size independent of total_expected (apenas limitado por ele se for muito pequeno)
     if total_expected:
-        log_msg(f"[Auchan] Counter says total_results = {total_expected}")
-        sz = min(360, total_expected)
+        log_msg(
+            f"[Auchan] Counter says total_results = {total_expected}",
+            worker_id=worker_id,
+        )
+        base_chunk_size = min(512, int(total_expected+1))
     else:
         log_msg(
             "[Auchan] Could not parse total_results from counter, "
-            "will rely on stagnation."
+            "will rely on stagnation.",
+            worker_id=worker_id,
         )
-        sz = 360  # requested chunk size
+        base_chunk_size = 512  # requested chunk size
 
     start = len(all_products)
     start_ts = time.time()
     stagnant_chunks = 0
     chunks = 0
+    bad_chunk_count = 0
 
     while True:
+        # Dynamic sz based on remaining products (if we know total_expected)
+        if total_expected:
+            remaining = total_expected - len(all_products)
+
+            # Ask for just above what is missing (10% headroom),
+            # but never above base_chunk_size and never below remaining
+            effective_sz = max(24, int(remaining * 1.1))
+            if effective_sz < remaining:
+                effective_sz = remaining
+            if effective_sz > base_chunk_size:
+                effective_sz = base_chunk_size
+        else:
+            effective_sz = base_chunk_size
+
         params = {
             "cgid": cgid,
             "prefn1": "soldInStores",
             "prefv1": "000",
             "start": start,
-            "sz": sz,
+            "sz": effective_sz,
             "next": "true",
         }
 
         api_url = f"{api_base}?{urlencode(params)}"
         log_msg(
-            f"[Auchan] Fetching page chunk: start={start}, sz={sz}, cgid={cgid}"
+            f"[Auchan] Fetching page chunk: start={start}, sz={effective_sz}, cgid={cgid}",
+            worker_id=worker_id,
         )
 
         driver.get(api_url)
-        time.sleep(1.5)
+        time.sleep(WAIT_INITIAL)
         chunks += 1
 
         page_html = driver.page_source
@@ -200,8 +230,13 @@ def _scrape_category_with_api_and_selenium(
 
         added = 0
         if not page_products:
-            log_msg("[Auchan] No products returned in this chunk.")
+            log_msg(
+                "[Auchan] No products returned in this chunk.",
+                worker_id=worker_id,
+            )
             stagnant_chunks += 1
+            bad_chunk_count += 1
+            time.sleep(WAIT_STAGNANT)
         else:
             for p in page_products:
                 link = p.get("link")
@@ -213,29 +248,41 @@ def _scrape_category_with_api_and_selenium(
                 added += 1
 
             if added == 0:
-                stagnant_chunks += 1
-                log_msg("[Auchan] Chunk had only duplicates, no new products.")
+                bad_chunk_count += 1
+                log_msg(
+                    "[Auchan] Chunk had only duplicates, no new products.",
+                    worker_id=worker_id,
+                )
             else:
                 stagnant_chunks = 0
+                bad_chunk_count = 0
                 log_msg(
                     f"[Auchan] Chunk added {added} new products "
-                    f"(total so far: {len(all_products)})"
+                    f"(total so far: {len(all_products)})",
+                    worker_id=worker_id,
                 )
 
-        log_msg(f"[Auchan] Time elapsed: {format_elapsed_time(start_ts)}")
+        log_msg(
+            f"[Auchan] Time elapsed: {format_elapsed_time(start_ts)}",
+            worker_id=worker_id,
+        )
 
-        if total_expected and len(all_products) >= total_expected:
-            log_msg(
-                "[Auchan] Reached or exceeded total_expected from counter, stopping."
-            )
-            break
-
-        if stagnant_chunks > 2:
+        if stagnant_chunks >= 3:
             log_msg(
                 "[Auchan] Multiple stagnant chunks (no new products), "
-                "assuming end of results."
+                "assuming end of results.",
+                worker_id=worker_id,
             )
             break
+
+        if bad_chunk_count >= 6:
+            log_msg(
+                "[Auchan] Too many consecutive bad chunks (empty or duplicate). "
+                "Stopping.", 
+                worker_id=worker_id,
+            )
+            break
+
 
         start = len(all_products)
 
@@ -485,7 +532,7 @@ def _save_json_log(produtos: List[Dict], context: str) -> str:
     'context' is something like the query/category used (for the filename).
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    log_dir = os.path.join(base_dir, LOG_DIR_NAME)
+    log_dir = os.path.join(base_dir, store_common.LOG_DIR_NAME)
     os.makedirs(log_dir, exist_ok=True)
 
     safe_ctx = re.sub(r"[^a-zA-Z0-9_-]+", "_", context).strip("_")
