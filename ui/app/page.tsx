@@ -87,8 +87,15 @@ export default function HomePage() {
           </div>
         </div>
 
-        <footer className="mt-8 border-t border-zinc-900 pt-4 text-xs text-zinc-500">
-          Built by Bruno Carrulo, Duarte Ferreira, Eduardo Bártolo, Miguel Barreto
+        <footer className="mt-8 border-t border-zinc-900 pt-4 text-xs text-zinc-500 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <span>
+            Built by Bruno Carrulo, Duarte Ferreira, Eduardo Bártolo, Miguel Barreto
+          </span>
+
+          <div className="flex items-center gap-3">
+            <a href="/privacy" className="hover:underline">Privacy Policy</a>
+            <a href="/terms" className="hover:underline">Terms of Service</a>
+          </div>
         </footer>
       </section>
 
