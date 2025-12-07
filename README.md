@@ -80,3 +80,41 @@ journalctl -u greyscrape.service -f
 
 Ou diretamente pelos ficheiros de log:
 tail -f /greyscrape/logs/greyscrape.service.log
+
+
+--------------------------
+
+
+Cenários
+
+### 1. Mudar só o scraper (scrapers/…)
+
+run_loop.py continua igual.
+
+O serviço fica a correr.
+No próximo ciclo, quando ele fizer novo subprocess.run(...), já vai usar o código NOVO do scraper.
+Não é obrigatório parar o serviço; é relativamente seguro.
+
+### 2. Mudar o run_loop.py
+
+O processo que já está em memória continua com a versão antiga.
+O novo código só entra em ação quando fizer:
+
+sudo systemctl restart greyscrape.service
+
+
+Se não reiniciar, ele continua a correr com a versão anterior.
+
+### 3. Mudar paths / nome de ficheiros
+
+Se apagar ou mexer em /greyscrape/greyscrape/run_loop.py ou no script que ele chama, na próxima execução vai falhar.
+
+O serviço não “morre” por causa da unit, mas o Python vai dar erro.
+
+Mudar o próprio .service no repo
+
+Se tiver o ficheiro greyscrape.service versionado e o alterar, tem de se fazer outra vez:
+
+sudo cp greyscrape.service /etc/systemd/system/greyscrape.service
+sudo systemctl daemon-reload
+sudo systemctl restart greyscrape.service
