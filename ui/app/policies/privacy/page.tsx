@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
       <p className="mb-4 text-sm text-zinc-300">
         Para qualquer questão relacionada com privacidade, pode contactar:
         <br />
-        <span className="font-mono">miguel-m-barreto@gmail.com</span>
+        <span className="font-mono">postgrad.grupo@gmail.com</span>
       </p>
     </main>
   );
