@@ -118,12 +118,12 @@ def _scrape_single_category(
     driver: webdriver.Chrome,
     url: str,
     worker_id: int,
-) -> Optional[Tuple[str, int]]:
+) -> Optional[Tuple[str, int, Optional[int]]]:
     """
     Scrape a single category/subcategory URL using the low-level category scraper.
 
     Returns:
-      (context_string, num_products) on success,
+      (context_string, num_products, total_expected) on success,
       or None on failure (after logging the error).
     """
     cat_info = _detect_sub_category_from_url(url)
@@ -149,7 +149,7 @@ def _scrape_single_category(
             page_path=page_path,
             cgid=cgid,
             run_timestamp=run_timestamp,
-            worker_id=worker_id,  # <<< aqui é a diferença
+            worker_id=worker_id,
         )
     except Exception as exc:
         log_msg(f"[ERROR] Failed scraping '{url}': {exc}", worker_id=worker_id)
@@ -178,7 +178,9 @@ def _scrape_single_category(
             worker_id=worker_id,
         )
 
-    return context, total
+    return context, total, total_expected
+
+
 
 def _worker_scrape_loop(
     urls: List[str],
@@ -199,6 +201,7 @@ def _worker_scrape_loop(
     worker_start = time.time()
 
     total_products = 0
+    total_estimated = 0 
     successful_cats = 0
     failed_urls: List[str] = []
     total_urls = len(urls)
@@ -234,8 +237,10 @@ def _worker_scrape_loop(
                 failed_urls.append(url)
                 continue
 
-            _, count = result
+            _, count, total_expected = result
             total_products += count
+            if total_expected is not None:
+                total_estimated += total_expected
             successful_cats += 1
 
     finally:
@@ -247,6 +252,7 @@ def _worker_scrape_loop(
         "successful": successful_cats,
         "failed": failed_urls,
         "products": total_products,
+        "estimated_products": total_estimated, 
         "elapsed": format_elapsed_time(worker_start),
     }
 
@@ -300,6 +306,7 @@ def main() -> None:
     )
 
     total_products = 0
+    total_estimated_products = 0
     total_success = 0
     total_failed: List[str] = []
 
@@ -359,6 +366,12 @@ def main() -> None:
         f"[Auchan] Batch finished. {total_success}/{len(urls)} URLs scraped "
         f"successfully, total products fetched: {total_products}"
     )
+
+    if total_estimated_products > 0:
+        log_msg(
+            f"[Auchan] Global products: {total_products}/{total_estimated_products} "
+            f"(fetched/estimated from counters)"
+        )
 
     if total_failed:
         log_msg(f"[Auchan] Failed URLs ({len(total_failed)}):")

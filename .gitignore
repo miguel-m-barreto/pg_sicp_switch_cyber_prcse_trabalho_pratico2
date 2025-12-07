@@ -1,0 +1,22 @@
+# testing
+
+
+# production
+
+
+# misc
+__pycache__
+*_pycache_
+/__pycache__
+*/__pycache__
+
+# env files (can opt-in for committing if needed)
+.env*
+.env.local
+
+/TESTE
+
+/logs
+
+*logs
+logs*

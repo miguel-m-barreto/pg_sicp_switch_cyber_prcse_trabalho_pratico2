@@ -132,16 +132,39 @@ def _select_runs(logs_root: str) -> Tuple[Optional[str], str]:
 def _combine_items(
     new_items: List[Tuple[str, Dict]],
     changed_items: List[Tuple[str, Dict]],
+    curr_products: List[Dict],
+    extract_external_id: ExtractIdFn,
 ) -> List[Dict]:
     """
-    Convert (external_id, product_dict) tuples into a flat list of product dicts.
+    Given:
+      - new_items / changed_items: listas (external_id, product_dict) vindas do diff
+      - curr_products: lista COMPLETA de produtos da run atual
+
+    Devolve:
+      - todos os product_dict da run atual cujo external_id está em
+        NEW ∪ CHANGED.
+
+    Isto garante que, se tens várias variantes (links/categorias) com o
+    mesmo external_id na mesma run, TODAS são enviadas para snapshots,
+    mas continuas a não enviar produtos cujo external_id não mudou.
     """
+    # Conjunto de external_ids que mudaram ou são novos
+    target_ids = {ext_id for ext_id, _ in new_items}
+    target_ids.update(ext_id for ext_id, _ in changed_items)
+
+    if not target_ids:
+        return []
+
     combined: List[Dict] = []
-    for _, p in new_items:
-        combined.append(p)
-    for _, p in changed_items:
-        combined.append(p)
+    for p in curr_products:
+        ext_id = extract_external_id(p.get("link", ""))
+        if not ext_id:
+            continue
+        if ext_id in target_ids:
+            combined.append(p)
+
     return combined
+
 
 
 def _cleanup_old_runs(logs_root: str, keep_last: int = 2) -> None:
@@ -185,7 +208,7 @@ def send_store_to_db(
       parse_price:          function to parse price strings into floats
       diff_query_prefix:    prefix for the diff query name (e.g. 'auchan_diff')
     """
-    # 1) Choose which runs to compare
+    # Choose which runs to compare
     prev_run, curr_run = _select_runs(logs_root)
 
     if prev_run:
@@ -197,7 +220,7 @@ def send_store_to_db(
 
     log_msg(f"[sendToDB][{store_label}] Using current run: {curr_run}")
 
-    # 2) Load products from JSON logs
+    # Load products from JSON logs
     prev_products: List[Dict] = []
     if prev_run:
         prev_products = _load_run_products(logs_root, prev_run)
@@ -208,7 +231,7 @@ def send_store_to_db(
         log_msg(f"[sendToDB][{store_label}] Current run has no products, aborting.")
         return
 
-    # 3) Compute diff (NEW, CHANGED, DELETED)
+    # Compute diff (NEW, CHANGED, DELETED)
     new_items, changed_items, deleted_ids = diff_runs(
         prev_products,
         curr_products,
@@ -221,10 +244,16 @@ def send_store_to_db(
         f"DELETED={len(deleted_ids)}"
     )
 
-    # 4) Prepare list of products to send (only NEW + CHANGED)
-    produtos_to_send = _combine_items(new_items, changed_items)
+    #  Prepare list of products to send (only NEW + CHANGED),
+    #    mas incluindo TODAS as variantes (mesmo external_id em várias categorias/links)
+    produtos_to_send = _combine_items(
+        new_items,
+        changed_items,
+        curr_products,
+        extract_external_id,
+    )
 
-    # 5) Push NEW + CHANGED to Supabase using the generic helper
+    # Push NEW + CHANGED to Supabase using the generic helper
     if produtos_to_send:
         query = f"{diff_query_prefix}:{prev_run or 'none'}->{curr_run}"
 

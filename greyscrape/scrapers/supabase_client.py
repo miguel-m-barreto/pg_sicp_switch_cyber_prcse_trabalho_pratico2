@@ -2,15 +2,26 @@
 
 import os
 import sys
+import hashlib
 from datetime import datetime, timezone
-from typing import List, Dict, Optional, Callable
+from typing import List, Dict, Optional, Callable, Tuple
 from pathlib import Path
+from urllib.parse import urlparse, urlunparse
 
 from dotenv import load_dotenv
 import requests
 
+from run_diff import build_state_hash  # reuse same state hash used by diff
+
+SCRAPE_COUNT_UNTIL_DELETION_MARK = 1
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(PROJECT_ROOT / ".env.local")
+
+# Max number of rows per POST to Supabase.
+# Keep this conservative to avoid 520 / timeouts due to large payloads.
+MAX_ROWS_PER_REQUEST = int(os.getenv("MAX_ROWS_PER_REQUEST", "1000"))
+
 
 def get_env_var(name: str) -> str:
     """
@@ -36,6 +47,51 @@ def utc_now_iso() -> str:
     )
 
 
+# ---------------------------------------------------------------------------
+# Variant helpers
+# ---------------------------------------------------------------------------
+
+def _normalize_url_for_variant(url: str) -> str:
+    """
+    Normalize product URL for variant key construction.
+
+    - Removes query string and fragment
+    - Keeps scheme, host and path
+    """
+    if not url:
+        return ""
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        # In case of weird garbage, just return the raw string
+        return url
+
+    cleaned = parsed._replace(query="", fragment="")
+    return urlunparse(cleaned)
+
+
+def build_variant_key(link: str, source_page_path: Optional[str]) -> str:
+    """
+    Build a stable variant key from:
+
+        normalized_link + "|" + source_page_path
+
+    This distinguishes:
+      - different catalog contexts (categories / subcategories)
+      - different URL presentations of the same external_id
+
+    It deliberately does NOT depend on price, promotion, stock, etc.
+    """
+    normalized_link = _normalize_url_for_variant(link or "")
+    page_path = (source_page_path or "").strip()
+    raw_key = f"{normalized_link}|{page_path}"
+    return hashlib.sha256(raw_key.encode("utf-8")).hexdigest()
+
+
+# ---------------------------------------------------------------------------
+# Main ingest logic
+# ---------------------------------------------------------------------------
+
 def push_products_with_snapshots(
     produtos: List[Dict],
     query: str,
@@ -47,18 +103,12 @@ def push_products_with_snapshots(
     """
     Generic Supabase ingest for product scrapers.
 
-    It will:
-      - create a row in 'scrape_runs'
-      - upsert rows in 'products' on (store_id, external_id)
-      - insert rows in 'product_snapshots' linked to the run
+    New schema:
 
-    Parameters:
-      produtos: list of raw product dicts as returned by the scraper.
-      query:   identifier of the run (e.g. 'categoria:produtos-frescos').
-      store_id_env_var: env var that holds the store_id (e.g. SUPABASE_AUCHAN_STORE_ID).
-      extract_external_id: function that extracts a stable ID from the product URL.
-      parse_price: function that converts price strings (like '1,99 €/Kg') into floats.
-      store_label: label used only in logs (e.g. 'Auchan', 'Pingo Doce').
+      - scrape_runs
+      - products            (catalog-level, one per external_id)
+      - product_variants    (one per (store_id, external_id, variant_key))
+      - product_snapshots   (one per (variant_id, state_hash))
     """
     if not produtos:
         print(f"[Supabase][{store_label}] No products to send, skipping.")
@@ -77,7 +127,9 @@ def push_products_with_snapshots(
         "Content-Type": "application/json",
     }
 
-    # 1) Create scrape_runs row
+    # ------------------------------------------------------------------
+    # Create scrape_runs row
+    # ------------------------------------------------------------------
     started_at = utc_now_iso()
     run_payload = [
         {
@@ -105,12 +157,20 @@ def push_products_with_snapshots(
     print(f"[Supabase][{store_label}] Created scrape_run id={run_id}")
 
     try:
-        # Build product rows
-        product_rows = []
+        # ------------------------------------------------------------------
+        # Upsert catalog-level products (one per external_id), batched
+        # ------------------------------------------------------------------
+        product_rows: List[Dict] = []
+        ext_seen = set()
+
         for p in produtos:
             ext_id = extract_external_id(p.get("link", ""))
             if not ext_id:
                 continue
+            if ext_id in ext_seen:
+                # Only one catalog row per external_id in this batch
+                continue
+            ext_seen.add(ext_id)
 
             product_rows.append(
                 {
@@ -126,7 +186,6 @@ def push_products_with_snapshots(
                 }
             )
 
-
         if not product_rows:
             print(
                 f"[Supabase][{store_label}] No products with valid external_id, "
@@ -139,39 +198,147 @@ def push_products_with_snapshots(
             "Prefer": "return=representation,resolution=merge-duplicates",
         }
 
-        resp = requests.post(
-            f"{base_rest}/products?on_conflict=store_id,external_id",
-            headers=headers_products,
-            json=product_rows,
-        )
-        resp.raise_for_status()
-        products_returned = resp.json()
+        products_returned: List[Dict] = []
 
-        # Build external_id -> product_id map
-        id_map = {row["external_id"]: row["id"] for row in products_returned}
+        for i in range(0, len(product_rows), MAX_ROWS_PER_REQUEST):
+            chunk = product_rows[i : i + MAX_ROWS_PER_REQUEST]
+            resp = requests.post(
+                f"{base_rest}/products?on_conflict=store_id,external_id",
+                headers=headers_products,
+                json=chunk,
+            )
+            if not resp.ok:
+                print(
+                    f"[Supabase][{store_label}] Products batch FAILED "
+                    f"(status={resp.status_code}): {resp.text}",
+                    file=sys.stderr,
+                )
+                resp.raise_for_status()
+            products_returned.extend(resp.json())
 
-        # 3) Build product_snapshots rows
-        snapshot_rows = []
+        # external_id -> product_id map
+        product_id_by_ext: Dict[str, int] = {
+            row["external_id"]: row["id"] for row in products_returned
+        }
+
+        # ------------------------------------------------------------------
+        # Upsert product_variants, batched
+        # ------------------------------------------------------------------
+        variant_rows: List[Dict] = []
+        variant_key_set: set[Tuple[str, str]] = set()  # (external_id, variant_key)
+
         for p in produtos:
-            ext_id = extract_external_id(p.get("link", ""))
+            link = p.get("link") or ""
+            ext_id = extract_external_id(link)
             if not ext_id:
                 continue
 
-            product_id = id_map.get(ext_id)
+            product_id = product_id_by_ext.get(ext_id)
             if not product_id:
                 continue
 
-            snapshot_rows.append(
+            source_page_path = p.get("source_page_path")
+            variant_key = build_variant_key(link, source_page_path)
+
+            dedup_key = (ext_id, variant_key)
+            if dedup_key in variant_key_set:
+                continue
+            variant_key_set.add(dedup_key)
+
+            variant_rows.append(
                 {
                     "product_id": product_id,
+                    "store_id": store_id,
+                    "external_id": ext_id,
+                    "variant_key": variant_key,
+                    "product_url": _normalize_url_for_variant(link),
+                    "source_page_path": source_page_path,
+                    "source_cgid": p.get("source_cgid"),
+                    "raw_name": p.get("nome") or "",
+                    "normalized_name": p.get("nome") or "",
+                    "quantity": p.get("quantidade_minima"),
+                }
+            )
+
+        if not variant_rows:
+            print(
+                f"[Supabase][{store_label}] No product_variants to insert "
+                "(no valid links / variant keys)."
+            )
+            return
+
+        headers_variants = {
+            **common_headers,
+            "Prefer": "return=representation,resolution=merge-duplicates",
+        }
+
+        variants_returned: List[Dict] = []
+
+        for i in range(0, len(variant_rows), MAX_ROWS_PER_REQUEST):
+            chunk = variant_rows[i : i + MAX_ROWS_PER_REQUEST]
+            resp = requests.post(
+                f"{base_rest}/product_variants"
+                f"?on_conflict=store_id,external_id,variant_key",
+                headers=headers_variants,
+                json=chunk,
+            )
+            if not resp.ok:
+                print(
+                    f"[Supabase][{store_label}] Variant batch FAILED "
+                    f"(status={resp.status_code}): {resp.text}",
+                    file=sys.stderr,
+                )
+                resp.raise_for_status()
+            variants_returned.extend(resp.json())
+
+        # ------------------------------------------------------------------
+        # Build variant_map FIRST (from all returned batches)
+        # ------------------------------------------------------------------
+        variant_map: Dict[Tuple[str, str], Tuple[int, int]] = {}
+        for row in variants_returned:
+            ext_id = row["external_id"]
+            vkey = row["variant_key"]
+            variant_map[(ext_id, vkey)] = (row["id"], row["product_id"])
+
+        # ------------------------------------------------------------------
+        # Insert product_snapshots, batched
+        # ------------------------------------------------------------------
+        snapshot_rows: List[Dict] = []
+        snapshot_seen: set[Tuple[int, str]] = set()  # (variant_id, state_hash)
+
+        for p in produtos:
+            link = p.get("link", "")
+            ext_id = extract_external_id(link)
+            if not ext_id:
+                continue
+
+            source_page_path = p.get("source_page_path")
+            variant_key = build_variant_key(link, source_page_path)
+            vm = variant_map.get((ext_id, variant_key))
+            if not vm:
+                continue
+
+            variant_id, product_id = vm
+
+            state_hash = build_state_hash(p)
+
+            dedup_key = (variant_id, state_hash)
+            if dedup_key in snapshot_seen:
+                continue
+            snapshot_seen.add(dedup_key)
+
+            snapshot_rows.append(
+                {
+                    "variant_id": variant_id,
+                    "product_id": product_id,
                     "scraped_at": started_at,
+                    "state_hash": state_hash,
                     "price": parse_price(p.get("preco_atual")),
                     "old_price": parse_price(p.get("preco_antigo")),
                     "unit_price": parse_price(p.get("preco_unitario")),
                     "currency": "EUR",
                     "promo_label": p.get("promocao"),
-                    "is_featured": False,
-                    "stock_status": None,
+                    "stock_status": p.get("stock_status"),
                     "raw_json": p,
                     "run_id": run_id,
                 }
@@ -179,26 +346,25 @@ def push_products_with_snapshots(
 
         if not snapshot_rows:
             print(
-                f"[Supabase][{store_label}] No snapshot rows to insert, "
-                "products mapping failed."
+                f"[Supabase][{store_label}] No snapshot rows to insert "
+                "(no valid variant/state combinations)."
             )
         else:
-            batch_size = 500
             headers_snapshots = {
                 **common_headers,
-                "Prefer": "return=none",
+                "Prefer": "return=none,resolution=merge-duplicates",
             }
 
-            for i in range(0, len(snapshot_rows), batch_size):
-                chunk = snapshot_rows[i : i + batch_size]
+            for i in range(0, len(snapshot_rows), MAX_ROWS_PER_REQUEST):
+                chunk = snapshot_rows[i : i + MAX_ROWS_PER_REQUEST]
                 resp = requests.post(
-                    f"{base_rest}/product_snapshots",
+                    f"{base_rest}/product_snapshots"
+                    f"?on_conflict=variant_id,state_hash",
                     headers=headers_snapshots,
                     json=chunk,
                 )
 
                 if not resp.ok:
-                    # Print full error from PostgREST
                     print(
                         f"[Supabase][{store_label}] Snapshot batch FAILED "
                         f"(status={resp.status_code}): {resp.text}",
@@ -206,6 +372,9 @@ def push_products_with_snapshots(
                     )
                     resp.raise_for_status()
 
+        # ------------------------------------------------------------------
+        # Mark run as success
+        # ------------------------------------------------------------------
         finished_at = utc_now_iso()
         update_payload = {"finished_at": finished_at, "status": "success"}
 
@@ -216,8 +385,9 @@ def push_products_with_snapshots(
         )
 
         print(
-            f"[Supabase][{store_label}] Stored {len(product_rows)} products and "
-            f"{len(snapshot_rows)} snapshots (run_id={run_id})"
+            f"[Supabase][{store_label}] Stored {len(product_rows)} products, "
+            f"{len(variant_rows)} variants and {len(snapshot_rows)} snapshots "
+            f"(run_id={run_id})"
         )
 
     except Exception as exc:
@@ -244,21 +414,20 @@ def push_products_with_snapshots(
         print(f"[Supabase][{store_label}] ERROR during ingest: {exc}", file=sys.stderr)
         raise
 
+
 def mark_products_deleted(
     deleted_ids: List[str],
     store_id_env_var: str,
     store_label: str = "store",
 ) -> None:
     """
-    Soft-delete logic with hysteresis:
+    Mark products as deleted/inactive in a single step, without reading from DB.
 
-      - For each external_id that disappeared in the current run:
-          * increment not_on_scrape_count
-          * if not_on_scrape_count >= 3, set is_active = False and deleted_at = now
-
-      - Products that reappear in a later scrape will have their
-        not_on_scrape_count reset to 0 and is_active = True in
-        push_products_with_snapshots.
+    Logic:
+      - For each external_id in deleted_ids:
+          * set is_active = false
+          * set deleted_at = now
+          * set not_on_scrape_count = SCRAPE_COUNT_UNTIL_DELETION_MARK
     """
     if not deleted_ids:
         return
@@ -284,59 +453,20 @@ def mark_products_deleted(
 
     for i in range(0, len(ids_list), batch_size):
         chunk = ids_list[i : i + batch_size]
-        ids_csv = ",".join(chunk)
 
-        # 1) Fetch current rows for these external_ids
-        select_url = (
-            f"{base_rest}/products"
-            f"?store_id=eq.{store_id}"
-            f"&external_id=in.({ids_csv})"
-        )
-
-        try:
-            resp = requests.get(select_url, headers=common_headers)
-            resp.raise_for_status()
-        except Exception as exc:
-            print(
-                f"[Supabase][{store_label}] Failed to fetch products for deletion "
-                f"chunk starting at {i}: {exc}",
-                file=sys.stderr,
-            )
-            raise
-
-        rows = resp.json()
-        if not rows:
-            continue
-
-        updates = []
-        for row in rows:
-            current_count = row.get("not_on_scrape_count")
-            if current_count is None:
-                current_count = 0
-
-            try:
-                current_count = int(current_count)
-            except (TypeError, ValueError):
-                current_count = 0
-
-            new_count = current_count + 1
-
-            update_row: Dict[str, object] = {
-                "id": row["id"],
-                "not_on_scrape_count": new_count,
+        # Build rows as upserts by (store_id, external_id)
+        updates = [
+            {
+                "store_id": store_id,
+                "external_id": ext_id,
+                "is_active": False,
+                "deleted_at": deleted_at,
+                "not_on_scrape_count": SCRAPE_COUNT_UNTIL_DELETION_MARK,
+                "last_seen_at": deleted_at,
             }
+            for ext_id in chunk
+        ]
 
-            if new_count >= 3:
-                update_row["is_active"] = False
-                update_row["deleted_at"] = deleted_at
-                total_marked_deleted += 1
-
-            updates.append(update_row)
-
-        if not updates:
-            continue
-
-        # 2) Upsert updates by primary key id
         upsert_headers = {
             **common_headers,
             "Prefer": "return=none,resolution=merge-duplicates",
@@ -344,20 +474,22 @@ def mark_products_deleted(
 
         try:
             resp = requests.post(
-                f"{base_rest}/products?on_conflict=id",
+                f"{base_rest}/products?on_conflict=store_id,external_id",
                 headers=upsert_headers,
                 json=updates,
             )
             resp.raise_for_status()
         except Exception as exc:
             print(
-                f"[Supabase][{store_label}] Failed to update deletion counters "
+                f"[Supabase][{store_label}] Failed to mark deleted products "
                 f"for chunk starting at {i}: {exc}",
                 file=sys.stderr,
             )
             raise
 
+        total_marked_deleted += len(chunk)
+
     print(
-        f"[Supabase][{store_label}] Processed {len(ids_list)} candidate-deleted "
-        f"products (marked {total_marked_deleted} as deleted, threshold >= 3)."
+        f"[Supabase][{store_label}] Marked {total_marked_deleted} products as "
+        f"deleted (threshold = {SCRAPE_COUNT_UNTIL_DELETION_MARK})."
     )

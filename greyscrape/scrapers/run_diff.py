@@ -1,5 +1,3 @@
-# greyscrape/scrapers/run_diff.py
-
 import hashlib
 from typing import Dict, List, Tuple, Optional, Callable
 
@@ -8,29 +6,32 @@ ExtractIdFn = Callable[[str], Optional[str]]
 
 def build_state_key(p: Dict) -> str:
     """
-    Build a canonical 'state key' for a product at the CATALOG level.
+    Build a canonical 'state key' for a product at the PRICING state level.
 
     IMPORTANT:
-      - This is used ONLY to decidir NEW/CHANGED para a tabela 'products'.
-      - NÃO deve incluir preço, promoções, stock, etc., porque isso
-        é responsabilidade dos snapshots.
+      - This is used BOTH to:
+          * decidir NEW/CHANGED no diff entre runs
+          * construir o state_hash para product_snapshots
 
-    Aqui consideramos estáveis:
-      - nome
-      - quantidade_minima (ex: '500 ml', '1 kg'), que representa a embalagem.
+      - Só deve incluir campos que definem o estado comercial:
+          preço, promoções, preço unitário, stock, etc.
+
+      - NÃO inclui nome, categoria, quantidade_minima, etc., porque isso
+        é identidade de catálogo / apresentação, não estado económico.
     """
     parts = [
-        str(p.get("nome") or "").strip(),
-        str(p.get("quantidade_minima") or "").strip(),
-        # Se um dia quiseres tratar categoria como parte da identidade de catálogo,
-        # podes acrescentar aqui p.get("source_page_path"), mas para já deixo fora.
+        str(p.get("preco_atual") or "").strip(),
+        str(p.get("preco_antigo") or "").strip(),
+        str(p.get("preco_unitario") or "").strip(),
+        str(p.get("promocao") or "").strip(),
+        str(p.get("stock_status") or "").strip(),
     ]
     return "|".join(parts)
 
 
 def build_state_hash(p: Dict) -> str:
     """
-    Build a compact hash of the state key.
+    Build a compact hash of the pricing state.
     """
     key = build_state_key(p)
     return hashlib.sha256(key.encode("utf-8")).hexdigest()
@@ -67,7 +68,7 @@ def diff_runs(
       changed_items:  list of (external_id, product_dict) for products that changed state
       deleted_ids:    list of external_ids that disappeared in the current run
 
-    All decisions are based purely on the external_id and the 'state hash'.
+    All decisions are based purely on the external_id and the pricing 'state hash'.
     """
     prev_map = _build_ext_map(prev_products, extract_external_id)
     curr_map = _build_ext_map(curr_products, extract_external_id)
@@ -87,7 +88,7 @@ def diff_runs(
         p = curr_map[ext_id]
         new_items.append((ext_id, p))
 
-    # Changed products: exist in both but state hash differs
+    # Changed products: exist in both but pricing state hash differs
     for ext_id in common_ids:
         prev_p = prev_map[ext_id]
         curr_p = curr_map[ext_id]
