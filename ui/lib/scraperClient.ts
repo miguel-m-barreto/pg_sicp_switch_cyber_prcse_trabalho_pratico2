@@ -1,7 +1,7 @@
-// ui/lib/scraperClient.ts
-// Frontend "scraper client" now reads from Supabase instead of calling Python.
+// lib/scraperClient.ts
+// Server-side data access for store items (Supabase).
 
-import { supabaseServer } from "./supabaseServer";
+import { supabaseServer } from "@/lib/supabaseServer";
 
 export const SUPPORTED_STORES = ["auchan", "froiz", "pingo_doce"] as const;
 export type StoreId = (typeof SUPPORTED_STORES)[number];
@@ -15,37 +15,29 @@ export type Item = {
   preco_antigo?: string | null;
   promocao?: string | null;
   data_execucao?: string;
-  [key: string]: unknown;
 };
 
-export type ScrapeResponse = {
-  store: string;
-  query: string;
-  count: number;
+export type PagedItemsResult = {
   items: Item[];
+  totalCount: number;
 };
+
+// Sort options to be used by API and UI
+export type SortField = "nome" | "preco" | "preco_unitario";
+export type SortDir = "asc" | "desc";
 
 /**
  * Resolve numeric store_id used in Supabase from the StoreId string.
  * Uses the same env vars as the Python scraper.
  */
 function resolveStoreNumericId(store: StoreId): number {
-  let envName: string;
+  const envMap: Record<StoreId, string> = {
+    auchan: "SUPABASE_AUCHAN_STORE_ID",
+    froiz: "SUPABASE_FROIZ_STORE_ID",
+    pingo_doce: "SUPABASE_PINGO_DOCE_STORE_ID",
+  };
 
-  switch (store) {
-    case "auchan":
-      envName = "SUPABASE_AUCHAN_STORE_ID";
-      break;
-    case "froiz":
-      envName = "SUPABASE_FROIZ_STORE_ID";
-      break;
-    case "pingo_doce":
-      envName = "SUPABASE_PINGO_DOCE_STORE_ID";
-      break;
-    default:
-      throw new Error(`Unsupported store '${store}'`);
-  }
-
+  const envName = envMap[store];
   const raw = process.env[envName];
   if (!raw) {
     throw new Error(`Missing env var ${envName} for store '${store}'`);
@@ -60,157 +52,101 @@ function resolveStoreNumericId(store: StoreId): number {
 }
 
 /**
- * Fetch latest product state for a store from Supabase.
+ * Fetch a page of products for a store, optionally filtered by search query
+ * and sorted by one of the allowed fields.
  *
- * Semantics:
- *  - Returns one "current" snapshot per active variant (dedup by variant_id).
- *  - Optional text search on product name (raw_name) using ILIKE.
- *  - Keeps the same shape ScrapeResponse/Item as when we were calling Python.
+ * Requires the Postgres function `get_store_products` with parameters:
+ *  - p_store_id
+ *  - p_search
+ *  - p_limit
+ *  - p_offset
+ *  - p_sort_field
+ *  - p_sort_dir
  */
-export async function scrapeStore(
+export async function fetchStoreItemsPage(
   store: StoreId,
-  query: string
-): Promise<ScrapeResponse> {
-  const storeNumericId = resolveStoreNumericId(store);
-  const trimmedQuery = (query ?? "").trim();
+  query: string,
+  offset: number,
+  limit: number,
+  sortField: SortField = "nome",
+  sortDir: SortDir = "asc"
+): Promise<PagedItemsResult> {
+  const storeId = resolveStoreNumericId(store);
+  const trimmed = (query ?? "").trim();
 
-  // Base query: latest snapshots joined with product_variants and products
-  // We ask for:
-  //  - snapshot: price fields + scraped_at + raw_json
-  //  - product_variants: name, URL, quantity, is_active
-  //  - products: store_id, is_active, deleted_at
-  let q = supabaseServer
-    .from("product_snapshots")
-    .select(
-      `
-        id,
-        variant_id,
-        price,
-        old_price,
-        unit_price,
-        currency,
-        promo_label,
-        stock_status,
-        scraped_at,
-        raw_json,
-        product_variants!inner (
-          id,
-          product_url,
-          raw_name,
-          normalized_name,
-          quantity,
-          is_active
-        ),
-        products!inner (
-          id,
-          store_id,
-          external_id,
-          is_active,
-          deleted_at
-        )
-      `
-    )
-    // Ensure we are only looking at this store
-    .eq("products.store_id", storeNumericId)
-    // Only active products / variants
-    .eq("products.is_active", true)
-    .is("products.deleted_at", null)
-    .eq("product_variants.is_active", true)
-    // Newest snapshots first
-    .order("scraped_at", { ascending: false })
-    // Hard limit: we dedup in memory later, so we can fetch a bit more
-    .limit(800);
-
-  // Optional search on product name
-  if (trimmedQuery.length > 0) {
-    const pattern = `%${trimmedQuery}%`;
-    q = q.ilike("product_variants.raw_name", pattern);
-  }
-
-  const { data, error } = await q;
+  const { data, error } = await supabaseServer.rpc("get_store_products", {
+    p_store_id: storeId,
+    p_search: trimmed || null,
+    p_limit: limit,
+    p_offset: offset,
+    p_sort_field: sortField,
+    p_sort_dir: sortDir,
+  });
 
   if (error) {
     throw new Error(`Supabase error: ${error.message}`);
   }
-
-  if (!data || data.length === 0) {
-    return {
-      store,
-      query: trimmedQuery,
-      count: 0,
-      items: [],
-    };
+  if (!data) {
+    return { items: [], totalCount: 0 };
   }
 
-  // Deduplicate: keep the first snapshot per variant_id (because we ordered desc)
-  const seenVariantIds = new Set<number>();
-  const items: Item[] = [];
+  const rows = data as any[];
+  if (rows.length === 0) {
+    return { items: [], totalCount: 0 };
+  }
 
-  for (const row of data as any[]) {
-    const variantId: number | undefined = row.variant_id;
-    if (!variantId) {
-      continue;
-    }
-    if (seenVariantIds.has(variantId)) {
-      continue;
-    }
-    seenVariantIds.add(variantId);
+  const total = Number(rows[0].total_count) || rows.length;
 
-    const snap = row;
-    const variant = snap.product_variants || {};
-    const raw = (snap.raw_json || {}) as Record<string, unknown>;
+  const items: Item[] = rows.map((row) => {
+    const raw = (row.raw_json || {}) as any;
 
-    // Prefer raw_json strings (exact original from scraper), fallback to parsed values
-    const priceNow =
-      (raw.preco_atual as string | undefined) ??
-      (snap.price != null ? `${Number(snap.price).toFixed(2)} €` : null);
+    const nome: string =
+      raw.nome ?? (row.raw_name as string | undefined) ?? "";
 
-    const priceOld =
-      (raw.preco_antigo as string | undefined) ??
-      (snap.old_price != null ? `${Number(snap.old_price).toFixed(2)} €` : null);
+    const link: string =
+      raw.link ?? (row.product_url as string | undefined) ?? "";
 
-    const unitPrice =
-      (raw.preco_unitario as string | undefined) ??
-      (snap.unit_price != null ? `${Number(snap.unit_price).toFixed(2)} €/unit` : null);
+    const preco_atual: string | null =
+      raw.preco_atual ??
+      (row.price != null ? `${Number(row.price).toFixed(2)} €` : null);
 
-    const nome =
-      (raw.nome as string | undefined) ??
-      (variant.raw_name as string | undefined) ??
-      "";
+    const preco_antigo: string | null =
+      raw.preco_antigo ??
+      (row.old_price != null ? `${Number(row.old_price).toFixed(2)} €` : null);
 
-    const link =
-      (raw.link as string | undefined) ??
-      (variant.product_url as string | undefined) ??
-      "";
+    const preco_unitario: string | null =
+      raw.preco_unitario ??
+      (row.unit_price != null ? `${Number(row.unit_price).toFixed(2)} €/unit` : null);
 
-    const quantidadeMinima =
-      (raw.quantidade_minima as string | undefined) ??
-      (variant.quantity as string | undefined) ??
-      null;
+    const quantidade_minima: string | null =
+      raw.quantidade_minima ?? (row.quantity as string | undefined) ?? null;
 
-    const promocao =
-      (raw.promocao as string | undefined) ??
-      (snap.promo_label as string | undefined) ??
-      null;
+    const promocao: string | null =
+      raw.promocao ?? (row.promo_label as string | undefined) ?? null;
 
-    const scrapedAt: string = snap.scraped_at as string;
-
-    items.push({
+    return {
       nome,
       link,
-      quantidade_minima: quantidadeMinima,
-      preco_unitario: unitPrice,
-      preco_atual: priceNow,
-      preco_antigo: priceOld,
+      quantidade_minima,
+      preco_unitario,
+      preco_atual,
+      preco_antigo,
       promocao,
-      data_execucao: scrapedAt,
-    });
-  }
+      data_execucao: row.scraped_at as string,
+    };
+  });
 
-  return {
-    store,
-    query: trimmedQuery,
-    count: items.length,
-    items,
-  };
+  return { items, totalCount: total };
+}
+
+/**
+ * Small helper used by the dashboard overview page:
+ * fetch a small sample (first N items) for a store.
+ */
+export async function scrapeStore(
+  store: StoreId,
+  query: string
+): Promise<PagedItemsResult> {
+  // 5 items is enough for the overview cards; change if you want
+  return fetchStoreItemsPage(store, query, 0, 5, "nome", "asc");
 }

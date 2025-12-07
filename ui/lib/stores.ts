@@ -8,22 +8,22 @@ export const STORES: {
   description: string;
   defaultQuery: string;
 }[] = [
-  {
-    id: "auchan",
-    label: "Auchan",
-    description: "Highlighted products from Auchan.",
-    defaultQuery: "", // empty = landing page
-  },
-  {
-    id: "froiz",
-    label: "Froiz",
-    description: "Highlighted products from Froiz.",
-    defaultQuery: "",
-  },
-  {
-    id: "pingo_doce",
-    label: "Pingo Doce",
-    description: "Highlighted products from Pingo Doce.",
-    defaultQuery: "",
-  },
-];
+    {
+      id: "auchan",
+      label: "Auchan",
+      description: "Produtos em destaque Auchan.",
+      defaultQuery: "", // empty = landing page
+    },
+    {
+      id: "froiz",
+      label: "Froiz",
+      description: "Produtos em destaque Froiz.",
+      defaultQuery: "",
+    },
+    {
+      id: "pingo_doce",
+      label: "Pingo Doce",
+      description: "Produtos em destaque Pingo Doce.",
+      defaultQuery: "",
+    },
+  ];

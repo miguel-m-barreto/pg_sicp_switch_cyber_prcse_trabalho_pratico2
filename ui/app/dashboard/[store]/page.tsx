@@ -1,64 +1,28 @@
 // app/dashboard/[store]/page.tsx
 
-import Link from "next/link";
+import Header from "@/components/Header";
+import StoreItemsTable from "@/components/StoreItemsTable";
 import {
-  scrapeStore,
   SUPPORTED_STORES,
   type StoreId,
+  fetchStoreItemsPage,
 } from "@/lib/scraperClient";
 
-// Em Next 15/16: params e searchParams são PROMISES
 type PageProps = {
   params: Promise<{ store?: string }>;
   searchParams: Promise<{ q?: string }>;
 };
 
-const STORE_LABEL: Record<StoreId, string> = {
-  auchan: "Auchan",
-  froiz: "Froiz",
-  pingo_doce: "Pingo Doce",
-};
-
 export default async function StoreDashboardPage(props: PageProps) {
-  // Desempacotar as Promises
   const { store } = await props.params;
   const sp = await props.searchParams;
 
-  const rawStore = store?.toLowerCase?.();
+  const rawStore = store?.toLowerCase();
 
-  if (!rawStore) {
+  if (!rawStore || !(SUPPORTED_STORES as readonly string[]).includes(rawStore)) {
     return (
-      <main className="min-h-screen bg-zinc-950 text-zinc-100">
-        <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
-          <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
-            <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-              Saco Cheio
-            </Link>
-          </nav>
-
-          <p className="text-sm text-red-400">
-            Parâmetro <code>store</code> em falta ou inválido.
-          </p>
-        </section>
-      </main>
-    );
-  }
-
-  const isSupported = (SUPPORTED_STORES as readonly string[]).includes(rawStore);
-
-  if (!isSupported) {
-    return (
-      <main className="min-h-screen bg-zinc-950 text-zinc-100">
-        <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
-          <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
-            <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-              Saco Cheio
-            </Link>
-          </nav>
-          <p className="text-sm text-red-400">
-            A loja &quot;{rawStore}&quot; não é suportada.
-          </p>
-        </section>
+      <main className="min-h-screen bg-zinc-950 text-zinc-100 flex items-center justify-center">
+        <p className="text-red-400">Loja inválida.</p>
       </main>
     );
   }
@@ -66,138 +30,39 @@ export default async function StoreDashboardPage(props: PageProps) {
   const storeId = rawStore as StoreId;
   const query = (sp.q ?? "").trim();
 
-  let errorMessage: string | null = null;
-  let data: Awaited<ReturnType<typeof scrapeStore>> | null = null;
-
-  try {
-    // query vazia => landing page
-    data = await scrapeStore(storeId, query);
-  } catch (err) {
-    errorMessage =
-      err instanceof Error ? err.message : "Erro inesperado ao fazer scraping.";
-  }
-
-  const storeLabel = STORE_LABEL[storeId];
+  // First page, default sort by name ascending
+  const firstPage = await fetchStoreItemsPage(storeId, query, 0, 96, "nome", "asc");
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
-      <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
-        {/* Header */}
-        <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
-          <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-            Saco Cheio
-          </Link>
-          <span className="text-xs text-zinc-500">
-            {storeLabel} · Produtos
-          </span>
-        </nav>
+      <section className="mx-auto max-w-5xl px-4 pt-6 pb-10 min-h-screen">
+        <Header subtitle={`Pesquisa de preços · ${storeId}`} />
 
-        {/* Search */}
-        <div className="mb-6">
-          <h1 className="text-2xl font-semibold tracking-tight text-zinc-100">
-            Pesquisa de preços · {storeLabel}
-          </h1>
-          <p className="mt-1 text-sm text-zinc-400">
-            {query
-              ? `A mostrar resultados para “${query}”.`
-              : `A mostrar produtos em destaque de ${storeLabel}. Usa a caixa de pesquisa para filtrar por nome de produto.`}
-          </p>
-
-          <form className="mt-4 flex gap-2" method="GET">
+        <div className="mt-6 space-y-4">
+          <form className="flex gap-2" method="GET">
             <input
               type="text"
               name="q"
               placeholder="ex.: leite, massa, sumo..."
               defaultValue={query}
-              className="flex-1 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 outline-none focus:border-zinc-500"
+              className="flex-1 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100"
             />
-            <button
-              type="submit"
-              className="rounded-xl bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-950 hover:bg-zinc-200"
-            >
+            <button className="rounded-xl bg-zinc-100 px-4 py-2 text-sm text-zinc-900">
               Pesquisar
             </button>
           </form>
-        </div>
 
-        <div className="flex-1">
-          {/* Erro sempre que exista, independentemente da query */}
-          {errorMessage && (
-            <p className="mb-4 text-sm text-red-400">
-              Erro ao fazer scraping de {storeLabel}: {errorMessage}
-            </p>
-          )}
+          <p className="text-xs text-zinc-500">
+            {firstPage.totalCount} itens encontrados
+          </p>
 
-          {/* Se não há dados (erro grave), mostra hint */}
-          {!data && !errorMessage && (
-            <p className="text-sm text-zinc-500">
-              Ainda não foram carregados dados.
-            </p>
-          )}
-
-          {/* Tabela de resultados */}
-          {data && (
-            <div className="space-y-3">
-              <div className="flex items-center justify-between text-xs text-zinc-500">
-                <span>
-                  {query ? (
-                    <>
-                      Pesquisa:{" "}
-                      <span className="text-zinc-200">{data.query}</span>
-                    </>
-                  ) : (
-                    <span>Produtos em destaque</span>
-                  )}
-                </span>
-                <span>{data.count} itens encontrados</span>
-              </div>
-
-              <div className="rounded-xl border border-zinc-900 bg-zinc-950/60">
-                <div className="grid grid-cols-[minmax(0,2fr),minmax(0,1fr),minmax(0,1fr)] gap-3 border-b border-zinc-900 px-4 py-2 text-xs uppercase tracking-wide text-zinc-500">
-                  <span>Nome</span>
-                  <span className="text-right">Preço</span>
-                  <span className="text-right">Preço unitário</span>
-                </div>
-
-                <div className="divide-y divide-zinc-900">
-                  {data.items.map((item, idx) => (
-                    <a
-                      key={idx}
-                      href={item.link || "#"}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="grid grid-cols-[minmax(0,2fr),minmax(0,1fr),minmax(0,1fr)] gap-3 px-4 py-2 text-sm hover:bg-zinc-900/60"
-                    >
-                      <span className="truncate text-zinc-100">
-                        {item.nome || "Sem nome"}
-                      </span>
-                      <span className="text-right text-zinc-100">
-                        {item.preco_atual || "-"}
-                      </span>
-                      <span className="text-right text-xs text-zinc-400">
-                        {item.preco_unitario || "-"}
-                      </span>
-                    </a>
-                  ))}
-
-                  {data.items.length === 0 && (
-                    <div className="px-4 py-3 text-sm text-zinc-500">
-                      Nenhum produto encontrado.
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {data.items.length > 0 && data.items[0].data_execucao && (
-                <p className="text-[0.7rem] text-zinc-500">
-                  Dados obtidos em:{" "}
-                  <span className="text-zinc-300">
-                    {data.items[0].data_execucao as string}
-                  </span>
-                </p>
-              )}
-            </div>
-          )}
+          <StoreItemsTable
+            storeId={storeId}
+            query={query}
+            initialItems={firstPage.items}
+            totalCount={firstPage.totalCount}
+            pageSize={128}
+          />
         </div>
       </section>
     </main>

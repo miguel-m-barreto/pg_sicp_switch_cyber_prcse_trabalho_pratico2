@@ -11,8 +11,8 @@ export default function DashboardLoading() {
       {/* SKELETON CONTENT */}
       <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
         {/* Header skeleton */}
-        <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
-          <div className="h-4 w-24 rounded bg-zinc-800 animate-pulse" />
+        <nav className="mb-8 flex items-center justify-between text-sm 
+                text-zinc-300 bg-zinc-900/40 px-3 py-2 rounded-xl">          <div className="h-4 w-24 rounded bg-zinc-800 animate-pulse" />
           <div className="h-3 w-40 rounded bg-zinc-900 animate-pulse" />
         </nav>
 
