@@ -13,6 +13,7 @@ type PageProps = {
   searchParams: Promise<{ q?: string }>;
 };
 
+
 const STORE_LABEL: Record<StoreId, string> = {
   auchan: "Auchan",
   froiz: "Froiz",
