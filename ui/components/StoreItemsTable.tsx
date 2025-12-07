@@ -200,11 +200,13 @@ export default function StoreItemsTable({
                 {/* Sentinel for infinite scroll */}
                 <div ref={sentinelRef} className="h-8 w-full" />
 
-                {offset < totalCount ? (
+                {offset < totalCount && (
                     <p className="text-center pb-3 text-xs text-zinc-500">
-                        A carregar mais produtos…
+                        {loading ? "A carregar mais produtos…" : "Desce para carregar mais produtos…"}
                     </p>
-                ) : (
+                )}
+
+                {offset >= totalCount && (
                     <p className="text-center pb-3 text-xs text-zinc-500">
                         Mostrados {items.length} de {totalCount}.
                     </p>

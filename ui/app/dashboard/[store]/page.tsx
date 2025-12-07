@@ -31,7 +31,7 @@ export default async function StoreDashboardPage(props: PageProps) {
   const query = (sp.q ?? "").trim();
 
   // First page, default sort by name ascending
-  const firstPage = await fetchStoreItemsPage(storeId, query, 0, 48, "nome", "asc");
+  const firstPage = await fetchStoreItemsPage(storeId, query, 0, 30, "nome", "asc");
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
@@ -61,7 +61,7 @@ export default async function StoreDashboardPage(props: PageProps) {
             query={query}
             initialItems={firstPage.items}
             totalCount={firstPage.totalCount}
-            pageSize={128}
+            pageSize={70}
           />
         </div>
       </section>
