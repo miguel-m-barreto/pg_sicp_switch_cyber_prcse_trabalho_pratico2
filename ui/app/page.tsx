@@ -93,8 +93,8 @@ export default function HomePage() {
           </span>
 
           <div className="flex items-center gap-3">
-            <a href="/privacy" className="hover:underline">Privacy Policy</a>
-            <a href="/terms" className="hover:underline">Terms of Service</a>
+            <a href="/policies/privacy" className="hover:underline">Privacy Policy</a>
+            <a href="/policies/terms" className="hover:underline">Terms of Service</a>
           </div>
         </footer>
       </section>
