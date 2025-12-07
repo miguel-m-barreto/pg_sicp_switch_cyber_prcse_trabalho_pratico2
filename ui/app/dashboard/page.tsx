@@ -4,7 +4,6 @@ import Link from "next/link";
 import { scrapeStore } from "@/lib/scraperClient";
 import { STORES } from "@/lib/stores";
 
-
 export default async function DashboardOverviewPage() {
   // Scrapes em paralelo
   const results = await Promise.all(
@@ -15,7 +14,7 @@ export default async function DashboardOverviewPage() {
           ok: false as const,
           store,
           error:
-            err instanceof Error ? err.message : "Unexpected error while scraping.",
+            err instanceof Error ? err.message : "Erro inesperado ao fazer scraping.",
         }))
     )
   );
@@ -26,28 +25,28 @@ export default async function DashboardOverviewPage() {
         {/* Top nav */}
         <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
           <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-            GreyScrape
+            Saco Cheio
           </Link>
           <span className="text-xs text-zinc-500">
-            Overview · Highlighted products from each store
+            Visão geral · Produtos em destaque de cada loja
           </span>
         </nav>
 
         {/* Title */}
         <div className="mb-8">
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-100">
-            Store overview
+            Visão geral das lojas
           </h1>
           <p className="mt-1 max-w-xl text-sm text-zinc-400">
-            Each card shows a small sample of products (up to 5 items) taken from
-            a default query for that store. Click a store to open the full
-            dashboard with search.
+            Cada cartão mostra uma pequena amostra de produtos (até 5 itens)
+            obtida a partir de uma pesquisa padrão de cada loja.
+            Clica numa loja para abrir o painel completo com pesquisa.
           </p>
         </div>
 
         {/* Grid de lojas */}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {results.map((result, idx) => {
+          {results.map((result) => {
             const { store } = result;
             const href = `/dashboard/${store.id}`;
 
@@ -62,7 +61,7 @@ export default async function DashboardOverviewPage() {
                       {store.label}
                     </p>
                     <p className="text-red-300 text-xs">
-                      Failed to fetch sample products: {result.error}
+                      Erro ao obter os produtos: {result.error}
                     </p>
                   </div>
                   <div className="mt-3">
@@ -70,7 +69,7 @@ export default async function DashboardOverviewPage() {
                       href={href}
                       className="text-xs font-medium text-red-300 underline underline-offset-4 hover:text-red-200"
                     >
-                      Open full dashboard
+                      Abrir painel completo
                     </Link>
                   </div>
                 </div>
@@ -95,14 +94,14 @@ export default async function DashboardOverviewPage() {
                     href={href}
                     className="text-[0.7rem] font-medium text-zinc-100 underline underline-offset-4 hover:text-zinc-50"
                   >
-                    Open
+                    Abrir
                   </Link>
                 </div>
 
                 <div className="mt-2 space-y-1.5">
                   {items.length === 0 && (
                     <p className="text-xs text-zinc-500">
-                      No products found for the default query.
+                      Nenhum produto encontrado para a pesquisa padrão.
                     </p>
                   )}
 
@@ -117,10 +116,12 @@ export default async function DashboardOverviewPage() {
                       <span className="truncate text-xs text-zinc-100 group-hover:text-zinc-50">
                         {item.nome || "Sem nome"}
                       </span>
+
                       <div className="flex flex-col items-end">
                         <span className="text-xs text-zinc-100">
                           {item.preco_atual || "-"}
                         </span>
+
                         {item.preco_unitario && (
                           <span className="text-[0.65rem] text-zinc-500">
                             {item.preco_unitario}
@@ -133,7 +134,7 @@ export default async function DashboardOverviewPage() {
 
                 {items.length > 0 && items[0].data_execucao && (
                   <p className="mt-3 text-[0.65rem] text-zinc-500">
-                    Scraped at{" "}
+                    Dados obtidos em{" "}
                     <span className="text-zinc-300">
                       {items[0].data_execucao}
                     </span>

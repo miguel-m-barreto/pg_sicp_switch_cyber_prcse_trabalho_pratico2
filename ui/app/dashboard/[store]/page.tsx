@@ -13,7 +13,6 @@ type PageProps = {
   searchParams: Promise<{ q?: string }>;
 };
 
-
 const STORE_LABEL: Record<StoreId, string> = {
   auchan: "Auchan",
   froiz: "Froiz",
@@ -33,12 +32,12 @@ export default async function StoreDashboardPage(props: PageProps) {
         <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
           <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
             <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-              GreyScrape
+              Saco Cheio
             </Link>
           </nav>
 
           <p className="text-sm text-red-400">
-            Missing or invalid <code>store</code> parameter.
+            Parâmetro <code>store</code> em falta ou inválido.
           </p>
         </section>
       </main>
@@ -53,11 +52,11 @@ export default async function StoreDashboardPage(props: PageProps) {
         <section className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
           <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
             <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-              GreyScrape
+              Saco Cheio
             </Link>
           </nav>
           <p className="text-sm text-red-400">
-            Store &quot;{rawStore}&quot; is not supported.
+            A loja &quot;{rawStore}&quot; não é suportada.
           </p>
         </section>
       </main>
@@ -75,7 +74,7 @@ export default async function StoreDashboardPage(props: PageProps) {
     data = await scrapeStore(storeId, query);
   } catch (err) {
     errorMessage =
-      err instanceof Error ? err.message : "Unexpected error while scraping.";
+      err instanceof Error ? err.message : "Erro inesperado ao fazer scraping.";
   }
 
   const storeLabel = STORE_LABEL[storeId];
@@ -86,29 +85,29 @@ export default async function StoreDashboardPage(props: PageProps) {
         {/* Header */}
         <nav className="mb-8 flex items-center justify-between text-sm text-zinc-400">
           <Link href="/" className="font-semibold tracking-tight text-zinc-200">
-            GreyScrape
+            Saco Cheio
           </Link>
           <span className="text-xs text-zinc-500">
-            {storeLabel} · Products
+            {storeLabel} · Produtos
           </span>
         </nav>
 
         {/* Search */}
         <div className="mb-6">
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-100">
-            {storeLabel} price lookup
+            Pesquisa de preços · {storeLabel}
           </h1>
           <p className="mt-1 text-sm text-zinc-400">
             {query
-              ? `Showing results for “${query}”.`
-              : `Showing highlighted products from ${storeLabel}. Use the search box to filter by product name.`}
+              ? `A mostrar resultados para “${query}”.`
+              : `A mostrar produtos em destaque de ${storeLabel}. Usa a caixa de pesquisa para filtrar por nome de produto.`}
           </p>
 
           <form className="mt-4 flex gap-2" method="GET">
             <input
               type="text"
               name="q"
-              placeholder="e.g. leite, massa, sumo..."
+              placeholder="ex.: leite, massa, sumo..."
               defaultValue={query}
               className="flex-1 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 outline-none focus:border-zinc-500"
             />
@@ -116,7 +115,7 @@ export default async function StoreDashboardPage(props: PageProps) {
               type="submit"
               className="rounded-xl bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-950 hover:bg-zinc-200"
             >
-              Search
+              Pesquisar
             </button>
           </form>
         </div>
@@ -125,13 +124,15 @@ export default async function StoreDashboardPage(props: PageProps) {
           {/* Erro sempre que exista, independentemente da query */}
           {errorMessage && (
             <p className="mb-4 text-sm text-red-400">
-              Failed to scrape {storeLabel}: {errorMessage}
+              Erro ao fazer scraping de {storeLabel}: {errorMessage}
             </p>
           )}
 
           {/* Se não há dados (erro grave), mostra hint */}
           {!data && !errorMessage && (
-            <p className="text-sm text-zinc-500">No data loaded yet.</p>
+            <p className="text-sm text-zinc-500">
+              Ainda não foram carregados dados.
+            </p>
           )}
 
           {/* Tabela de resultados */}
@@ -141,13 +142,14 @@ export default async function StoreDashboardPage(props: PageProps) {
                 <span>
                   {query ? (
                     <>
-                      Query: <span className="text-zinc-200">{data.query}</span>
+                      Pesquisa:{" "}
+                      <span className="text-zinc-200">{data.query}</span>
                     </>
                   ) : (
-                    <span>Highlighted products</span>
+                    <span>Produtos em destaque</span>
                   )}
                 </span>
-                <span>{data.count} items found</span>
+                <span>{data.count} itens encontrados</span>
               </div>
 
               <div className="rounded-xl border border-zinc-900 bg-zinc-950/60">
@@ -180,7 +182,7 @@ export default async function StoreDashboardPage(props: PageProps) {
 
                   {data.items.length === 0 && (
                     <div className="px-4 py-3 text-sm text-zinc-500">
-                      No items found.
+                      Nenhum produto encontrado.
                     </div>
                   )}
                 </div>
@@ -188,7 +190,7 @@ export default async function StoreDashboardPage(props: PageProps) {
 
               {data.items.length > 0 && data.items[0].data_execucao && (
                 <p className="text-[0.7rem] text-zinc-500">
-                  Data scraped at:{" "}
+                  Dados obtidos em:{" "}
                   <span className="text-zinc-300">
                     {data.items[0].data_execucao as string}
                   </span>

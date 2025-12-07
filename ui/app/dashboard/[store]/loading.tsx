@@ -5,7 +5,7 @@ export default function StoreLoading() {
       {/* OVERLAY CENTRAL */}
       <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-zinc-950/0 backdrop-blur-sm">
         <div className="h-10 w-10 animate-spin rounded-full border-4 border-zinc-700 border-t-zinc-300"></div>
-        <p className="mt-3 text-sm text-zinc-400">Loading</p>
+        <p className="mt-3 text-sm text-zinc-400">A carregar</p>
       </div>
 
       {/* SKELETON CONTENT */}

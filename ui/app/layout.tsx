@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GreyScrape",
+  title: "SacoCheio",
   description: "Supermarket price comparison",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
