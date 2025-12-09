@@ -1,4 +1,4 @@
-# greyscrape/scrapers/send_to_db.py
+# greyscrape/scrapers/common/send_to_db.py
 
 import os
 import json

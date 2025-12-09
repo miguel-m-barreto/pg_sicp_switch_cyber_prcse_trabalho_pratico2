@@ -1,6 +1,7 @@
-# greyscrape/scrapers/store_common.py
+# greyscrape/scrapers/common/store_common.py
 
 import os
+from pathlib import Path
 import threading
 import time
 from datetime import datetime
@@ -26,7 +27,7 @@ _CURRENT_LOG_LEVEL = _LOG_LEVELS["INFO"]
 _LOG_LOCK = threading.Lock()
 
 # Base directory for this package (greyscrape/scrapers)
-_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+_BASE_DIR = Path(__file__).resolve().parents[1]
 
 # Global store-related state, initialized via init_store_logging(...)
 STORE_NAME = "default"

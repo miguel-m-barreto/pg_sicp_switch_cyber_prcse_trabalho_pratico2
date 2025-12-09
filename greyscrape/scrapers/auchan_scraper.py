@@ -1,4 +1,4 @@
-# greyscrape/scrapers/auchan_DB.py
+# greyscrape/scrapers/auchan_scraper.py
 
 from pathlib import Path
 import sys
@@ -18,8 +18,8 @@ from auchan.auchan_helper import (
     parse_total_results,
 )
 
-import store_common
-from store_common import (
+import common.store_common as store_common
+from common.store_common import (
     format_elapsed_time,
     build_headless_chrome,
     log_msg,
@@ -27,7 +27,7 @@ from store_common import (
     log_warn,
 )
 
-from supabase_client import push_products_with_snapshots 
+from common.supabase_client import push_products_with_snapshots 
 
 # Load .env.local a partir da raiz (Trabalho-Pratico2_SCRIPTS)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -146,7 +146,10 @@ def _scrape_category_with_api_and_selenium(
     all_products = extract_products_from_html(html, run_timestamp)
     seen_links = {p.get("link") for p in all_products if p.get("link")}
 
-    log_msg(f"[Auchan] Initial page: {len(all_products)} products", worker_id=worker_id)
+    log_msg(
+        f"[Auchan] Initial page: {len(all_products)} products",
+        worker_id=worker_id,
+    )
 
     # Check if this page actually uses Search-UpdateGrid
     detected_cgid = _extract_cgid_from_html(html)
@@ -161,7 +164,10 @@ def _scrape_category_with_api_and_selenium(
         _attach_category_metadata(all_products, page_path, cgid)
         stats["final_cgid"] = cgid
         stats["chunks"] = 0
+
         return all_products, stats
+
+
 
     # If we got here, the page is scrollable and uses Search-UpdateGrid
     original_cgid = cgid
@@ -189,7 +195,7 @@ def _scrape_category_with_api_and_selenium(
             f"[Auchan] Counter says total_results = {total_expected}",
             worker_id=worker_id,
         )
-        base_chunk_size = min(BASE_CHUNK_SIZE, int(total_expected*1.1))
+        base_chunk_size = min(BASE_CHUNK_SIZE, int(total_expected * 1.1))
     else:
         log_msg(
             "[Auchan] Could not parse total_results from counter, "
@@ -207,7 +213,6 @@ def _scrape_category_with_api_and_selenium(
 
     while True:
         # Dynamic sz based on remaining products (if we know total_expected)
-
         if total_expected:
             remaining = total_expected - len(all_products)
 
@@ -309,6 +314,7 @@ def _scrape_category_with_api_and_selenium(
         start = len(all_products)
 
     stats["chunks"] = chunks
+
     return all_products, stats
 
 

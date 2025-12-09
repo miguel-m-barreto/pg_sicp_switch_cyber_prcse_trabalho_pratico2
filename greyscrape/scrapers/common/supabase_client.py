@@ -1,4 +1,4 @@
-# greyscrape/scrapers/supabase_client.py
+# greyscrape/scrapers/common/supabase_client.py
 
 import os
 import sys
@@ -11,11 +11,11 @@ from urllib.parse import urlparse, urlunparse
 from dotenv import load_dotenv
 import requests
 
-from run_diff import build_state_hash  # reuse same state hash used by diff
+from common.run_diff import build_state_hash  # reuse same state hash used by diff
 
 SCRAPE_COUNT_UNTIL_DELETION_MARK = 1
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 load_dotenv(PROJECT_ROOT / ".env.local")
 
 # Max number of rows per POST to Supabase.

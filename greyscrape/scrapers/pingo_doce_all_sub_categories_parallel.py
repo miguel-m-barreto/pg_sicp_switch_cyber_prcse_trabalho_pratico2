@@ -1,6 +1,8 @@
-# greyscrape/scrapers/auchan_all_sub_categories_parallel.py
+# greyscrape/scrapers/pingo_all_sub_categories_parallel.py
+
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime
@@ -8,17 +10,19 @@ from typing import List, Dict, Any, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import threading
-
+from urllib.parse import urlparse
 
 from dotenv import load_dotenv
 from selenium import webdriver
 
-from auchan.auchan_extract_sub_categories import main as extract_subcats_main
+from pingo_doce.pingo_doce_extract_sub_categories import (
+    main as extract_subcats_main,
+)
 
-from auchan_scraper import (
+from pingo_doce_scraper import (
     _scrape_category_with_api_and_selenium,
-    _detect_sub_category_from_url,
-    _save_json_log,
+    _parse_price,
+    _extract_external_id,
 )
 
 import common.store_common as store_common
@@ -29,21 +33,26 @@ from common.store_common import (
     log_msg,
 )
 
-from auchan.auchan_product_enrich import enrich_products_with_product_pages
-
-# Load .env.local a partir da raiz (Trabalho-Pratico2_SCRIPTS)
+# Load .env.local from project root (Trabalho-Pratico2_SCRIPTS)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(PROJECT_ROOT / ".env.local")
 
+# This must match the path where pingo_doce_extract_sub_categories.py writes
+# pingo_sub_categories.json:
+#
+#   base_dir = scrapers/pingo_doce
+#   LINK_DIR_NAME = "pingo/links"
+#   => scrapers/pingo_doce/pingo/links/pingo_sub_categories.json
 LINKS_DEFAULT_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "auchan",
+    "pingo_doce",
+    "pingo",
     "links",
-    "auchan_sub_categories.json",
+    "pingo_sub_categories.json",
 )
 
-# Max number of parallel workers (more workers more CPU/RAM and ban risk)
-NUM_WORKERS = int(os.getenv("AUCHAN_NUM_WORKERS", "1"))
+# Max number of parallel workers (more workers = more CPU/RAM and ban risk)
+NUM_WORKERS = int(os.getenv("PINGO_NUM_WORKERS", "1"))
 
 
 def _load_sub_category_urls(path: str) -> List[str]:
@@ -51,24 +60,13 @@ def _load_sub_category_urls(path: str) -> List[str]:
     Load category/subcategory URLs from JSON.
 
     Supports:
-      - ["https://www.auchan.pt/pt/animais/...", ...]
+      - ["https://www.pingodoce.pt/home/produtos/...", ...]
       - [{"url": "...", "name": "..."}, ...]
       - {"urls": [...]} / {"categories": [...]} wrappers.
     """
     if not os.path.exists(path):
-        # Neste momento NÃO tens gerador automático de links,
-        # por isso falhamos de forma explícita.
-        log_msg(f"[Auchan] Links JSON not found: {path}")
+        log_msg(f"[Pingo] Links JSON not found: {path}")
         raise FileNotFoundError(f"Links JSON not found: {path}")
-
-        # Se no futuro quiseres gerar o ficheiro automaticamente,
-        # podes fazer algo do género:
-        #
-        # from auchan.generate_links import main as generate_links
-        # log_msg("[Auchan] Links file missing, generating it...")
-        # generate_links()
-        # if not os.path.exists(path):
-        #     raise FileNotFoundError(f"Links JSON still missing after generation: {path}")
 
     with open(path, "r", encoding="utf-8") as f:
         data: Any = json.load(f)
@@ -80,7 +78,6 @@ def _load_sub_category_urls(path: str) -> List[str]:
         elif "categories" in data and isinstance(data["categories"], list):
             items = data["categories"]
         else:
-            # fallback: assume the dict itself is a single entry
             items = [data]
     elif isinstance(data, list):
         items = data
@@ -98,8 +95,8 @@ def _load_sub_category_urls(path: str) -> List[str]:
 
         if not url:
             continue
-        if "auchan.pt" not in url:
-            # Skip anything outside Auchan
+        if "pingodoce.pt" not in url:
+            # Skip anything outside Pingo Doce
             continue
 
         urls.append(url)
@@ -116,6 +113,84 @@ def _load_sub_category_urls(path: str) -> List[str]:
     return unique_urls
 
 
+def _detect_sub_category_from_url(url: str) -> Optional[Tuple[str, str]]:
+    """
+    Extract (page_path, cgid) from a Pingo Doce URL like:
+
+      https://www.pingodoce.pt/home/produtos/talho
+        -> ("talho", "talho")
+
+      https://www.pingodoce.pt/home/produtos/talho/carne-de-porco
+        -> ("talho/carne-de-porco", "carne-de-porco")
+
+    page_path is what we append after /home/produtos/
+    cgid is the last segment, used as initial category id.
+    """
+    parsed = urlparse(url)
+    host = parsed.netloc or ""
+    if "pingodoce.pt" not in host:
+        return None
+
+    parts = [p for p in parsed.path.split("/") if p]
+    if len(parts) < 3:
+        # Expect something like /home/produtos/<...>
+        return None
+
+    # Expect parts[0] == "home", parts[1] == "produtos"
+    if parts[0] != "home" or parts[1] != "produtos":
+        return None
+
+    page_parts = parts[2:]
+    if not page_parts:
+        return None
+
+    page_path = "/".join(page_parts)
+    cgid = page_parts[-1]
+    return page_path, cgid
+
+
+def _save_json_log(produtos: List[Dict], context: str) -> str:
+    """
+    Save all scraped products into a JSON file inside this execution's log folder.
+
+    Folder layout:
+
+      <scrapers>/<STORE_NAME>/logs/<EXECUTION_TS>/json
+
+    STORE_NAME and LOG_DIR_NAME come from store_common.init_store_logging("pingo_doce").
+    """
+    # Base dir of scrapers package
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Store root: <scrapers>/<STORE_NAME> (e.g. scrapers/pingo_doce)
+    store_root = os.path.join(base_dir, store_common.STORE_NAME)
+
+    # If LOG_DIR_NAME is not initialized (defensive fallback),
+    # create a simple "logs/<ts>/json" under store_root.
+    if store_common.LOG_DIR_NAME is None:
+        exec_ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        log_dir = os.path.join(store_root, "logs", exec_ts, "json")
+    else:
+        # Normal path: logs/<EXECUTION_TS>/json relative to store_root
+        log_dir = os.path.join(store_root, store_common.LOG_DIR_NAME)
+
+    os.makedirs(log_dir, exist_ok=True)
+
+    safe_ctx = re.sub(r"[^a-zA-Z0-9_-]+", "_", context).strip("_")
+    if not safe_ctx:
+        safe_ctx = "run"
+
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filename = f"pingo_{safe_ctx}_{timestamp}.json"
+    path = os.path.join(log_dir, filename)
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(produtos, f, ensure_ascii=False, indent=2)
+
+    log_msg(f"[Pingo] Saved JSON log -> {path}")
+    return path
+
+
 def _scrape_single_category(
     driver: webdriver.Chrome,
     url: str,
@@ -125,8 +200,8 @@ def _scrape_single_category(
     Scrape a single category/subcategory URL using the low-level category scraper.
 
     Returns:
-        (context_string, num_products, total_expected) on success,
-        or None on failure (after logging the error).
+      (context_string, num_products, total_expected) on success,
+      or None on failure (after logging the error).
     """
     cat_info = _detect_sub_category_from_url(url)
     if not cat_info:
@@ -140,7 +215,8 @@ def _scrape_single_category(
     run_timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
     log_msg(
-        f">>> Starting scrape for URL='{url}' (page_path='{page_path}', cgid='{cgid}')",
+        f">>> Starting scrape for URL='{url}' "
+        f"(page_path='{page_path}', cgid='{cgid}')",
         worker_id=worker_id,
     )
 
@@ -157,26 +233,9 @@ def _scrape_single_category(
         log_msg(f"[ERROR] Failed scraping '{url}': {exc}", worker_id=worker_id)
         return None
 
-    # Product-page enrichment (reuses same driver)
-    try:
-        produtos = enrich_products_with_product_pages(
-            driver=driver,
-            products=produtos,
-            worker_id=worker_id,
-            # None -> uses AUCHAN_PRODUCT_ENRICH_MAX_PER_CAT from env
-            # max_per_category=50,
-            debug=False,
-        )
-    except Exception as exc:
-        log_msg(
-            f"[Auchan][ProdEnrich] Failed to enrich category '{page_path}' "
-            f"(cgid={cgid}): {exc}",
-            worker_id=worker_id,
-        )
-
     total = len(produtos)
     final_cgid = stats.get("final_cgid", cgid)
-    total_expected: Optional[int] = stats.get("total_expected")
+    total_expected = stats.get("total_expected")
     chunks = stats.get("chunks")
 
     context = f"sub_category:{page_path}|cgid={final_cgid}"
@@ -219,7 +278,7 @@ def _worker_scrape_loop(
     worker_start = time.time()
 
     total_products = 0
-    total_estimated = 0 
+    total_estimated = 0
     successful_cats = 0
     failed_urls: List[str] = []
     total_urls = len(urls)
@@ -243,7 +302,7 @@ def _worker_scrape_loop(
             try:
                 result = _scrape_single_category(driver, url, worker_id)
             except WebDriverException as exc:
-                # Se o Chrome morrer, marcamos o URL atual como falhado e abortamos o worker
+                # If Chrome dies, mark current URL as failed and abort worker
                 log_msg(
                     f"[FATAL] WebDriverException in worker while scraping '{url}': {exc}",
                     worker_id=worker_id,
@@ -270,33 +329,29 @@ def _worker_scrape_loop(
         "successful": successful_cats,
         "failed": failed_urls,
         "products": total_products,
-        "estimated_products": total_estimated, 
+        "estimated_products": total_estimated,
         "elapsed": format_elapsed_time(worker_start),
     }
 
 
 def main() -> None:
-    # Initialize logging for this store
-    init_store_logging("auchan")
+    # Initialize logging for this store (folder scrapers/pingo_doce)
+    init_store_logging("pingo_doce")
 
     # Behavior:
     #   - No args  -> generate links JSON (extract_subcats_main) and then load it
     #   - With arg -> DO NOT generate, just use existing JSON
-    #
-    # Special case (by convention):
-    #   - "111"    -> use default LINKS_DEFAULT_PATH, but still skip extraction
 
     if len(sys.argv) > 1:
         links_path = LINKS_DEFAULT_PATH
         log_msg(
-            f"[Auchan] Using existing category URLs file (no extraction): {links_path}"
+            f"[Pingo] Using existing category URLs file (no extraction): {links_path}"
         )
         should_extract = False
     else:
-        # No args -> normal mode: regenerate the links JSON first
         links_path = LINKS_DEFAULT_PATH
         log_msg(
-            f"[Auchan] No CLI arg given. Generating category URLs into: {links_path}"
+            f"[Pingo] No CLI arg given. Generating category URLs into: {links_path}"
         )
         should_extract = True
 
@@ -304,12 +359,12 @@ def main() -> None:
         # This should create/update the JSON at LINKS_DEFAULT_PATH
         extract_subcats_main()
 
-    log_msg(f"[Auchan] Reading category URLs from: {links_path}")
+    log_msg(f"[Pingo] Reading category URLs from: {links_path}")
     urls = _load_sub_category_urls(links_path)
-    log_msg(f"[Auchan] Loaded {len(urls)} unique URLs")
+    log_msg(f"[Pingo] Loaded {len(urls)} unique URLs")
 
     if not urls:
-        log_msg("[Auchan] No URLs to scrape. Exiting.")
+        log_msg("[Pingo] No URLs to scrape. Exiting.")
         return
 
     global_start = time.time()
@@ -317,7 +372,7 @@ def main() -> None:
     n_workers = min(NUM_WORKERS, len(urls))
 
     log_msg(
-        f"[Auchan] Launching {n_workers} threads over {len(urls)} URLs "
+        f"[Pingo] Launching {n_workers} threads over {len(urls)} URLs "
         f"(NUM_WORKERS={NUM_WORKERS})"
     )
 
@@ -348,21 +403,22 @@ def main() -> None:
                 result = future.result()
             except Exception as exc:
                 log_msg(
-                    f"[Auchan][Worker {worker_id}] crashed with exception: {exc}"
+                    f"[Pingo][Worker {worker_id}] crashed with exception: {exc}"
                 )
                 continue
 
             log_msg("")
-            log_msg(f"[Auchan][Worker {worker_id}] summary: {result}")
+            log_msg(f"[Pingo][Worker {worker_id}] summary: {result}")
 
             total_products += result["products"]
             total_success += result["successful"]
             total_failed.extend(result["failed"])
-            total_estimated_products += result["estimated_products"]
 
     # Save run status so sendToDB can decide if this run is valid
     status = {
-        "status": "success" if total_success == len(urls) and not total_failed else "failed",
+        "status": "success"
+        if total_success == len(urls) and not total_failed
+        else "failed",
         "total_urls": len(urls),
         "successful": total_success,
         "failed": len(total_failed),
@@ -373,49 +429,48 @@ def main() -> None:
         status_path = os.path.join(store_common.EXECUTION_LOG_ROOT, "run_status.json")
         with open(status_path, "w", encoding="utf-8") as f:
             json.dump(status, f, ensure_ascii=False, indent=2)
-        log_msg(f"[Auchan] Saved run status -> {status_path}")
+        log_msg(f"[Pingo] Saved run status -> {status_path}")
     except Exception as exc:
-        log_msg(f"[Auchan] Failed to write run_status.json: {exc}")
+        log_msg(f"[Pingo] Failed to write run_status.json: {exc}")
 
     log_msg("")
     log_msg("-" * 80)
     log_msg(
-        f"[Auchan] Batch finished. {total_success}/{len(urls)} URLs scraped "
+        f"[Pingo] Batch finished. {total_success}/{len(urls)} URLs scraped "
         f"successfully, total products fetched: {total_products}"
     )
 
     if total_estimated_products > 0:
         log_msg(
-            f"[Auchan] Global products: {total_products}/{total_estimated_products} "
+            f"[Pingo] Global products: {total_products}/{total_estimated_products} "
             f"(fetched/estimated from counters)"
         )
 
     if total_failed:
-        log_msg(f"[Auchan] Failed URLs ({len(total_failed)}):")
+        log_msg(f"[Pingo] Failed URLs ({len(total_failed)}):")
         for u in total_failed:
             log_msg(f"  - {u}")
-    log_msg(f"[Auchan] Total wall-clock time: {format_elapsed_time(global_start)}")
+    log_msg(f"[Pingo] Total wall-clock time: {format_elapsed_time(global_start)}")
     log_msg("-" * 80)
 
     # Automatic DB ingest only if this run was successful
-    from common.send_to_db import send_store_to_db
-    from auchan_scraper import _extract_external_id, _parse_price
+    from greyscrape.scrapers.common.send_to_db import send_store_to_db
 
     status_success = (total_success == len(urls)) and (len(total_failed) == 0)
 
     if status_success:
-        log_msg("[Auchan] Run marked as SUCCESS, starting sendToDB.")
+        log_msg("[Pingo] Run marked as SUCCESS, starting sendToDB.")
         send_store_to_db(
-            logs_root=store_common.STORE_LOGS_ROOT,  # root: greyscrape/scrapers/auchan/logs
-            store_id_env_var="SUPABASE_AUCHAN_STORE_ID",
-            store_label="Auchan",
+            logs_root=store_common.STORE_LOGS_ROOT,  # root: scrapers/pingo_doce/logs
+            store_id_env_var="SUPABASE_PINGO_STORE_ID",
+            store_label="Pingo Doce",
             extract_external_id=_extract_external_id,
             parse_price=_parse_price,
-            diff_query_prefix="auchan_diff",
+            diff_query_prefix="pingo_diff",
             keep_last_runs=2,
         )
     else:
-        log_msg("[Auchan] Run FAILED, skipping sendToDB (DB not touched).")
+        log_msg("[Pingo] Run FAILED, skipping sendToDB (DB not touched).")
 
 
 if __name__ == "__main__":

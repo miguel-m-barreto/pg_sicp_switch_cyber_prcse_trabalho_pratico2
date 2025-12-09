@@ -1,4 +1,5 @@
-# greyscrape/scrapers/auchan_extract_sub_categories.py
+# greyscrape/scrapers/auchan/auchan_extract_sub_categories.py
+
 import os
 import json
 from typing import List, Set
@@ -14,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 BASE_URL = "https://www.auchan.pt"
 START_URL = f"{BASE_URL}/pt"
-LINK_DIR_NAME = "auchan/links"
+LINK_DIR_NAME = "links"
 
 
 def _build_driver() -> webdriver.Chrome:
