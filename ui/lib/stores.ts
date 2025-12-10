@@ -15,15 +15,15 @@ export const STORES: {
       defaultQuery: "", // empty = landing page
     },
     {
-      id: "froiz",
-      label: "Froiz",
-      description: "Produtos em destaque Froiz.",
-      defaultQuery: "",
-    },
-    {
       id: "pingo_doce",
       label: "Pingo Doce",
       description: "Produtos em destaque Pingo Doce.",
+      defaultQuery: "",
+    },
+    {
+      id: "froiz",
+      label: "Froiz",
+      description: "Produtos em destaque Froiz.",
       defaultQuery: "",
     },
   ];

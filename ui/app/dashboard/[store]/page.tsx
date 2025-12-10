@@ -9,15 +9,12 @@ import {
 } from "@/lib/scraperClient";
 
 type PageProps = {
-  params: Promise<{ store?: string }>;
-  searchParams: Promise<{ q?: string }>;
+  params: { store?: string };
+  searchParams?: { q?: string };
 };
 
-export default async function StoreDashboardPage(props: PageProps) {
-  const { store } = await props.params;
-  const sp = await props.searchParams;
-
-  const rawStore = store?.toLowerCase();
+export default async function StoreDashboardPage({ params, searchParams }: PageProps) {
+  const rawStore = params.store?.toLowerCase();
 
   if (!rawStore || !(SUPPORTED_STORES as readonly string[]).includes(rawStore)) {
     return (
@@ -28,10 +25,10 @@ export default async function StoreDashboardPage(props: PageProps) {
   }
 
   const storeId = rawStore as StoreId;
-  const query = (sp.q ?? "").trim();
+  const query = (searchParams?.q ?? "").trim();
 
   // First page, default sort by name ascending
-  const firstPage = await fetchStoreItemsPage(storeId, query, 0, 30, "nome", "asc");
+  const firstPage = await fetchStoreItemsPage(storeId, query, 0, 32, "nome", "asc");
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
@@ -61,7 +58,7 @@ export default async function StoreDashboardPage(props: PageProps) {
             query={query}
             initialItems={firstPage.items}
             totalCount={firstPage.totalCount}
-            pageSize={70}
+            pageSize={64}
           />
         </div>
       </section>

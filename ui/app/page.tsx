@@ -73,15 +73,15 @@ export default function HomePage() {
             </div>
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
               <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
-                Froiz
+                Pingo Doce 
               </p>
-              <p>Recolha automática de preços e produtos da Auchan.</p>
+              <p>Recolha automática de preços e produtos do Pingo Doce.</p>
             </div>
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-3">
               <p className="mb-1 text-[0.7rem] uppercase tracking-wide text-zinc-500">
-                Pingo Doce (em desenvolvimento)
+                Froiz (em desenvolvimento)
               </p>
-              <p>Recolha automática de preços e produtos da Auchan.</p>
+              <p>Recolha automática de preços e produtos do Froiz.</p>
             </div>
           </div>
         </div>
