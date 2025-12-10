@@ -1,4 +1,4 @@
-// lib/scraperClient.ts
+// ui/lib/scraperClient.ts
 // Server-side data access for store items (Supabase).
 
 import { supabaseServer } from "@/lib/supabaseServer";

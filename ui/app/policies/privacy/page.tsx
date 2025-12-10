@@ -1,4 +1,4 @@
-// app/policies/privacy/page.tsx (ajusta o path conforme a tua estrutura)
+// ui/app/policies/privacy/page.tsx
 
 import Header from "@/components/Header";
 

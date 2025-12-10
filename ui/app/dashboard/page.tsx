@@ -1,4 +1,4 @@
-// app/dashboard/page.tsx
+// ui/app/dashboard/page.tsx
 
 import { scrapeStore } from "@/lib/scraperClient";
 import { STORES } from "@/lib/stores";

@@ -1,4 +1,4 @@
-// app/api/store-items/route.ts
+// ui/app/api/store-items/route.ts
 import { NextResponse } from "next/server";
 import {
   fetchStoreItemsPage,

@@ -1,4 +1,4 @@
-// components/ItemRow.tsx
+// ui/components/ItemRow.tsx
 
 import { Item } from "@/lib/scraperClient";
 

@@ -1,4 +1,4 @@
-// app/policies/terms/page.tsx (ajusta o path)
+// ui/app/policies/terms/page.tsx
 
 import Header from "@/components/Header";
 

@@ -1,4 +1,4 @@
-// lib/stores.ts
+// ui/lib/stores.ts
 
 import { StoreId } from "./scraperClient";
 

@@ -1,4 +1,4 @@
-// components/StoreItemsTable.tsx
+// ui/components/StoreItemsTable.tsx
 "use client";
 
 import { useEffect, useRef, useState } from "react";

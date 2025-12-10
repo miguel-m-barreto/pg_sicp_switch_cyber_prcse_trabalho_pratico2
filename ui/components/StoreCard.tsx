@@ -1,4 +1,4 @@
-// components/StoreCard.tsx
+// ui/components/StoreCard.tsx
 import Link from "next/link";
 import { Item } from "@/lib/scraperClient";
 
