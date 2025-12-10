@@ -55,13 +55,16 @@ function resolveStoreNumericId(store: StoreId): number {
  * Fetch a page of products for a store, optionally filtered by search query
  * and sorted by one of the allowed fields.
  *
- * Requires the Postgres function `get_store_products` with parameters:
+ * Calls the Postgres function `get_store_products` with parameters:
  *  - p_store_id
  *  - p_search
  *  - p_limit
  *  - p_offset
  *  - p_sort_field
  *  - p_sort_dir
+ *  - p_only_promo
+ *  - p_category
+ *  - p_brand
  */
 export async function fetchStoreItemsPage(
   store: StoreId,
@@ -81,6 +84,9 @@ export async function fetchStoreItemsPage(
     p_offset: offset,
     p_sort_field: sortField,
     p_sort_dir: sortDir,
+    p_only_promo: false,
+    p_category: null,
+    p_brand: null,
   });
 
   if (error) {
@@ -116,7 +122,9 @@ export async function fetchStoreItemsPage(
 
     const preco_unitario: string | null =
       raw.preco_unitario ??
-      (row.unit_price != null ? `${Number(row.unit_price).toFixed(2)} €/unit` : null);
+      (row.unit_price != null
+        ? `${Number(row.unit_price).toFixed(2)} €/unit`
+        : null);
 
     const quantidade_minima: string | null =
       raw.quantidade_minima ?? (row.quantity as string | undefined) ?? null;
