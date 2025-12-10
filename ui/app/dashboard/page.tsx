@@ -1,5 +1,7 @@
 // ui/app/dashboard/page.tsx
 
+export const dynamic = "force-dynamic";
+
 import { scrapeStore } from "@/lib/scraperClient";
 import { STORES } from "@/lib/stores";
 import Header from "@/components/Header";
