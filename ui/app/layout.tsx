@@ -15,18 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SacoCheio",
-  description: "Supermarket price comparison",
-  icons: {
-    icon: "/favicon.png",
+  title: {
+    default: "Saco Cheio",
+    template: "%s - Saco Cheio",
   },
+  description: "Comparador de preços Saco Cheio.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <head>
         {/* REQUIRED FOR ADSENSE DOMAIN VALIDATION */}
         <meta
