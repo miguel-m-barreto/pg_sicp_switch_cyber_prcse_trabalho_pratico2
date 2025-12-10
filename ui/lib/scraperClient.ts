@@ -3,7 +3,7 @@
 
 import { supabaseServer } from "@/lib/supabaseServer";
 
-export const SUPPORTED_STORES = ["auchan", "froiz", "pingo_doce"] as const;
+export const SUPPORTED_STORES = ["auchan", "pingo_doce", "froiz"] as const;
 export type StoreId = (typeof SUPPORTED_STORES)[number];
 
 export type Item = {
@@ -33,8 +33,8 @@ export type SortDir = "asc" | "desc";
 function resolveStoreNumericId(store: StoreId): number {
   const envMap: Record<StoreId, string> = {
     auchan: "SUPABASE_AUCHAN_STORE_ID",
-    froiz: "SUPABASE_FROIZ_STORE_ID",
     pingo_doce: "SUPABASE_PINGO_DOCE_STORE_ID",
+    froiz: "SUPABASE_FROIZ_STORE_ID",
   };
 
   const envName = envMap[store];

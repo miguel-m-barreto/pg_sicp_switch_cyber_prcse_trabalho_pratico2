@@ -12,7 +12,7 @@ export const STORES: {
       id: "auchan",
       label: "Auchan",
       description: "Produtos em destaque Auchan.",
-      defaultQuery: "", // empty = landing page
+      defaultQuery: "",
     },
     {
       id: "pingo_doce",

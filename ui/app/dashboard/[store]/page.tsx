@@ -9,14 +9,20 @@ import {
 } from "@/lib/scraperClient";
 
 type PageProps = {
-  params: { store?: string };
+  params: { store: string };
   searchParams?: { q?: string };
 };
 
 export default async function StoreDashboardPage({ params, searchParams }: PageProps) {
+  // Valor do segmento da rota, ex.: "auchan", "pingo_doce", "froiz"
   const rawStore = params.store?.toLowerCase();
 
-  if (!rawStore || !(SUPPORTED_STORES as readonly string[]).includes(rawStore)) {
+  // Validação: tem de existir e estar na lista de lojas suportadas
+  const isValidStore =
+    typeof rawStore === "string" &&
+    (SUPPORTED_STORES as readonly string[]).includes(rawStore);
+
+  if (!isValidStore) {
     return (
       <main className="min-h-screen bg-zinc-950 text-zinc-100 flex items-center justify-center">
         <p className="text-red-400">Loja inválida.</p>
@@ -27,7 +33,7 @@ export default async function StoreDashboardPage({ params, searchParams }: PageP
   const storeId = rawStore as StoreId;
   const query = (searchParams?.q ?? "").trim();
 
-  // First page, default sort by name ascending
+  // Primeiro page load: default sort por nome ascendente
   const firstPage = await fetchStoreItemsPage(storeId, query, 0, 32, "nome", "asc");
 
   return (
