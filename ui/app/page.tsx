@@ -88,7 +88,6 @@ export default function HomePage() {
 
         <footer className="mt-8 border-t border-zinc-900 pt-4 text-xs text-zinc-500 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <span>
-            Desenvolvido por Bruno Carrulo, Duarte Ferreira, Eduardo Bártolo, Miguel Barreto
           </span>
 
           <div className="flex items-center gap-3">
