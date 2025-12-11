@@ -18,8 +18,8 @@ import time
 from pathlib import Path
 
 # Sleep duration between runs (in seconds)
-FINAL_WAIT_SECONDS = 5 * 60
-SCRIPT_WAIT_SECONDS = 2,5* 60
+FINAL_WAIT_SECONDS = 30 * 60
+SCRIPT_WAIT_SECONDS = 1 * 60
 
 # Project root = folder where this script lives
 PROJECT_ROOT = Path(__file__).resolve().parent
