@@ -101,7 +101,7 @@ export default function StoreDashboardClient({
               <option value="">Todas</option>
               {categories.map((c) => (
                 <option key={c.category_human_1} value={c.category_human_1}>
-                  {c.category_human_1} ({c.total_variants})
+                  {c.category_human_1} ({c.total_products})
                 </option>
               ))}
             </select>

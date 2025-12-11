@@ -138,14 +138,14 @@ export async function fetchStoreItemsPage(
 
   const { data, error } = await supabaseServer.rpc("get_store_products", {
     p_store_id: storeId,
-    p_search: trimmed || null,
+    p_search: trimmed.length > 0 ? trimmed : null,
     p_limit: limit,
     p_offset: offset,
     p_sort_field: sortField,
     p_sort_dir: sortDir,
     p_only_promo: onlyPromo,
-    p_category: category && category.trim() !== "" ? category : null,
-    p_brand: brand && brand.trim() !== "" ? brand : null,
+    p_category: category && category.trim() !== "" && category.trim().length >0 ? category : null,
+    p_brand: brand && brand.trim() !== "" && brand.trim().length > 0 ? brand : null,
   });
 
   if (error) {
@@ -231,8 +231,8 @@ export async function fetchStoreCategories(
 
   const { data, error } = await supabaseServer.rpc("get_store_categories", {
     p_store_id: storeId,
-    p_search: query && query.trim() !== "" ? query : null,
-    p_brand: brand && brand.trim() !== "" ? brand : null,
+    p_search: query && query.trim() !== "" && query.trim().length > 0 ? query : null,
+    p_brand: brand && brand.trim() !== "" && brand.trim().length > 0? brand : null,
     p_only_promo: onlyPromo,
   });
 
@@ -310,7 +310,7 @@ export async function fetchStorePromotions(
     p_sort_field: sortField,
     p_sort_dir: sortDir,
     p_category: category && category.trim() !== "" ? category : null,
-    p_brand: brand && brand.trim() !== "" ? brand : null,
+    p_brand: brand && brand.trim() !== "" && brand.trim().length > 0 ? brand : null,
     p_min_discount_pct: minDiscountPct,
   });
 
@@ -439,8 +439,8 @@ export async function fetchStorePromotionsByCategory(
       p_sort_field: sortField,
       p_sort_dir: sortDir,
       p_category:
-        category && category.trim() !== "" ? category : null,
-      p_brand: brand && brand.trim() !== "" ? brand : null,
+        category && category.trim() !== "" && category.trim().length > 0? category : null,
+      p_brand: brand && brand.trim() !== "" && brand.trim().length > 0? brand : null,
       p_min_discount_pct: minDiscountPct,
     }
   );

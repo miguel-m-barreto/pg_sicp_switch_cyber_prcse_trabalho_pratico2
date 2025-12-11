@@ -60,15 +60,13 @@ export default async function StoreDashboardPage(props: PageProps) {
 
   const storeId = rawStore as StoreId;
 
-  // Categories and brands are fetched on the server; products are client-side.
+  // Categories and brands are fetched on the server; products são client-side.
   const [categories, brands] = await Promise.all([
-    // New version that already applies search / brand / onlyPromo to the counts
     fetchStoreCategories(storeId, {
       query: initialQuery,
       brand: initialBrand || null,
       onlyPromo: initialOnlyPromo,
     }),
-    // Brands are filtered only by category for now
     fetchStoreBrands(storeId, initialCategory || null),
   ]);
 
