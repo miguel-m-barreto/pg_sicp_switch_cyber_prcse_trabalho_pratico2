@@ -33,12 +33,12 @@ from common.supabase_client import push_products_with_snapshots
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(PROJECT_ROOT / ".env.local")
 
-WAIT_FIRST_LOAD = float(os.getenv("WAIT_FIRST_LOAD", "1"))
-WAIT_DEFAULT = float(os.getenv("WAIT_DEFAULT", ".5"))
+WAIT_FIRST_LOAD = float(os.getenv("AUCHAN_WAIT_FIRST_LOAD", "1"))
+WAIT_DEFAULT = float(os.getenv("AUCHAN_WAIT_DEFAULT", ".5"))
 #WAIT_CHUNK = float(os.getenv("WAIT_CHUNK", ".5"))
-WAIT_STAGNANT = float(os.getenv("WAIT_STAGNANT", ".2"))
+WAIT_STAGNANT = float(os.getenv("AUCHAN_WAIT_STAGNANT", ".2"))
 
-BASE_CHUNK_SIZE = int(os.getenv("BASE_CHUNK_SIZE", "400"))
+BASE_CHUNK_SIZE = int(os.getenv("AUCHAN_BASE_CHUNK_SIZE", "400"))
 
 # Interval (in seconds) between elapsed-time logs per category.
 AUCHAN_ELAPSED_LOG_INTERVAL = float(os.getenv("AUCHAN_ELAPSED_LOG_INTERVAL", "30"))
@@ -219,8 +219,9 @@ def _scrape_category_with_api_and_selenium(
             # Ask for just above what is missing (10% headroom),
             # but never above base_chunk_size and never below remaining
             effective_sz = max(48, int(remaining * 1.1))
-            if effective_sz < remaining:
-                effective_sz = remaining
+            #if effective_sz <= remaining:
+                #effective_sz = remaining
+            
             if effective_sz > base_chunk_size:
                 effective_sz = base_chunk_size
         else:
@@ -361,18 +362,28 @@ def push_auchan_to_supabase(produtos: List[Dict], query: str) -> None:
 
 
 def _parse_price(value: Optional[str]) -> Optional[float]:
-    """Convert strings like '1,99 €', '1.99 €/Kg' into float, or None."""
+    """Parse EU-style price strings like '1,99 €', '1.99 €/Kg', '1 234,56 €' safely."""
     if not value:
         return None
 
-    s = value.replace("€", "").replace("EUR", "")
-    s = s.replace("\xa0", " ").strip()
+    # Remove currency / NBSP
+    s = (
+        value.replace("€", "")
+        .replace("EUR", "")
+        .replace("\xa0", " ")
+        .strip()
+    )
 
-    # Drop units like €/Kg, /kg, etc.
+    # Remove common unit suffixes
     for token in ["€/Kg", "€/kg", "/Kg", "/kg", "€/Un", "€/un", "/Un", "/un"]:
         s = s.replace(token, "")
 
-    # Take first token with digits
+    s = s.strip()
+
+    if not s:
+        return None
+
+    # Pick the first piece that contains digits
     num_token = None
     for part in s.split():
         if any(ch.isdigit() for ch in part):
@@ -382,12 +393,37 @@ def _parse_price(value: Optional[str]) -> Optional[float]:
     if not num_token:
         return None
 
-    num_token = num_token.replace(".", "").replace(",", ".")
+    num = num_token.strip()
+
+    # Case 1: only comma → comma is decimal
+    if "," in num and "." not in num:
+        num = num.replace(".", "")      # just in case
+        num = num.replace(",", ".")
+
+    # Case 2: only dot → dot is decimal
+    elif "." in num and "," not in num:
+        # here '.' is decimal, leave as is
+        pass
+
+    # Case 3: both '.' and ',' present
+    elif "." in num and "," in num:
+        # Heuristic: decimal separator is the rightmost of the two
+        last_dot = num.rfind(".")
+        last_comma = num.rfind(",")
+
+        if last_comma > last_dot:
+            # ',' is decimal, '.' are thousands
+            num = num.replace(".", "")
+            num = num.replace(",", ".")
+        else:
+            # '.' is decimal, ',' are thousands
+            num = num.replace(",", "")
 
     try:
-        return float(num_token)
+        return float(num)
     except ValueError:
         return None
+
 
 
 def _extract_external_id(link: str) -> Optional[str]:

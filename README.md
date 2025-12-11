@@ -118,3 +118,15 @@ Se tiver o ficheiro greyscrape.service versionado e o alterar, tem de se fazer o
 sudo cp greyscrape.service /etc/systemd/system/greyscrape.service
 sudo systemctl daemon-reload
 sudo systemctl restart greyscrape.service
+
+### 4. dar permissão à pasta logs
+
+```
+sudo chown -R postgrad_grupo:postgrad_grupo /greyscrape/greyscrape/scrapers/auchan/logs
+```
+
+ou 
+
+```
+sudo chmod -R u+rwX /greyscrape/greyscrape/scrapers/auchan/logs
+```

@@ -5,9 +5,9 @@ import json
 import shutil
 from typing import List, Dict, Tuple, Optional, Callable
 
-from store_common import log_msg
-from run_diff import diff_runs
-from supabase_client import (
+from common.store_common import log_msg
+from common.run_diff import diff_runs
+from common.supabase_client import (
     push_products_with_snapshots,
     mark_products_deleted,
 )

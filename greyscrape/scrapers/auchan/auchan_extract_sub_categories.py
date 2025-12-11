@@ -7,7 +7,6 @@ from typing import List, Set
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -15,6 +14,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 BASE_URL = "https://www.auchan.pt"
 START_URL = f"{BASE_URL}/pt"
+
+# Make sure links folder sits next to this script
 LINK_DIR_NAME = "links"
 
 
@@ -26,6 +27,12 @@ def _build_driver() -> webdriver.Chrome:
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
+    # Slightly realistic user-agent to avoid easy blocking
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/115.0.0.0 Safari/537.36"
+    )
     return webdriver.Chrome(options=options)
 
 
@@ -57,21 +64,22 @@ def _normalize_url(href: str) -> str:
 
 def _extract_subcategory_urls(html: str) -> List[str]:
     """
-    From the Auchan homepage HTML, extract all SUBCATEGORY URLs
-    from the main menu, based on IDs:
+    Extract ALL subcategory URLs from the Auchan mega-menu.
 
-      - id="menu-subcategory-<something>"
+    No blacklist here: duplicates / marketing collections are handled later
+    by the DB-level dedup logic (external_id + variant_key + state_hash).
     """
     soup = BeautifulSoup(html, "html.parser")
     urls: Set[str] = set()
 
-    # Subcategories
+    # Auchan uses 'menu-subcategory-...' anchors for menu items
     for a in soup.select('a[id^="menu-subcategory-"]'):
         href = _normalize_url(a.get("href"))
-        if href:
-            urls.add(href)
+        if not href:
+            continue
+        urls.add(href)
 
-    return sorted(urls)
+    return sorted(list(urls))
 
 
 def _save_links(urls: List[str]) -> str:
@@ -93,17 +101,17 @@ def main() -> None:
     driver = _build_driver()
     try:
         driver.get(START_URL)
-        # Small wait to ensure the menu is rendered
-        # Wait until subcategory menu links exist in DOM
+
         try:
-            WebDriverWait(driver, 10).until(
+            WebDriverWait(driver, 15).until(
                 EC.presence_of_all_elements_located(
                     (By.CSS_SELECTOR, 'a[id^="menu-subcategory-"]')
                 )
             )
         except Exception:
-            print("[Auchan][SubCats] WARNING: No subcategory links found after waiting.")
-
+            print(
+                "[Auchan][SubCats] WARNING: No subcategory links found after waiting."
+            )
 
         html = driver.page_source
         urls = _extract_subcategory_urls(html)
@@ -112,6 +120,11 @@ def main() -> None:
         print(
             f"[Auchan][SubCats] Saved {len(urls)} subcategory URLs -> {path}"
         )
+        print(
+            "(All menu subcategories are kept; duplicates are handled later by the DB "
+            "pipeline.)"
+        )
+
     finally:
         driver.quit()
 

@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """
-Run auchan_all_sub_categories_parallel.py in an infinite loop.
+Supervisor that alternates between Auchan and Pingo Doce scrapers forever.
 
-- After each run (success or crash), sleep 5 minutes.
-- Never crash because of the child script failing.
+Flow:
+    1) Run Auchan full scrape
+    2) Sleep N minutes
+    3) Run Pingo Doce full scrape
+    4) Sleep N minutes
+    5) Repeat forever
+
+The supervisor never crashes, even if a scraper fails.
 """
 
 import subprocess
@@ -11,52 +17,57 @@ import sys
 import time
 from pathlib import Path
 
-# Path to the target script (assuming this file is in the project root)
-PROJECT_ROOT = Path(__file__).resolve().parent
-TARGET_SCRIPT = PROJECT_ROOT / "scrapers" / "auchan_all_sub_categories_parallel.py"
-
 # Sleep duration between runs (in seconds)
-SLEEP_SECONDS = 5 * 60  # 5 minutes
+FINAL_WAIT_SECONDS = 5 * 60
+SCRIPT_WAIT_SECONDS = 2,5* 60
+
+# Project root = folder where this script lives
+PROJECT_ROOT = Path(__file__).resolve().parent
+
+# Paths to the target scraper scripts
+AUCHAN_SCRIPT = PROJECT_ROOT / "scrapers" / "auchan_all_sub_categories_parallel.py"
+PINGO_SCRIPT = PROJECT_ROOT / "scrapers" / "pingo_all_sub_categories_parallel.py"
+
+
+def run_script(label: str, path: Path) -> None:
+    """Run a scraper script and log start/end times."""
+    if not path.is_file():
+        raise FileNotFoundError(f"[Supervisor] Script not found: {path}")
+
+    start_ts = time.strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[Supervisor] Starting: {label} at {start_ts}")
+
+    try:
+        result = subprocess.run(
+            [sys.executable, str(path)],
+            check=False,  # Never crash the supervisor
+        )
+        end_ts = time.strftime("%Y-%m-%d %H:%M:%S")
+        print(
+            f"[Supervisor] Finished: {label} at {end_ts} "
+            f"(return code {result.returncode})"
+        )
+    except Exception as exc:
+        print(f"[Supervisor] ERROR running {label}: {exc!r}")
 
 
 def main() -> None:
-    """Main supervision loop."""
-    if not TARGET_SCRIPT.is_file():
-        # If this fails, your repo structure is wrong. Fix it.
-        raise FileNotFoundError(f"Target script not found: {TARGET_SCRIPT}")
-
-    print(f"[Supervisor] Watching script: {TARGET_SCRIPT}")
+    print("[Supervisor] CYCLIC MODE: Auchan <-> Pingo Doce forever\n")
 
     while True:
-        start_ts = time.strftime("%Y-%m-%d %H:%M:%S")
-        print(f"[Supervisor] Starting run at {start_ts}...")
+        # Run Auchan
+        run_script("Auchan Scraper", AUCHAN_SCRIPT)
 
-        try:
-            # Run the target script with the same Python interpreter
-            # check=False -> we do not raise on non-zero exit codes
-            result = subprocess.run(
-                [sys.executable, str(TARGET_SCRIPT)],
-                check=False,
-            )
+        # Script Sleep
+        print(f"[Supervisor] Sleeping {SCRIPT_WAIT_SECONDS} seconds...\n")
+        time.sleep(SCRIPT_WAIT_SECONDS)
 
-            end_ts = time.strftime("%Y-%m-%d %H:%M:%S")
-            print(
-                f"[Supervisor] Run finished at {end_ts} "
-                f"with return code {result.returncode}"
-            )
+        # Run Pingo Doce
+        run_script("Pingo Doce Scraper", PINGO_SCRIPT)
 
-        except Exception as exc:
-            # Catch anything ugly from subprocess itself
-            print(f"[Supervisor] ERROR while running child script: {exc!r}")
-
-        # Sleep regardless of success or failure
-        print(f"[Supervisor] Sleeping {SLEEP_SECONDS} seconds before next run...")
-        try:
-            time.sleep(SLEEP_SECONDS)
-        except KeyboardInterrupt:
-            # If you want this truly unkillable, remove this block.
-            print("[Supervisor] Received KeyboardInterrupt, exiting cleanly.")
-            break
+        # Final Sleep
+        print(f"[Supervisor] Sleeping {FINAL_WAIT_SECONDS} seconds...\n")
+        time.sleep(FINAL_WAIT_SECONDS)
 
 
 if __name__ == "__main__":
