@@ -13,8 +13,21 @@ export async function GET(req: Request) {
 
   const store = searchParams.get("store") as StoreId | null;
   const q = searchParams.get("q") ?? "";
-  const offset = Number(searchParams.get("offset") ?? "0");
-  const limit = Number(searchParams.get("limit") ?? "128");
+
+  const rawOffset = Number(searchParams.get("offset") ?? "0");
+  const rawLimit = Number(searchParams.get("limit") ?? "128");
+
+  const MAX_OFFSET = 2000;
+  const MAX_LIMIT = 256;
+
+  const offset = Number.isFinite(rawOffset)
+    ? Math.max(0, Math.min(rawOffset, MAX_OFFSET))
+    : 0;
+
+  const limit = Number.isFinite(rawLimit)
+    ? Math.max(1, Math.min(rawLimit, MAX_LIMIT))
+    : 128;
+
 
   const sort = (searchParams.get("sort") ?? "nome") as SortField;
   const dir = (searchParams.get("dir") ?? "asc") as SortDir;

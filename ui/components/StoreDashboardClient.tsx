@@ -1,7 +1,7 @@
 // ui/components/StoreDashboardClient.tsx
 "use client";
 
-import { useState, type FormEvent, type ChangeEvent } from "react";
+import { useState } from "react";
 import StoreItemsGrid from "@/components/StoreItemsGrid";
 import type {
   StoreId,
@@ -11,7 +11,7 @@ import type {
 
 /**
  * Client shell for a single store dashboard.
- * Sidebar (filters) is fully interactive; grid reacts to state changes.
+ * Search + filters em cima, grid em baixo. Tudo client-side.
  */
 type Props = {
   storeId: StoreId;
@@ -32,63 +32,64 @@ export default function StoreDashboardClient({
   categories,
   brands,
 }: Props) {
-  // Input text value (what the user is typing)
+  // Typed query in the input
   const [queryInput, setQueryInput] = useState(initialQuery);
-  // Effective query used for fetching data
+  // Effective query used to fetch products
   const [query, setQuery] = useState(initialQuery);
 
   const [category, setCategory] = useState(initialCategory);
   const [brand, setBrand] = useState(initialBrand);
   const [onlyPromo, setOnlyPromo] = useState(initialOnlyPromo);
 
-  function handleSearchSubmit(e: FormEvent<HTMLFormElement>) {
+  function handleSearchSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setQuery(queryInput.trim());
   }
 
-  function handleCategoryChange(e: ChangeEvent<HTMLSelectElement>) {
+  function handleCategoryChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const value = e.target.value;
     setCategory(value);
-    // Opcional: limpar marca quando mudas de categoria
+    // Optional: reset brand when category changes
     setBrand("");
   }
 
-  function handleBrandChange(e: ChangeEvent<HTMLSelectElement>) {
+  function handleBrandChange(e: React.ChangeEvent<HTMLSelectElement>) {
     setBrand(e.target.value);
   }
 
-  function handleOnlyPromoChange(e: ChangeEvent<HTMLInputElement>) {
+  function handleOnlyPromoChange(e: React.ChangeEvent<HTMLInputElement>) {
     setOnlyPromo(e.target.checked);
   }
 
   return (
-    <div className="mt-6 flex gap-4 items-start">
-      {/* SIDEBAR: search + filters (client-side, no page reload) */}
-      <aside className="w-full sm:w-64 lg:w-72 shrink-0">
-        <form
-          className="space-y-3 rounded-2xl border border-zinc-800 bg-zinc-950/70 p-3 text-xs"
-          onSubmit={handleSearchSubmit}
-        >
-          {/* Search box: only applies on submit / Enter */}
-          <div className="flex flex-col gap-2">
-            <input
-              type="text"
-              name="q"
-              placeholder="ex.: leite, massa, sumo..."
-              value={queryInput}
-              onChange={(e) => setQueryInput(e.target.value)}
-              className="w-full rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100"
-            />
-            <button
-              type="submit"
-              className="rounded-xl bg-zinc-100 px-4 py-2 text-sm text-zinc-900"
-            >
-              Pesquisar
-            </button>
-          </div>
+    <div className="mt-6 space-y-4">
+      {/* Search + filters block on top */}
+      <form
+        className="space-y-3 rounded-2xl border border-zinc-800 bg-zinc-950/70 p-3 text-xs"
+        onSubmit={handleSearchSubmit}
+      >
+        {/* Search box (applies only on submit / Enter) */}
+        <div className="flex flex-col gap-2 sm:flex-row">
+          <input
+            type="text"
+            name="q"
+            placeholder="ex.: leite, massa, sumo..."
+            value={queryInput}
+            onChange={(e) => setQueryInput(e.target.value)}
+            className="flex-1 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100"
+          />
+          <button
+            type="submit"
+            className="rounded-xl bg-zinc-100 px-4 py-2 text-sm text-zinc-900"
+          >
+            Pesquisar
+          </button>
+        </div>
 
+        {/* Filters row */}
+        <div className="flex flex-wrap gap-3">
           {/* Category selector (applies immediately) */}
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 min-w-[160px]">
             <label className="text-[0.7rem] uppercase tracking-wide text-zinc-500">
               Categoria
             </label>
@@ -108,7 +109,7 @@ export default function StoreDashboardClient({
           </div>
 
           {/* Brand selector (applies immediately) */}
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 min-w-[160px]">
             <label className="text-[0.7rem] uppercase tracking-wide text-zinc-500">
               Marca
             </label>
@@ -121,7 +122,7 @@ export default function StoreDashboardClient({
               <option value="">Todas</option>
               {brands.map((b) => (
                 <option key={b.brand} value={b.brand}>
-                  {b.brand} ()
+                  {b.brand} ({b.total_variants})
                 </option>
               ))}
             </select>
@@ -138,20 +139,18 @@ export default function StoreDashboardClient({
             />
             Apenas promoções
           </label>
-        </form>
-      </aside>
+        </div>
+      </form>
 
-      {/* MAIN: grid with infinite scroll, driven by current state */}
-      <div className="flex-1">
-        <StoreItemsGrid
-          storeId={storeId}
-          query={query}
-          pageSize={64}
-          onlyPromo={onlyPromo}
-          category={category}
-          brand={brand}
-        />
-      </div>
+      {/* Products grid underneath, driven by current state */}
+      <StoreItemsGrid
+        storeId={storeId}
+        query={query}
+        pageSize={64}
+        onlyPromo={onlyPromo}
+        category={category}
+        brand={brand}
+      />
     </div>
   );
 }

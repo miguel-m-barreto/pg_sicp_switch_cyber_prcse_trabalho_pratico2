@@ -108,16 +108,8 @@ function formatPercent100(value: number | null | undefined): string | null {
  * and sorted by one of the allowed fields.
  *
  * Calls the Postgres function `get_store_products` with parameters:
- *  - p_store_id
- *  - p_search
- *  - p_limit
- *  - p_offset
- *  - p_sort_field
- *  - p_sort_dir
- *  - p_only_promo
- *  - p_category
- *  - p_brand
  */
+
 export async function fetchStoreItemsPage(
   store: StoreId,
   query: string,
@@ -136,7 +128,7 @@ export async function fetchStoreItemsPage(
 
   const { onlyPromo = false, category = null, brand = null } = options ?? {};
 
-  const { data, error } = await supabaseServer.rpc("get_store_products", {
+  const { data, error } = await supabaseServer.rpc("get_store_products_lite", {
     p_store_id: storeId,
     p_search: trimmed.length > 0 ? trimmed : null,
     p_limit: limit,
@@ -144,8 +136,14 @@ export async function fetchStoreItemsPage(
     p_sort_field: sortField,
     p_sort_dir: sortDir,
     p_only_promo: onlyPromo,
-    p_category: category && category.trim() !== "" && category.trim().length >0 ? category : null,
-    p_brand: brand && brand.trim() !== "" && brand.trim().length > 0 ? brand : null,
+    p_category:
+      category && category.trim() !== "" && category.trim().length > 0
+        ? category
+        : null,
+    p_brand:
+      brand && brand.trim() !== "" && brand.trim().length > 0
+        ? brand
+        : null,
   });
 
   if (error) {
@@ -163,31 +161,26 @@ export async function fetchStoreItemsPage(
   const total = Number(rows[0].total_count) || rows.length;
 
   const items: Item[] = rows.map((row) => {
-    const raw = (row.raw_json || {}) as any;
-
-    const nome: string =
-      raw.nome ?? (row.raw_name as string | undefined) ?? "";
-
+    const nome: string = (row.raw_name as string | undefined) ?? "";
     const link: string =
-      raw.link ?? (row.product_url as string | undefined) ?? "";
+      (row.product_url as string | undefined) ?? "";
 
     const preco_atual: string | null =
-      raw.preco_atual ?? formatEuro(row.final_price ?? row.price ?? null);
+      formatEuro(row.final_price ?? row.price ?? null);
 
     const preco_antigo: string | null =
-      raw.preco_antigo ?? formatEuro(row.old_price ?? null);
+      formatEuro(row.old_price ?? null);
 
     const preco_unitario: string | null =
-      raw.preco_unitario ??
-      (row.unit_price != null
+      row.unit_price != null
         ? `${Number(row.unit_price).toFixed(2)} €/unit`
-        : null);
+        : null;
 
     const quantidade_minima: string | null =
-      raw.quantidade_minima ?? (row.quantity as string | undefined) ?? null;
+      (row.quantity as string | undefined) ?? null;
 
     const promocao: string | null =
-      raw.promocao ?? (row.promo_label as string | undefined) ?? null;
+      (row.promo_label as string | undefined) ?? null;
 
     return {
       nome,
@@ -206,6 +199,8 @@ export async function fetchStoreItemsPage(
 
   return { items, totalCount: total };
 }
+
+
 
 /**
  * Small helper used by the dashboard overview page in the past:
@@ -504,3 +499,76 @@ export async function fetchStorePromotionsByCategory(
 
   return { items, totalCount: total };
 }
+
+
+export async function fetchStorePromotionsLite(
+  store: StoreId,
+  opts: { limit?: number; perCategory?: number } = {}
+): Promise<{ items: PromotionItem[]; totalCount: number }> {
+  const { limit = 500, perCategory = 5 } = opts;
+  const storeId = resolveStoreNumericId(store);
+
+  const { data, error } = await supabaseServer.rpc(
+    "get_store_promotions_lite",
+    {
+      p_store_id: storeId,
+      p_limit: limit,
+      p_per_category: perCategory,
+    }
+  );
+
+  if (error) {
+    throw new Error(
+      `Supabase error (get_store_promotions_lite): ${error.message}`
+    );
+  }
+  if (!data) return { items: [], totalCount: 0 };
+
+  const rows = data as any[];
+  if (rows.length === 0) return { items: [], totalCount: 0 };
+
+  const total = Number(rows[0].total_count) || rows.length;
+
+  const items: PromotionItem[] = rows.map((row) => {
+    const raw = (row.raw_json || {}) as any;
+
+    const nome: string =
+      raw.nome ?? (row.raw_name as string | undefined) ?? "";
+
+    const link: string =
+      raw.link ?? (row.product_url as string | undefined) ?? "";
+
+    const price = row.final_price ?? row.price ?? null;
+    const oldPrice = row.old_price ?? null;
+
+    const preco_atual = formatEuro(price);
+    const preco_antigo = formatEuro(oldPrice);
+
+    const discount_abs_raw: number = Number(row.discount_abs ?? 0);
+    const discount_pct_raw: number = Number(row.discount_pct ?? 0);
+
+    return {
+      nome,
+      link,
+      preco_atual,
+      preco_antigo,
+      preco_unitario:
+        row.unit_price != null
+          ? `${Number(row.unit_price).toFixed(2)} €/unit`
+          : null,
+      quantidade_minima: (row.quantity as string | undefined) ?? null,
+      promocao: row.promo_label ?? null,
+      data_execucao: row.scraped_at as string,
+      image_url: row.image_url ?? null,
+      brand: row.brand ?? null,
+      category_human_1: row.category_human_1 ?? null,
+      discount_abs: formatEuro(discount_abs_raw),
+      discount_pct: formatPercent01(discount_pct_raw),
+      discount_raw_value: discount_abs_raw,
+      discount_raw_pct: discount_pct_raw,
+    };
+  });
+
+  return { items, totalCount: total };
+}
+
