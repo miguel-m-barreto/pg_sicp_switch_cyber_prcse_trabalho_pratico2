@@ -572,3 +572,123 @@ export async function fetchStorePromotionsLite(
   return { items, totalCount: total };
 }
 
+export async function fetchProductByLink(
+  store: StoreId,
+  productLink: string
+): Promise<Item | null> {
+  const storeId = resolveStoreNumericId(store);
+
+  const { data, error } = await supabaseServer
+    .from("product_variants") 
+    .select(
+      `
+        product_url, 
+        raw_name, 
+        quantity, 
+        brand, 
+        category_human_1, 
+        image_url,
+        current_variant_state (scraped_at, final_price, old_price, unit_price, promo_label)
+      `
+    )
+    .eq("store_id", storeId)
+    .eq("product_url", productLink)
+    .limit(1); // 🛑 A CORREÇÃO PRINCIPAL É AQUI: Limitar a apenas 1 resultado
+
+  if (error) {
+    console.error("Erro Supabase ao buscar por link:", error);
+    return null;
+  }
+
+  // Verificar se o array de resultados está vazio
+  if (!data || data.length === 0) {
+    return null;
+  }
+
+  // Pegamos o primeiro resultado [0]
+  const variantData = data[0]; 
+  const stateData = variantData.current_variant_state[0] || {}; 
+
+  // Mapeamos os dados do produto (variantData) e o estado atual (stateData)
+  return {
+    nome: variantData.raw_name ?? "",
+    link: variantData.product_url ?? "",
+    preco_atual: formatEuro(stateData.final_price ?? 0),
+    preco_antigo: formatEuro(stateData.old_price),
+    preco_unitario: stateData.unit_price ? `${Number(stateData.unit_price).toFixed(2)} €/unit` : null,
+    quantidade_minima: variantData.quantity ?? null,
+    promocao: stateData.promo_label ?? null,
+    data_execucao: stateData.scraped_at,
+    image_url: variantData.image_url ?? null,
+    brand: variantData.brand ?? null,
+    category_human_1: variantData.category_human_1 ?? null,
+  };
+}
+
+export interface ComparisonItem {
+    storeName: string;
+    price: number;
+    formattedPrice: string;
+    productName: string;
+    link: string;
+}
+
+// =========================================================================
+// FUNÇÃO DE COMPARAÇÃO (COM CORREÇÃO DE TIPAGEM)
+// =========================================================================
+export async function fetchCheapestProductAcrossStores(productName: string): Promise<ComparisonItem[] | null> {
+    
+    const { data, error } = await supabaseServer
+        .from('product_variants')
+        .select(
+            `
+                product_url,
+                raw_name,
+                store_id,
+                stores (code, name), 
+                current_variant_state (final_price)
+            `
+        )
+        .textSearch('raw_name', `${productName.trim().replace(/\s/g, ' & ')}:*`) 
+        .limit(100); 
+
+    if (error) {
+        console.error("Erro Supabase ao buscar comparação de produtos:", error);
+        return null;
+    }
+
+    // --- CORREÇÃO DE TIPAGEM: Tratamos o resultado como um array de 'any' 
+    // para parar os erros do TypeScript, mantendo a lógica de runtime. ---
+    const comparisonData = data as any[] | null; 
+    
+    if (!comparisonData) {
+        return null;
+    }
+
+    const comparisonMap = new Map<string, { storeName: string, price: number, productName: string, link: string }>();
+
+    // 🛑 ATENÇÃO: Os campos stores e current_variant_state são tratados como arrays no runtime.
+    for (const item of comparisonData) {
+        const storeCode = item.stores?.[0]?.code; // Aceder como array no runtime
+        const currentPrice = item.current_variant_state?.[0]?.final_price;
+
+        if (!currentPrice || !storeCode) continue;
+        
+        const price = Number(currentPrice);
+        const storeName = item.stores?.[0]?.name ?? 'N/A'; // Aceder como array no runtime
+
+        if (!comparisonMap.has(storeCode) || price < comparisonMap.get(storeCode)!.price) {
+            comparisonMap.set(storeCode, {
+                storeName: storeName,
+                price: price,
+                productName: item.raw_name,
+                link: item.product_url,
+            });
+        }
+    }
+    
+    return Array.from(comparisonMap.values()).map(item => ({
+        ...item,
+        formattedPrice: formatEuro(item.price)!
+    })).sort((a, b) => a.price - b.price); 
+}

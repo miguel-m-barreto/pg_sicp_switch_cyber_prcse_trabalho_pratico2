@@ -1,4 +1,3 @@
-// ui/components/Header.tsx
 import Link from "next/link";
 import Image from "next/image";
 
@@ -19,10 +18,18 @@ export default function Header({
         <span className="text-lg font-semibold tracking-tight">Saco Cheio</span>
       </Link>
 
-      {subtitle && (
-        <span className="text-sm text-zinc-400">{subtitle}</span>
-      )}
+      <div className="flex items-center gap-4">
+        <Link
+          href="/compare"
+          className="text-sm px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700"
+        >
+          Comparar preços
+        </Link>
+
+        {subtitle && (
+          <span className="text-sm text-zinc-400">{subtitle}</span>
+        )}
+      </div>
     </header>
   );
 }
-
