@@ -87,7 +87,6 @@ export default async function ComparePage({
   const cheapestByStore: Record<StoreId, PromotionItem | null> = {
     auchan: null,
     pingo_doce: null,
-    froiz: null,
   };
   validStores.forEach((store) => {
     cheapestByStore[store.storeId] = store.items.reduce((min, item) => {
