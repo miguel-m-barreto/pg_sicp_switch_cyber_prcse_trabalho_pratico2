@@ -1,5 +1,6 @@
 // ui/components/ProductComparisonChart.tsx
 'use client';
+import "server-only";
 
 import { useEffect, useState } from 'react';
 import { fetchCheapestProductAcrossStores } from '@/lib/scraperClient';

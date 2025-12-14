@@ -20,10 +20,4 @@ export const STORES: {
       description: "Produtos em destaque Pingo Doce.",
       defaultQuery: "",
     },
-    {
-      id: "froiz",
-      label: "Froiz",
-      description: "Produtos em destaque Froiz.",
-      defaultQuery: "",
-    },
   ];
