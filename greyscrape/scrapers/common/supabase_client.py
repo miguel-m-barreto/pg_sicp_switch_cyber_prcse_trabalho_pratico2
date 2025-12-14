@@ -8,6 +8,10 @@ from typing import List, Dict, Optional, Callable, Tuple
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
 
+
+import time
+import random
+
 from dotenv import load_dotenv
 import requests
 
@@ -15,6 +19,8 @@ from common.run_diff import build_state_hash  # reuse same state hash used by di
 
 import math
 from typing import Any
+
+import json
 
 SCRAPE_COUNT_UNTIL_DELETION_MARK = 1
 
@@ -59,6 +65,52 @@ def utc_now_iso() -> str:
         .replace("+00:00", "Z")
     )
 
+def _post_with_retry(
+    url: str,
+    headers: dict,
+    payload: Any,
+    retries: int = 6,
+    timeout: int = 60,
+):
+    for attempt in range(retries):
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
+        except requests.RequestException as exc:
+            # network / timeout / transient DNS etc
+            if attempt == retries - 1:
+                raise
+            sleep_s = min(30, (2 ** attempt) + random.random())
+            time.sleep(sleep_s)
+            continue
+
+        if resp.ok:
+            return resp
+
+        if resp.status_code in (429, 500, 502, 503, 504):
+            if attempt == retries - 1:
+                resp.raise_for_status()
+            sleep_s = min(30, (2 ** attempt) + random.random())
+            time.sleep(sleep_s)
+            continue
+
+        resp.raise_for_status()
+
+    raise RuntimeError("unreachable")
+
+
+
+# ---------------------------------------------------------------------------
+# Snapshot helpers
+# ---------------------------------------------------------------------------
+
+def _stable_json_dumps(obj: Any) -> str:
+    # Stable encoding so the same payload always hashes the same.
+    # separators removes whitespace -> smaller + deterministic.
+    return json.dumps(obj, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+
+def build_payload_hash(payload: Any) -> str:
+    s = _stable_json_dumps(payload)
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()
 
 # ---------------------------------------------------------------------------
 # Variant helpers
@@ -165,10 +217,10 @@ def _ensure_store_row(
         "Prefer": "return=minimal,resolution=merge-duplicates",
     }
 
-    resp = requests.post(
+    resp = _post_with_retry(
         f"{base_rest}/stores?on_conflict=id",
-        headers=headers,
-        json=payload,
+        headers,
+        payload,
     )
     if not resp.ok:
         print(
@@ -241,10 +293,10 @@ def push_products_with_snapshots(
         "Prefer": "return=representation",
     }
 
-    resp = requests.post(
+    resp = _post_with_retry(
         f"{base_rest}/scrape_runs",
-        headers=headers_runs,
-        json=run_payload,
+        headers_runs,
+        run_payload,
     )
     resp.raise_for_status()
 
@@ -276,7 +328,8 @@ def push_products_with_snapshots(
                     "raw_name": p.get("name") or "",
                     "product_url": p.get("link") or "",
                     # New catalog-level fields
-                    "brand": p.get("brand"),
+                    "brand": p.get("brand") or "",
+                    
                     "category_slug_path": p.get("category_slug_path"),
                     "category_human_1": p.get("category_human_1"),
                     "category_human_2": p.get("category_human_2"),
@@ -284,8 +337,6 @@ def push_products_with_snapshots(
                     "category_human_4": p.get("category_human_4"),
                     # first_seen_at is managed by DB default on insert
                     "last_seen_at": started_at,
-                    "is_active": True,
-                    "not_on_scrape_count": 0,
                 }
             )
 
@@ -306,10 +357,10 @@ def push_products_with_snapshots(
 
         for i in range(0, len(product_rows), PRODUCT_MAX_ROWS_PER_REQUEST):
             chunk = product_rows[i : i + PRODUCT_MAX_ROWS_PER_REQUEST]
-            resp = requests.post(
+            resp = _post_with_retry(
                 f"{base_rest}/products?on_conflict=store_id,external_id",
-                headers=headers_products,
-                json=chunk,
+                headers_products,
+                chunk,
             )
             if not resp.ok:
                 print(
@@ -362,7 +413,9 @@ def push_products_with_snapshots(
 
                     "raw_name": p.get("name") or "",
                     "normalized_name": p.get("name") or "",
-                    "quantity": p.get("min_quantity"),
+                    # quantity = pack/size (e.g. "1 L", "500 g"), not minimum order quantity
+                    "quantity": p.get("quantity") or p.get("package_quantity") or p.get("size"),
+
 
                     # NOVO – metadados de produto/variant
                     "brand": p.get("brand"),
@@ -407,11 +460,11 @@ def push_products_with_snapshots(
 
         for i in range(0, len(variant_rows), VARIANT_MAX_ROWS_PER_REQUEST):
             chunk = variant_rows[i : i + VARIANT_MAX_ROWS_PER_REQUEST]
-            resp = requests.post(
+            resp = _post_with_retry(
                 f"{base_rest}/product_variants"
                 f"?on_conflict=store_id,external_id,variant_key",
-                headers=headers_variants,
-                json=chunk,
+                headers_variants,
+                chunk,
             )
             if not resp.ok:
                 print(
@@ -459,6 +512,10 @@ def push_products_with_snapshots(
                 continue
             snapshot_seen.add(dedup_key)
 
+            safe_p = _sanitize_for_json(p)
+            h = build_payload_hash(safe_p)
+
+
             snapshot_rows.append(
                 {
                     "variant_id": variant_id,
@@ -467,9 +524,9 @@ def push_products_with_snapshots(
                     "state_hash": state_hash,
 
                     # preços parseados (numéricos) que já usavas
-                    "price": parse_price(p.get("current_price_raw")),
-                    "old_price": parse_price(p.get("old_price_raw")),
-                    "unit_price": parse_price(p.get("unit_price_raw")),
+                    "price": p.get("final_price"),                 # ou p.get("price") se garantires price==final_price
+                    "old_price": p.get("old_price"),
+                    "unit_price": p.get("unit_price_value"),       # Auchan já calcula unit_price_value
                     "currency": "EUR",
 
                     # strings tal como aparecem no site
@@ -481,20 +538,26 @@ def push_products_with_snapshots(
                     "min_quantity": p.get("min_quantity"),
 
                     # campos GTM numéricos vindos do scraper
-                    "gtm_price": p.get("original_price"),
-                    "gtm_discount_value": p.get("discount_value"),
+                    "gtm_price": p.get("gtm_price"),
+                    "gtm_discount_value": p.get("gtm_discount_value", p.get("discount_value")),
                     "gtm_quantity": p.get("gtm_quantity"),
                     "final_price": p.get("final_price"),
 
                     # flags de estado
-                    "promo_label": p.get("promotion_raw"),
+                    "promo_label": (
+                        (p.get("promotion_raw") or "").strip()
+                        or (
+                            (p.get("discount_badge_raw") or "").strip().replace("--", "-", 1)
+                        )
+                        or None
+                    ),
                     "is_on_promotion": p.get("is_on_promotion"),
                     "stock_status": p.get("stock_status"),
                     "limited_availability_flag": p.get("limited_availability_flag"),
                     "delay_delivery_flag": p.get("delay_delivery_flag"),
 
                     # snapshot completo para futuro / debug
-                    "raw_json": p,
+                    "raw_payload_hash": h,
                     "run_id": run_id,
                 }
             )
@@ -517,12 +580,12 @@ def push_products_with_snapshots(
                 # Sanitize NaN / inf values before sending to Supabase
                 safe_chunk = _sanitize_for_json(chunk)
 
-                resp = requests.post(
-                    f"{base_rest}/product_snapshots"
-                    f"?on_conflict=variant_id,state_hash",
-                    headers=headers_snapshots,
-                    json=safe_chunk,
+                resp = _post_with_retry(
+                    f"{base_rest}/product_snapshots?on_conflict=variant_id,state_hash",
+                    headers_snapshots,
+                    safe_chunk,
                 )
+
 
                 if not resp.ok:
                     print(
@@ -534,8 +597,48 @@ def push_products_with_snapshots(
 
 
         # ------------------------------------------------------------------
+        # Insert raw payloads AFTER snapshots (best-effort, never blocks snapshots)
+        # ------------------------------------------------------------------
+        raw_rows: List[Dict] = []
+        raw_seen: set[str] = set()
+
+        for p in produtos:
+            safe_p = _sanitize_for_json(p)
+            h = build_payload_hash(safe_p)
+
+            if h in raw_seen:
+                continue
+            raw_seen.add(h)
+            raw_rows.append({"payload_hash": h, "payload_json": safe_p})
+
+        if raw_rows:
+            headers_raw = {**common_headers, "Prefer": "return=none,resolution=merge-duplicates"}
+
+            RAW_MAX_ROWS_PER_REQUEST = int(os.getenv("RAW_MAX_ROWS_PER_REQUEST", "100"))
+
+            for i in range(0, len(raw_rows), RAW_MAX_ROWS_PER_REQUEST):
+                chunk = raw_rows[i : i + RAW_MAX_ROWS_PER_REQUEST]
+                safe_chunk = _sanitize_for_json(chunk)
+
+                resp = _post_with_retry(
+                    f"{base_rest}/raw_payloads?on_conflict=payload_hash",
+                    headers_raw,
+                    safe_chunk,
+                )
+
+                if not resp.ok:
+                    # IMPORTANT: do NOT raise -> snapshots already stored.
+                    print(
+                        f"[Supabase][{store_label}] Raw payloads batch FAILED "
+                        f"(status={resp.status_code}): {resp.text}",
+                        file=sys.stderr,
+                    )
+
+
+        # ------------------------------------------------------------------
         # Mark run as success
         # ------------------------------------------------------------------
+        
         finished_at = utc_now_iso()
         update_payload = {"finished_at": finished_at, "status": "success"}
 
@@ -634,10 +737,10 @@ def mark_products_deleted(
         }
 
         try:
-            resp = requests.post(
+            resp = _post_with_retry(
                 f"{base_rest}/products?on_conflict=store_id,external_id",
-                headers=upsert_headers,
-                json=updates,
+                upsert_headers,
+                updates,
             )
             resp.raise_for_status()
         except Exception as exc:

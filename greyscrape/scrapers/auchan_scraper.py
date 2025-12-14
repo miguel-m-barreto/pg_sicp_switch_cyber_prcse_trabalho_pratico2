@@ -8,6 +8,7 @@ import time
 import re
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple, Any
+import html as html_lib
 from urllib.parse import urlencode, urlparse, parse_qsl
 
 from dotenv import load_dotenv
@@ -78,18 +79,14 @@ def _extract_cgid_from_html(html: str) -> Optional[str]:
     if not m:
         return None
 
-    qs = m.group(1)
-
+    qs = html_lib.unescape(m.group(1))  # critical: &amp; -> &
     try:
         params = dict(parse_qsl(qs))
     except Exception:
         return None
 
-    cgid = params.get("cgid") or params.get("cgId") or params.get("cgid[]")
-    if not cgid:
-        return None
-
-    return cgid
+    cgid = params.get("cgid") or params.get("cgId")
+    return cgid or None
 
 
 
@@ -138,38 +135,38 @@ def _scrape_category_with_api_and_selenium(
 
     html = driver.page_source
 
-    # Total expected from Auchan counter (if present)
     total_expected = parse_total_results(html)
     stats["total_expected"] = total_expected
 
-    # Extract initial products from the visible page
-    all_products = extract_products_from_html(html, run_timestamp)
-    seen_links = {p.get("link") for p in all_products if p.get("link")}
+    # Parse visible HTML (only used if non-scrollable)
+    initial_products = extract_products_from_html(html, run_timestamp)
 
-    log_msg(
-        f"[Auchan] Initial page: {len(all_products)} products",
-        worker_id=worker_id,
-    )
-
-    # Check if this page actually uses Search-UpdateGrid
     detected_cgid = _extract_cgid_from_html(html)
+
     if not detected_cgid:
-        # Non-scrollable page (e.g. small categories / medicamentos)
+        # CHANGED: log initial page ONLY for non-scrollable pages
+        log_msg(
+            f"[Auchan] Initial page: {len(initial_products)} products",
+            worker_id=worker_id,
+        )
+
         log_msg(
             "[Auchan] No Search-UpdateGrid URL found on page, "
             "skipping API chunks and returning only initial products.",
             worker_id=worker_id,
         )
-        # Attach category info with the original cgid (parsed from URL)
-        _attach_category_metadata(all_products, page_path, cgid)
+
+        _attach_category_metadata(initial_products, page_path, cgid)
         stats["final_cgid"] = cgid
         stats["chunks"] = 0
+        return initial_products, stats
 
-        return all_products, stats
+    # Scrollable page: use UpdateGrid and IGNORE visible HTML count
+    log_debug(
+        f"[Auchan] Visible HTML had {len(initial_products)} products (ignored; using UpdateGrid).",
+        worker_id=worker_id,
+    )
 
-
-
-    # If we got here, the page is scrollable and uses Search-UpdateGrid
     original_cgid = cgid
     cgid = detected_cgid
 
@@ -182,14 +179,11 @@ def _scrape_category_with_api_and_selenium(
 
     stats["final_cgid"] = cgid
 
-    # Attach category metadata with the FINAL cgid
-    _attach_category_metadata(all_products, page_path, cgid)
     api_base = (
         f"{BASE_URL}/on/demandware.store/"
         "Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid"
     )
 
-    # Base chunk size independent of total_expected (only capped if counter is small)
     if total_expected:
         log_msg(
             f"[Auchan] Counter says total_results = {total_expected}",
@@ -202,30 +196,65 @@ def _scrape_category_with_api_and_selenium(
             "will rely on stagnation.",
             worker_id=worker_id,
         )
-        base_chunk_size = BASE_CHUNK_SIZE  # requested chunk size
+        base_chunk_size = BASE_CHUNK_SIZE
+
+    # ============================================================
+    # CRITICAL FIX: build list from UpdateGrid start=0
+    # ============================================================
+    all_products: List[Dict] = []
+    seen_links: set = set()
+
+    # CHANGED: first chunk size: ensure >=48, capped sanely
+    first_sz = min(base_chunk_size, 200)
+    first_sz = max(first_sz, 48)
+
+    params0 = {
+        "cgid": cgid,
+        "prefn1": "soldInStores",
+        "prefv1": "000",
+        "start": 0,
+        "sz": first_sz,
+        "next": "true",
+    }
+    api_url0 = f"{api_base}?{urlencode(params0)}"
+
+    log_debug(
+        f"[Auchan] Fetching FIRST UpdateGrid chunk: start=0, sz={first_sz}, cgid={cgid}",
+        worker_id=worker_id,
+    )
+
+    # CHANGED: chunks counts REAL UpdateGrid requests
+    chunks = 0
+
+    driver.get(api_url0)
+    time.sleep(WAIT_DEFAULT)
+    chunks += 1  # CHANGED
+
+    page_html0 = driver.page_source
+    page_products0 = extract_products_from_html(page_html0, run_timestamp)
+    _attach_category_metadata(page_products0, page_path, cgid)
+
+    for p in page_products0:
+        link = p.get("link")
+        if link and link in seen_links:
+            continue
+        if link:
+            seen_links.add(link)
+        all_products.append(p)
+
+    log_msg(
+        f"[Auchan] UpdateGrid start=0: {len(all_products)} products",
+        worker_id=worker_id,
+    )
 
     start = len(all_products)
     start_ts = time.time()
-    last_elapsed_log = start_ts  # last time we printed elapsed time
+    last_elapsed_log = start_ts
     stagnant_chunks = 0
-    chunks = 0
     bad_chunk_count = 0
 
     while True:
-        # Dynamic sz based on remaining products (if we know total_expected)
-        if total_expected:
-            remaining = total_expected - len(all_products)
-
-            # Ask for just above what is missing (10% headroom),
-            # but never above base_chunk_size and never below remaining
-            effective_sz = max(48, int(remaining * 1.1))
-            #if effective_sz <= remaining:
-                #effective_sz = remaining
-            
-            if effective_sz > base_chunk_size:
-                effective_sz = base_chunk_size
-        else:
-            effective_sz = base_chunk_size
+        effective_sz = base_chunk_size
 
         params = {
             "cgid": cgid,
@@ -237,20 +266,17 @@ def _scrape_category_with_api_and_selenium(
         }
 
         api_url = f"{api_base}?{urlencode(params)}"
-        # Chunk-level logs are noisy -> DEBUG
         log_debug(
-            f"[Auchan] Fetching page chunk: start={start}, "
-            f"sz={effective_sz}, cgid={cgid}",
+            f"[Auchan] Fetching page chunk: start={start}, sz={effective_sz}, cgid={cgid}",
             worker_id=worker_id,
         )
 
         driver.get(api_url)
         time.sleep(WAIT_DEFAULT)
-        chunks += 1
+        chunks += 1  # CHANGED
 
         page_html = driver.page_source
         page_products = extract_products_from_html(page_html, run_timestamp)
-
         _attach_category_metadata(page_products, page_path, cgid)
 
         added = 0
@@ -282,12 +308,10 @@ def _scrape_category_with_api_and_selenium(
                 stagnant_chunks = 0
                 bad_chunk_count = 0
                 log_debug(
-                    f"[Auchan] Chunk added {added} new products "
-                    f"(total so far: {len(all_products)})",
+                    f"[Auchan] Chunk added {added} new products (total so far: {len(all_products)})",
                     worker_id=worker_id,
                 )
 
-        # Only print elapsed time every AUCHAN_ELAPSED_LOG_INTERVAL seconds
         now = time.time()
         if now - last_elapsed_log >= AUCHAN_ELAPSED_LOG_INTERVAL:
             log_msg(
@@ -298,24 +322,21 @@ def _scrape_category_with_api_and_selenium(
 
         if stagnant_chunks >= 3:
             log_warn(
-                "[Auchan] Multiple stagnant chunks (no new products), "
-                "assuming end of results.",
+                "[Auchan] Multiple stagnant chunks (no new products), assuming end of results.",
                 worker_id=worker_id,
             )
             break
 
         if bad_chunk_count >= 6:
             log_warn(
-                "[Auchan] Too many consecutive bad chunks (empty or duplicate). "
-                "Stopping.",
+                "[Auchan] Too many consecutive bad chunks (empty or duplicate). Stopping.",
                 worker_id=worker_id,
             )
             break
 
         start = len(all_products)
 
-    stats["chunks"] = chunks
-
+    stats["chunks"] = chunks  # CHANGED: real count of UpdateGrid requests
     return all_products, stats
 
 

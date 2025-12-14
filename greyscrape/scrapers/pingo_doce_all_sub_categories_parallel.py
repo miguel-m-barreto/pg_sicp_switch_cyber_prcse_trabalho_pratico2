@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qsl
 
 from dotenv import load_dotenv
 from selenium import webdriver
@@ -100,33 +100,38 @@ def _load_sub_category_urls(path: str) -> List[str]:
 
 def _detect_sub_category_from_url(url: str) -> Optional[Tuple[str, str]]:
     """
-    Extract (page_path, cgid) from a Pingo Doce URL like:
-
-      https://www.pingodoce.pt/home/produtos/talho
-        -> ("talho", "talho")
-
-      https://www.pingodoce.pt/home/produtos/talho/carne-de-porco
-        -> ("talho/carne-de-porco", "carne-de-porco")
+    Detect (page_path, cgid) from BOTH:
+      - SEO URLs: /home/produtos/...
+      - Demandware URLs: Search-Show?cgid=...
     """
+
     parsed = urlparse(url)
     host = parsed.netloc or ""
     if "pingodoce.pt" not in host:
         return None
 
+    # Case 1: Demandware Search-Show (authoritative)
+    qs = dict(parse_qsl(parsed.query))
+    cgid = qs.get("cgid")
+    if cgid:
+        page_path = f"_search/{cgid}"
+        return page_path, cgid
+
+    # Case 2: SEO category pages
     parts = [p for p in parsed.path.split("/") if p]
-    if len(parts) < 3:
+
+    # reject plain /home/produtos (not a category)
+    if parts == ["home", "produtos"]:
         return None
 
-    if parts[0] != "home" or parts[1] != "produtos":
-        return None
+    if len(parts) >= 3 and parts[0] == "home" and parts[1] == "produtos":
+        page_parts = parts[2:]
+        page_path = "/".join(page_parts)
+        inferred_cgid = page_parts[-1]
+        return page_path, inferred_cgid
 
-    page_parts = parts[2:]
-    if not page_parts:
-        return None
+    return None
 
-    page_path = "/".join(page_parts)
-    cgid = page_parts[-1]
-    return page_path, cgid
 
 
 def _save_json_log(produtos: List[Dict], context: str) -> str:

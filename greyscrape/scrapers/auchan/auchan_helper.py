@@ -3,74 +3,196 @@
 import json
 import os
 import re
-from typing import List, Dict, Optional
+import html as html_lib
+from typing import List, Dict, Optional, Tuple, Optional
 from pathlib import Path
+
+import time
+
+import requests
 
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
-# Load .env.local from project root (Trabalho-Pratico2_SCRIPTS)
+from common.unit_normalize import normalize_unit_suffix
+
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 load_dotenv(PROJECT_ROOT / ".env.local")
 
 BASE_URL = os.getenv("AUCHAN_BASE_URL", "https://www.auchan.pt")
 
+_PRICE_RE = re.compile(r"(\d+(?:[.,]\d+)?)")
+_MIN_QTY_RE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(kg|g|l|ml)\b", re.IGNORECASE)
+
+
+_PROMO_DATE_RE = re.compile(r"\bde\s+\d{2}/\d{2}/\d{4}\s+a\s+\d{2}/\d{2}/\d{4}\b", re.IGNORECASE)
+
+def _fetch_promotion_raw_from_pdp(pdp_url: str, timeout: float = 15.0) -> Optional[str]:
+    if not pdp_url:
+        return None
+
+    try:
+        r = requests.get(pdp_url, timeout=timeout, headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept-Language": "pt-PT,pt;q=0.9,en;q=0.8",
+        })
+        if r.status_code != 200 or not r.text:
+            return None
+
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # primary
+        tag = soup.select_one(".auc-price__promotion--pdp__date")
+        if tag:
+            txt = tag.get_text(" ", strip=True)
+            return txt or None
+
+        # fallback: whole block then extract the date range
+        block = soup.select_one(".auc-price__promotion--pdp")
+        if block:
+            txt = block.get_text(" ", strip=True) or ""
+            txt = txt.replace("Promoção:", "").strip()
+            m = _PROMO_DATE_RE.search(txt)
+            return m.group(0) if m else (txt or None)
+
+        return None
+    except Exception:
+        return None
+
+def _to_float(num_str: Optional[str]) -> Optional[float]:
+    if not num_str:
+        return None
+    s = str(num_str).strip().replace("\xa0", " ")
+    # "1 234,56" -> "1234.56"
+    s = s.replace(" ", "")
+    if "," in s and "." in s:
+        # decimal is rightmost separator
+        if s.rfind(",") > s.rfind("."):
+            s = s.replace(".", "").replace(",", ".")
+        else:
+            s = s.replace(",", "")
+    elif "," in s:
+        s = s.replace(".", "").replace(",", ".")
+    return float(s)
+
+
+def _parse_price_text(text: Optional[str]) -> Optional[float]:
+    if not text:
+        return None
+    t = html_lib.unescape(text).strip()
+    m = _PRICE_RE.search(t)
+    return _to_float(m.group(1)) if m else None
+
+
+def _loads_escaped_json(attr_val: Optional[str]) -> Dict:
+    if not attr_val:
+        return {}
+    # Attributes come HTML-escaped (&quot; etc.)
+    s = html_lib.unescape(attr_val)
+    try:
+        return json.loads(s)
+    except json.JSONDecodeError:
+        return {}
+
+
+def _pick_image_url(container: BeautifulSoup) -> Optional[str]:
+    # Common: <img src=" " data-src="https://...jpg?...">
+    img = container.select_one("div.image-container img")
+    if img:
+        url = (img.get("data-src") or img.get("src") or "").strip()
+        if url and url != "":
+            if url.startswith("/"):
+                return BASE_URL + url
+            return url
+
+    # Fallback: <source data-srcset="https://...">
+    src = container.select_one("picture source[data-srcset]")
+    if src:
+        url = (src.get("data-srcset") or "").strip()
+        if url:
+            return url
+
+    return None
+
+
+def _parse_unit_price_and_unit(unit_price_raw: Optional[str]) -> Tuple[Optional[float], Optional[str]]:
+    # Examples:
+    # "5.68 €/Kg", "1.99 €/L", "22.49 €/un", "69.2 €/Lt"
+    if not unit_price_raw:
+        return None, None
+
+    text = html_lib.unescape(unit_price_raw).strip()
+
+    value = _parse_price_text(text)
+
+    unit = None
+    if "€/" in text:
+        unit = text.split("€/", 1)[1].strip()
+    elif "/" in text:
+        unit = text.split("/", 1)[1].strip()
+
+    if unit:
+        # keep only letters
+        unit = re.sub(r"[^A-Za-z]", "", unit)
+        unit = normalize_unit_suffix(unit)
+
+    return value, unit
+
+
+def _parse_min_qty(min_quantity_raw: Optional[str]) -> Tuple[Optional[float], Optional[str]]:
+    # Example: "Quant. Mínima = 150g"
+    if not min_quantity_raw:
+        return None, None
+
+    t = html_lib.unescape(min_quantity_raw).strip()
+    m = _MIN_QTY_RE.search(t)
+    if not m:
+        return None, None
+
+    val = _to_float(m.group(1))
+    unit = m.group(2).lower()
+    if val is None:
+        return None, None
+
+    # normalize to KG / L
+    if unit == "g":
+        return val / 1000.0, "kg"
+    if unit == "ml":
+        return val / 1000.0, "l"
+    if unit in ("kg", "l"):
+        return val, unit
+
+    return None, None
+
+
 def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
     """
     Parse an Auchan HTML page/fragment and extract product data.
 
-    This extracts:
-      - core product metadata (id, name, brand, categories, prices)
-      - UI-related metadata (image, PDP URLs, quick-view, labels, ratings)
-      - promotion and availability information
-      - GTM structured data
+    Key fixes:
+      - Properly decode HTML-escaped JSON attributes before json.loads
+      - Correctly distinguish unit price vs total price for variable-weight products
+      - More robust image extraction (data-src / data-srcset)
+      - Do not treat 'Promoção' label as authoritative promo flag
     """
-
     soup = BeautifulSoup(html, "html.parser")
     products: List[Dict] = []
 
     for container in soup.select("div.product-tile.auc-product-tile"):
+        # ------------------------------------------------------------
+        # Escaped JSON metadata
+        # ------------------------------------------------------------
+        gtm = _loads_escaped_json(container.get("data-gtm"))
+        gtm_new = _loads_escaped_json(container.get("data-gtm-new"))
+        urls = _loads_escaped_json(container.get("data-urls"))
 
-        # ================================================================
-        # Core JSON metadata: data-gtm, data-gtm-new, data-urls
-        # ================================================================
-        gtm_raw = container.get("data-gtm")
-        gtm: Dict = {}
-        if gtm_raw:
-            try:
-                gtm = json.loads(gtm_raw)
-            except json.JSONDecodeError:
-                gtm = {}
-
-        gtm_new_raw = container.get("data-gtm-new")
-        gtm_new: Dict = {}
-        if gtm_new_raw:
-            try:
-                gtm_new = json.loads(gtm_new_raw)
-            except json.JSONDecodeError:
-                gtm_new = {}
-
-        urls_raw = container.get("data-urls")
-        urls: Dict = {}
-        if urls_raw:
-            try:
-                urls = json.loads(urls_raw)
-            except json.JSONDecodeError:
-                urls = {}
-
-        # ================================================================
-        # Identifiers, brand and categories
-        # ================================================================
-        product_id = (
-            container.get("data-pid")
-            or gtm_new.get("item_id")
-            or gtm.get("id")
-        )
-
-        brand = gtm_new.get("item_brand") or gtm.get("brand")
+        # ------------------------------------------------------------
+        # Identifiers
+        # ------------------------------------------------------------
+        product_id = container.get("data-pid") or gtm_new.get("item_id") or gtm.get("id")
+        brand = (gtm_new.get("item_brand") or gtm.get("brand") or None)
 
         category_slug_path = gtm.get("category") or None
-
         category_human_1 = gtm_new.get("item_category")
         category_human_2 = gtm_new.get("item_category2")
         category_human_3 = gtm_new.get("item_category3")
@@ -78,32 +200,29 @@ def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
 
         product_type = container.get("data-producttype") or None
 
+        # ------------------------------------------------------------
         # Listing positions
+        # ------------------------------------------------------------
         gtm_position = gtm.get("position") or container.get("data-position")
         try:
-            if isinstance(gtm_position, str) and gtm_position.strip().isdigit():
-                gtm_position = int(gtm_position.strip())
+            gtm_position = int(str(gtm_position).strip())
         except Exception:
             gtm_position = None
 
         list_index = gtm_new.get("index")
         try:
-            if isinstance(list_index, str) and list_index.strip().isdigit():
-                list_index = int(list_index.strip())
+            list_index = int(str(list_index).strip())
         except Exception:
-            try:
-                list_index = int(list_index)
-            except Exception:
-                list_index = None
+            list_index = None
 
-        # ================================================================
-        # PDP URLs and UI action URLs
-        # ================================================================
+        # ------------------------------------------------------------
+        # URLs
+        # ------------------------------------------------------------
         pdp_url_relative = urls.get("productUrl")
         pdp_url_absolute = urls.get("absoluteProductUrl")
         encoded_product_url = urls.get("encodedProductUrl")
 
-        title_tag = container.select_one("div.auc-product-tile__name a")
+        title_tag = container.select_one("div.auc-product-tile__name a.link") or container.select_one("div.auc-product-tile__name a")
         if pdp_url_absolute:
             link = pdp_url_absolute
         elif title_tag and title_tag.has_attr("href"):
@@ -121,125 +240,232 @@ def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
         quantity_selector_url = urls.get("quantitySelector")
         oney_simulator_url = urls.get("oneySimulatorUrl")
 
-        # ================================================================
-        # Product name
-        # ================================================================
-        name = (
-            title_tag.get_text(strip=True)
-            if title_tag
-            else gtm_new.get("item_name") or gtm.get("name") or ""
-        )
+        # ------------------------------------------------------------
+        # Name
+        # ------------------------------------------------------------
+        if title_tag:
+            name = html_lib.unescape(title_tag.get_text(strip=True))
+        else:
+            name = html_lib.unescape(gtm_new.get("item_name") or gtm.get("name") or "")
 
-        # ================================================================
-        # Image information
-        # ================================================================
+        # ------------------------------------------------------------
+        # Image
+        # ------------------------------------------------------------
+        image_url = _pick_image_url(container)
         img_tag = container.select_one("div.image-container img")
-        image_url = None
-        image_alt = None
-        image_title = None
+        image_alt = img_tag.get("alt") if img_tag else None
+        image_title = img_tag.get("title") if img_tag else None
 
-        if img_tag:
-            src = img_tag.get("src", "").strip()
-            data_src = img_tag.get("data-src", "").strip()
-
-            image_url = data_src or src or None
-            if image_url and image_url.startswith("/"):
-                image_url = BASE_URL + image_url
-
-            image_alt = img_tag.get("alt")
-            image_title = img_tag.get("title")
-
-        # ================================================================
-        # Measures (unit price, minimum quantity, suffix)
-        # ================================================================
+        # ------------------------------------------------------------
+        # Measures
+        # ------------------------------------------------------------
         min_qty_tag = container.select_one("span.auc-measures--avg-weight")
-        min_quantity = min_qty_tag.get_text(strip=True) if min_qty_tag else None
+        min_quantity_raw = min_qty_tag.get_text(" ", strip=True) if min_qty_tag else None
 
         unit_price_tag = container.select_one("span.auc-measures--price-per-unit")
-        unit_price_raw = (
-            unit_price_tag.get_text(strip=True) if unit_price_tag else None
+        unit_price_raw = unit_price_tag.get_text(" ", strip=True) if unit_price_tag else None
+
+        unit_price_value, unit_suffix = _parse_unit_price_and_unit(unit_price_raw)
+
+        min_qty_norm, min_qty_unit = _parse_min_qty(min_quantity_raw)
+        is_variable_weight = min_qty_norm is not None and min_qty_unit in ("kg", "l")
+
+        # ------------------------------------------------------------
+        # Prices (DOM)
+        # ------------------------------------------------------------
+        price_now_numeric: Optional[float] = None
+        original_price_numeric: Optional[float] = None
+        current_price_raw: Optional[str] = None
+        old_price_raw: Optional[str] = None
+
+        sales_val = container.select_one("div.price span.sales span.value")
+        if sales_val:
+            current_price_raw = sales_val.get_text(" ", strip=True)
+            content = sales_val.get("content")
+            if content:
+                try:
+                    price_now_numeric = float(content)
+                except Exception:
+                    price_now_numeric = _parse_price_text(current_price_raw)
+
+        # Old price (only reliable when actually present as strike-through)
+        old_val = (
+            container.select_one("span.strike-through .value")
+            or container.select_one(".strike-through .value")
+            or container.select_one("span.strike-through.value")
         )
+        if old_val:
+            old_price_raw = old_val.get_text(" ", strip=True)
+            content = old_val.get("content")
+            if content:
+                try:
+                    original_price_numeric = float(content)
+                except Exception:
+                    original_price_numeric = _parse_price_text(old_price_raw)
 
-        unit_suffix_tag = container.select_one("span.auc-avgWeight")
-        unit_suffix = unit_suffix_tag.get_text(strip=True) if unit_suffix_tag else None
-
-        # ================================================================
-        # Price fields (DOM + structured GTM numeric)
-        # ================================================================
-        price_tag = container.select_one("div.price span.sales span.value")
-        if price_tag:
-            text = price_tag.get_text(strip=True)
-            current_price_raw = text or price_tag.get("content")
-        else:
-            current_price_raw = None
-
-        old_price_tag = container.select_one("span.strike-through.value")
-        if old_price_tag:
-            text = old_price_tag.get_text(strip=True)
-            old_price_raw = text or old_price_tag.get("content")
-        else:
-            old_price_raw = None
-
-        # GTM numeric prices
-        gtm_price = gtm_new.get("price")
+        # ------------------------------------------------------------
+        # GTM numeric
+        # NOTE: In this endpoint, gtm_new.price is often MIN TOTAL for variable-weight,
+        # while unit price is in DOM measures.
+        # ------------------------------------------------------------
+        gtm_price = None
         try:
-            gtm_price = float(gtm_price) if gtm_price is not None else None
+            if gtm_new.get("price") is not None:
+                gtm_price = float(gtm_new.get("price"))
         except Exception:
             gtm_price = None
 
-        gtm_discount_value = gtm_new.get("discount")
+        gtm_discount_value = None
         try:
-            gtm_discount_value = (
-                float(gtm_discount_value) if gtm_discount_value is not None else None
-            )
+            if gtm_new.get("discount") is not None:
+                gtm_discount_value = float(gtm_new.get("discount"))
         except Exception:
             gtm_discount_value = None
 
-        gtm_quantity = gtm_new.get("quantity")
+        gtm_quantity = None
         try:
-            gtm_quantity = float(gtm_quantity) if gtm_quantity is not None else None
+            if gtm_new.get("quantity") is not None:
+                gtm_quantity = float(gtm_new.get("quantity"))
         except Exception:
             gtm_quantity = None
 
-        # Compute the numeric final price only if values exist
-        if gtm_price is not None and gtm_discount_value is not None:
-            price_now_numeric = gtm_price - gtm_discount_value
+        # ------------------------------------------------------------
+        # Semantic pricing fix:
+        # - final_price is ALWAYS the TOTAL the user pays (or min total for variable weight)
+        # - price is ALWAYS equal to final_price (your new rule)
+        # - old_price is NEVER null:
+        #     - prefer real DOM strike-through when available and valid
+        #     - else derive from (final_price + discount_value) if discount exists
+        #     - else fallback to final_price
+        # ------------------------------------------------------------
+        if is_variable_weight:
+            # Prefer GTM min total when present
+            min_total = gtm_price
+            if min_total is None and unit_price_value is not None and min_qty_norm is not None:
+                min_total = round(unit_price_value * min_qty_norm, 2)
+
+            final_price = min_total
+            dom_old_price = None  # strike-through total usually not reliable here
         else:
-            price_now_numeric = None
+            # Fixed-weight product
+            final_price = price_now_numeric if price_now_numeric is not None else gtm_price
+            dom_old_price = original_price_numeric  # only if strike-through exists
 
-        # ================================================================
-        # Promotions and promo flags
-        # ================================================================
-        promo = None
+        # Ensure numeric sanity
+        if final_price is not None and final_price < 0:
+            final_price = None
+        if dom_old_price is not None and dom_old_price < 0:
+            dom_old_price = None
 
-        discount_badge_tag = container.select_one(".auc-promo--discount--red")
-        discount_badge_raw = (
-            discount_badge_tag.get_text(strip=True) if discount_badge_tag else None
+        # Discount value (prefer real math from DOM old > final)
+        discount_value = None
+        if dom_old_price is not None and final_price is not None and dom_old_price > final_price:
+            discount_value = round(dom_old_price - final_price, 2)
+        elif gtm_discount_value is not None and gtm_discount_value > 0 and final_price is not None:
+            discount_value = round(gtm_discount_value, 2)
+
+        # old_price fallback rules:
+        # 1) Real DOM old price if valid
+        # 2) Derived old price if discount exists
+        # 3) Fallback to final_price (never null)
+        if dom_old_price is not None and final_price is not None and dom_old_price > final_price:
+            old_price = round(dom_old_price, 2)
+        elif discount_value is not None and discount_value > 0 and final_price is not None:
+            old_price = round(final_price + discount_value, 2)
+        else:
+            old_price = round(final_price, 2) if final_price is not None else None
+
+        # New rule: price == final_price always
+        price = round(final_price, 2) if final_price is not None else None
+
+
+        # ------------------------------------------------------------
+        # Promotions (DB-compatible with Pingo dict)
+        # - discount_badge_raw: "-NN%" (only if validated)
+        # - promo_badge_label_raw: "Apenas", "Poupa metade", etc (keep as-is)
+        # - promotion_raw: "Promoção até dd/mm" etc (keep as-is)
+        # - is_on_promotion: ONLY if there is some label AND old_price > final_price
+        # ------------------------------------------------------------
+        promo_badge_label_raw = None
+        promo_label_tag = container.select_one(".auc-price__promotion__label")
+        if promo_label_tag:
+            promo_badge_label_raw = promo_label_tag.get_text(" ", strip=True) or None
+
+        # This is often the red badge. If it contains %, it belongs in discount_badge_raw.
+        raw_badge_text = None
+        badge_tag = container.select_one(".auc-promo--discount--red")
+        if badge_tag:
+            raw_badge_text = badge_tag.get_text(" ", strip=True) or None
+
+        # Promo message (date/rules). Selector may vary; keep best-effort.
+        promotion_raw = None
+        promo_msg_tag = (
+            container.select_one(".auc-price__promotion__message")
+            or container.select_one(".auc-price__promotion__msg")
+            or container.select_one(".auc-price__promotion__text")
+            or container.select_one("span.promo-message")
         )
-        if discount_badge_raw:
-            promo = discount_badge_raw
+        if promo_msg_tag:
+            promotion_raw = promo_msg_tag.get_text(" ", strip=True) or None
 
-        if not promo:
-            promo_tag = container.select_one(".auc-price__promotion__label")
-            if promo_tag:
-                promo = promo_tag.get_text(strip=True)
-
-        if not promo:
-            promo_tag_old = container.select_one(
-                "div.auc-promo--comarch__label--text"
-            )
-            if promo_tag_old:
-                promo = promo_tag_old.get_text(strip=True)
-
-        is_on_promotion = bool(
-            promo
-            or discount_badge_raw
-            or (gtm_discount_value is not None and gtm_discount_value > 0)
+        # Gate: you can only claim promo if there is at least one label/message/badge.
+        has_label = bool(
+            (promo_badge_label_raw and promo_badge_label_raw.strip())
+            or (raw_badge_text and raw_badge_text.strip())
+            or (promotion_raw and promotion_raw.strip())
         )
 
-        # ================================================================
-        # Labels (badges: bio, national, refrigerated, etc.)
-        # ================================================================
+        # Real discount check (your rule): old_price > final_price
+        has_price_discount = bool(
+            old_price is not None
+            and final_price is not None
+            and old_price > 0
+            and old_price > final_price
+        )
+
+        # discount_badge_raw must be the percent (validated)
+        discount_badge_raw = None
+
+        if has_label and has_price_discount:
+            # 1) If any visible text already has %, trust it.
+            pct = None
+            for s in (promo_badge_label_raw, raw_badge_text):
+                if not s:
+                    continue
+                m = re.search(r"(\d+)\s*%", s)
+                if m:
+                    pct = int(m.group(1))
+                    break
+
+            # 2) Else compute from prices (uses derived old_price too — what you want)
+            if pct is None:
+                pct = int(round(((old_price - final_price) / old_price) * 100))
+
+            if pct and pct > 0:
+                discount_badge_raw = f"-{pct}%"
+
+            is_on_promotion = True
+        else:
+            # Label exists but no real discount -> marketing only
+            is_on_promotion = False
+
+        # If we got a % from the site but prices don't confirm, nuke it (avoid lying)
+        if (not has_price_discount) and raw_badge_text and re.search(r"\d+\s*%", raw_badge_text or ""):
+            discount_badge_raw = None
+
+        # ------------------------------------------------------------
+        # Promotion fallback: SearchUpdateGrid doesn't include promo dates.
+        # If product is on promotion but promotion_raw is missing, fetch PDP.
+        # ------------------------------------------------------------
+        if is_on_promotion and not promotion_raw:
+            # Minimal throttle to reduce block risk
+            time.sleep(0.15)
+            promotion_raw = _fetch_promotion_raw_from_pdp(pdp_url_absolute or link)
+
+
+        # ------------------------------------------------------------
+        # Labels
+        # ------------------------------------------------------------
         labels_raw = []
         is_national_product = False
         is_bio = False
@@ -270,41 +496,32 @@ def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
                 if "refrigerado" in lt:
                     is_refrigerated = True
 
-        # ================================================================
-        # Ratings (Bazaarvoice)
-        # ================================================================
-        ratings_div = container.select_one(
-            "div.auc-product-tile__bazaarvoice--ratings"
-        )
-        rating_product_id = (
-            ratings_div.get("data-bv-product-id") if ratings_div else None
-        )
-        rating_url = (
-            ratings_div.get("data-bv-redirect-url") if ratings_div else None
-        )
+        # ------------------------------------------------------------
+        # Ratings
+        # ------------------------------------------------------------
+        ratings_div = container.select_one("div.auc-product-tile__bazaarvoice--ratings")
+        rating_product_id = ratings_div.get("data-bv-product-id") if ratings_div else None
+        rating_url = ratings_div.get("data-bv-redirect-url") if ratings_div else None
 
-        # ================================================================
+        # ------------------------------------------------------------
         # Availability flags
-        # ================================================================
+        # ------------------------------------------------------------
         limited_modal = container.get("data-shown-limited-availability-modal")
-        if limited_modal is not None:
-            limited_modal = str(limited_modal).lower() == "true"
+        limited_modal = str(limited_modal).lower() == "true" if limited_modal is not None else None
 
         delay_modal = container.get("data-shown-delay-delivery-modal")
-        if delay_modal is not None:
-            delay_modal = str(delay_modal).lower() == "true"
+        delay_modal = str(delay_modal).lower() == "true" if delay_modal is not None else None
 
-        # ================================================================
-        # Final unified product dictionary
-        # ================================================================
+        # ------------------------------------------------------------
+        # Final dict (keeps your existing schema + adds clarity)
+        # ------------------------------------------------------------
         products.append({
             "name": name,
             "link": link,
-            "min_quantity": min_quantity,
+            "min_quantity": min_quantity_raw,
             "unit_price_raw": unit_price_raw,
             "current_price_raw": current_price_raw,
             "old_price_raw": old_price_raw,
-            "promotion_raw": promo,
             "timestamp": run_timestamp,
 
             # Core metadata
@@ -322,12 +539,25 @@ def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
             "image_alt": image_alt,
             "image_title": image_title,
 
-            # Numeric price structure
-            "original_price": gtm_price,
-            "discount_value": gtm_discount_value,
-            "final_price": price_now_numeric,
+            # Prices (semantic + DB alignment)
+            "price": price,                 # ALWAYS equals final_price
+            "old_price": old_price,         # NEVER null (fallback applied)
+            "discount_value": discount_value,
+            "final_price": final_price,
+
+
+            # Extra price semantics (important for downstream fixes)
+            "unit_price_value": unit_price_value,
+            "is_variable_weight": is_variable_weight,
+            "min_qty_norm": min_qty_norm,
+            "min_qty_unit": min_qty_unit,
+
             "gtm_quantity": gtm_quantity,
             "unit_suffix": unit_suffix,
+
+            "gtm_price": gtm_price,
+            "gtm_discount_value": gtm_discount_value,
+
 
             # Listing metadata
             "gtm_web_position": gtm_position,
@@ -335,6 +565,8 @@ def extract_products_from_html(html: str, run_timestamp: str) -> List[Dict]:
 
             # Promotion
             "discount_badge_raw": discount_badge_raw,
+            "promotion_raw": promotion_raw,
+            "promo_badge_label_raw": promo_badge_label_raw,
             "is_on_promotion": is_on_promotion,
 
             # Labels

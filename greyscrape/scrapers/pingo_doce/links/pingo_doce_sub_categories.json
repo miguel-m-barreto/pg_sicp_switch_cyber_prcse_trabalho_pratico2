@@ -1,164 +1,2669 @@
 [
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/bebidas",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/cereais-de-pequeno--almoco",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/chas-e-infusoes",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/chocolates-bolachas-e-snacks",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/docaria-e-sobremesas",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/farinha-arroz-e-massa",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/nutricao-desportiva",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/oleo-e-temperos",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/pao-e-tostas",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/refeicoes",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/sementes-bagas-e-graos",
-  "https://www.pingodoce.pt/home/produtos/alternativas-alimentares/suplementos",
-  "https://www.pingodoce.pt/home/produtos/animais/cao",
-  "https://www.pingodoce.pt/home/produtos/animais/gato",
-  "https://www.pingodoce.pt/home/produtos/animais/outros-animais",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/activpet",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/as-nossas-iguarias",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/be-beauty",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/biologico",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/cuida-bebe",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/go-active",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/kitty",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/pingo-doce",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/pura-vida",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/skino",
-  "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/ultra",
-  "https://www.pingodoce.pt/home/produtos/bazar/automovel",
-  "https://www.pingodoce.pt/home/produtos/bazar/iluminacao",
-  "https://www.pingodoce.pt/home/produtos/bazar/jardim",
-  "https://www.pingodoce.pt/home/produtos/bazar/lancheiras-e-garrafas",
-  "https://www.pingodoce.pt/home/produtos/bazar/livros",
-  "https://www.pingodoce.pt/home/produtos/bazar/papelaria",
-  "https://www.pingodoce.pt/home/produtos/bazar/pequenos-domesticos",
-  "https://www.pingodoce.pt/home/produtos/bazar/sacos-de-compras",
-  "https://www.pingodoce.pt/home/produtos/bebidas/agua",
-  "https://www.pingodoce.pt/home/produtos/bebidas/cerveja",
-  "https://www.pingodoce.pt/home/produtos/bebidas/champanhe-e-espumante",
-  "https://www.pingodoce.pt/home/produtos/bebidas/ice-tea",
-  "https://www.pingodoce.pt/home/produtos/bebidas/moscatel-e-outros-vinhos",
-  "https://www.pingodoce.pt/home/produtos/bebidas/refrigerantes",
-  "https://www.pingodoce.pt/home/produtos/bebidas/sangria",
-  "https://www.pingodoce.pt/home/produtos/bebidas/sidra",
-  "https://www.pingodoce.pt/home/produtos/bebidas/smoothies-e-sumos-refrigerados",
-  "https://www.pingodoce.pt/home/produtos/bebidas/sumos-e-nectares",
-  "https://www.pingodoce.pt/home/produtos/bebidas/vinho-branco",
-  "https://www.pingodoce.pt/home/produtos/bebidas/vinho-do-porto",
-  "https://www.pingodoce.pt/home/produtos/bebidas/vinho-rose",
-  "https://www.pingodoce.pt/home/produtos/bebidas/vinho-tinto",
-  "https://www.pingodoce.pt/home/produtos/bebidas/whisky-e-espirituosas",
-  "https://www.pingodoce.pt/home/produtos/casa/acendalhas-carvao-e-fosforos",
-  "https://www.pingodoce.pt/home/produtos/casa/ambientadores",
-  "https://www.pingodoce.pt/home/produtos/casa/arrumacao",
-  "https://www.pingodoce.pt/home/produtos/casa/artigos-de-festa-e-descartaveis",
-  "https://www.pingodoce.pt/home/produtos/casa/bricolagem",
-  "https://www.pingodoce.pt/home/produtos/casa/conservacao-de-alimentos",
-  "https://www.pingodoce.pt/home/produtos/casa/guardanapos",
-  "https://www.pingodoce.pt/home/produtos/casa/insecticidas",
-  "https://www.pingodoce.pt/home/produtos/casa/limpeza-de-casa",
-  "https://www.pingodoce.pt/home/produtos/casa/limpeza-do-calcado",
-  "https://www.pingodoce.pt/home/produtos/casa/loica",
-  "https://www.pingodoce.pt/home/produtos/casa/pilhas-e-lampadas",
-  "https://www.pingodoce.pt/home/produtos/casa/rolos-de-cozinha",
-  "https://www.pingodoce.pt/home/produtos/casa/roupa",
-  "https://www.pingodoce.pt/home/produtos/casa/sacos-do-lixo",
-  "https://www.pingodoce.pt/home/produtos/casa/utensilios-de-cozinha",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/alheira-e-farinheira",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/bacon",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/chourico-e-chouricao",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/fiambre-e-mortadela",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/fumados-de-peixe-e-especialidades",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/outros-enchidos-e-fumeiro",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/presunto",
-  "https://www.pingodoce.pt/home/produtos/charcutaria/salsichas",
-  "https://www.pingodoce.pt/home/produtos/congelados/carne",
-  "https://www.pingodoce.pt/home/produtos/congelados/frutas-e-vegetais",
-  "https://www.pingodoce.pt/home/produtos/congelados/gelados",
-  "https://www.pingodoce.pt/home/produtos/congelados/gelo",
-  "https://www.pingodoce.pt/home/produtos/congelados/marisco",
-  "https://www.pingodoce.pt/home/produtos/congelados/peixe",
-  "https://www.pingodoce.pt/home/produtos/congelados/refeicoes",
-  "https://www.pingodoce.pt/home/produtos/congelados/salgados-e-aperitivos",
-  "https://www.pingodoce.pt/home/produtos/congelados/sobremesas",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/gelatina",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/iogurtes",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/manteigas-e-cremes-para-barrar",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/massas-e-outros",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/pizzas",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/queijo",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/refeicoes",
-  "https://www.pingodoce.pt/home/produtos/frigorifico/sobremesas",
-  "https://www.pingodoce.pt/home/produtos/frutas-e-vegetais/ervas-aromaticas-frescas",
-  "https://www.pingodoce.pt/home/produtos/frutas-e-vegetais/frutas",
-  "https://www.pingodoce.pt/home/produtos/frutas-e-vegetais/vegetais",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/bem-estar-sexual",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/cabelo",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/corpo",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/cuidados-de-saude",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/cuidados-solares",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/higiene-intima",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/higiene-oral",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/homem",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/incontinencia",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/lencos-de-papel",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/maquilhagem",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/papel-higienico-e-toalhitas",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/perfumes-e-colonias",
-  "https://www.pingodoce.pt/home/produtos/higiene-pessoal-e-beleza/rosto",
-  "https://www.pingodoce.pt/home/produtos/infantil/alimentacao",
-  "https://www.pingodoce.pt/home/produtos/infantil/banho-e-higiene",
-  "https://www.pingodoce.pt/home/produtos/infantil/fraldas",
-  "https://www.pingodoce.pt/home/produtos/infantil/puericultura",
-  "https://www.pingodoce.pt/home/produtos/infantil/toalhitas",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/bebida-vegetal",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/leite-aromatizado",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/leite-fresco",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/leite-gordo",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/leite-magro",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/leite-meio-gordo",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/natas-bechamel-e-chantilly",
-  "https://www.pingodoce.pt/home/produtos/leite-natas-e-ovos/ovos",
-  "https://www.pingodoce.pt/home/produtos/mercearia/acucar-e-adocante",
-  "https://www.pingodoce.pt/home/produtos/mercearia/aperitivos-e-snacks",
-  "https://www.pingodoce.pt/home/produtos/mercearia/arroz-e-massa",
-  "https://www.pingodoce.pt/home/produtos/mercearia/azeite-oleo-e-vinagre",
-  "https://www.pingodoce.pt/home/produtos/mercearia/batatas-fritas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/bolachas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/cafe-cha-e-bebidas-quentes",
-  "https://www.pingodoce.pt/home/produtos/mercearia/cereais-e-barras",
-  "https://www.pingodoce.pt/home/produtos/mercearia/chocolates-e-guloseimas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/compotas-e-doces",
-  "https://www.pingodoce.pt/home/produtos/mercearia/conservas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/farinha-e-fermento",
-  "https://www.pingodoce.pt/home/produtos/mercearia/leguminosas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/pao-e-bolos-embalados",
-  "https://www.pingodoce.pt/home/produtos/mercearia/sobremesas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/sopas-e-refeicoes-pre-preparadas",
-  "https://www.pingodoce.pt/home/produtos/mercearia/temperos",
-  "https://www.pingodoce.pt/home/produtos/padaria-e-pastelaria/bolos-secos",
-  "https://www.pingodoce.pt/home/produtos/padaria-e-pastelaria/padaria-fresca",
-  "https://www.pingodoce.pt/home/produtos/padaria-e-pastelaria/pao-embalado",
-  "https://www.pingodoce.pt/home/produtos/padaria-e-pastelaria/pastelaria",
-  "https://www.pingodoce.pt/home/produtos/parafarmacia/bebe-e-crianca",
-  "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza",
-  "https://www.pingodoce.pt/home/produtos/parafarmacia/perfumaria",
-  "https://www.pingodoce.pt/home/produtos/parafarmacia/saude",
-  "https://www.pingodoce.pt/home/produtos/parafarmacia/suplementos",
-  "https://www.pingodoce.pt/home/produtos/peixaria/bacalhau",
-  "https://www.pingodoce.pt/home/produtos/peixaria/marisco",
-  "https://www.pingodoce.pt/home/produtos/peixaria/peixe",
-  "https://www.pingodoce.pt/home/produtos/peixaria/polvo-lula-pota-e-choco",
-  "https://www.pingodoce.pt/home/produtos/promocoes/poupe-esta-semana",
-  "https://www.pingodoce.pt/home/produtos/take-away/churrasco",
-  "https://www.pingodoce.pt/home/produtos/take-away/entradas-e-salgados",
-  "https://www.pingodoce.pt/home/produtos/take-away/prato-principal-e-acompanhamentos",
-  "https://www.pingodoce.pt/home/produtos/take-away/saladas-sandes-e-wraps",
-  "https://www.pingodoce.pt/home/produtos/take-away/sobremesas",
-  "https://www.pingodoce.pt/home/produtos/take-away/sopas-e-refeicoes-pre-preparadas",
-  "https://www.pingodoce.pt/home/produtos/talho/bovino-novilho-e-vitelao",
-  "https://www.pingodoce.pt/home/produtos/talho/frango-peru-e-pato",
-  "https://www.pingodoce.pt/home/produtos/talho/outras-carnes",
-  "https://www.pingodoce.pt/home/produtos/talho/picados-e-salsichas",
-  "https://www.pingodoce.pt/home/produtos/talho/porco"
+  {
+    "id": "ec_ovos_600",
+    "name": "Ovos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_ovos_600",
+    "type": "search",
+    "cgid": "ec_ovos_600"
+  },
+  {
+    "id": "ec_poupeestefimdesemana_1100000_200",
+    "name": "Poupe Este Fim De Semana",
+    "url": "https://www.pingodoce.pt/home/produtos/promocoes/poupe-este-fim-de-semana",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_natalamesa_1200000_400",
+    "name": "Natal à Mesa",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_natalamesa_1200000_400",
+    "type": "search",
+    "cgid": "ec_natalamesa_1200000_400"
+  },
+  {
+    "id": "ec_comidafresca_1200000_600",
+    "name": "Comida Fresca",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_comidafresca_1200000_600",
+    "type": "search",
+    "cgid": "ec_comidafresca_1200000_600"
+  },
+  {
+    "id": "ec_garrafeira_1200000_300",
+    "name": "Garrafeira",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_garrafeira_1200000_300",
+    "type": "search",
+    "cgid": "ec_garrafeira_1200000_300"
+  },
+  {
+    "id": "ec_iguarias_1200000_500",
+    "name": "As Nossas Iguarias",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_iguarias_1200000_500",
+    "type": "search",
+    "cgid": "ec_iguarias_1200000_500"
+  },
+  {
+    "id": "ec_natalchocolates_1200000_100",
+    "name": "Chocolates",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_natalchocolates_1200000_100",
+    "type": "search",
+    "cgid": "ec_natalchocolates_1200000_100"
+  },
+  {
+    "id": "ec_beleza_1200000_200",
+    "name": "Beleza",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_beleza_1200000_200",
+    "type": "search",
+    "cgid": "ec_beleza_1200000_200"
+  },
+  {
+    "id": "ec_pingodoce_1000000_100",
+    "name": "Pingo Doce",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/pingo-doce",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_goactive_1000000_200",
+    "name": "Go Active",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/go-active",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_kitty_1000000_300",
+    "name": "Kitty",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/kitty",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_biologico_1000000_400",
+    "name": "Biológico",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/biologico",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_skino_1000000_500",
+    "name": "Skino",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/skino",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_activepet_1000000_600",
+    "name": "ActivPet",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/activpet",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_puravida_1000000_700",
+    "name": "Pura Vida",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/pura-vida",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_asnossasiguarias_1000000_800",
+    "name": "As Nossas Iguarias",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/as-nossas-iguarias",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_cuidabebe_1000000_900",
+    "name": "Cuida Bebé",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/cuida-bebe",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_ultra_1000000_1000",
+    "name": "Ultra",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/ultra",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_bebeauty_1000000_1100",
+    "name": "Be Beauty",
+    "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/be-beauty",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_frutasepoca_100_100_100",
+    "name": "Fruta da Época",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frutasepoca_100_100_100",
+    "type": "search",
+    "cgid": "ec_frutasepoca_100_100_100"
+  },
+  {
+    "id": "ec_bananaperamaca_100_100_200",
+    "name": "Bananas, Peras e Maçãs",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bananaperamaca_100_100_200",
+    "type": "search",
+    "cgid": "ec_bananaperamaca_100_100_200"
+  },
+  {
+    "id": "ec_laranjatangerinalimao_100_100_300",
+    "name": "Laranjas, Tangerinas e Limões",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_laranjatangerinalimao_100_100_300",
+    "type": "search",
+    "cgid": "ec_laranjatangerinalimao_100_100_300"
+  },
+  {
+    "id": "ec_morangosfrutosvermelhos_100_100_400",
+    "name": "Morangos e Frutos Vermelhos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_morangosfrutosvermelhos_100_100_400",
+    "type": "search",
+    "cgid": "ec_morangosfrutosvermelhos_100_100_400"
+  },
+  {
+    "id": "ec_uvaskiwifrutostropicais_100_100_500",
+    "name": "Uvas, Kiwi e Frutos Tropicais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_uvaskiwifrutostropicais_100_100_500",
+    "type": "search",
+    "cgid": "ec_uvaskiwifrutostropicais_100_100_500"
+  },
+  {
+    "id": "ec_melaomelanciameloa_100_100_600",
+    "name": "Melão, Melancia e Meloa",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_melaomelanciameloa_100_100_600",
+    "type": "search",
+    "cgid": "ec_melaomelanciameloa_100_100_600"
+  },
+  {
+    "id": "ec_pessegosnectarinasameixas_100_100_700",
+    "name": "Pêssegos, Nectarinas e Ameixas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pessegosnectarinasameixas_100_100_700",
+    "type": "search",
+    "cgid": "ec_pessegosnectarinasameixas_100_100_700"
+  },
+  {
+    "id": "ec_batatascebolasalhos_100_200_100",
+    "name": "Batatas, Cebolas e Alhos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_batatascebolasalhos_100_200_100",
+    "type": "search",
+    "cgid": "ec_batatascebolasalhos_100_200_100"
+  },
+  {
+    "id": "ec_cenourascouvesbrocolos_100_200_200",
+    "name": "Cenouras, Couves e Brócolos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cenourascouvesbrocolos_100_200_200",
+    "type": "search",
+    "cgid": "ec_cenourascouvesbrocolos_100_200_200"
+  },
+  {
+    "id": "ec_alfaces_100_200_300",
+    "name": "Alfaces",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_alfaces_100_200_300",
+    "type": "search",
+    "cgid": "ec_alfaces_100_200_300"
+  },
+  {
+    "id": "ec_tomatespepinospimentos_100_200_400",
+    "name": "Tomates, Pepinos e Pimentos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tomatespepinospimentos_100_200_400",
+    "type": "search",
+    "cgid": "ec_tomatespepinospimentos_100_200_400"
+  },
+  {
+    "id": "ec_cogumelos_100_200_500",
+    "name": "Cogumelos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cogumelos_100_200_500",
+    "type": "search",
+    "cgid": "ec_cogumelos_100_200_500"
+  },
+  {
+    "id": "ec_saladaselegumespreparados_100_200_600",
+    "name": "Saladas e Legumes Preparados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_saladaselegumespreparados_100_200_600",
+    "type": "search",
+    "cgid": "ec_saladaselegumespreparados_100_200_600"
+  },
+  {
+    "id": "ec_outrosvegetais_100_200_700",
+    "name": "Outros Vegetais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_outrosvegetais_100_200_700",
+    "type": "search",
+    "cgid": "ec_outrosvegetais_100_200_700"
+  },
+  {
+    "id": "ec_fvbiologicos_100_400",
+    "name": "Biológicos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fvbiologicos_100_400",
+    "type": "search",
+    "cgid": "ec_fvbiologicos_100_400"
+  },
+  {
+    "id": "ec_ervasaromaticasfrescas_100_300",
+    "name": "Ervas Aromáticas Frescas",
+    "url": "https://www.pingodoce.pt/home/produtos/frutas-e-vegetais/ervas-aromaticas-frescas",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_vitelavitelao_200_100_100",
+    "name": "Vitela e Vitelão​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vitelavitelao_200_100_100",
+    "type": "search",
+    "cgid": "ec_vitelavitelao_200_100_100"
+  },
+  {
+    "id": "ec_novilhobovino_200_100_200",
+    "name": "Novilho e Bovino",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_novilhobovino_200_100_200",
+    "type": "search",
+    "cgid": "ec_novilhobovino_200_100_200"
+  },
+  {
+    "id": "ec_angus_200_100_300",
+    "name": "Angus",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_angus_200_100_300",
+    "type": "search",
+    "cgid": "ec_angus_200_100_300"
+  },
+  {
+    "id": "ec_vaziapicanhamaminha_200_200",
+    "name": "Vazia, Picanha e Maminha",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vaziapicanhamaminha_200_200",
+    "type": "search",
+    "cgid": "ec_vaziapicanhamaminha_200_200"
+  },
+  {
+    "id": "ec_porco_200_300",
+    "name": "Porco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_porco_200_300",
+    "type": "search",
+    "cgid": "ec_porco_200_300"
+  },
+  {
+    "id": "ec_frango_200_400_100",
+    "name": "Frango",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frango_200_400_100",
+    "type": "search",
+    "cgid": "ec_frango_200_400_100"
+  },
+  {
+    "id": "ec_peru_200_400_200",
+    "name": "Peru",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_peru_200_400_200",
+    "type": "search",
+    "cgid": "ec_peru_200_400_200"
+  },
+  {
+    "id": "ec_outrasaves_200_400_300",
+    "name": "Outras Aves",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_outrasaves_200_400_300",
+    "type": "search",
+    "cgid": "ec_outrasaves_200_400_300"
+  },
+  {
+    "id": "ec_borregocabritocoelho_200_500",
+    "name": "Borrego, Cabrito e Coelho​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_borregocabritocoelho_200_500",
+    "type": "search",
+    "cgid": "ec_borregocabritocoelho_200_500"
+  },
+  {
+    "id": "ec_especialidadespicadossalsichas_200_600",
+    "name": "Especialidades, Picados e Salsichas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_especialidadespicadossalsichas_200_600",
+    "type": "search",
+    "cgid": "ec_especialidadespicadossalsichas_200_600"
+  },
+  {
+    "id": "ec_douradarobalo_300_100_100",
+    "name": "Dourada e Robalo​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_douradarobalo_300_100_100",
+    "type": "search",
+    "cgid": "ec_douradarobalo_300_100_100"
+  },
+  {
+    "id": "ec_atumsalmao_300_100_200",
+    "name": "Atum e Salmão​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_atumsalmao_300_100_200",
+    "type": "search",
+    "cgid": "ec_atumsalmao_300_100_200"
+  },
+  {
+    "id": "ec_pescada_300_100_300",
+    "name": "Pescada",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pescada_300_100_300",
+    "type": "search",
+    "cgid": "ec_pescada_300_100_300"
+  },
+  {
+    "id": "ec_peixeaquacultura_300_100_400",
+    "name": "Peixe de Aquacultura",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_peixeaquacultura_300_100_400",
+    "type": "search",
+    "cgid": "ec_peixeaquacultura_300_100_400"
+  },
+  {
+    "id": "ec_peixeselvagem_300_100_500",
+    "name": "Peixe Selvagem",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_peixeselvagem_300_100_500",
+    "type": "search",
+    "cgid": "ec_peixeselvagem_300_100_500"
+  },
+  {
+    "id": "ec_mariscovivocozido_300_200_100",
+    "name": "Vivo e Cozido",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_mariscovivocozido_300_200_100",
+    "type": "search",
+    "cgid": "ec_mariscovivocozido_300_200_100"
+  },
+  {
+    "id": "ec_mariscocongelado_300_200_200",
+    "name": "Congelado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_mariscocongelado_300_200_200",
+    "type": "search",
+    "cgid": "ec_mariscocongelado_300_200_200"
+  },
+  {
+    "id": "ec_salgadoseco_300_300_100",
+    "name": "Salgado Seco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salgadoseco_300_300_100",
+    "type": "search",
+    "cgid": "ec_salgadoseco_300_300_100"
+  },
+  {
+    "id": "ec_bacalhaucongelado_300_300_200",
+    "name": "Congelado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bacalhaucongelado_300_300_200",
+    "type": "search",
+    "cgid": "ec_bacalhaucongelado_300_300_200"
+  },
+  {
+    "id": "ec_fresco_300_400_100",
+    "name": "Fresco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fresco_300_400_100",
+    "type": "search",
+    "cgid": "ec_fresco_300_400_100"
+  },
+  {
+    "id": "ec_congelado_300_400_200",
+    "name": "Congelado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_congelado_300_400_200",
+    "type": "search",
+    "cgid": "ec_congelado_300_400_200"
+  },
+  {
+    "id": "ec_paopequeno_400_100_100",
+    "name": "Pão Pequeno",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_paopequeno_400_100_100",
+    "type": "search",
+    "cgid": "ec_paopequeno_400_100_100"
+  },
+  {
+    "id": "ec_paofamiliar_400_100_200",
+    "name": "Pão Familiar",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_paofamiliar_400_100_200",
+    "type": "search",
+    "cgid": "ec_paofamiliar_400_100_200"
+  },
+  {
+    "id": "ec_paoformaeembalado_400_200_100",
+    "name": "Pão de Forma e Embalado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_paoformaeembalado_400_200_100",
+    "type": "search",
+    "cgid": "ec_paoformaeembalado_400_200_100"
+  },
+  {
+    "id": "ec_paohambhotdogwrap_400_200_200",
+    "name": "Pão de Hambúrguer, Hot Dog e Wraps",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_paohambhotdogwrap_400_200_200",
+    "type": "search",
+    "cgid": "ec_paohambhotdogwrap_400_200_200"
+  },
+  {
+    "id": "ec_salgados_400_300",
+    "name": "Salgados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salgados_400_300",
+    "type": "search",
+    "cgid": "ec_salgados_400_300"
+  },
+  {
+    "id": "ec_individual_400_400_100",
+    "name": "Individual​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_individual_400_400_100",
+    "type": "search",
+    "cgid": "ec_individual_400_400_100"
+  },
+  {
+    "id": "ec_sobremesasfamiliares_400_400_200",
+    "name": "Sobremesas Familiares",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sobremesasfamiliares_400_400_200",
+    "type": "search",
+    "cgid": "ec_sobremesasfamiliares_400_400_200"
+  },
+  {
+    "id": "ec_bolosfamiliares_400_400_300",
+    "name": "Bolos Familiares",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bolosfamiliares_400_400_300",
+    "type": "search",
+    "cgid": "ec_bolosfamiliares_400_400_300"
+  },
+  {
+    "id": "ec_biscoitos_400_400_400",
+    "name": "Biscoitos​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_biscoitos_400_400_400",
+    "type": "search",
+    "cgid": "ec_biscoitos_400_400_400"
+  },
+  {
+    "id": "ec_tostasgressinoscroutons_400_600",
+    "name": "Tostas, Gressinos e Croutons",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tostasgressinoscroutons_400_600",
+    "type": "search",
+    "cgid": "ec_tostasgressinoscroutons_400_600"
+  },
+  {
+    "id": "ec_fiambremortadelachouricao_500_100_100",
+    "name": "Fiambre, Mortadela e Chourição​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fiambremortadelachouricao_500_100_100",
+    "type": "search",
+    "cgid": "ec_fiambremortadelachouricao_500_100_100"
+  },
+  {
+    "id": "ec_presuntobacon_500_100_200",
+    "name": "Presunto e Bacon​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_presuntobacon_500_100_200",
+    "type": "search",
+    "cgid": "ec_presuntobacon_500_100_200"
+  },
+  {
+    "id": "ec_chouricoalheirafarinheira_500_100_300",
+    "name": "Chouriço, Alheira e Farinheira​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_chouricoalheirafarinheira_500_100_300",
+    "type": "search",
+    "cgid": "ec_chouricoalheirafarinheira_500_100_300"
+  },
+  {
+    "id": "ec_outrosenchidosfumeiro_500_100_400",
+    "name": "Outros Enchidos e Fumeiro​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_outrosenchidosfumeiro_500_100_400",
+    "type": "search",
+    "cgid": "ec_outrosenchidosfumeiro_500_100_400"
+  },
+  {
+    "id": "ec_salmaofumadoespecialidades_500_100_500",
+    "name": "Salmão Fumado e Especialidades​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salmaofumadoespecialidades_500_100_500",
+    "type": "search",
+    "cgid": "ec_salmaofumadoespecialidades_500_100_500"
+  },
+  {
+    "id": "ec_fatiadobola_500_200_100",
+    "name": "Fatiado e Bola​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fatiadobola_500_200_100",
+    "type": "search",
+    "cgid": "ec_fatiadobola_500_200_100"
+  },
+  {
+    "id": "ec_nacional_500_200_200",
+    "name": "Nacional​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_nacional_500_200_200",
+    "type": "search",
+    "cgid": "ec_nacional_500_200_200"
+  },
+  {
+    "id": "ec_estrangeiro_500_200_300",
+    "name": "Estrangeiro​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_estrangeiro_500_200_300",
+    "type": "search",
+    "cgid": "ec_estrangeiro_500_200_300"
+  },
+  {
+    "id": "ec_ralado_500_200_400",
+    "name": "Ralado​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_ralado_500_200_400",
+    "type": "search",
+    "cgid": "ec_ralado_500_200_400"
+  },
+  {
+    "id": "ec_frescorequeijao_500_200_500",
+    "name": "Fresco e Requeijão​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frescorequeijao_500_200_500",
+    "type": "search",
+    "cgid": "ec_frescorequeijao_500_200_500"
+  },
+  {
+    "id": "ec_parabarrar_500_200_600",
+    "name": "Para Barrar​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_parabarrar_500_200_600",
+    "type": "search",
+    "cgid": "ec_parabarrar_500_200_600"
+  },
+  {
+    "id": "ec_snacksqueijo_500_200_700",
+    "name": "Snacks de Queijo​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snacksqueijo_500_200_700",
+    "type": "search",
+    "cgid": "ec_snacksqueijo_500_200_700"
+  },
+  {
+    "id": "ec_manteigamargarina_700_100",
+    "name": "Manteiga e Margarina",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_manteigamargarina_700_100",
+    "type": "search",
+    "cgid": "ec_manteigamargarina_700_100"
+  },
+  {
+    "id": "ec_natasbechamelchantili_700_200",
+    "name": "Natas, Béchamel e Chantili",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_natasbechamelchantili_700_200",
+    "type": "search",
+    "cgid": "ec_natasbechamelchantili_700_200"
+  },
+  {
+    "id": "ec_aromas_800_100_100",
+    "name": "Aromas​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aromas_800_100_100",
+    "type": "search",
+    "cgid": "ec_aromas_800_100_100"
+  },
+  {
+    "id": "ec_naturais_800_100_200",
+    "name": "Naturais​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_naturais_800_100_200",
+    "type": "search",
+    "cgid": "ec_naturais_800_100_200"
+  },
+  {
+    "id": "ec_liquidos_800_100_300",
+    "name": "Líquidos​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_liquidos_800_100_300",
+    "type": "search",
+    "cgid": "ec_liquidos_800_100_300"
+  },
+  {
+    "id": "ec_magros_800_100_400",
+    "name": "Magros​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_magros_800_100_400",
+    "type": "search",
+    "cgid": "ec_magros_800_100_400"
+  },
+  {
+    "id": "ec_bifidusfuncionais_800_100_600",
+    "name": "Bífidus e Funcionais​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bifidusfuncionais_800_100_600",
+    "type": "search",
+    "cgid": "ec_bifidusfuncionais_800_100_600"
+  },
+  {
+    "id": "ec_kefir_800_100_1200",
+    "name": "Kéfir",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_kefir_800_100_1200",
+    "type": "search",
+    "cgid": "ec_kefir_800_100_1200"
+  },
+  {
+    "id": "ec_gregos_800_100_700",
+    "name": "Gregos​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gregos_800_100_700",
+    "type": "search",
+    "cgid": "ec_gregos_800_100_700"
+  },
+  {
+    "id": "ec_pedacos_800_100_800",
+    "name": "Pedaços​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pedacos_800_100_800",
+    "type": "search",
+    "cgid": "ec_pedacos_800_100_800"
+  },
+  {
+    "id": "ec_infantis_800_100_900",
+    "name": "Infantis​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_infantis_800_100_900",
+    "type": "search",
+    "cgid": "ec_infantis_800_100_900"
+  },
+  {
+    "id": "ec_basevegetal_800_100_1000",
+    "name": "Base Vegetal​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_basevegetal_800_100_1000",
+    "type": "search",
+    "cgid": "ec_basevegetal_800_100_1000"
+  },
+  {
+    "id": "ec_semlactose_800_100_1100",
+    "name": "Sem Lactose​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_semlactose_800_100_1100",
+    "type": "search",
+    "cgid": "ec_semlactose_800_100_1100"
+  },
+  {
+    "id": "ec_gelatinas_800_200_100",
+    "name": "Gelatinas​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gelatinas_800_200_100",
+    "type": "search",
+    "cgid": "ec_gelatinas_800_200_100"
+  },
+  {
+    "id": "ec_moussepudins_800_200_200",
+    "name": "Mousses e Pudins​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_moussepudins_800_200_200",
+    "type": "search",
+    "cgid": "ec_moussepudins_800_200_200"
+  },
+  {
+    "id": "ec_proteina_800_200_300",
+    "name": "Proteína​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_proteina_800_200_300",
+    "type": "search",
+    "cgid": "ec_proteina_800_200_300"
+  },
+  {
+    "id": "ec_leitefresco_900_100_100",
+    "name": "Leite Fresco​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitefresco_900_100_100",
+    "type": "search",
+    "cgid": "ec_leitefresco_900_100_100"
+  },
+  {
+    "id": "ec_leitemagro_900_100_200",
+    "name": "Leite Magro​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitemagro_900_100_200",
+    "type": "search",
+    "cgid": "ec_leitemagro_900_100_200"
+  },
+  {
+    "id": "ec_leitemeiogordoegordo_900_100_300",
+    "name": "Leite Meio Gordo e Gordo​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitemeiogordoegordo_900_100_300",
+    "type": "search",
+    "cgid": "ec_leitemeiogordoegordo_900_100_300"
+  },
+  {
+    "id": "ec_leiteachocolatadoaromatizado_900_100_400",
+    "name": "Leite Achocolatado e Aromatizado​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leiteachocolatadoaromatizado_900_100_400",
+    "type": "search",
+    "cgid": "ec_leiteachocolatadoaromatizado_900_100_400"
+  },
+  {
+    "id": "ec_leitesemlactose_900_100_500",
+    "name": "Leite Sem Lactose​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitesemlactose_900_100_500",
+    "type": "search",
+    "cgid": "ec_leitesemlactose_900_100_500"
+  },
+  {
+    "id": "ec_leiteproteina_900_100_600",
+    "name": "Leite Proteína​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leiteproteina_900_100_600",
+    "type": "search",
+    "cgid": "ec_leiteproteina_900_100_600"
+  },
+  {
+    "id": "ec_leitepobebidaslacteas_900_100_700",
+    "name": "Leite em Pó e Bebidas Lácteas​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitepobebidaslacteas_900_100_700",
+    "type": "search",
+    "cgid": "ec_leitepobebidaslacteas_900_100_700"
+  },
+  {
+    "id": "ec_bebidasoja_900_200_100",
+    "name": "Bebida de Soja​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bebidasoja_900_200_100",
+    "type": "search",
+    "cgid": "ec_bebidasoja_900_200_100"
+  },
+  {
+    "id": "ec_bebidaamendoa_900_200_200",
+    "name": "Bebida de Amêndoa​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bebidaamendoa_900_200_200",
+    "type": "search",
+    "cgid": "ec_bebidaamendoa_900_200_200"
+  },
+  {
+    "id": "ec_bebidaaveia_900_200_300",
+    "name": "Bebida de Aveia​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bebidaaveia_900_200_300",
+    "type": "search",
+    "cgid": "ec_bebidaaveia_900_200_300"
+  },
+  {
+    "id": "ec_bebidaarrozeoutras_900_200_400",
+    "name": "Bebida de Arroz e Outras​",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bebidaarrozeoutras_900_200_400",
+    "type": "search",
+    "cgid": "ec_bebidaarrozeoutras_900_200_400"
+  },
+  {
+    "id": "ec_saladassandeswraps_2400_100",
+    "name": "Saladas, Sandes e Wraps",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_saladassandeswraps_2400_100",
+    "type": "search",
+    "cgid": "ec_saladassandeswraps_2400_100"
+  },
+  {
+    "id": "ec_salgados_2400_200",
+    "name": "Salgados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salgados_2400_200",
+    "type": "search",
+    "cgid": "ec_salgados_2400_200"
+  },
+  {
+    "id": "ec_sopas_2400_300",
+    "name": "Sopas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sopas_2400_300",
+    "type": "search",
+    "cgid": "ec_sopas_2400_300"
+  },
+  {
+    "id": "ec_pizzas_2400_400",
+    "name": "Pizzas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pizzas_2400_400",
+    "type": "search",
+    "cgid": "ec_pizzas_2400_400"
+  },
+  {
+    "id": "ec_massaslasanhasoutros_2400_500",
+    "name": "Massas, Lasanhas e Outros Pratos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_massaslasanhasoutros_2400_500",
+    "type": "search",
+    "cgid": "ec_massaslasanhasoutros_2400_500"
+  },
+  {
+    "id": "ec_frangoassadochurrasco_2400_600",
+    "name": "Frango Assado e Churrasco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frangoassadochurrasco_2400_600",
+    "type": "search",
+    "cgid": "ec_frangoassadochurrasco_2400_600"
+  },
+  {
+    "id": "ec_comidafrescarefcongeladas_2400_700",
+    "name": "Comida Fresca - Refeições Congeladas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_comidafrescarefcongeladas_2400_700",
+    "type": "search",
+    "cgid": "ec_comidafrescarefcongeladas_2400_700"
+  },
+  {
+    "id": "ec_pratoprincipalacompanhamento_2400_800",
+    "name": "Prato Principal e Acompanhamento",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pratoprincipalacompanhamento_2400_800",
+    "type": "search",
+    "cgid": "ec_pratoprincipalacompanhamento_2400_800"
+  },
+  {
+    "id": "ec_sobremesas_2400_900",
+    "name": "Sobremesas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sobremesas_2400_900",
+    "type": "search",
+    "cgid": "ec_sobremesas_2400_900"
+  },
+  {
+    "id": "ec_refeicoes_1000_100_100",
+    "name": "Refeições",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_refeicoes_1000_100_100",
+    "type": "search",
+    "cgid": "ec_refeicoes_1000_100_100"
+  },
+  {
+    "id": "ec_pizzas_1000_100_300",
+    "name": "Pizzas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pizzas_1000_100_300",
+    "type": "search",
+    "cgid": "ec_pizzas_1000_100_300"
+  },
+  {
+    "id": "ec_hamburgueres_1000_100_400",
+    "name": "Hambúrgueres",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_hamburgueres_1000_100_400",
+    "type": "search",
+    "cgid": "ec_hamburgueres_1000_100_400"
+  },
+  {
+    "id": "ec_nuggetspanadoscarne_1000_100_500",
+    "name": "Nuggets e Panados de Carne",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_nuggetspanadoscarne_1000_100_500",
+    "type": "search",
+    "cgid": "ec_nuggetspanadoscarne_1000_100_500"
+  },
+  {
+    "id": "ec_douradinhospanadospx_1000_100_600",
+    "name": "Douradinhos e Panados de Peixe",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_douradinhospanadospx_1000_100_600",
+    "type": "search",
+    "cgid": "ec_douradinhospanadospx_1000_100_600"
+  },
+  {
+    "id": "ec_salgadosaperitivos_1000_100_700",
+    "name": "Salgados e Aperitivos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salgadosaperitivos_1000_100_700",
+    "type": "search",
+    "cgid": "ec_salgadosaperitivos_1000_100_700"
+  },
+  {
+    "id": "ec_peixe_1000_200_100",
+    "name": "Peixe",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_peixe_1000_200_100",
+    "type": "search",
+    "cgid": "ec_peixe_1000_200_100"
+  },
+  {
+    "id": "ec_bacalhau_1000_200_200",
+    "name": "Bacalhau",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bacalhau_1000_200_200",
+    "type": "search",
+    "cgid": "ec_bacalhau_1000_200_200"
+  },
+  {
+    "id": "ec_polvolulaschocos_1000_200_300",
+    "name": "Polvo, Lulas e Chocos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_polvolulaschocos_1000_200_300",
+    "type": "search",
+    "cgid": "ec_polvolulaschocos_1000_200_300"
+  },
+  {
+    "id": "ec_marisco_1000_200_400",
+    "name": "Marisco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_marisco_1000_200_400",
+    "type": "search",
+    "cgid": "ec_marisco_1000_200_400"
+  },
+  {
+    "id": "ec_carne_1000_200_500",
+    "name": "Carne",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_carne_1000_200_500",
+    "type": "search",
+    "cgid": "ec_carne_1000_200_500"
+  },
+  {
+    "id": "ec_frutascong_1000_300_100",
+    "name": "Frutas Congeladas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frutascong_1000_300_100",
+    "type": "search",
+    "cgid": "ec_frutascong_1000_300_100"
+  },
+  {
+    "id": "ec_vegetaiscong_1000_300_200",
+    "name": "Vegetais Congelados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vegetaiscong_1000_300_200",
+    "type": "search",
+    "cgid": "ec_vegetaiscong_1000_300_200"
+  },
+  {
+    "id": "ec_geladoscone_1000_400_100",
+    "name": "Gelados de Cone",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_geladoscone_1000_400_100",
+    "type": "search",
+    "cgid": "ec_geladoscone_1000_400_100"
+  },
+  {
+    "id": "ec_geladospauzinho_1000_400_200",
+    "name": "Gelados de Pauzinho",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_geladospauzinho_1000_400_200",
+    "type": "search",
+    "cgid": "ec_geladospauzinho_1000_400_200"
+  },
+  {
+    "id": "ec_geladosinfantis_1000_400_300",
+    "name": "Gelados Infantis",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_geladosinfantis_1000_400_300",
+    "type": "search",
+    "cgid": "ec_geladosinfantis_1000_400_300"
+  },
+  {
+    "id": "ec_geladosfamiliares_1000_400_400",
+    "name": "Gelados Familiares",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_geladosfamiliares_1000_400_400",
+    "type": "search",
+    "cgid": "ec_geladosfamiliares_1000_400_400"
+  },
+  {
+    "id": "ec_geladosamericanos_1000_400_500",
+    "name": "Gelados Americanos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_geladosamericanos_1000_400_500",
+    "type": "search",
+    "cgid": "ec_geladosamericanos_1000_400_500"
+  },
+  {
+    "id": "ec_barrassandwichbites_1000_400_600",
+    "name": "Barras, Sandwichs e Bites",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_barrassandwichbites_1000_400_600",
+    "type": "search",
+    "cgid": "ec_barrassandwichbites_1000_400_600"
+  },
+  {
+    "id": "ec_sobremesas_1000_400_700",
+    "name": "Sobremesas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sobremesas_1000_400_700",
+    "type": "search",
+    "cgid": "ec_sobremesas_1000_400_700"
+  },
+  {
+    "id": "ec_gelo_1000_500",
+    "name": "Gelo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gelo_1000_500",
+    "type": "search",
+    "cgid": "ec_gelo_1000_500"
+  },
+  {
+    "id": "ec_capsulascafe_1100_100",
+    "name": "Cápsulas de Café",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_capsulascafe_1100_100",
+    "type": "search",
+    "cgid": "ec_capsulascafe_1100_100"
+  },
+  {
+    "id": "ec_cafemoidograo_1100_200",
+    "name": "Café Moído e Grão",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cafemoidograo_1100_200",
+    "type": "search",
+    "cgid": "ec_cafemoidograo_1100_200"
+  },
+  {
+    "id": "ec_cafesoluveldescafeinado_1100_300",
+    "name": "Café Solúvel e Descafeinado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cafesoluveldescafeinado_1100_300",
+    "type": "search",
+    "cgid": "ec_cafesoluveldescafeinado_1100_300"
+  },
+  {
+    "id": "ec_chainfusoes_1100_400",
+    "name": "Chá e Infusões",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_chainfusoes_1100_400",
+    "type": "search",
+    "cgid": "ec_chainfusoes_1100_400"
+  },
+  {
+    "id": "ec_bebidascereais_1100_500",
+    "name": "Bebidas de Cereais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bebidascereais_1100_500",
+    "type": "search",
+    "cgid": "ec_bebidascereais_1100_500"
+  },
+  {
+    "id": "ec_achocolatados_1100_600",
+    "name": "Achocolatados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_achocolatados_1100_600",
+    "type": "search",
+    "cgid": "ec_achocolatados_1100_600"
+  },
+  {
+    "id": "ec_mariamanteigaclassicas_1200_100_100",
+    "name": "Maria, Manteiga e Clássicas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_mariamanteigaclassicas_1200_100_100",
+    "type": "search",
+    "cgid": "ec_mariamanteigaclassicas_1200_100_100"
+  },
+  {
+    "id": "ec_pepitasrecheadascobertas_1200_100_200",
+    "name": "Pepitas, Recheadas e Cobertas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pepitasrecheadascobertas_1200_100_200",
+    "type": "search",
+    "cgid": "ec_pepitasrecheadascobertas_1200_100_200"
+  },
+  {
+    "id": "ec_wafers_1200_100_300",
+    "name": "Wafers",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_wafers_1200_100_300",
+    "type": "search",
+    "cgid": "ec_wafers_1200_100_300"
+  },
+  {
+    "id": "ec_fibratortitasmarinheiras_1200_100_400",
+    "name": "Fibra, Tortitas e Marinheiras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fibratortitasmarinheiras_1200_100_400",
+    "type": "search",
+    "cgid": "ec_fibratortitasmarinheiras_1200_100_400"
+  },
+  {
+    "id": "ec_salgadas_1200_100_500",
+    "name": "Salgadas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salgadas_1200_100_500",
+    "type": "search",
+    "cgid": "ec_salgadas_1200_100_500"
+  },
+  {
+    "id": "ec_bolachasinfantis_1200_100_800",
+    "name": "Infantis",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bolachasinfantis_1200_100_800",
+    "type": "search",
+    "cgid": "ec_bolachasinfantis_1200_100_800"
+  },
+  {
+    "id": "ec_biscoitossortidos_1200_100_600",
+    "name": "Biscoitos e Sortidos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_biscoitossortidos_1200_100_600",
+    "type": "search",
+    "cgid": "ec_biscoitossortidos_1200_100_600"
+  },
+  {
+    "id": "ec_tostasgressinoscroutons_1200_100_700",
+    "name": "Tostas, Gressinos e Croutons",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tostasgressinoscroutons_1200_100_700",
+    "type": "search",
+    "cgid": "ec_tostasgressinoscroutons_1200_100_700"
+  },
+  {
+    "id": "ec_muesligranola_1200_200_100",
+    "name": "Muesli e Granola",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_muesligranola_1200_200_100",
+    "type": "search",
+    "cgid": "ec_muesligranola_1200_200_100"
+  },
+  {
+    "id": "ec_linhafibra_1200_200_200",
+    "name": "Linha e Fibra",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_linhafibra_1200_200_200",
+    "type": "search",
+    "cgid": "ec_linhafibra_1200_200_200"
+  },
+  {
+    "id": "ec_infantisjuvenis_1200_200_300",
+    "name": "Infantis e Juvenis",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_infantisjuvenis_1200_200_300",
+    "type": "search",
+    "cgid": "ec_infantisjuvenis_1200_200_300"
+  },
+  {
+    "id": "ec_barrascereais_1200_200_400",
+    "name": "Barras de Cereais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_barrascereais_1200_200_400",
+    "type": "search",
+    "cgid": "ec_barrascereais_1200_200_400"
+  },
+  {
+    "id": "ec_bolsasfruta_1200_200_500",
+    "name": "Bolsas de Fruta",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bolsasfruta_1200_200_500",
+    "type": "search",
+    "cgid": "ec_bolsasfruta_1200_200_500"
+  },
+  {
+    "id": "ec_tabletes_1200_300_100",
+    "name": "Tabletes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tabletes_1200_300_100",
+    "type": "search",
+    "cgid": "ec_tabletes_1200_300_100"
+  },
+  {
+    "id": "ec_bombons_1200_300_200",
+    "name": "Bombons",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bombons_1200_300_200",
+    "type": "search",
+    "cgid": "ec_bombons_1200_300_200"
+  },
+  {
+    "id": "ec_snackschocolate_1200_300_300",
+    "name": "Snacks de Chocolate",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snackschocolate_1200_300_300",
+    "type": "search",
+    "cgid": "ec_snackschocolate_1200_300_300"
+  },
+  {
+    "id": "ec_gomas_1200_300_400",
+    "name": "Gomas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gomas_1200_300_400",
+    "type": "search",
+    "cgid": "ec_gomas_1200_300_400"
+  },
+  {
+    "id": "ec_rebucadospastilhaschupas_1200_300_500",
+    "name": "Rebuçados, Pastilhas e Chupas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_rebucadospastilhaschupas_1200_300_500",
+    "type": "search",
+    "cgid": "ec_rebucadospastilhaschupas_1200_300_500"
+  },
+  {
+    "id": "ec_arroz_1300_100_100",
+    "name": "Arroz",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_arroz_1300_100_100",
+    "type": "search",
+    "cgid": "ec_arroz_1300_100_100"
+  },
+  {
+    "id": "ec_massa_1300_100_200",
+    "name": "Massa",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_massa_1300_100_200",
+    "type": "search",
+    "cgid": "ec_massa_1300_100_200"
+  },
+  {
+    "id": "ec_alternativas_1300_100_300",
+    "name": "Alternativas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_alternativas_1300_100_300",
+    "type": "search",
+    "cgid": "ec_alternativas_1300_100_300"
+  },
+  {
+    "id": "ec_leguminosas_1300_100_400",
+    "name": "Leguminosas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leguminosas_1300_100_400",
+    "type": "search",
+    "cgid": "ec_leguminosas_1300_100_400"
+  },
+  {
+    "id": "ec_azeite_1300_200_100",
+    "name": "Azeite",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_azeite_1300_200_100",
+    "type": "search",
+    "cgid": "ec_azeite_1300_200_100"
+  },
+  {
+    "id": "ec_oleo_1300_200_200",
+    "name": "Óleo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_oleo_1300_200_200",
+    "type": "search",
+    "cgid": "ec_oleo_1300_200_200"
+  },
+  {
+    "id": "ec_vinagre_1300_200_300",
+    "name": "Vinagre",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vinagre_1300_200_300",
+    "type": "search",
+    "cgid": "ec_vinagre_1300_200_300"
+  },
+  {
+    "id": "ec_sal_1300_300_100",
+    "name": "Sal",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sal_1300_300_100",
+    "type": "search",
+    "cgid": "ec_sal_1300_300_100"
+  },
+  {
+    "id": "ec_especiariaservasaromaticas_1300_300_200",
+    "name": "Especiarias e Ervas Aromáticas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_especiariaservasaromaticas_1300_300_200",
+    "type": "search",
+    "cgid": "ec_especiariaservasaromaticas_1300_300_200"
+  },
+  {
+    "id": "ec_caldospreparados_1300_300_300",
+    "name": "Caldos e Preparados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_caldospreparados_1300_300_300",
+    "type": "search",
+    "cgid": "ec_caldospreparados_1300_300_300"
+  },
+  {
+    "id": "ec_polpasconcentrados_1300_300_400",
+    "name": "Polpas e Concentrados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_polpasconcentrados_1300_300_400",
+    "type": "search",
+    "cgid": "ec_polpasconcentrados_1300_300_400"
+  },
+  {
+    "id": "ec_maionesemostardaketchup_1300_300_500",
+    "name": "Maionese, Mostarda e Ketchup",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_maionesemostardaketchup_1300_300_500",
+    "type": "search",
+    "cgid": "ec_maionesemostardaketchup_1300_300_500"
+  },
+  {
+    "id": "ec_outrosmolhostemperos_1300_300_600",
+    "name": "Outros Molhos e Temperos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_outrosmolhostemperos_1300_300_600",
+    "type": "search",
+    "cgid": "ec_outrosmolhostemperos_1300_300_600"
+  },
+  {
+    "id": "ec_sopas_1300_400_100",
+    "name": "Sopas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sopas_1300_400_100",
+    "type": "search",
+    "cgid": "ec_sopas_1300_400_100"
+  },
+  {
+    "id": "ec_pure_1300_400_200",
+    "name": "Puré",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pure_1300_400_200",
+    "type": "search",
+    "cgid": "ec_pure_1300_400_200"
+  },
+  {
+    "id": "ec_noodles_1300_400_300",
+    "name": "Noodles",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_noodles_1300_400_300",
+    "type": "search",
+    "cgid": "ec_noodles_1300_400_300"
+  },
+  {
+    "id": "ec_atum_1300_500_100",
+    "name": "Atum",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_atum_1300_500_100",
+    "type": "search",
+    "cgid": "ec_atum_1300_500_100"
+  },
+  {
+    "id": "ec_sardinhasoutrospeixes_1300_500_200",
+    "name": "Sardinhas e Outros Peixes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sardinhasoutrospeixes_1300_500_200",
+    "type": "search",
+    "cgid": "ec_sardinhasoutrospeixes_1300_500_200"
+  },
+  {
+    "id": "ec_salsichas_1300_500_300",
+    "name": "Salsichas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_salsichas_1300_500_300",
+    "type": "search",
+    "cgid": "ec_salsichas_1300_500_300"
+  },
+  {
+    "id": "ec_azeitonaspicklestremocos_1300_500_400",
+    "name": "Azeitonas, Pickles e Tremoços",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_azeitonaspicklestremocos_1300_500_400",
+    "type": "search",
+    "cgid": "ec_azeitonaspicklestremocos_1300_500_400"
+  },
+  {
+    "id": "ec_feijaograooutros_1300_500_500",
+    "name": "Feijão, Grão e Outros",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_feijaograooutros_1300_500_500",
+    "type": "search",
+    "cgid": "ec_feijaograooutros_1300_500_500"
+  },
+  {
+    "id": "ec_cogumelosoutrosvegetais_1300_500_600",
+    "name": "Cogumelos e Outros Vegetais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cogumelosoutrosvegetais_1300_500_600",
+    "type": "search",
+    "cgid": "ec_cogumelosoutrosvegetais_1300_500_600"
+  },
+  {
+    "id": "ec_patespastas_1300_500_700",
+    "name": "Patês e Pastas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_patespastas_1300_500_700",
+    "type": "search",
+    "cgid": "ec_patespastas_1300_500_700"
+  },
+  {
+    "id": "ec_refeicoesenlatadas_1300_500_800",
+    "name": "Refeições Enlatadas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_refeicoesenlatadas_1300_500_800",
+    "type": "search",
+    "cgid": "ec_refeicoesenlatadas_1300_500_800"
+  },
+  {
+    "id": "ec_paoformaembalado_1300_600_100",
+    "name": "Pão de Forma Embalado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_paoformaembalado_1300_600_100",
+    "type": "search",
+    "cgid": "ec_paoformaembalado_1300_600_100"
+  },
+  {
+    "id": "ec_paohamburguerhotwraps_1300_600_200",
+    "name": "Pão de Hambúrguer, Hot Dog e Wraps",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_paohamburguerhotwraps_1300_600_200",
+    "type": "search",
+    "cgid": "ec_paohamburguerhotwraps_1300_600_200"
+  },
+  {
+    "id": "ec_bolostortas_1300_600_300",
+    "name": "Bolos e Tortas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bolostortas_1300_600_300",
+    "type": "search",
+    "cgid": "ec_bolostortas_1300_600_300"
+  },
+  {
+    "id": "ec_compotasedoces_1300_700_100",
+    "name": "Compotas e Doces",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_compotasedoces_1300_700_100",
+    "type": "search",
+    "cgid": "ec_compotasedoces_1300_700_100"
+  },
+  {
+    "id": "ec_mel_1300_700_200",
+    "name": "Mel",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_mel_1300_700_200",
+    "type": "search",
+    "cgid": "ec_mel_1300_700_200"
+  },
+  {
+    "id": "ec_cremesbarrar_1300_700_300",
+    "name": "Cremes de Barrar",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cremesbarrar_1300_700_300",
+    "type": "search",
+    "cgid": "ec_cremesbarrar_1300_700_300"
+  },
+  {
+    "id": "ec_farinhafermentopaoralado_1300_800_100",
+    "name": "Farinha, Fermento e Pão Ralado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_farinhafermentopaoralado_1300_800_100",
+    "type": "search",
+    "cgid": "ec_farinhafermentopaoralado_1300_800_100"
+  },
+  {
+    "id": "ec_acucaradocante_1300_800_200",
+    "name": "Açucar e Adoçante",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_acucaradocante_1300_800_200",
+    "type": "search",
+    "cgid": "ec_acucaradocante_1300_800_200"
+  },
+  {
+    "id": "ec_frutacalda_1300_900_100",
+    "name": "Fruta em Calda",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frutacalda_1300_900_100",
+    "type": "search",
+    "cgid": "ec_frutacalda_1300_900_100"
+  },
+  {
+    "id": "ec_gelatina_1300_900_200",
+    "name": "Gelatina",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gelatina_1300_900_200",
+    "type": "search",
+    "cgid": "ec_gelatina_1300_900_200"
+  },
+  {
+    "id": "ec_leitecondensadococo_1300_900_300",
+    "name": "Leite Condensado e de Coco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitecondensadococo_1300_900_300",
+    "type": "search",
+    "cgid": "ec_leitecondensadococo_1300_900_300"
+  },
+  {
+    "id": "ec_cacauchocolateculinaria_1300_900_400",
+    "name": "Cacau e Chocolate de Culinária",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cacauchocolateculinaria_1300_900_400",
+    "type": "search",
+    "cgid": "ec_cacauchocolateculinaria_1300_900_400"
+  },
+  {
+    "id": "ec_preparadosbolossobremesas_1300_900_500",
+    "name": "Preparados para Bolos e Sobremesas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_preparadosbolossobremesas_1300_900_500",
+    "type": "search",
+    "cgid": "ec_preparadosbolossobremesas_1300_900_500"
+  },
+  {
+    "id": "ec_aromastoppings_1300_900_600",
+    "name": "Aromas e Toppings",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aromastoppings_1300_900_600",
+    "type": "search",
+    "cgid": "ec_aromastoppings_1300_900_600"
+  },
+  {
+    "id": "ec_batatasfritas_1300_1000_100",
+    "name": "Batatas fritas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_batatasfritas_1300_1000_100",
+    "type": "search",
+    "cgid": "ec_batatasfritas_1300_1000_100"
+  },
+  {
+    "id": "ec_snackssalgados_1300_1000_200",
+    "name": "Snacks Salgados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snackssalgados_1300_1000_200",
+    "type": "search",
+    "cgid": "ec_snackssalgados_1300_1000_200"
+  },
+  {
+    "id": "ec_pipocas_1300_1000_300",
+    "name": "Pipocas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pipocas_1300_1000_300",
+    "type": "search",
+    "cgid": "ec_pipocas_1300_1000_300"
+  },
+  {
+    "id": "ec_frutossecosdesidratados_1300_1000_300",
+    "name": "Frutos Secos e Desidratados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_frutossecosdesidratados_1300_1000_300",
+    "type": "search",
+    "cgid": "ec_frutossecosdesidratados_1300_1000_300"
+  },
+  {
+    "id": "ec_aguassemgas_1400_100_100",
+    "name": "Águas sem Gás",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aguassemgas_1400_100_100",
+    "type": "search",
+    "cgid": "ec_aguassemgas_1400_100_100"
+  },
+  {
+    "id": "ec_aguascomgas_1400_100_200",
+    "name": "Águas com Gás",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aguascomgas_1400_100_200",
+    "type": "search",
+    "cgid": "ec_aguascomgas_1400_100_200"
+  },
+  {
+    "id": "ec_refrigerantessemgas_1400_200_100",
+    "name": "Refrigerantes sem Gás",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_refrigerantessemgas_1400_200_100",
+    "type": "search",
+    "cgid": "ec_refrigerantessemgas_1400_200_100"
+  },
+  {
+    "id": "ec_refrigerantescomgas_1400_200_200",
+    "name": "Refrigerantes com Gás",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_refrigerantescomgas_1400_200_200",
+    "type": "search",
+    "cgid": "ec_refrigerantescomgas_1400_200_200"
+  },
+  {
+    "id": "ec_nectares_1400_200_300",
+    "name": "Néctares",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_nectares_1400_200_300",
+    "type": "search",
+    "cgid": "ec_nectares_1400_200_300"
+  },
+  {
+    "id": "ec_smoothiessumosrefrigerados_1400_200_400",
+    "name": "Smoothies e Sumos Refrigerados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_smoothiessumosrefrigerados_1400_200_400",
+    "type": "search",
+    "cgid": "ec_smoothiessumosrefrigerados_1400_200_400"
+  },
+  {
+    "id": "ec_icedteakombuchas_1400_200_500",
+    "name": "Iced Tea e Kombuchas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_icedteakombuchas_1400_200_500",
+    "type": "search",
+    "cgid": "ec_icedteakombuchas_1400_200_500"
+  },
+  {
+    "id": "ec_aguastonicas_1400_200_600",
+    "name": "Águas Tónicas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aguastonicas_1400_200_600",
+    "type": "search",
+    "cgid": "ec_aguastonicas_1400_200_600"
+  },
+  {
+    "id": "ec_energeticasisotonicas_1400_200_700",
+    "name": "Energéticas e Isotónicas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_energeticasisotonicas_1400_200_700",
+    "type": "search",
+    "cgid": "ec_energeticasisotonicas_1400_200_700"
+  },
+  {
+    "id": "ec_cervejasnacionais_1500_100",
+    "name": "Cervejas Nacionais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cervejasnacionais_1500_100",
+    "type": "search",
+    "cgid": "ec_cervejasnacionais_1500_100"
+  },
+  {
+    "id": "ec_cervejasestrangeiras_1500_200",
+    "name": "Cervejas Estrangeiras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cervejasestrangeiras_1500_200",
+    "type": "search",
+    "cgid": "ec_cervejasestrangeiras_1500_200"
+  },
+  {
+    "id": "ec_cervejassemalcool_1500_300",
+    "name": "Cervejas Sem Álcool",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cervejassemalcool_1500_300",
+    "type": "search",
+    "cgid": "ec_cervejassemalcool_1500_300"
+  },
+  {
+    "id": "ec_sidras_1500_400",
+    "name": "Sidras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sidras_1500_400",
+    "type": "search",
+    "cgid": "ec_sidras_1500_400"
+  },
+  {
+    "id": "ec_whisky_1600_100",
+    "name": "Whisky",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_whisky_1600_100",
+    "type": "search",
+    "cgid": "ec_whisky_1600_100"
+  },
+  {
+    "id": "ec_ginvodkatequila_1600_200",
+    "name": "Gin, Vodka e Tequila",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_ginvodkatequila_1600_200",
+    "type": "search",
+    "cgid": "ec_ginvodkatequila_1600_200"
+  },
+  {
+    "id": "ec_licores_1600_300",
+    "name": "Licores",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_licores_1600_300",
+    "type": "search",
+    "cgid": "ec_licores_1600_300"
+  },
+  {
+    "id": "ec_outrasbebidas_1600_400",
+    "name": "Outras Bebidas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_outrasbebidas_1600_400",
+    "type": "search",
+    "cgid": "ec_outrasbebidas_1600_400"
+  },
+  {
+    "id": "ec_vinhotinto_1700_100",
+    "name": "Vinho Tinto",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vinhotinto_1700_100",
+    "type": "search",
+    "cgid": "ec_vinhotinto_1700_100"
+  },
+  {
+    "id": "ec_vinhobranco_1700_200",
+    "name": "Vinho Branco",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vinhobranco_1700_200",
+    "type": "search",
+    "cgid": "ec_vinhobranco_1700_200"
+  },
+  {
+    "id": "ec_vinhorose_1700_300",
+    "name": "Vinho Rosé",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vinhorose_1700_300",
+    "type": "search",
+    "cgid": "ec_vinhorose_1700_300"
+  },
+  {
+    "id": "ec_vinhoporto_1700_400",
+    "name": "Vinho do Porto",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vinhoporto_1700_400",
+    "type": "search",
+    "cgid": "ec_vinhoporto_1700_400"
+  },
+  {
+    "id": "ec_moscateloutrosvinhos_1700_500",
+    "name": "Moscatel e Outros Vinhos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_moscateloutrosvinhos_1700_500",
+    "type": "search",
+    "cgid": "ec_moscateloutrosvinhos_1700_500"
+  },
+  {
+    "id": "ec_champanheespumantefrisante_1700_600",
+    "name": "Champanhe, Espumante e Frisante",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_champanheespumantefrisante_1700_600",
+    "type": "search",
+    "cgid": "ec_champanheespumantefrisante_1700_600"
+  },
+  {
+    "id": "ec_detergentes_1800_100_100",
+    "name": "Detergentes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_detergentes_1800_100_100",
+    "type": "search",
+    "cgid": "ec_detergentes_1800_100_100"
+  },
+  {
+    "id": "ec_amaciadoresperfumadores_1800_100_200",
+    "name": "Amaciadores e Perfumadores",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_amaciadoresperfumadores_1800_100_200",
+    "type": "search",
+    "cgid": "ec_amaciadoresperfumadores_1800_100_200"
+  },
+  {
+    "id": "ec_aditivosacessorios_1800_100_300",
+    "name": "Aditivos e Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aditivosacessorios_1800_100_300",
+    "type": "search",
+    "cgid": "ec_aditivosacessorios_1800_100_300"
+  },
+  {
+    "id": "ec_cuidadosmaquinaroupa_1800_100_400",
+    "name": "Cuidados da Máquina Roupa",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cuidadosmaquinaroupa_1800_100_400",
+    "type": "search",
+    "cgid": "ec_cuidadosmaquinaroupa_1800_100_400"
+  },
+  {
+    "id": "ec_detergentesmanuais_1800_200_100",
+    "name": "Detergentes Manuais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_detergentesmanuais_1800_200_100",
+    "type": "search",
+    "cgid": "ec_detergentesmanuais_1800_200_100"
+  },
+  {
+    "id": "ec_detergentesmaquina_1800_200_200",
+    "name": "Detergentes Máquina",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_detergentesmaquina_1800_200_200",
+    "type": "search",
+    "cgid": "ec_detergentesmaquina_1800_200_200"
+  },
+  {
+    "id": "ec_esfregoes_1800_200_300",
+    "name": "Esfregões",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_esfregoes_1800_200_300",
+    "type": "search",
+    "cgid": "ec_esfregoes_1800_200_300"
+  },
+  {
+    "id": "ec_aditivossalabrilhantadores_1800_200_400",
+    "name": "Aditivos, Sal e Abrilhantadores",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aditivossalabrilhantadores_1800_200_400",
+    "type": "search",
+    "cgid": "ec_aditivossalabrilhantadores_1800_200_400"
+  },
+  {
+    "id": "ec_multisuperficiesdesengordurantes_1800_300_100",
+    "name": "Multisuperfícies e Desengordurantes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_multisuperficiesdesengordurantes_1800_300_100",
+    "type": "search",
+    "cgid": "ec_multisuperficiesdesengordurantes_1800_300_100"
+  },
+  {
+    "id": "ec_abrasivos_1800_300_200",
+    "name": "Abrasivos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_abrasivos_1800_300_200",
+    "type": "search",
+    "cgid": "ec_abrasivos_1800_300_200"
+  },
+  {
+    "id": "ec_lixivias_1800_300_300",
+    "name": "Lixívias",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_lixivias_1800_300_300",
+    "type": "search",
+    "cgid": "ec_lixivias_1800_300_300"
+  },
+  {
+    "id": "ec_lavatudo_1800_300_400",
+    "name": "Lava Tudo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_lavatudo_1800_300_400",
+    "type": "search",
+    "cgid": "ec_lavatudo_1800_300_400"
+  },
+  {
+    "id": "ec_limpavidrosmadeiras_1800_300_500",
+    "name": "Limpa Vidros e Madeiras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_limpavidrosmadeiras_1800_300_500",
+    "type": "search",
+    "cgid": "ec_limpavidrosmadeiras_1800_300_500"
+  },
+  {
+    "id": "ec_esfregonasvassourasmopas_1800_300_600",
+    "name": "Esfregonas, Vassouras e Mopas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_esfregonasvassourasmopas_1800_300_600",
+    "type": "search",
+    "cgid": "ec_esfregonasvassourasmopas_1800_300_600"
+  },
+  {
+    "id": "ec_luvaspanosacessorios_1800_300_700",
+    "name": "Luvas, Panos e Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_luvaspanosacessorios_1800_300_700",
+    "type": "search",
+    "cgid": "ec_luvaspanosacessorios_1800_300_700"
+  },
+  {
+    "id": "ec_limpezaespecifica_1800_300_800",
+    "name": "Limpeza Específica",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_limpezaespecifica_1800_300_800",
+    "type": "search",
+    "cgid": "ec_limpezaespecifica_1800_300_800"
+  },
+  {
+    "id": "ec_blocossanitarios_1800_400_100",
+    "name": "Blocos Sanitários",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_blocossanitarios_1800_400_100",
+    "type": "search",
+    "cgid": "ec_blocossanitarios_1800_400_100"
+  },
+  {
+    "id": "ec_abrasivoswc_1800_400_200",
+    "name": "Abrasivos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_abrasivoswc_1800_400_200",
+    "type": "search",
+    "cgid": "ec_abrasivoswc_1800_400_200"
+  },
+  {
+    "id": "ec_papelhigienico_1800_400_400",
+    "name": "Papel Higiénico",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_papelhigienico_1800_400_400",
+    "type": "search",
+    "cgid": "ec_papelhigienico_1800_400_400"
+  },
+  {
+    "id": "ec_calcado_1800_500",
+    "name": "Calçado",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_calcado_1800_500",
+    "type": "search",
+    "cgid": "ec_calcado_1800_500"
+  },
+  {
+    "id": "ec_sacoslixo_1800_600",
+    "name": "Sacos do Lixo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sacoslixo_1800_600",
+    "type": "search",
+    "cgid": "ec_sacoslixo_1800_600"
+  },
+  {
+    "id": "ec_loicautensilios_1900_100_100",
+    "name": "Loiça e Utensílios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_loicautensilios_1900_100_100",
+    "type": "search",
+    "cgid": "ec_loicautensilios_1900_100_100"
+  },
+  {
+    "id": "ec_conservacaoalimentos_1900_100_200",
+    "name": "Conservação de Alimentos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_conservacaoalimentos_1900_100_200",
+    "type": "search",
+    "cgid": "ec_conservacaoalimentos_1900_100_200"
+  },
+  {
+    "id": "ec_jarrosgarrafaslancheiras_1900_100_300",
+    "name": "Jarros, Garrafas e Lancheiras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_jarrosgarrafaslancheiras_1900_100_300",
+    "type": "search",
+    "cgid": "ec_jarrosgarrafaslancheiras_1900_100_300"
+  },
+  {
+    "id": "ec_guardanapos_1900_200_100",
+    "name": "Guardanapos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_guardanapos_1900_200_100",
+    "type": "search",
+    "cgid": "ec_guardanapos_1900_200_100"
+  },
+  {
+    "id": "ec_roloscozinha_1900_200_200",
+    "name": "Rolos de Cozinha",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_roloscozinha_1900_200_200",
+    "type": "search",
+    "cgid": "ec_roloscozinha_1900_200_200"
+  },
+  {
+    "id": "ec_artigosfestadescartaveis_1900_300",
+    "name": "Artigos de Festa e Descartáveis",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_artigosfestadescartaveis_1900_300",
+    "type": "search",
+    "cgid": "ec_artigosfestadescartaveis_1900_300"
+  },
+  {
+    "id": "ec_ambientadores_1900_400_100",
+    "name": "Ambientadores",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_ambientadores_1900_400_100",
+    "type": "search",
+    "cgid": "ec_ambientadores_1900_400_100"
+  },
+  {
+    "id": "ec_velas_1900_400_200",
+    "name": "Velas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_velas_1900_400_200",
+    "type": "search",
+    "cgid": "ec_velas_1900_400_200"
+  },
+  {
+    "id": "ec_inseticidas_1900_500",
+    "name": "Inseticidas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_inseticidas_1900_500",
+    "type": "search",
+    "cgid": "ec_inseticidas_1900_500"
+  },
+  {
+    "id": "ec_acendalhascarvaofosforos_1900_600",
+    "name": "Acendalhas, Carvão e Fósforos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_acendalhascarvaofosforos_1900_600",
+    "type": "search",
+    "cgid": "ec_acendalhascarvaofosforos_1900_600"
+  },
+  {
+    "id": "ec_autojardimbricolagem_1900_700",
+    "name": "Auto, Jardim e Bricolagem",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_autojardimbricolagem_1900_700",
+    "type": "search",
+    "cgid": "ec_autojardimbricolagem_1900_700"
+  },
+  {
+    "id": "ec_pilhaslampadasextensoes_1900_800",
+    "name": "Pilhas, Lâmpadas e Extensões",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pilhaslampadasextensoes_1900_800",
+    "type": "search",
+    "cgid": "ec_pilhaslampadasextensoes_1900_800"
+  },
+  {
+    "id": "ec_maquinascafejarroseletricos_1900_900_100",
+    "name": "Máquinas Café e Jarros Elétricos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_maquinascafejarroseletricos_1900_900_100",
+    "type": "search",
+    "cgid": "ec_maquinascafejarroseletricos_1900_900_100"
+  },
+  {
+    "id": "ec_preparacaoalimentos_1900_900_200",
+    "name": "Preparação de Alimentos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_preparacaoalimentos_1900_900_200",
+    "type": "search",
+    "cgid": "ec_preparacaoalimentos_1900_900_200"
+  },
+  {
+    "id": "ec_cuidadoscasa_1900_900_300",
+    "name": "Cuidados da Casa",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cuidadoscasa_1900_900_300",
+    "type": "search",
+    "cgid": "ec_cuidadoscasa_1900_900_300"
+  },
+  {
+    "id": "ec_cuidadospessoais_1900_900_400",
+    "name": "Cuidados Pessoais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cuidadospessoais_1900_900_400",
+    "type": "search",
+    "cgid": "ec_cuidadospessoais_1900_900_400"
+  },
+  {
+    "id": "ec_papelaria_2000_200",
+    "name": "Papelaria",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_papelaria_2000_200",
+    "type": "search",
+    "cgid": "ec_papelaria_2000_200"
+  },
+  {
+    "id": "ec_sacossacoscompras_2000_300",
+    "name": "Sacos e Sacos de Compras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sacossacoscompras_2000_300",
+    "type": "search",
+    "cgid": "ec_sacossacoscompras_2000_300"
+  },
+  {
+    "id": "ec_rosto_2100_100_100",
+    "name": "Rosto",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_rosto_2100_100_100",
+    "type": "search",
+    "cgid": "ec_rosto_2100_100_100"
+  },
+  {
+    "id": "ec_corpo_2100_100_200",
+    "name": "Corpo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_corpo_2100_100_200",
+    "type": "search",
+    "cgid": "ec_corpo_2100_100_200"
+  },
+  {
+    "id": "ec_hidratacao_2100_200_100",
+    "name": "Hidratação",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_hidratacao_2100_200_100",
+    "type": "search",
+    "cgid": "ec_hidratacao_2100_200_100"
+  },
+  {
+    "id": "ec_antiidade_2100_200_200",
+    "name": "Anti-Idade",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_antiidade_2100_200_200",
+    "type": "search",
+    "cgid": "ec_antiidade_2100_200_200"
+  },
+  {
+    "id": "ec_imperfeicoes_2100_200_300",
+    "name": "Manchas e Imperfeições",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_imperfeicoes_2100_200_300",
+    "type": "search",
+    "cgid": "ec_imperfeicoes_2100_200_300"
+  },
+  {
+    "id": "ec_limpezapele_2100_200_400",
+    "name": "Limpeza da Pele",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_limpezapele_2100_200_400",
+    "type": "search",
+    "cgid": "ec_limpezapele_2100_200_400"
+  },
+  {
+    "id": "ec_gelbanho_2100_300_100",
+    "name": "Gel de Banho",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gelbanho_2100_300_100",
+    "type": "search",
+    "cgid": "ec_gelbanho_2100_300_100"
+  },
+  {
+    "id": "ec_sabonetes_2100_300_200",
+    "name": "Sabonetes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sabonetes_2100_300_200",
+    "type": "search",
+    "cgid": "ec_sabonetes_2100_300_200"
+  },
+  {
+    "id": "ec_desodorizantes_2100_300_300",
+    "name": "Desodorizantes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_desodorizantes_2100_300_300",
+    "type": "search",
+    "cgid": "ec_desodorizantes_2100_300_300"
+  },
+  {
+    "id": "ec_cremes_2100_300_400",
+    "name": "Cremes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cremes_2100_300_400",
+    "type": "search",
+    "cgid": "ec_cremes_2100_300_400"
+  },
+  {
+    "id": "ec_depilatorios_2100_300_500",
+    "name": "Depilatórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_depilatorios_2100_300_500",
+    "type": "search",
+    "cgid": "ec_depilatorios_2100_300_500"
+  },
+  {
+    "id": "ec_cuidadosmaospes_2100_300_600",
+    "name": "Cuidados de Mãos e Pés",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cuidadosmaospes_2100_300_600",
+    "type": "search",
+    "cgid": "ec_cuidadosmaospes_2100_300_600"
+  },
+  {
+    "id": "ec_perfumescolonias_2100_300_700",
+    "name": "Perfumes e Colónias",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_perfumescolonias_2100_300_700",
+    "type": "search",
+    "cgid": "ec_perfumescolonias_2100_300_700"
+  },
+  {
+    "id": "ec_champo_2100_400_100",
+    "name": "Champô",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_champo_2100_400_100",
+    "type": "search",
+    "cgid": "ec_champo_2100_400_100"
+  },
+  {
+    "id": "ec_condicionador_2100_400_200",
+    "name": "Condicionador",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_condicionador_2100_400_200",
+    "type": "search",
+    "cgid": "ec_condicionador_2100_400_200"
+  },
+  {
+    "id": "ec_mascarastratamentos_2100_400_300",
+    "name": "Máscaras e Tratamentos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_mascarastratamentos_2100_400_300",
+    "type": "search",
+    "cgid": "ec_mascarastratamentos_2100_400_300"
+  },
+  {
+    "id": "ec_coloracoes_2100_400_400",
+    "name": "Colorações",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_coloracoes_2100_400_400",
+    "type": "search",
+    "cgid": "ec_coloracoes_2100_400_400"
+  },
+  {
+    "id": "ec_produtospentear_2100_400_500",
+    "name": "Produtos para Pentear",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_produtospentear_2100_400_500",
+    "type": "search",
+    "cgid": "ec_produtospentear_2100_400_500"
+  },
+  {
+    "id": "ec_acessorios_2100_400_600",
+    "name": "Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_acessorios_2100_400_600",
+    "type": "search",
+    "cgid": "ec_acessorios_2100_400_600"
+  },
+  {
+    "id": "ec_acessorios_2100_500_200",
+    "name": "Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_acessorios_2100_500_200",
+    "type": "search",
+    "cgid": "ec_acessorios_2100_500_200"
+  },
+  {
+    "id": "ec_acessorios_2100_500_300",
+    "name": "Unhas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_acessorios_2100_500_300",
+    "type": "search",
+    "cgid": "ec_acessorios_2100_500_300"
+  },
+  {
+    "id": "ec_pastasdentes_2100_600_100",
+    "name": "Pastas de Dentes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pastasdentes_2100_600_100",
+    "type": "search",
+    "cgid": "ec_pastasdentes_2100_600_100"
+  },
+  {
+    "id": "ec_escovasdentes_2100_600_200",
+    "name": "Escovas de Dentes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_escovasdentes_2100_600_200",
+    "type": "search",
+    "cgid": "ec_escovasdentes_2100_600_200"
+  },
+  {
+    "id": "ec_elixir_2100_600_300",
+    "name": "Elixir",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_elixir_2100_600_300",
+    "type": "search",
+    "cgid": "ec_elixir_2100_600_300"
+  },
+  {
+    "id": "ec_fiodentario_2100_600_400",
+    "name": "Fio Dentário",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fiodentario_2100_600_400",
+    "type": "search",
+    "cgid": "ec_fiodentario_2100_600_400"
+  },
+  {
+    "id": "ec_cuidadosproteses_2100_600_500",
+    "name": "Cuidados para Próteses",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cuidadosproteses_2100_600_500",
+    "type": "search",
+    "cgid": "ec_cuidadosproteses_2100_600_500"
+  },
+  {
+    "id": "ec_cabelo_2100_700_100",
+    "name": "Cabelo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cabelo_2100_700_100",
+    "type": "search",
+    "cgid": "ec_cabelo_2100_700_100"
+  },
+  {
+    "id": "ec_rosto_2100_700_200",
+    "name": "Rosto",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_rosto_2100_700_200",
+    "type": "search",
+    "cgid": "ec_rosto_2100_700_200"
+  },
+  {
+    "id": "ec_barba_2100_700_300",
+    "name": "Barba",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_barba_2100_700_300",
+    "type": "search",
+    "cgid": "ec_barba_2100_700_300"
+  },
+  {
+    "id": "ec_desodorizantemen_2100_700_400",
+    "name": "Desodorizantes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_desodorizantemen_2100_700_400",
+    "type": "search",
+    "cgid": "ec_desodorizantemen_2100_700_400"
+  },
+  {
+    "id": "ec_gelbanho_2100_700_500",
+    "name": "Gel de Banho",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gelbanho_2100_700_500",
+    "type": "search",
+    "cgid": "ec_gelbanho_2100_700_500"
+  },
+  {
+    "id": "ec_depilatoriosmen_2100_700_600",
+    "name": "Depilatórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_depilatoriosmen_2100_700_600",
+    "type": "search",
+    "cgid": "ec_depilatoriosmen_2100_700_600"
+  },
+  {
+    "id": "ec_pensoshigienicos_2100_800_100",
+    "name": "Pensos Higiénicos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pensoshigienicos_2100_800_100",
+    "type": "search",
+    "cgid": "ec_pensoshigienicos_2100_800_100"
+  },
+  {
+    "id": "ec_tampoes_2100_800_200",
+    "name": "Tampões",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tampoes_2100_800_200",
+    "type": "search",
+    "cgid": "ec_tampoes_2100_800_200"
+  },
+  {
+    "id": "ec_gelintimotoalhitas_2100_800_300",
+    "name": "Gel Íntimo e Toalhitas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_gelintimotoalhitas_2100_800_300",
+    "type": "search",
+    "cgid": "ec_gelintimotoalhitas_2100_800_300"
+  },
+  {
+    "id": "ec_fraldas_2100_900_100",
+    "name": "Fraldas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fraldas_2100_900_100",
+    "type": "search",
+    "cgid": "ec_fraldas_2100_900_100"
+  },
+  {
+    "id": "ec_cuecas_2100_900_200",
+    "name": "Cuecas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cuecas_2100_900_200",
+    "type": "search",
+    "cgid": "ec_cuecas_2100_900_200"
+  },
+  {
+    "id": "ec_pensos_2100_900_300",
+    "name": "Pensos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_pensos_2100_900_300",
+    "type": "search",
+    "cgid": "ec_pensos_2100_900_300"
+  },
+  {
+    "id": "ec_resguardosprodutoshigiene_2100_900_400",
+    "name": "Resguardos e Produtos de Higiene",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_resguardosprodutoshigiene_2100_900_400",
+    "type": "search",
+    "cgid": "ec_resguardosprodutoshigiene_2100_900_400"
+  },
+  {
+    "id": "ec_papelhigienico_2100_1000_100",
+    "name": "Papel Higiénico",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_papelhigienico_2100_1000_100",
+    "type": "search",
+    "cgid": "ec_papelhigienico_2100_1000_100"
+  },
+  {
+    "id": "ec_papelhigienicohumido_2100_1000_200",
+    "name": "Papel Higiénico Húmido",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_papelhigienicohumido_2100_1000_200",
+    "type": "search",
+    "cgid": "ec_papelhigienicohumido_2100_1000_200"
+  },
+  {
+    "id": "ec_lencospapel_2100_1000_300",
+    "name": "Lenços de Papel",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_lencospapel_2100_1000_300",
+    "type": "search",
+    "cgid": "ec_lencospapel_2100_1000_300"
+  },
+  {
+    "id": "ec_algodaocompressascotonetes_2100_1100_100",
+    "name": "Algodão, Compressas e Cotonetes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_algodaocompressascotonetes_2100_1100_100",
+    "type": "search",
+    "cgid": "ec_algodaocompressascotonetes_2100_1100_100"
+  },
+  {
+    "id": "ec_primeirossocorros_2100_1100_200",
+    "name": "Primeiros Socorros",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_primeirossocorros_2100_1100_200",
+    "type": "search",
+    "cgid": "ec_primeirossocorros_2100_1100_200"
+  },
+  {
+    "id": "ec_preservativos_2100_1200_100",
+    "name": "Preservativos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_preservativos_2100_1200_100",
+    "type": "search",
+    "cgid": "ec_preservativos_2100_1200_100"
+  },
+  {
+    "id": "ec_lubrificantesestimulantes_2100_1200_200",
+    "name": "Lubrificantes e Estimulantes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_lubrificantesestimulantes_2100_1200_200",
+    "type": "search",
+    "cgid": "ec_lubrificantesestimulantes_2100_1200_200"
+  },
+  {
+    "id": "ec_papasrefeicoes_2200_100_100",
+    "name": "Papas e Refeições",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_papasrefeicoes_2200_100_100",
+    "type": "search",
+    "cgid": "ec_papasrefeicoes_2200_100_100"
+  },
+  {
+    "id": "ec_leitesinfantis_2200_100_200",
+    "name": "Leites Infantis",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_leitesinfantis_2200_100_200",
+    "type": "search",
+    "cgid": "ec_leitesinfantis_2200_100_200"
+  },
+  {
+    "id": "ec_snacksbolachasinf_2200_100_300",
+    "name": "Snacks e Bolachas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snacksbolachasinf_2200_100_300",
+    "type": "search",
+    "cgid": "ec_snacksbolachasinf_2200_100_300"
+  },
+  {
+    "id": "ec_iogurtes_2200_100_400",
+    "name": "Iogurtes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_iogurtes_2200_100_400",
+    "type": "search",
+    "cgid": "ec_iogurtes_2200_100_400"
+  },
+  {
+    "id": "ec_puresfrutasobremesas_2200_100_500",
+    "name": "Purés de Fruta e Sobremesas",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_puresfrutasobremesas_2200_100_500",
+    "type": "search",
+    "cgid": "ec_puresfrutasobremesas_2200_100_500"
+  },
+  {
+    "id": "ec_fraldast0t2_2200_200_100",
+    "name": "Fraldas T0-T2",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fraldast0t2_2200_200_100",
+    "type": "search",
+    "cgid": "ec_fraldast0t2_2200_200_100"
+  },
+  {
+    "id": "ec_fraldast3t4_2200_200_200",
+    "name": "Fraldas T3-T4",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fraldast3t4_2200_200_200",
+    "type": "search",
+    "cgid": "ec_fraldast3t4_2200_200_200"
+  },
+  {
+    "id": "ec_fraldast5t7_2200_200_300",
+    "name": "Fraldas T5-T7",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fraldast5t7_2200_200_300",
+    "type": "search",
+    "cgid": "ec_fraldast5t7_2200_200_300"
+  },
+  {
+    "id": "ec_fraldascueca_2200_200_400",
+    "name": "Fraldas Cueca",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_fraldascueca_2200_200_400",
+    "type": "search",
+    "cgid": "ec_fraldascueca_2200_200_400"
+  },
+  {
+    "id": "ec_toalhitasresguardos_2200_200_500",
+    "name": "Toalhitas e Resguardos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_toalhitasresguardos_2200_200_500",
+    "type": "search",
+    "cgid": "ec_toalhitasresguardos_2200_200_500"
+  },
+  {
+    "id": "ec_champogelbanho_2200_300_100",
+    "name": "Champô e Gel Banho",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_champogelbanho_2200_300_100",
+    "type": "search",
+    "cgid": "ec_champogelbanho_2200_300_100"
+  },
+  {
+    "id": "ec_higieneoral_2200_300_200",
+    "name": "Higiene Oral",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_higieneoral_2200_300_200",
+    "type": "search",
+    "cgid": "ec_higieneoral_2200_300_200"
+  },
+  {
+    "id": "ec_protecaohidratacao_2200_300_300",
+    "name": "Proteção e Hidratação",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_protecaohidratacao_2200_300_300",
+    "type": "search",
+    "cgid": "ec_protecaohidratacao_2200_300_300"
+  },
+  {
+    "id": "ec_complementoshiginfant_2200_300_400",
+    "name": "Complementos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_complementoshiginfant_2200_300_400",
+    "type": "search",
+    "cgid": "ec_complementoshiginfant_2200_300_400"
+  },
+  {
+    "id": "ec_chupetasacessorios_2200_400",
+    "name": "Chupetas e Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_chupetasacessorios_2200_400",
+    "type": "search",
+    "cgid": "ec_chupetasacessorios_2200_400"
+  },
+  {
+    "id": "ec_dorfebre_1800_600_100",
+    "name": "Dor e Febre",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_dorfebre_1800_600_100",
+    "type": "search",
+    "cgid": "ec_dorfebre_1800_600_100"
+  },
+  {
+    "id": "ec_tosseconstipacoes_1800_600_200",
+    "name": "Tosse e Constipações",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tosseconstipacoes_1800_600_200",
+    "type": "search",
+    "cgid": "ec_tosseconstipacoes_1800_600_200"
+  },
+  {
+    "id": "ec_aparelhodigestivo_1800_600_300",
+    "name": "Aparelho Digestivo",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aparelhodigestivo_1800_600_300",
+    "type": "search",
+    "cgid": "ec_aparelhodigestivo_1800_600_300"
+  },
+  {
+    "id": "ec_aparelhocirculatorio_1800_600_400",
+    "name": "Aparelho Circulatório",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_aparelhocirculatorio_1800_600_400",
+    "type": "search",
+    "cgid": "ec_aparelhocirculatorio_1800_600_400"
+  },
+  {
+    "id": "ec_tratamentodermatologico_1800_600_500",
+    "name": "Tratamento Dermatológico",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_tratamentodermatologico_1800_600_500",
+    "type": "search",
+    "cgid": "ec_tratamentodermatologico_1800_600_500"
+  },
+  {
+    "id": "ec_vitaminassaissuplementos_1800_600_600",
+    "name": "Vitaminas, Sais e Suplementos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vitaminassaissuplementos_1800_600_600",
+    "type": "search",
+    "cgid": "ec_vitaminassaissuplementos_1800_600_600"
+  },
+  {
+    "id": "ec_antitabagicos_1800_600_700",
+    "name": "Anti Tabágicos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_antitabagicos_1800_600_700",
+    "type": "search",
+    "cgid": "ec_antitabagicos_1800_600_700"
+  },
+  {
+    "id": "ec_sistemanervoso_1800_600_800",
+    "name": "Sistema Nervoso",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_sistemanervoso_1800_600_800",
+    "type": "search",
+    "cgid": "ec_sistemanervoso_1800_600_800"
+  },
+  {
+    "id": "ec_antigripais_1800_600_900",
+    "name": "Anti Gripais e Anti Histamínicos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_antigripais_1800_600_900",
+    "type": "search",
+    "cgid": "ec_antigripais_1800_600_900"
+  },
+  {
+    "id": "ec_primeirossocorros_1800_100_100",
+    "name": "Primeiros Socorros",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/saude/primeiros-socorros",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_protecaoehidratacao_1800_100_300",
+    "name": "Proteção e Hidratação",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/saude/protecao-e-hidratacao",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_cuidadosoculares_1800_100_400",
+    "name": "Cuidados Oculares",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/saude/cuidados-oculares",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_narizegarganta_1800_100_500",
+    "name": "Nariz e Garganta",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/saude/nariz-e-garganta",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_testesdiagnostico_1800_100_700",
+    "name": "Testes de Diagnóstico",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_testesdiagnostico_1800_100_700",
+    "type": "search",
+    "cgid": "ec_testesdiagnostico_1800_100_700"
+  },
+  {
+    "id": "ec_equipamentos_1800_100_900",
+    "name": "Equipamentos",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/saude/equipamentos",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_adulto_1800_200_100",
+    "name": "Adulto",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/suplementos/adulto",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_infantil_1800_200_200",
+    "name": "Infantil",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/suplementos/infantil",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_saudeinfantil_1800_300_100",
+    "name": "Saúde Infantil",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/bebe-e-crianca/saude-infantil",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_banhoehigiene_1800_300_300",
+    "name": "Banho e Higiene",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/bebe-e-crianca/banho-e-higiene",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_alimentacao_1800_300_500",
+    "name": "Alimentação",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/bebe-e-crianca/alimentacao",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_hidratacao_1800_400_100_100",
+    "name": "Hidratação",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/rosto/hidratacao",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_seruseoutros_1800_400_100_200",
+    "name": "Sérus e Outros",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/rosto/serus-e-outros",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_limpezaetonificacao_1800_400_100_300",
+    "name": "Limpeza e Tonificação",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/rosto/limpeza-e-tonificacao",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_labios_1800_400_100_400",
+    "name": "Lábios",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/rosto/labios",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_hidratacao_1800_400_200_100",
+    "name": "Hidratação",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/corpo/hidratacao",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_higiene_1800_400_200_200",
+    "name": "Higiene",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/corpo/higiene",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_desodorizantes_1800_400_200_300",
+    "name": "Desodorizantes",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/corpo/desodorizantes",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_higieneintima_1800_400_200_400",
+    "name": "Higiene Íntima",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/corpo/higiene-intima",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_champo_1800_400_300_100",
+    "name": "Champô",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/cabelo/champo",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_tratamento_1800_400_300_300",
+    "name": "Tratamento",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/cabelo/tratamento",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_pastadedentes_1800_400_400_100",
+    "name": "Pasta de Dentes",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/higiene-oral/pasta-de-dentes",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_elixir_1800_400_400_300",
+    "name": "Elixir",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/higiene-oral/elixir",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_cuidadosparaproteses_1800_400_400_500",
+    "name": "Cuidados para Próteses",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/higiene-oral/cuidados-para-proteses",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_complementos_1800_400_400_600",
+    "name": "Complementos",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/higiene-oral/complementos",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_homem_1800_400_500",
+    "name": "Homem",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/homem",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_maosepes_1800_400_600",
+    "name": "Mãos e Pés",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/maos-e-pes",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_protecaosolar_1800_400_700",
+    "name": "Proteção Solar",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/higiene-e-beleza/protecao-solar",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_perfumaria_1800_500",
+    "name": "Perfumaria",
+    "url": "https://www.pingodoce.pt/home/produtos/parafarmacia/perfumaria",
+    "type": "seo",
+    "cgid": null
+  },
+  {
+    "id": "ec_comidaseca_2300_100_100",
+    "name": "Comida Seca",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_comidaseca_2300_100_100",
+    "type": "search",
+    "cgid": "ec_comidaseca_2300_100_100"
+  },
+  {
+    "id": "ec_comidahumida_2300_100_200",
+    "name": "Comida Húmida",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_comidahumida_2300_100_200",
+    "type": "search",
+    "cgid": "ec_comidahumida_2300_100_200"
+  },
+  {
+    "id": "ec_snackscao_2300_100_300",
+    "name": "Snacks",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snackscao_2300_100_300",
+    "type": "search",
+    "cgid": "ec_snackscao_2300_100_300"
+  },
+  {
+    "id": "ec_higieneacessorios_2300_100_400",
+    "name": "Higiene e Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_higieneacessorios_2300_100_400",
+    "type": "search",
+    "cgid": "ec_higieneacessorios_2300_100_400"
+  },
+  {
+    "id": "ec_comidaseca_2300_200_100",
+    "name": "Comida Seca",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_comidaseca_2300_200_100",
+    "type": "search",
+    "cgid": "ec_comidaseca_2300_200_100"
+  },
+  {
+    "id": "ec_comidahumida_2300_200_200",
+    "name": "Comida Húmida",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_comidahumida_2300_200_200",
+    "type": "search",
+    "cgid": "ec_comidahumida_2300_200_200"
+  },
+  {
+    "id": "ec_snacksgato_2300_200_300",
+    "name": "Snacks",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snacksgato_2300_200_300",
+    "type": "search",
+    "cgid": "ec_snacksgato_2300_200_300"
+  },
+  {
+    "id": "ec_areiasabsorventes_2300_200_400",
+    "name": "Areias e Absorventes",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_areiasabsorventes_2300_200_400",
+    "type": "search",
+    "cgid": "ec_areiasabsorventes_2300_200_400"
+  },
+  {
+    "id": "ec_acessorios_2300_200_500",
+    "name": "Acessórios",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_acessorios_2300_200_500",
+    "type": "search",
+    "cgid": "ec_acessorios_2300_200_500"
+  },
+  {
+    "id": "ec_outrosanimais_2300_300",
+    "name": "Outros Animais",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_outrosanimais_2300_300",
+    "type": "search",
+    "cgid": "ec_outrosanimais_2300_300"
+  },
+  {
+    "id": "ec_snacksbarras_2400_100_100",
+    "name": "Snacks e Barras",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_snacksbarras_2400_100_100",
+    "type": "search",
+    "cgid": "ec_snacksbarras_2400_100_100"
+  },
+  {
+    "id": "ec_cereaisepreparados_2400_100_200",
+    "name": "Cereais e Preparados",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cereaisepreparados_2400_100_200",
+    "type": "search",
+    "cgid": "ec_cereaisepreparados_2400_100_200"
+  },
+  {
+    "id": "ec_bebidasiogurtespudinsproteicos_2400_100_300",
+    "name": "Bebidas, Iogurtes e Pudins Proteicos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_bebidasiogurtespudinsproteicos_2400_100_300",
+    "type": "search",
+    "cgid": "ec_bebidasiogurtespudinsproteicos_2400_100_300"
+  },
+  {
+    "id": "ec_cremesbarrarnutridesport_2400_100_400",
+    "name": "Cremes de Barrar",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_cremesbarrarnutridesport_2400_100_400",
+    "type": "search",
+    "cgid": "ec_cremesbarrarnutridesport_2400_100_400"
+  },
+  {
+    "id": "ec_suplementosnutridesport_2400_100_500",
+    "name": "Suplementos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_suplementosnutridesport_2400_100_500",
+    "type": "search",
+    "cgid": "ec_suplementosnutridesport_2400_100_500"
+  },
+  {
+    "id": "ec_produtosbio_2400_200",
+    "name": "Produtos Biológicos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_produtosbio_2400_200",
+    "type": "search",
+    "cgid": "ec_produtosbio_2400_200"
+  },
+  {
+    "id": "ec_vegetarianovegan_2400_300",
+    "name": "Vegetariano e Vegan",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_vegetarianovegan_2400_300",
+    "type": "search",
+    "cgid": "ec_vegetarianovegan_2400_300"
+  },
+  {
+    "id": "ec_semgluten_2400_500",
+    "name": "Sem Glúten",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_semgluten_2400_500",
+    "type": "search",
+    "cgid": "ec_semgluten_2400_500"
+  },
+  {
+    "id": "ec_suplementosalternativas_2400_600",
+    "name": "Suplementos",
+    "url": "https://www.pingodoce.pt/on/demandware.store/Sites-pingo-doce-Site/default/Search-Show?cgid=ec_suplementosalternativas_2400_600",
+    "type": "search",
+    "cgid": "ec_suplementosalternativas_2400_600"
+  }
 ]

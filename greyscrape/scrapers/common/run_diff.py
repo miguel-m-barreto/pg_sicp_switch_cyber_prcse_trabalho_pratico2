@@ -15,11 +15,12 @@ def build_state_key(p: Dict) -> str:
     catalog identity (name, categories, etc.).
     """
     parts = [
-        str(p.get("current_price_raw") or "").strip(),
-        str(p.get("old_price_raw") or "").strip(),
-        str(p.get("unit_price_raw") or "").strip(),
-        str(p.get("promotion_raw") or "").strip(),
-        str(p.get("stock_status") or "").strip(),
+        str(p.get("final_price") or ""),
+        str(p.get("old_price") or ""),
+        str(p.get("unit_price_value") or p.get("unit_price") or ""),
+        str(p.get("promotion_raw") or ""),
+        str(p.get("discount_badge_raw") or ""),
+        str(p.get("stock_status") or ""),
     ]
     return "|".join(parts)
 
@@ -28,8 +29,19 @@ def build_state_hash(p: Dict) -> str:
     """
     Build a compact hash of the pricing state.
     """
-    key = build_state_key(p)
-    return hashlib.sha256(key.encode("utf-8")).hexdigest()
+    parts = [
+        str(p.get("final_price") or ""),
+        str(p.get("old_price") or ""),
+        str(p.get("unit_price_value") or ""),
+        str(p.get("is_on_promotion")),
+        str(p.get("discount_badge_raw") or ""),
+        str(p.get("promotion_raw") or ""),
+        str(p.get("stock_status") or ""),
+        str(p.get("limited_availability_flag") or ""),
+        str(p.get("delay_delivery_flag") or ""),
+    ]
+    raw = "|".join(parts)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
 
 def _normalize_image_url(url: Optional[str]) -> str:
