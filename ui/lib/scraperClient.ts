@@ -637,8 +637,27 @@ export async function fetchProductByLink(
   const stateData = variantData.current_variant_state;
   var old_price = null
 
-  if (stateData.old_price > stateData.final_price)
-    old_price = stateData.old_price;
+  // current_variant_state é ARRAY no runtime
+  const state: any =
+    Array.isArray(variantData.current_variant_state) && variantData.current_variant_state.length > 0
+      ? variantData.current_variant_state[0]
+      : null;
+
+  const finalPrice =
+    state?.final_price != null ? Number(state.final_price) : null;
+
+  const oldPriceRaw =
+    state?.old_price != null ? Number(state.old_price) : null;
+
+  // Só mostra preço antigo se fizer sentido (maior que o atual)
+  const oldPrice =
+    oldPriceRaw != null &&
+    finalPrice != null &&
+    Number.isFinite(oldPriceRaw) &&
+    Number.isFinite(finalPrice) &&
+    oldPriceRaw > finalPrice
+      ? oldPriceRaw
+      : null;
 
   // Mapeamos os dados do produto (variantData) e o estado atual (stateData)
   return {
