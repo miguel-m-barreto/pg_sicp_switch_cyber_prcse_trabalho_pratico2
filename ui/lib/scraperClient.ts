@@ -637,17 +637,11 @@ export async function fetchProductByLink(
   const stateData = variantData.current_variant_state;
   var old_price = null
 
-  // current_variant_state é ARRAY no runtime
-  const state: any =
-    Array.isArray(variantData.current_variant_state) && variantData.current_variant_state.length > 0
-      ? variantData.current_variant_state[0]
-      : null;
-
-   const finalPrice =
-    state?.final_price != null ? Number(state.final_price) : null;
+  const finalPrice =
+    stateData.final_price != null ? Number(stateData.final_price) : null;
 
   const oldPriceRaw =
-    state?.old_price != null ? Number(state.old_price) : null;
+    stateData.old_price != null ? Number(stateData.old_price) : null;
 
   // Só mostra preço antigo se fizer sentido (maior que o atual)
   const oldPrice =
@@ -660,20 +654,25 @@ export async function fetchProductByLink(
       : null;
 
   const unitPrice =
-    state?.unit_price != null ? Number(state.unit_price) : null;
+    stateData.unit_price != null ? Number(stateData.unit_price) : null;
 
-  const promol = state.promo_label ?? null;
+    
+  const promol = stateData.promo_label ?? null;
+
+  const scraped_at = stateData.scraped_at ?? null;
+
+  const raw_name = stateData.raw_name
     
   // Mapeamos os dados do produto (variantData) e o estado atual (stateData)
   return {
-    nome: variantData.raw_name ?? "",
+    nome: raw_name,
     link: variantData.product_url ?? "",
     preco_atual: formatEuro(finalPrice ?? 0),
     preco_antigo: formatEuro(old_price),
     preco_unitario: `${Number(unitPrice).toFixed(2)} €/unit`,
     quantidade_minima: variantData.quantity ?? null,
     promocao: promol,
-    data_execucao: state.scraped_at,
+    data_execucao: scraped_at,
     image_url: variantData.image_url ?? null,
     brand: variantData.brand ?? null,
     category_human_1: variantData.category_human_1 ?? null,
