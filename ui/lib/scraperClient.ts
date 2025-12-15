@@ -659,16 +659,19 @@ export async function fetchProductByLink(
       ? oldPriceRaw
       : null;
 
+  const unitPrice =
+    state?.unit_price != null ? Number(state.unit_price) : null;
+    
   // Mapeamos os dados do produto (variantData) e o estado atual (stateData)
-  return {
+   return {
     nome: variantData.raw_name ?? "",
     link: variantData.product_url ?? "",
-    preco_atual: formatEuro(stateData.final_price ?? 0),
-    preco_antigo: formatEuro(old_price),
-    preco_unitario: stateData.unit_price ? `${Number(stateData.unit_price).toFixed(2)} €/unit` : null,
+    preco_atual: finalPrice != null && Number.isFinite(finalPrice) ? formatEuro(finalPrice) : null,
+    preco_antigo: oldPrice != null ? formatEuro(oldPrice) : null,
+    preco_unitario: unitPrice != null && Number.isFinite(unitPrice) ? `${unitPrice.toFixed(2)} €/unit` : null,
     quantidade_minima: variantData.quantity ?? null,
-    promocao: stateData.promo_label ?? null,
-    data_execucao: stateData.scraped_at,
+    promocao: state?.promo_label ?? null,
+    data_execucao: state?.scraped_at,
     image_url: variantData.image_url ?? null,
     brand: variantData.brand ?? null,
     category_human_1: variantData.category_human_1 ?? null,
