@@ -634,8 +634,14 @@ export async function fetchProductByLink(
 
   // Pegamos o primeiro resultado [0]
   const variantData = data[0]; 
-  const stateData = variantData.current_variant_state;
+  const stateData =
+    Array.isArray(variantData.current_variant_state) &&
+    variantData.current_variant_state.length > 0
+      ? (variantData.current_variant_state[0] as any)
+      : null;
+
   var old_price = null
+  
 
   const finalPrice =
     stateData.final_price != null ? Number(stateData.final_price) : null;
@@ -668,7 +674,7 @@ export async function fetchProductByLink(
     nome: raw_name,
     link: variantData.product_url ?? "",
     preco_atual: formatEuro(finalPrice ?? 0),
-    preco_antigo: formatEuro(old_price),
+    preco_antigo: formatEuro(old_price ?? 0),
     preco_unitario: `${Number(unitPrice).toFixed(2)} €/unit`,
     quantidade_minima: variantData.quantity ?? null,
     promocao: promol,
