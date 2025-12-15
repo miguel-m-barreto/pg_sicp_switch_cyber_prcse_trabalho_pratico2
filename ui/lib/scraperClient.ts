@@ -572,6 +572,33 @@ export async function fetchStorePromotionsLite(
   return { items, totalCount: total };
 }
 
+export async function fetchProductByLinkViaRpc(
+  store: StoreId,
+  productLink: string
+): Promise<Item | null> {
+  const storeId = resolveStoreNumericId(store);
+
+  const { data, error } = await supabaseServer.rpc("get_store_products_lite", {
+    p_store_id: storeId,
+    p_search: null,
+    p_limit: 1,
+    p_offset: 0,
+    p_sort_field: "nome",
+    p_sort_dir: "asc",
+    p_only_promo: false,
+    p_category: null,
+    p_brand: null,
+  });
+
+  if (error) throw new Error(`Supabase error (get_store_products_lite): ${error.message}`);
+  if (!data || (data as any[]).length === 0) return null;
+
+  // A RPC não filtra por link, por isso filtramos aqui (1 item não chega).
+  // Ajusta para buscar mais e filtrar.
+  return null;
+}
+
+
 export async function fetchProductByLink(
   store: StoreId,
   productLink: string
@@ -607,14 +634,18 @@ export async function fetchProductByLink(
 
   // Pegamos o primeiro resultado [0]
   const variantData = data[0]; 
-  const stateData = variantData.current_variant_state[0] || {}; 
+  const stateData = variantData.current_variant_state;
+  var old_price = null
+
+  if (stateData.old_price > stateData.final_price)
+    old_price = stateData.old_price;
 
   // Mapeamos os dados do produto (variantData) e o estado atual (stateData)
   return {
     nome: variantData.raw_name ?? "",
     link: variantData.product_url ?? "",
     preco_atual: formatEuro(stateData.final_price ?? 0),
-    preco_antigo: formatEuro(stateData.old_price),
+    preco_antigo: formatEuro(old_price),
     preco_unitario: stateData.unit_price ? `${Number(stateData.unit_price).toFixed(2)} €/unit` : null,
     quantidade_minima: variantData.quantity ?? null,
     promocao: stateData.promo_label ?? null,
